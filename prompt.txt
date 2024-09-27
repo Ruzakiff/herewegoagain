@@ -1,0 +1,9 @@
+ We create a separate task for each event-market combination.
+2. Each task fetches odds for a specific event and market.
+3. We process the odds as soon as we have them, checking if all required bookmakers are available for that specific market.
+4. If all required bookmakers are available for a market, we process it immediately, without waiting for other markets or events.
+This method provides several advantages:
+Maximum parallelism: We can process different markets for different events concurrently.
+Faster results: We don't wait for all markets to be available before processing any of them.
+Flexibility: If a certain market is not available for some events or bookmakers, it doesn't hold up the processing of other markets or events.
+So, to directly answer your question: we're going with a third option, which is processing each event-market combination independently. This approach gives us the best balance of efficiency, speed, and flexibility in handling the data.
