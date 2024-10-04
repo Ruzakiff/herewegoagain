@@ -93,7 +93,7 @@ def get_quota_usage(headers):
         'requests_last': headers.get('x-requests-last', 'N/A')
     }
 
-async def process_event_odds(event, odds, desired_bookmakers, market):
+async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker):
     logger.info(f"\nEvent: {event['home_team']} vs {event['away_team']}")
     logger.info(f"Market: {market}")
     
@@ -108,56 +108,73 @@ async def process_event_odds(event, odds, desired_bookmakers, market):
         logger.warning("Not all desired bookmakers are available for this event/market. Skipping.")
         return
 
-    market_data = {}
-    for bm_key in desired_bookmakers:
-        bookmaker = available_bookmakers[bm_key]
-        bm_market = next((m for m in bookmaker.get('markets', []) if m['key'] == market), None)
-        
-        if not bm_market:
-            logger.warning(f"Market {market} not available for {bookmaker['title']}. Skipping.")
-            return
-
-        market_data[bm_key] = bm_market
-
-    # Find common outcomes across all bookmakers
-    common_outcomes = set.intersection(*(
-        {(outcome['description'], outcome['name'], outcome.get('point', None)) 
-         for outcome in bm_market['outcomes']}
-        for bm_market in market_data.values()
-    ))
-
-    if not common_outcomes:
-        logger.warning("No common outcomes found across all bookmakers. Skipping.")
+    # Check if principal and base bookmakers are in desired_bookmakers
+    if principal_bookmaker not in desired_bookmakers or base_bookmaker not in desired_bookmakers:
+        logger.warning(f"Both '{principal_bookmaker}' and '{base_bookmaker}' must be in the desired bookmakers list. Skipping.")
         return
 
-    # Filter market_data to only include common outcomes
-    filtered_market_data = {}
-    for bm_key, bm_market in market_data.items():
-        filtered_outcomes = [
-            outcome for outcome in bm_market['outcomes']
-            if (outcome['description'], outcome['name'], outcome.get('point', None)) in common_outcomes
-        ]
-        filtered_market_data[bm_key] = {
-            'key': bm_market['key'],
-            'last_update': bm_market['last_update'],
-            'outcomes': filtered_outcomes
-        }
+    # Get the market data for principal and base bookmakers
+    principal_bm = available_bookmakers.get(principal_bookmaker, {})
+    base_bm = available_bookmakers.get(base_bookmaker, {})
+    principal_market = next((m for m in principal_bm.get('markets', []) if m['key'] == market), None)
+    base_market = next((m for m in base_bm.get('markets', []) if m['key'] == market), None)
+    
+    if not principal_market or not base_market:
+        logger.warning(f"Market {market} not available for both {principal_bookmaker} and {base_bookmaker}. Skipping.")
+        return
 
-    # At this point, we have valid data for all desired bookmakers with common outcomes
-    # Perform calculations here
-    #calculations.calculate_odds(event, filtered_market_data, market)
+    # Check if principal bookmaker has both 'yes' and 'no' outcomes
+    principal_outcomes = {outcome['name'].lower(): outcome for outcome in principal_market['outcomes']}
+    
+    if not {'yes', 'no'}.issubset(principal_outcomes.keys()):
+        logger.warning(f"{principal_bookmaker} does not have both 'yes' and 'no' outcomes. Skipping.")
+        return
 
-    # Log only the common outcomes
-    logger.info("Common outcomes across all bookmakers:")
-    for outcome in filtered_market_data[desired_bookmakers[0]]['outcomes']:
-        logger.info(f"  Player: {outcome['description']}")
-        for bm_key in desired_bookmakers:
-            bm_outcome = next(o for o in filtered_market_data[bm_key]['outcomes'] 
-                              if o['description'] == outcome['description'] and o['name'] == outcome['name'])
-            price_info = f"{bm_outcome['name']}: {bm_outcome['price']}"
-            if 'point' in bm_outcome:
-                price_info += f" (Point: {bm_outcome['point']})"
-            logger.info(f"    {available_bookmakers[bm_key]['title']}: {price_info}")
+    logger.info(f"{principal_bookmaker} has both 'yes' and 'no' outcomes.")
+
+    # Create a set of player descriptions for both principal and base bookmakers
+    principal_players = set(outcome['description'] for outcome in principal_market['outcomes'])
+    base_players = set(outcome['description'] for outcome in base_market['outcomes'])
+
+    # Find common players
+    common_players = principal_players.intersection(base_players)
+
+    logger.info(f"Number of players in {principal_bookmaker}: {len(principal_players)}")
+    logger.info(f"Number of players in {base_bookmaker}: {len(base_players)}")
+    logger.info(f"Number of common players: {len(common_players)}")
+
+    # Log outcomes for common players
+    logger.info("Outcomes for common players:")
+    for description in common_players:
+        logger.info(f"  Player: {description}")
+        
+        principal_yes = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
+        principal_no = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'no'), None)
+        base_yes = next((o for o in base_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
+        
+        principal_yes_info = f"Yes: {principal_yes['price']}" if principal_yes else "Yes: N/A"
+        principal_no_info = f"No: {principal_no['price']}" if principal_no else "No: N/A"
+        base_yes_info = f"Yes: {base_yes['price']}" if base_yes else "Yes: N/A"
+        
+        logger.info(f"    {principal_bookmaker}: {principal_yes_info}, {principal_no_info}")
+        logger.info(f"    {base_bookmaker}: {base_yes_info}")
+
+    # Log players only in principal bookmaker
+    only_in_principal = principal_players - base_players
+    if only_in_principal:
+        logger.info(f"Players only in {principal_bookmaker}:")
+        for player in only_in_principal:
+            logger.info(f"  {player}")
+
+    # Log players only in base bookmaker
+    only_in_base = base_players - principal_players
+    if only_in_base:
+        logger.info(f"Players only in {base_bookmaker}:")
+        for player in only_in_base:
+            logger.info(f"  {player}")
+
+    # Here you can add any additional processing or calculations if needed
+    # For example: calculations.calculate_odds(event, filtered_market_data, market)
 
 async def process_event_for_combination(session, sport, event, market, bookmakers, token_bucket, regions):
     max_retries = 5
@@ -182,7 +199,7 @@ async def process_event_for_combination(session, sport, event, market, bookmaker
             await asyncio.sleep(1)
     return None
 
-async def fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions):
+async def fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions, principal_bookmaker, base_bookmaker):
     api_key = await read_api_key()
     base_url = 'https://api.the-odds-api.com/v4'
     url = f'{base_url}/sports/{sport}/events/{event["id"]}/odds'
@@ -197,7 +214,7 @@ async def fetch_event_data(session, sport, event, market, bookmakers, token_buck
     odds, headers = await fetch_with_retry(session, url, params, token_bucket)
     
     if odds:
-        await process_event_odds(event, odds, bookmakers, market)
+        await process_event_odds(event, odds, bookmakers, market, principal_bookmaker, base_bookmaker)
     
     return headers
 
@@ -224,9 +241,12 @@ async def main():
     overall_start_time = time.time()
     sport = 'americanfootball_nfl'
     market_bookmaker_combinations = [
-        ('player_anytime_td', ['fliff','tab']),
+        ('player_anytime_td', ['fliff', 'tab']),
         ('player_last_td', ['tab'])
     ]
+    
+    principal_bookmaker = 'fliff'
+    base_bookmaker = 'tab'
     
     # Load BOOKMAKER_REGIONS from file
     BOOKMAKER_REGIONS = await load_bookmaker_regions()
@@ -276,7 +296,7 @@ async def main():
         logger.info(f"Number of events fetched: {len(events)}")
 
         tasks = [
-            asyncio.create_task(fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions))
+            asyncio.create_task(fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions, principal_bookmaker, base_bookmaker))
             for event in events
             for market, bookmakers in market_bookmaker_combinations
         ]
