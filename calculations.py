@@ -1,4 +1,4 @@
-from decimal import Decimal
+from decimal import Decimal, ROUND_HALF_UP
 from scipy.optimize import fsolve
 
 def calculate_implied_probability(american_odds):
@@ -20,32 +20,31 @@ def analyze_arbitrage(bookmaker_odds):
     profit_percentage = (1 - total_inverse_probability) * 100 if arbitrage_opportunity else 0
     return arbitrage_opportunity, profit_percentage
 
+def power_devig(price1, price2):
+    price1 = Decimal(str(price1))
+    price2 = Decimal(str(price2))
+    
+    def f(k):
+        ri1 = 1 / price1
+        ri2 = 1 / price2
+        return float((ri1**(Decimal('1')/Decimal(str(k[0]))) + ri2**(Decimal('1')/Decimal(str(k[0]))) - 1))
+
+    k_initial_guess = [1]
+    k_solution = fsolve(f, k_initial_guess)
+
+    pi1 = (1 / price1)**(Decimal('1')/Decimal(str(k_solution[0])))
+    pi2 = (1 / price2)**(Decimal('1')/Decimal(str(k_solution[0])))
+    
+    return float(1 / pi1), float(1 / pi2)
+
 def mult_devig(price1, price2):
+    price1 = Decimal(str(price1))
+    price2 = Decimal(str(price2))
     compoverimplied = 1 / price1
     compunderimplied = 1 / price2
     actualoverdecimal = compoverimplied / (compoverimplied + compunderimplied)
-    actualunderdecimal = compunderimplied / (compunderimplied + compoverimplied)
-    return actualoverdecimal, actualunderdecimal
-
-def power_devig(price1, price2):
-    compoverimplied = 1 / price1
-    compunderimplied = 1 / price2
-    
-    def f(k):
-        ri1 = compoverimplied
-        ri2 = compunderimplied
-        return ri1**(1/k) + ri2**(1/k) - 1
-
-    k_initial_guess = 1
-    k_solution = fsolve(f, k_initial_guess)
-
-    pi1 = compoverimplied**(1/k_solution[0])
-    pi2 = compunderimplied**(1/k_solution[0])
-    
-    actualoverdecimal = 1 / pi1
-    actualunderdecimal = 1 / pi2
-
-    return actualoverdecimal, actualunderdecimal
+    actualunderdecimal = compunderimplied / (compoverimplied + compunderimplied)
+    return float(1 / actualoverdecimal), float(1 / actualunderdecimal)
 
 def additive_devig(price1, price2):
     compoverimplied = 1 / price1
@@ -75,6 +74,20 @@ def calculate_ev_difference(sharp_over, sharp_under, base_over, base_under):
     ev_difference = max(ev_over, ev_under) * 100
 
     return ev_difference
+
+def american_to_decimal(american_odds):
+    american_odds = Decimal(str(american_odds))
+    if american_odds >= 0:
+        return (american_odds / 100) + 1
+    else:
+        return (100 / abs(american_odds)) + 1
+
+def decimal_to_american(decimal_odds):
+    decimal_odds = Decimal(str(decimal_odds))
+    if decimal_odds >= 2:
+        return ((decimal_odds - 1) * 100).quantize(Decimal('1'), rounding=ROUND_HALF_UP)
+    else:
+        return (-100 / (decimal_odds - 1)).quantize(Decimal('1'), rounding=ROUND_HALF_UP)
 
 async def analyze_event(event, odds):
     results = {

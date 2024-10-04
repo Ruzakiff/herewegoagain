@@ -7,6 +7,7 @@ import csv
 from typing import Dict
 import calculations
 import statistics  # Add this import at the top of your file
+from decimal import Decimal
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
@@ -192,7 +193,7 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
             
             logger.info(f"      Yes sum: {yes_sum}")
             logger.info(f"      Yes count: {yes_count}")
-            logger.info(f"      Sharp Yes: {sharp_yes:.2f}" if sharp_yes is not None else "      Sharp Yes: N/A")
+            logger.info(f"      Sharp Yes (American): {sharp_yes:.2f}" if sharp_yes is not None else "      Sharp Yes: N/A")
 
             logger.info("      No prices used in calculation:")
             for bm, price in all_no_prices:
@@ -204,21 +205,49 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
             
             logger.info(f"      No sum: {no_sum}")
             logger.info(f"      No count: {no_count}")
-            logger.info(f"      Sharp No: {sharp_no:.2f}" if sharp_no is not None else "      Sharp No: N/A")
+            logger.info(f"      Sharp No (American): {sharp_no:.2f}" if sharp_no is not None else "      Sharp No: N/A")
 
             if sharp_yes is not None and sharp_no is not None:
-                logger.info(f"    Final Sharp prices: Yes: {sharp_yes:.2f}, No: {sharp_no:.2f}")
-            
-                if base_yes:
-                    # Calculate edge
-                    implied_prob_sharp = 1 / (1 + 10000 / abs(sharp_yes)) if sharp_yes < 0 else 1 / (1 + abs(sharp_yes) / 100)
-                    implied_prob_base = 1 / (1 + 10000 / abs(base_yes['price'])) if base_yes['price'] < 0 else 1 / (1 + abs(base_yes['price']) / 100)
-                    edge = (implied_prob_sharp - implied_prob_base) / implied_prob_sharp * 100
-                    
-                    logger.info(f"    Edge calculation:")
-                    logger.info(f"      Implied probability (sharp): {implied_prob_sharp:.4f}")
-                    logger.info(f"      Implied probability (base): {implied_prob_base:.4f}")
-                    logger.info(f"      Edge: {edge:.2f}%")
+                sharp_yes_decimal = calculations.american_to_decimal(sharp_yes)
+                sharp_no_decimal = calculations.american_to_decimal(sharp_no)
+                logger.info(f"    Final Sharp prices: Yes: {sharp_yes:.2f} (Decimal: {sharp_yes_decimal:.4f}), "
+                            f"No: {sharp_no:.2f} (Decimal: {sharp_no_decimal:.4f})")
+
+                try:
+                    # Apply power devigging
+                    logger.info(f"    Power Devig calculation:")
+                    logger.info(f"      Input: Yes: {sharp_yes_decimal:.4f}, No: {sharp_no_decimal:.4f}")
+                    power_devig_yes, power_devig_no = calculations.power_devig(sharp_yes_decimal, sharp_no_decimal)
+                    logger.info(f"      Result: Yes: {power_devig_yes:.4f}, No: {power_devig_no:.4f}")
+
+                    # Apply multiplicative devigging
+                    logger.info(f"    Multiplicative Devig calculation:")
+                    logger.info(f"      Input: Yes: {sharp_yes_decimal:.4f}, No: {sharp_no_decimal:.4f}")
+                    mult_devig_yes, mult_devig_no = calculations.mult_devig(sharp_yes_decimal, sharp_no_decimal)
+                    logger.info(f"      Result: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}")
+
+                    if base_yes:
+                        base_yes_decimal = calculations.american_to_decimal(base_yes['price'])
+                        logger.info(f"    Base price: Yes: {base_yes['price']} (Decimal: {base_yes_decimal:.4f})")
+                        
+                        # Calculate edge using power devigged odds
+                        logger.info(f"    Edge calculation (Power Devig):")
+                        implied_prob_sharp_power = Decimal('1') / Decimal(str(power_devig_yes))
+                        implied_prob_base = Decimal('1') / base_yes_decimal
+                        logger.info(f"      Implied prob (sharp): 1 / {power_devig_yes:.4f} = {float(implied_prob_sharp_power):.4f}")
+                        logger.info(f"      Implied prob (base): 1 / {base_yes_decimal:.4f} = {float(implied_prob_base):.4f}")
+                        edge_power = (implied_prob_sharp_power - implied_prob_base) / implied_prob_sharp_power * Decimal('100')
+                        logger.info(f"      Edge: ({float(implied_prob_sharp_power):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_sharp_power):.4f} * 100 = {float(edge_power):.2f}%")
+                        
+                        # Calculate edge using multiplicative devigged odds
+                        logger.info(f"    Edge calculation (Multiplicative Devig):")
+                        implied_prob_sharp_mult = Decimal('1') / Decimal(str(mult_devig_yes))
+                        logger.info(f"      Implied prob (sharp): 1 / {mult_devig_yes:.4f} = {float(implied_prob_sharp_mult):.4f}")
+                        logger.info(f"      Implied prob (base): 1 / {base_yes_decimal:.4f} = {float(implied_prob_base):.4f}")
+                        edge_mult = (implied_prob_sharp_mult - implied_prob_base) / implied_prob_sharp_mult * Decimal('100')
+                        logger.info(f"      Edge: ({float(implied_prob_sharp_mult):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_sharp_mult):.4f} * 100 = {float(edge_mult):.2f}%")
+                except Exception as e:
+                    logger.error(f"Error in devigging calculations: {str(e)}")
             else:
                 logger.info("    Unable to calculate sharp prices due to insufficient data")
 
@@ -384,29 +413,6 @@ async def main():
     logger.info(f"Time to fetch events: {events_end_time - events_start_time:.2f} seconds")
     logger.info(f"Time to fetch all odds: {odds_end_time - odds_start_time:.2f} seconds")
     logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
-
-if __name__ == '__main__':
-    asyncio.run(main())
-    asyncio.run(main())
-    asyncio.run(main())
-    logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
-
-if __name__ == '__main__':
-    asyncio.run(main())
-    asyncio.run(main())
-
-if __name__ == '__main__':
-    asyncio.run(main())
-    logger.info(f"Time to fetch events: {events_end_time - events_start_time:.2f} seconds")
-    logger.info(f"Time to fetch all odds: {odds_end_time - odds_start_time:.2f} seconds")
-    logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
-
-if __name__ == '__main__':
-    asyncio.run(main())
-    asyncio.run(main())
-if __name__ == '__main__':
-    asyncio.run(main())
-    asyncio.run(main())
 
 if __name__ == '__main__':
     asyncio.run(main())
