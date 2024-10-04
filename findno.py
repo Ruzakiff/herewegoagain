@@ -93,7 +93,7 @@ def get_quota_usage(headers):
         'requests_last': headers.get('x-requests-last', 'N/A')
     }
 
-async def process_event_odds(event, odds, desired_bookmakers, market):
+async def process_event_odds(event, odds, all_bookmakers, market):
     logger.info(f"\nEvent: {event['home_team']} vs {event['away_team']}")
     logger.info(f"Market: {market}")
     
@@ -103,61 +103,39 @@ async def process_event_odds(event, odds, desired_bookmakers, market):
 
     available_bookmakers = {bm['key']: bm for bm in odds.get('bookmakers', [])}
     
-    # Check if all desired bookmakers are available
-    if not all(bm in available_bookmakers for bm in desired_bookmakers):
-        logger.warning("Not all desired bookmakers are available for this event/market. Skipping.")
-        return
+    bookmakers_with_yes_and_no = []
+    for bm_key, bookmaker in available_bookmakers.items():
+        if bm_key in all_bookmakers:
+            bm_market = next((m for m in bookmaker.get('markets', []) if m['key'] == market), None)
+            
+            if bm_market:
+                outcomes = {outcome['name'] for outcome in bm_market['outcomes']}
+                if 'Yes' in outcomes and 'No' in outcomes:
+                    bookmakers_with_yes_and_no.append(bookmaker['title'])
 
-    market_data = {}
-    for bm_key in desired_bookmakers:
-        bookmaker = available_bookmakers[bm_key]
-        bm_market = next((m for m in bookmaker.get('markets', []) if m['key'] == market), None)
-        
-        if not bm_market:
-            logger.warning(f"Market {market} not available for {bookmaker['title']}. Skipping.")
-            return
+    if bookmakers_with_yes_and_no:
+        logger.info(f"Bookmakers with both 'Yes' and 'No' {market} lines:")
+        for bm_title in bookmakers_with_yes_and_no:
+            logger.info(f"  - {bm_title}")
+    else:
+        logger.info(f"No bookmakers found with both 'Yes' and 'No' {market} lines.")
 
-        market_data[bm_key] = bm_market
+    # Log all available outcomes for each bookmaker
+    logger.info("Available outcomes for each bookmaker:")
+    for bm_key, bookmaker in available_bookmakers.items():
+        if bm_key in all_bookmakers:
+            bm_market = next((m for m in bookmaker.get('markets', []) if m['key'] == market), None)
+            if bm_market:
+                logger.info(f"  {bookmaker['title']}:")
+                for outcome in bm_market['outcomes']:
+                    price_info = f"{outcome['name']}: {outcome['price']}"
+                    if 'point' in outcome:
+                        price_info += f" (Point: {outcome['point']})"
+                    logger.info(f"    {outcome['description']} - {price_info}")
+            else:
+                logger.info(f"  {bookmaker['title']}: No {market} market available")
 
-    # Find common outcomes across all bookmakers
-    common_outcomes = set.intersection(*(
-        {(outcome['description'], outcome['name'], outcome.get('point', None)) 
-         for outcome in bm_market['outcomes']}
-        for bm_market in market_data.values()
-    ))
-
-    if not common_outcomes:
-        logger.warning("No common outcomes found across all bookmakers. Skipping.")
-        return
-
-    # Filter market_data to only include common outcomes
-    filtered_market_data = {}
-    for bm_key, bm_market in market_data.items():
-        filtered_outcomes = [
-            outcome for outcome in bm_market['outcomes']
-            if (outcome['description'], outcome['name'], outcome.get('point', None)) in common_outcomes
-        ]
-        filtered_market_data[bm_key] = {
-            'key': bm_market['key'],
-            'last_update': bm_market['last_update'],
-            'outcomes': filtered_outcomes
-        }
-
-    # At this point, we have valid data for all desired bookmakers with common outcomes
-    # Perform calculations here
-    #calculations.calculate_odds(event, filtered_market_data, market)
-
-    # Log only the common outcomes
-    logger.info("Common outcomes across all bookmakers:")
-    for outcome in filtered_market_data[desired_bookmakers[0]]['outcomes']:
-        logger.info(f"  Player: {outcome['description']}")
-        for bm_key in desired_bookmakers:
-            bm_outcome = next(o for o in filtered_market_data[bm_key]['outcomes'] 
-                              if o['description'] == outcome['description'] and o['name'] == outcome['name'])
-            price_info = f"{bm_outcome['name']}: {bm_outcome['price']}"
-            if 'point' in bm_outcome:
-                price_info += f" (Point: {bm_outcome['point']})"
-            logger.info(f"    {available_bookmakers[bm_key]['title']}: {price_info}")
+    # ... rest of the function if needed ...
 
 async def process_event_for_combination(session, sport, event, market, bookmakers, token_bucket, regions):
     max_retries = 5
@@ -223,10 +201,7 @@ async def load_bookmaker_regions() -> Dict[str, str]:
 async def main():
     overall_start_time = time.time()
     sport = 'americanfootball_nfl'
-    market_bookmaker_combinations = [
-        ('player_anytime_td', ['fliff','tab']),
-        ('player_last_td', ['tab'])
-    ]
+    markets = ['player_anytime_td', 'player_last_td']
     
     # Load BOOKMAKER_REGIONS from file
     BOOKMAKER_REGIONS = await load_bookmaker_regions()
@@ -235,17 +210,14 @@ async def main():
         logger.error("No valid bookmaker regions loaded. Check bookmakers.txt file.")
         return
 
+    # Use all bookmakers from the file
+    all_bookmakers = list(BOOKMAKER_REGIONS.keys())
+    
     # Automatically determine required regions
-    required_regions = set()
-    for _, bookmakers in market_bookmaker_combinations:
-        for bookmaker in bookmakers:
-            if bookmaker in BOOKMAKER_REGIONS:
-                required_regions.add(BOOKMAKER_REGIONS[bookmaker])
-            else:
-                logger.warning(f"Unknown region for bookmaker: {bookmaker}")
+    required_regions = set(BOOKMAKER_REGIONS.values())
     
     if not required_regions:
-        logger.error("No valid regions determined. Check bookmaker names and bookmakers.txt file.")
+        logger.error("No valid regions determined. Check bookmakers.txt file.")
         return
 
     regions = ','.join(required_regions)
@@ -276,9 +248,9 @@ async def main():
         logger.info(f"Number of events fetched: {len(events)}")
 
         tasks = [
-            asyncio.create_task(fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions))
+            asyncio.create_task(fetch_event_data(session, sport, event, market, all_bookmakers, token_bucket, regions))
             for event in events
-            for market, bookmakers in market_bookmaker_combinations
+            for market in markets
         ]
         
         last_headers = None

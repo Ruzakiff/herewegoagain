@@ -1,1766 +1,1650 @@
-2024-09-27 18:43:33,181 - INFO - Using regions: au,eu
-2024-09-27 18:43:33,411 - INFO - Time to fetch events: 0.23 seconds
-2024-09-27 18:43:33,411 - INFO - Number of events fetched: 29
-2024-09-27 18:43:33,496 - INFO - 
-Event: Atlanta Falcons vs New Orleans Saints
-2024-09-27 18:43:33,497 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,497 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,497 - INFO -   Player: Bijan Robinson
-2024-09-27 18:43:33,497 - INFO -     TAB: Yes: -115
-2024-09-27 18:43:33,497 - INFO -     Pinnacle: Yes: -108
-2024-09-27 18:43:33,497 - INFO -   Player: Drake London
-2024-09-27 18:43:33,497 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,497 - INFO -     Pinnacle: Yes: 180
-2024-09-27 18:43:33,497 - INFO -   Player: Darnell Mooney
-2024-09-27 18:43:33,497 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,497 - INFO -     Pinnacle: Yes: 252
-2024-09-27 18:43:33,497 - INFO -   Player: Kyle Pitts
-2024-09-27 18:43:33,497 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,497 - INFO -     Pinnacle: Yes: 280
-2024-09-27 18:43:33,498 - INFO -   Player: Tyler Allgeier
-2024-09-27 18:43:33,498 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,498 - INFO -     Pinnacle: Yes: 322
-2024-09-27 18:43:33,498 - INFO -   Player: Ray-Ray McCloud III
-2024-09-27 18:43:33,498 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,498 - INFO -     Pinnacle: Yes: 370
-2024-09-27 18:43:33,498 - INFO -   Player: Kirk Cousins
-2024-09-27 18:43:33,498 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,498 - INFO -     Pinnacle: Yes: 927
-2024-09-27 18:43:33,498 - INFO -   Player: KhaDarel Hodge
-2024-09-27 18:43:33,498 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,498 - INFO -     Pinnacle: Yes: 1269
-2024-09-27 18:43:33,499 - INFO -   Player: Alvin Kamara
-2024-09-27 18:43:33,499 - INFO -     TAB: Yes: -111
-2024-09-27 18:43:33,499 - INFO -     Pinnacle: Yes: 110
-2024-09-27 18:43:33,499 - INFO -   Player: Chris Olave
-2024-09-27 18:43:33,499 - INFO -     TAB: Yes: 160
-2024-09-27 18:43:33,499 - INFO -     Pinnacle: Yes: 211
-2024-09-27 18:43:33,499 - INFO -   Player: Rashid Shaheed
-2024-09-27 18:43:33,499 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,499 - INFO -     Pinnacle: Yes: 240
-2024-09-27 18:43:33,499 - INFO -   Player: Taysom Hill
-2024-09-27 18:43:33,499 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,500 - INFO -     Pinnacle: Yes: 252
-2024-09-27 18:43:33,500 - INFO -   Player: Jamaal Williams
-2024-09-27 18:43:33,500 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,500 - INFO -     Pinnacle: Yes: 611
-2024-09-27 18:43:33,500 - INFO -   Player: Foster Moreau
-2024-09-27 18:43:33,500 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,500 - INFO -     Pinnacle: Yes: 675
-2024-09-27 18:43:33,500 - INFO -   Player: Cedrick Wilson Jr.
-2024-09-27 18:43:33,500 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,501 - INFO -     Pinnacle: Yes: 682
-2024-09-27 18:43:33,501 - INFO -   Player: Derek Carr
-2024-09-27 18:43:33,501 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,501 - INFO -     Pinnacle: Yes: 1248
-2024-09-27 18:43:33,502 - INFO - Completed 1/58 tasks
-2024-09-27 18:43:33,617 - INFO - 
-Event: Carolina Panthers vs Cincinnati Bengals
-2024-09-27 18:43:33,617 - INFO - Market: player_last_td
-2024-09-27 18:43:33,617 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,617 - INFO -   Player: Chuba Hubbard
-2024-09-27 18:43:33,617 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,617 - INFO -   Player: Diontae Johnson
-2024-09-27 18:43:33,617 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,618 - INFO -   Player: Miles Sanders
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,618 - INFO -   Player: Jonathan Mingo
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,618 - INFO -   Player: Xavier Legette
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,618 - INFO -   Player: Tommy Tremble
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,618 - INFO -   Player: David Moore
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,618 - INFO -   Player: Andy Dalton
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,618 - INFO -   Player: Ja'Tavion Sanders
-2024-09-27 18:43:33,618 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,618 - INFO -   Player: Raheem Blackshear
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,619 - INFO -   Player: Jalen Coker
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,619 - INFO -   Player: Zack Moss
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,619 - INFO -   Player: Ja'Marr Chase
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,619 - INFO -   Player: Tee Higgins
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,619 - INFO -   Player: Chase Brown
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,619 - INFO -   Player: Andrei Iosivas
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,619 - INFO -   Player: Mike Gesicki
-2024-09-27 18:43:33,619 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,619 - INFO -   Player: Joe Burrow
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,620 - INFO -   Player: Erick All
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,620 - INFO -   Player: Drew Sample
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,620 - INFO -   Player: Jermaine Burton
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,620 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,620 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,620 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,621 - INFO - 
-Event: Houston Texans vs Jacksonville Jaguars
-2024-09-27 18:43:33,621 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,621 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,621 - INFO -   Player: Nico Collins
-2024-09-27 18:43:33,621 - INFO -     TAB: Yes: 100
-2024-09-27 18:43:33,621 - INFO -     Pinnacle: Yes: 112
-2024-09-27 18:43:33,621 - INFO -   Player: Stefon Diggs
-2024-09-27 18:43:33,621 - INFO -     TAB: Yes: 120
-2024-09-27 18:43:33,621 - INFO -     Pinnacle: Yes: 144
-2024-09-27 18:43:33,621 - INFO -   Player: Dalton Schultz
-2024-09-27 18:43:33,621 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 292
-2024-09-27 18:43:33,622 - INFO -   Player: Robert Woods
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 566
-2024-09-27 18:43:33,622 - INFO -   Player: Xavier Hutchinson
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 873
-2024-09-27 18:43:33,622 - INFO -   Player: C.J. Stroud
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 658
-2024-09-27 18:43:33,622 - INFO -   Player: Cade Stover
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 719
-2024-09-27 18:43:33,622 - INFO -   Player: Travis Etienne Jr.
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 143
-2024-09-27 18:43:33,622 - INFO -   Player: Christian Kirk
-2024-09-27 18:43:33,622 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,622 - INFO -     Pinnacle: Yes: 253
-2024-09-27 18:43:33,622 - INFO -   Player: Brian Thomas Jr
-2024-09-27 18:43:33,623 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,623 - INFO -     Pinnacle: Yes: 234
-2024-09-27 18:43:33,623 - INFO -   Player: Gabe Davis
-2024-09-27 18:43:33,623 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,623 - INFO -     Pinnacle: Yes: 327
-2024-09-27 18:43:33,623 - INFO -   Player: Trevor Lawrence
-2024-09-27 18:43:33,623 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,623 - INFO -     Pinnacle: Yes: 393
-2024-09-27 18:43:33,623 - INFO -   Player: Brenton Strange
-2024-09-27 18:43:33,623 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,623 - INFO -     Pinnacle: Yes: 403
-2024-09-27 18:43:33,623 - INFO -   Player: Tank Bigsby
-2024-09-27 18:43:33,623 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,623 - INFO -     Pinnacle: Yes: 601
-2024-09-27 18:43:33,624 - INFO -   Player: D'Ernest Johnson
-2024-09-27 18:43:33,624 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,624 - INFO -     Pinnacle: Yes: 849
-2024-09-27 18:43:33,624 - INFO -   Player: Parker Washington
-2024-09-27 18:43:33,624 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,624 - INFO -     Pinnacle: Yes: 867
-2024-09-27 18:43:33,626 - INFO - 
-Event: New York Jets vs Denver Broncos
-2024-09-27 18:43:33,627 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,627 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,627 - INFO -   Player: Breece Hall
-2024-09-27 18:43:33,627 - INFO -     TAB: Yes: -125
-2024-09-27 18:43:33,627 - INFO -     Pinnacle: Yes: -138
-2024-09-27 18:43:33,627 - INFO -   Player: Garrett Wilson
-2024-09-27 18:43:33,627 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,627 - INFO -     Pinnacle: Yes: 163
-2024-09-27 18:43:33,627 - INFO -   Player: Braelon Allen
-2024-09-27 18:43:33,627 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,627 - INFO -     Pinnacle: Yes: 211
-2024-09-27 18:43:33,627 - INFO -   Player: Mike Williams
-2024-09-27 18:43:33,627 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,627 - INFO -     Pinnacle: Yes: 285
-2024-09-27 18:43:33,628 - INFO -   Player: Allen Lazard
-2024-09-27 18:43:33,628 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,628 - INFO -     Pinnacle: Yes: 326
-2024-09-27 18:43:33,628 - INFO -   Player: Tyler Conklin
-2024-09-27 18:43:33,628 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,628 - INFO -     Pinnacle: Yes: 432
-2024-09-27 18:43:33,628 - INFO -   Player: Aaron Rodgers
-2024-09-27 18:43:33,628 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,628 - INFO -     Pinnacle: Yes: 811
-2024-09-27 18:43:33,628 - INFO -   Player: Jeremy Ruckert
-2024-09-27 18:43:33,628 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,629 - INFO -     Pinnacle: Yes: 905
-2024-09-27 18:43:33,629 - INFO -   Player: Xavier Gipson
-2024-09-27 18:43:33,629 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,629 - INFO -     Pinnacle: Yes: 820
-2024-09-27 18:43:33,629 - INFO -   Player: Javonte Williams
-2024-09-27 18:43:33,629 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,629 - INFO -     Pinnacle: Yes: 268
-2024-09-27 18:43:33,629 - INFO -   Player: Courtland Sutton
-2024-09-27 18:43:33,629 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,629 - INFO -     Pinnacle: Yes: 356
-2024-09-27 18:43:33,629 - INFO -   Player: Bo Nix
-2024-09-27 18:43:33,629 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,629 - INFO -     Pinnacle: Yes: 390
-2024-09-27 18:43:33,629 - INFO -   Player: Josh Reynolds
-2024-09-27 18:43:33,629 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 513
-2024-09-27 18:43:33,630 - INFO -   Player: Jaleel McLaughlin
-2024-09-27 18:43:33,630 - INFO -     TAB: Yes: 425
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 484
-2024-09-27 18:43:33,630 - INFO -   Player: Tyler Badie
-2024-09-27 18:43:33,630 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 595
-2024-09-27 18:43:33,630 - INFO -   Player: Greg Dulcich
-2024-09-27 18:43:33,630 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 669
-2024-09-27 18:43:33,630 - INFO -   Player: Lil'Jordan Humphrey
-2024-09-27 18:43:33,630 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 793
-2024-09-27 18:43:33,630 - INFO -   Player: Devaughn Vele
-2024-09-27 18:43:33,630 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,630 - INFO -     Pinnacle: Yes: 891
-2024-09-27 18:43:33,630 - INFO -   Player: Marvin Mims Jr.
-2024-09-27 18:43:33,631 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,631 - INFO -     Pinnacle: Yes: 1159
-2024-09-27 18:43:33,631 - INFO -   Player: Adam Trautman
-2024-09-27 18:43:33,631 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,631 - INFO -     Pinnacle: Yes: 1216
-2024-09-27 18:43:33,631 - INFO - 
-Event: New York Jets vs Denver Broncos
-2024-09-27 18:43:33,631 - INFO - Market: player_last_td
-2024-09-27 18:43:33,631 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,631 - INFO -   Player: Breece Hall
-2024-09-27 18:43:33,631 - INFO -     TAB: Yes: 425
-2024-09-27 18:43:33,631 - INFO -   Player: Garrett Wilson
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,632 - INFO -   Player: Braelon Allen
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,632 - INFO -   Player: Mike Williams
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,632 - INFO -   Player: Allen Lazard
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,632 - INFO -   Player: Tyler Conklin
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,632 - INFO -   Player: Aaron Rodgers
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,632 - INFO -   Player: Jeremy Ruckert
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,632 - INFO -   Player: Xavier Gipson
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,632 - INFO -   Player: Javonte Williams
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,632 - INFO -   Player: Courtland Sutton
-2024-09-27 18:43:33,632 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,633 - INFO -   Player: Bo Nix
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,633 - INFO -   Player: Josh Reynolds
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,633 - INFO -   Player: Jaleel McLaughlin
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,633 - INFO -   Player: Tyler Badie
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,633 - INFO -   Player: Greg Dulcich
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,633 - INFO -   Player: Lil'Jordan Humphrey
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,633 - INFO -   Player: Devaughn Vele
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,633 - INFO -   Player: Marvin Mims Jr.
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,633 - INFO -   Player: Adam Trautman
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,633 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,633 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,634 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,634 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,637 - INFO - Completed 2/58 tasks
-2024-09-27 18:43:33,637 - INFO - Completed 3/58 tasks
-2024-09-27 18:43:33,637 - INFO - 
-Event: Tampa Bay Buccaneers vs Philadelphia Eagles
-2024-09-27 18:43:33,637 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,638 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,638 - INFO -   Player: Rachaad White
-2024-09-27 18:43:33,638 - INFO -     TAB: Yes: 125
-2024-09-27 18:43:33,638 - INFO -     Pinnacle: Yes: 165
-2024-09-27 18:43:33,638 - INFO -   Player: Mike Evans
-2024-09-27 18:43:33,638 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,638 - INFO -     Pinnacle: Yes: 152
-2024-09-27 18:43:33,638 - INFO -   Player: Chris Godwin
-2024-09-27 18:43:33,638 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,638 - INFO -     Pinnacle: Yes: 168
-2024-09-27 18:43:33,638 - INFO -   Player: Bucky Irving
-2024-09-27 18:43:33,638 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,638 - INFO -     Pinnacle: Yes: 229
-2024-09-27 18:43:33,638 - INFO -   Player: Cade Otton
-2024-09-27 18:43:33,638 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: 390
-2024-09-27 18:43:33,639 - INFO -   Player: Baker Mayfield
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: 579
-2024-09-27 18:43:33,639 - INFO -   Player: Trey Palmer
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: 467
-2024-09-27 18:43:33,639 - INFO -   Player: Payne Durham
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: 1082
-2024-09-27 18:43:33,639 - INFO -   Player: Saquon Barkley
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: -133
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: -126
-2024-09-27 18:43:33,639 - INFO -   Player: Jalen Hurts
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: 110
-2024-09-27 18:43:33,639 - INFO -     Pinnacle: Yes: 131
-2024-09-27 18:43:33,639 - INFO -   Player: Dallas Goedert
-2024-09-27 18:43:33,639 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,640 - INFO -     Pinnacle: Yes: 215
-2024-09-27 18:43:33,640 - INFO -   Player: Jahan Dotson
-2024-09-27 18:43:33,640 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,640 - INFO -     Pinnacle: Yes: 406
-2024-09-27 18:43:33,640 - INFO -   Player: Parris Campbell
-2024-09-27 18:43:33,640 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,640 - INFO -     Pinnacle: Yes: 741
-2024-09-27 18:43:33,640 - INFO -   Player: Johnny Wilson
-2024-09-27 18:43:33,640 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,640 - INFO -     Pinnacle: Yes: 501
-2024-09-27 18:43:33,640 - INFO -   Player: Kenneth Gainwell
-2024-09-27 18:43:33,640 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,640 - INFO -     Pinnacle: Yes: 794
-2024-09-27 18:43:33,641 - INFO - 
-Event: Indianapolis Colts vs Pittsburgh Steelers
-2024-09-27 18:43:33,641 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,641 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,641 - INFO -   Player: Jonathan Taylor
-2024-09-27 18:43:33,641 - INFO -     TAB: Yes: -105
-2024-09-27 18:43:33,641 - INFO -     Pinnacle: Yes: 103
-2024-09-27 18:43:33,641 - INFO -   Player: Anthony Richardson
-2024-09-27 18:43:33,641 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,641 - INFO -     Pinnacle: Yes: 163
-2024-09-27 18:43:33,641 - INFO -   Player: Michael Pittman Jr.
-2024-09-27 18:43:33,641 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,641 - INFO -     Pinnacle: Yes: 301
-2024-09-27 18:43:33,642 - INFO -   Player: Josh Downs
-2024-09-27 18:43:33,642 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,642 - INFO -     Pinnacle: Yes: 426
-2024-09-27 18:43:33,642 - INFO -   Player: Alec Pierce
-2024-09-27 18:43:33,642 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,642 - INFO -     Pinnacle: Yes: 465
-2024-09-27 18:43:33,642 - INFO -   Player: Trey Sermon
-2024-09-27 18:43:33,642 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,642 - INFO -     Pinnacle: Yes: 743
-2024-09-27 18:43:33,642 - INFO -   Player: Mo Alie-Cox
-2024-09-27 18:43:33,643 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,643 - INFO -     Pinnacle: Yes: 932
-2024-09-27 18:43:33,643 - INFO -   Player: Kylen Granson
-2024-09-27 18:43:33,643 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,643 - INFO -     Pinnacle: Yes: 905
-2024-09-27 18:43:33,643 - INFO -   Player: Adonai Mitchell
-2024-09-27 18:43:33,643 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,643 - INFO -     Pinnacle: Yes: 1068
-2024-09-27 18:43:33,643 - INFO -   Player: Najee Harris
-2024-09-27 18:43:33,643 - INFO -     TAB: Yes: 115
-2024-09-27 18:43:33,643 - INFO -     Pinnacle: Yes: 118
-2024-09-27 18:43:33,643 - INFO -   Player: Justin Fields
-2024-09-27 18:43:33,643 - INFO -     TAB: Yes: 160
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 189
-2024-09-27 18:43:33,644 - INFO -   Player: George Pickens
-2024-09-27 18:43:33,644 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 214
-2024-09-27 18:43:33,644 - INFO -   Player: Cordarrelle Patterson
-2024-09-27 18:43:33,644 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 308
-2024-09-27 18:43:33,644 - INFO -   Player: Pat Freiermuth
-2024-09-27 18:43:33,644 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 420
-2024-09-27 18:43:33,644 - INFO -   Player: Calvin Austin III
-2024-09-27 18:43:33,644 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 604
-2024-09-27 18:43:33,644 - INFO -   Player: Van Jefferson
-2024-09-27 18:43:33,644 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,644 - INFO -     Pinnacle: Yes: 770
-2024-09-27 18:43:33,645 - INFO -   Player: Roman Wilson
-2024-09-27 18:43:33,645 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,645 - INFO -     Pinnacle: Yes: 989
-2024-09-27 18:43:33,645 - INFO -   Player: Scott Miller
-2024-09-27 18:43:33,645 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,645 - INFO -     Pinnacle: Yes: 956
-2024-09-27 18:43:33,645 - INFO - 
-Event: Atlanta Falcons vs New Orleans Saints
-2024-09-27 18:43:33,645 - INFO - Market: player_last_td
-2024-09-27 18:43:33,645 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,645 - INFO -   Player: Bijan Robinson
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,646 - INFO -   Player: Drake London
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,646 - INFO -   Player: Darnell Mooney
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,646 - INFO -   Player: Kyle Pitts
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,646 - INFO -   Player: Tyler Allgeier
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,646 - INFO -   Player: Ray-Ray McCloud III
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,646 - INFO -   Player: Kirk Cousins
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,646 - INFO -   Player: KhaDarel Hodge
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,646 - INFO -   Player: Alvin Kamara
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,646 - INFO -   Player: Chris Olave
-2024-09-27 18:43:33,646 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,646 - INFO -   Player: Rashid Shaheed
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,647 - INFO -   Player: Taysom Hill
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,647 - INFO -   Player: Jamaal Williams
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,647 - INFO -   Player: Foster Moreau
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,647 - INFO -   Player: Juwan Johnson
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,647 - INFO -   Player: Cedrick Wilson Jr.
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,647 - INFO -   Player: Derek Carr
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,647 - INFO -   Player: Mason Tipton
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,647 - INFO -   Player: Adam Prentice
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,647 - INFO -   Player: Jordan Mims
-2024-09-27 18:43:33,647 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,648 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,648 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,648 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,648 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,649 - INFO - Completed 4/58 tasks
-2024-09-27 18:43:33,649 - INFO - Completed 5/58 tasks
-2024-09-27 18:43:33,650 - INFO - 
-Event: Green Bay Packers vs Minnesota Vikings
-2024-09-27 18:43:33,650 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,650 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,650 - INFO -   Player: Josh Jacobs
-2024-09-27 18:43:33,650 - INFO -     TAB: Yes: 100
-2024-09-27 18:43:33,651 - INFO -     Pinnacle: Yes: 104
-2024-09-27 18:43:33,651 - INFO -   Player: Jayden Reed
-2024-09-27 18:43:33,651 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,651 - INFO -     Pinnacle: Yes: 170
-2024-09-27 18:43:33,651 - INFO -   Player: Christian Watson
-2024-09-27 18:43:33,651 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,651 - INFO -     Pinnacle: Yes: 302
-2024-09-27 18:43:33,651 - INFO -   Player: Romeo Doubs
-2024-09-27 18:43:33,651 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,652 - INFO -     Pinnacle: Yes: 246
-2024-09-27 18:43:33,652 - INFO -   Player: Tucker Kraft
-2024-09-27 18:43:33,652 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,652 - INFO -     Pinnacle: Yes: 314
-2024-09-27 18:43:33,652 - INFO -   Player: Dontayvion Wicks
-2024-09-27 18:43:33,652 - INFO -     TAB: Yes: 375
-2024-09-27 18:43:33,652 - INFO -     Pinnacle: Yes: 465
-2024-09-27 18:43:33,652 - INFO -   Player: Emanuel Wilson
-2024-09-27 18:43:33,652 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,652 - INFO -     Pinnacle: Yes: 447
-2024-09-27 18:43:33,653 - INFO -   Player: Jordan Love
-2024-09-27 18:43:33,653 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,653 - INFO -     Pinnacle: Yes: 679
-2024-09-27 18:43:33,653 - INFO -   Player: Luke Musgrave
-2024-09-27 18:43:33,653 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,653 - INFO -     Pinnacle: Yes: 613
-2024-09-27 18:43:33,653 - INFO -   Player: Aaron Jones
-2024-09-27 18:43:33,653 - INFO -     TAB: Yes: 110
-2024-09-27 18:43:33,653 - INFO -     Pinnacle: Yes: 109
-2024-09-27 18:43:33,653 - INFO -   Player: Justin Jefferson
-2024-09-27 18:43:33,653 - INFO -     TAB: Yes: 115
-2024-09-27 18:43:33,653 - INFO -     Pinnacle: Yes: 109
-2024-09-27 18:43:33,653 - INFO -   Player: Jordan Addison
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,654 - INFO -     Pinnacle: Yes: 278
-2024-09-27 18:43:33,654 - INFO -   Player: Ty Chandler
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,654 - INFO -     Pinnacle: Yes: 314
-2024-09-27 18:43:33,654 - INFO -   Player: Sam Darnold
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,654 - INFO -     Pinnacle: Yes: 514
-2024-09-27 18:43:33,654 - INFO -   Player: Johnny Mundt
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,654 - INFO -     Pinnacle: Yes: 596
-2024-09-27 18:43:33,654 - INFO -   Player: Jalen Nailor
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,654 - INFO -     Pinnacle: Yes: 596
-2024-09-27 18:43:33,654 - INFO -   Player: Brandon Powell
-2024-09-27 18:43:33,654 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,655 - INFO -     Pinnacle: Yes: 860
-2024-09-27 18:43:33,655 - INFO -   Player: Josh Oliver
-2024-09-27 18:43:33,655 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,655 - INFO -     Pinnacle: Yes: 956
-2024-09-27 18:43:33,655 - INFO - 
-Event: Arizona Cardinals vs Washington Commanders
-2024-09-27 18:43:33,655 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,655 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,655 - INFO -   Player: James Conner
-2024-09-27 18:43:33,655 - INFO -     TAB: Yes: -133
-2024-09-27 18:43:33,655 - INFO -     Pinnacle: Yes: -133
-2024-09-27 18:43:33,656 - INFO -   Player: Marvin Harrison Jr.
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 100
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 106
-2024-09-27 18:43:33,656 - INFO -   Player: Kyler Murray
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 174
-2024-09-27 18:43:33,656 - INFO -   Player: Michael Wilson
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 212
-2024-09-27 18:43:33,656 - INFO -   Player: Greg Dortch
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 268
-2024-09-27 18:43:33,656 - INFO -   Player: Elijah Higgins
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 294
-2024-09-27 18:43:33,656 - INFO -   Player: Trey Benson
-2024-09-27 18:43:33,656 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,656 - INFO -     Pinnacle: Yes: 401
-2024-09-27 18:43:33,656 - INFO -   Player: Emari Demercado
-2024-09-27 18:43:33,657 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,657 - INFO -     Pinnacle: Yes: 665
-2024-09-27 18:43:33,657 - INFO -   Player: Tip Reiman
-2024-09-27 18:43:33,657 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,657 - INFO -     Pinnacle: Yes: 827
-2024-09-27 18:43:33,657 - INFO -   Player: Travis Vokolek
-2024-09-27 18:43:33,657 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,657 - INFO -     Pinnacle: Yes: 1300
-2024-09-27 18:43:33,657 - INFO -   Player: Brian Robinson Jr.
-2024-09-27 18:43:33,657 - INFO -     TAB: Yes: -115
-2024-09-27 18:43:33,657 - INFO -     Pinnacle: Yes: 103
-2024-09-27 18:43:33,657 - INFO -   Player: Jayden Daniels
-2024-09-27 18:43:33,657 - INFO -     TAB: Yes: 120
-2024-09-27 18:43:33,657 - INFO -     Pinnacle: Yes: 129
-2024-09-27 18:43:33,657 - INFO -   Player: Terry McLaurin
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 170
-2024-09-27 18:43:33,658 - INFO -     Pinnacle: Yes: 200
-2024-09-27 18:43:33,658 - INFO -   Player: Zach Ertz
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,658 - INFO -     Pinnacle: Yes: 309
-2024-09-27 18:43:33,658 - INFO -   Player: Noah Brown
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,658 - INFO -     Pinnacle: Yes: 414
-2024-09-27 18:43:33,658 - INFO -   Player: Luke McCaffrey
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,658 - INFO -     Pinnacle: Yes: 466
-2024-09-27 18:43:33,658 - INFO -   Player: Jeremy McNichols
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,658 - INFO -     Pinnacle: Yes: 770
-2024-09-27 18:43:33,658 - INFO -   Player: John Bates
-2024-09-27 18:43:33,658 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,659 - INFO -     Pinnacle: Yes: 864
-2024-09-27 18:43:33,659 - INFO -   Player: Dyami Brown
-2024-09-27 18:43:33,659 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,659 - INFO -     Pinnacle: Yes: 853
-2024-09-27 18:43:33,659 - INFO -   Player: Olamide Zaccheaus
-2024-09-27 18:43:33,659 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,659 - INFO -     Pinnacle: Yes: 915
-2024-09-27 18:43:33,659 - INFO -   Player: Ben Sinnott
-2024-09-27 18:43:33,659 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,660 - INFO -     Pinnacle: Yes: 1269
-2024-09-27 18:43:33,666 - INFO - Completed 6/58 tasks
-2024-09-27 18:43:33,666 - INFO - Completed 7/58 tasks
-2024-09-27 18:43:33,667 - INFO - Completed 8/58 tasks
-2024-09-27 18:43:33,667 - INFO - 
-Event: Houston Texans vs Jacksonville Jaguars
-2024-09-27 18:43:33,667 - INFO - Market: player_last_td
-2024-09-27 18:43:33,667 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,669 - INFO - 
-Event: Arizona Cardinals vs Washington Commanders
-2024-09-27 18:43:33,669 - INFO - Market: player_last_td
-2024-09-27 18:43:33,669 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,669 - INFO -   Player: James Conner
-2024-09-27 18:43:33,669 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,669 - INFO -   Player: Marvin Harrison Jr.
-2024-09-27 18:43:33,669 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,669 - INFO -   Player: Kyler Murray
-2024-09-27 18:43:33,669 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,670 - INFO -   Player: Michael Wilson
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,670 - INFO -   Player: Greg Dortch
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,670 - INFO -   Player: Elijah Higgins
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,670 - INFO -   Player: Trey Benson
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,670 - INFO -   Player: Emari Demercado
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,670 - INFO -   Player: Tip Reiman
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,670 - INFO -   Player: Travis Vokolek
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,670 - INFO -   Player: Chris Moore
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,670 - INFO -   Player: DeeJay Dallas
-2024-09-27 18:43:33,670 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,671 - INFO -   Player: Brian Robinson Jr.
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,671 - INFO -   Player: Jayden Daniels
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,671 - INFO -   Player: Terry McLaurin
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,671 - INFO -   Player: Zach Ertz
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,671 - INFO -   Player: Noah Brown
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,671 - INFO -   Player: Luke McCaffrey
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,671 - INFO -   Player: Jeremy McNichols
-2024-09-27 18:43:33,671 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,672 - INFO -   Player: John Bates
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,672 - INFO -   Player: Dyami Brown
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,672 - INFO -   Player: Olamide Zaccheaus
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,672 - INFO -   Player: Chris Rodriguez Jr.
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,672 - INFO -   Player: Ben Sinnott
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,672 - INFO -   Player: Jamison Crowder
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,672 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,672 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,672 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,673 - INFO - 
-Event: Carolina Panthers vs Cincinnati Bengals
-2024-09-27 18:43:33,673 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,673 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,674 - INFO -   Player: Chuba Hubbard
-2024-09-27 18:43:33,674 - INFO -     TAB: Yes: 100
-2024-09-27 18:43:33,674 - INFO -     Pinnacle: Yes: 116
-2024-09-27 18:43:33,674 - INFO -   Player: Diontae Johnson
-2024-09-27 18:43:33,674 - INFO -     TAB: Yes: 170
-2024-09-27 18:43:33,674 - INFO -     Pinnacle: Yes: 180
-2024-09-27 18:43:33,674 - INFO -   Player: Miles Sanders
-2024-09-27 18:43:33,674 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,674 - INFO -     Pinnacle: Yes: 317
-2024-09-27 18:43:33,674 - INFO -   Player: Jonathan Mingo
-2024-09-27 18:43:33,674 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,674 - INFO -     Pinnacle: Yes: 310
-2024-09-27 18:43:33,674 - INFO -   Player: Xavier Legette
-2024-09-27 18:43:33,674 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,675 - INFO -     Pinnacle: Yes: 324
-2024-09-27 18:43:33,675 - INFO -   Player: Tommy Tremble
-2024-09-27 18:43:33,675 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,675 - INFO -     Pinnacle: Yes: 498
-2024-09-27 18:43:33,675 - INFO -   Player: David Moore
-2024-09-27 18:43:33,675 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,675 - INFO -     Pinnacle: Yes: 941
-2024-09-27 18:43:33,675 - INFO -   Player: Andy Dalton
-2024-09-27 18:43:33,675 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,675 - INFO -     Pinnacle: Yes: 1018
-2024-09-27 18:43:33,675 - INFO -   Player: Ja'Tavion Sanders
-2024-09-27 18:43:33,676 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,676 - INFO -     Pinnacle: Yes: 1025
-2024-09-27 18:43:33,676 - INFO -   Player: Raheem Blackshear
-2024-09-27 18:43:33,676 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,676 - INFO -     Pinnacle: Yes: 1533
-2024-09-27 18:43:33,676 - INFO -   Player: Jalen Coker
-2024-09-27 18:43:33,676 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,676 - INFO -     Pinnacle: Yes: 1236
-2024-09-27 18:43:33,676 - INFO -   Player: Zack Moss
-2024-09-27 18:43:33,676 - INFO -     TAB: Yes: -105
-2024-09-27 18:43:33,676 - INFO -     Pinnacle: Yes: -105
-2024-09-27 18:43:33,676 - INFO -   Player: Ja'Marr Chase
-2024-09-27 18:43:33,676 - INFO -     TAB: Yes: 100
-2024-09-27 18:43:33,677 - INFO -     Pinnacle: Yes: 116
-2024-09-27 18:43:33,677 - INFO -   Player: Tee Higgins
-2024-09-27 18:43:33,677 - INFO -     TAB: Yes: 170
-2024-09-27 18:43:33,677 - INFO -     Pinnacle: Yes: 194
-2024-09-27 18:43:33,677 - INFO -   Player: Chase Brown
-2024-09-27 18:43:33,677 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,677 - INFO -     Pinnacle: Yes: 236
-2024-09-27 18:43:33,677 - INFO -   Player: Andrei Iosivas
-2024-09-27 18:43:33,677 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,677 - INFO -     Pinnacle: Yes: 257
-2024-09-27 18:43:33,677 - INFO -   Player: Mike Gesicki
-2024-09-27 18:43:33,678 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,678 - INFO -     Pinnacle: Yes: 369
-2024-09-27 18:43:33,678 - INFO -   Player: Joe Burrow
-2024-09-27 18:43:33,678 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,678 - INFO -     Pinnacle: Yes: 582
-2024-09-27 18:43:33,678 - INFO -   Player: Erick All
-2024-09-27 18:43:33,678 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,678 - INFO -     Pinnacle: Yes: 629
-2024-09-27 18:43:33,678 - INFO -   Player: Drew Sample
-2024-09-27 18:43:33,678 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,678 - INFO -     Pinnacle: Yes: 1112
-2024-09-27 18:43:33,678 - INFO -   Player: Jermaine Burton
-2024-09-27 18:43:33,679 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,679 - INFO -     Pinnacle: Yes: 1174
-2024-09-27 18:43:33,679 - INFO - 
-Event: Tampa Bay Buccaneers vs Philadelphia Eagles
-2024-09-27 18:43:33,679 - INFO - Market: player_last_td
-2024-09-27 18:43:33,679 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,679 - INFO -   Player: Rachaad White
-2024-09-27 18:43:33,679 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,679 - INFO -   Player: Mike Evans
-2024-09-27 18:43:33,679 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,679 - INFO -   Player: Chris Godwin
-2024-09-27 18:43:33,679 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,679 - INFO -   Player: Bucky Irving
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,680 - INFO -   Player: Cade Otton
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,680 - INFO -   Player: Jalen McMillan
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,680 - INFO -   Player: Baker Mayfield
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,680 - INFO -   Player: Trey Palmer
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,680 - INFO -   Player: Payne Durham
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,680 - INFO -   Player: Saquon Barkley
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,680 - INFO -   Player: Jalen Hurts
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,680 - INFO -   Player: AJ Brown
-2024-09-27 18:43:33,680 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,680 - INFO -   Player: Dallas Goedert
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,681 - INFO -   Player: DeVonta Smith
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,681 - INFO -   Player: Jahan Dotson
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,681 - INFO -   Player: Parris Campbell
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,681 - INFO -   Player: Johnny Wilson
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,681 - INFO -   Player: Kenneth Gainwell
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,681 - INFO -   Player: Jack Stoll
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,681 - INFO -   Player: Grant Calcaterra
-2024-09-27 18:43:33,681 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,681 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,682 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,682 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,682 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,683 - INFO - 
-Event: Chicago Bears vs Los Angeles Rams
-2024-09-27 18:43:33,683 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,683 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,683 - INFO -   Player: DJ Moore
-2024-09-27 18:43:33,683 - INFO -     TAB: Yes: 170
-2024-09-27 18:43:33,684 - INFO -     Pinnacle: Yes: 189
-2024-09-27 18:43:33,684 - INFO -   Player: D'Andre Swift
-2024-09-27 18:43:33,684 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,684 - INFO -     Pinnacle: Yes: 216
-2024-09-27 18:43:33,684 - INFO -   Player: Roschon Johnson
-2024-09-27 18:43:33,684 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,684 - INFO -     Pinnacle: Yes: 222
-2024-09-27 18:43:33,685 - INFO -   Player: Rome Odunze
-2024-09-27 18:43:33,685 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,685 - INFO -     Pinnacle: Yes: 319
-2024-09-27 18:43:33,685 - INFO -   Player: Cole Kmet
-2024-09-27 18:43:33,685 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,685 - INFO -     Pinnacle: Yes: 372
-2024-09-27 18:43:33,685 - INFO -   Player: Caleb Williams
-2024-09-27 18:43:33,685 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,685 - INFO -     Pinnacle: Yes: 337
-2024-09-27 18:43:33,685 - INFO -   Player: Keenan Allen
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: 368
-2024-09-27 18:43:33,686 - INFO -   Player: Khalil Herbert
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: 481
-2024-09-27 18:43:33,686 - INFO -   Player: Gerald Everett
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: 906
-2024-09-27 18:43:33,686 - INFO -   Player: DeAndre Carter
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: 990
-2024-09-27 18:43:33,686 - INFO -   Player: Kyren Williams
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: -125
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: -122
-2024-09-27 18:43:33,686 - INFO -   Player: Demarcus Robinson
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,686 - INFO -     Pinnacle: Yes: 282
-2024-09-27 18:43:33,686 - INFO -   Player: Tutu Atwell
-2024-09-27 18:43:33,686 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 272
-2024-09-27 18:43:33,687 - INFO -   Player: Colby Parkinson
-2024-09-27 18:43:33,687 - INFO -     TAB: Yes: 325
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 374
-2024-09-27 18:43:33,687 - INFO -   Player: Tyler Johnson
-2024-09-27 18:43:33,687 - INFO -     TAB: Yes: 375
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 432
-2024-09-27 18:43:33,687 - INFO -   Player: Jordan Whittington
-2024-09-27 18:43:33,687 - INFO -     TAB: Yes: 375
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 435
-2024-09-27 18:43:33,687 - INFO -   Player: Ronnie Rivers
-2024-09-27 18:43:33,687 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 788
-2024-09-27 18:43:33,687 - INFO -   Player: Matthew Stafford
-2024-09-27 18:43:33,687 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,687 - INFO -     Pinnacle: Yes: 1296
-2024-09-27 18:43:33,688 - INFO - Completed 9/58 tasks
-2024-09-27 18:43:33,688 - INFO - Completed 10/58 tasks
-2024-09-27 18:43:33,688 - INFO - 
-Event: Green Bay Packers vs Minnesota Vikings
-2024-09-27 18:43:33,689 - INFO - Market: player_last_td
-2024-09-27 18:43:33,689 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,689 - INFO -   Player: Josh Jacobs
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,689 - INFO -   Player: Jayden Reed
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,689 - INFO -   Player: Christian Watson
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,689 - INFO -   Player: Romeo Doubs
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,689 - INFO -   Player: Tucker Kraft
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,689 - INFO -   Player: Dontayvion Wicks
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,689 - INFO -   Player: Emanuel Wilson
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,689 - INFO -   Player: Jordan Love
-2024-09-27 18:43:33,689 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,690 - INFO -   Player: Luke Musgrave
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,690 - INFO -   Player: Bo Melton
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,690 - INFO -   Player: Malik Willis
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,690 - INFO -   Player: Aaron Jones
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,690 - INFO -   Player: Justin Jefferson
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,690 - INFO -   Player: Jordan Addison
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,690 - INFO -   Player: Ty Chandler
-2024-09-27 18:43:33,690 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,690 - INFO -   Player: Sam Darnold
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,691 - INFO -   Player: Johnny Mundt
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,691 - INFO -   Player: Jalen Nailor
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,691 - INFO -   Player: Brandon Powell
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,691 - INFO -   Player: Josh Oliver
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,691 - INFO -   Player: Trent Sherfield
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,691 - INFO -   Player: C.J. Ham
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,691 - INFO -   Player: Robert Tonyan
-2024-09-27 18:43:33,691 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,691 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,692 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,692 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,692 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,692 - INFO - 
-Event: Indianapolis Colts vs Pittsburgh Steelers
-2024-09-27 18:43:33,692 - INFO - Market: player_last_td
-2024-09-27 18:43:33,693 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,693 - INFO -   Player: Jonathan Taylor
-2024-09-27 18:43:33,693 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,693 - INFO -   Player: Anthony Richardson
-2024-09-27 18:43:33,693 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,693 - INFO -   Player: Michael Pittman Jr.
-2024-09-27 18:43:33,693 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,693 - INFO -   Player: Josh Downs
-2024-09-27 18:43:33,693 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,693 - INFO -   Player: Alec Pierce
-2024-09-27 18:43:33,693 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,694 - INFO -   Player: Trey Sermon
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,694 - INFO -   Player: Mo Alie-Cox
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,694 - INFO -   Player: Kylen Granson
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,694 - INFO -   Player: Adonai Mitchell
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,694 - INFO -   Player: Tyler Goodson
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,694 - INFO -   Player: Ashton Dulin
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,694 - INFO -   Player: Drew Ogletree
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,694 - INFO -   Player: Najee Harris
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,694 - INFO -   Player: Justin Fields
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,694 - INFO -   Player: George Pickens
-2024-09-27 18:43:33,694 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,695 - INFO -   Player: Cordarrelle Patterson
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,695 - INFO -   Player: Pat Freiermuth
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,695 - INFO -   Player: Jaylen Warren
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,695 - INFO -   Player: Calvin Austin III
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,695 - INFO -   Player: Van Jefferson
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,695 - INFO -   Player: Roman Wilson
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,695 - INFO -   Player: Scott Miller
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,695 - INFO -   Player: Darnell Washington
-2024-09-27 18:43:33,695 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,695 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,696 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,696 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,696 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,696 - INFO - 
-Event: Houston Texans vs Buffalo Bills
-2024-09-27 18:43:33,696 - INFO - Market: player_last_td
-2024-09-27 18:43:33,697 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,697 - INFO - Completed 11/58 tasks
-2024-09-27 18:43:33,697 - INFO - Completed 12/58 tasks
-2024-09-27 18:43:33,697 - INFO - Completed 13/58 tasks
-2024-09-27 18:43:33,697 - INFO - Completed 14/58 tasks
-2024-09-27 18:43:33,698 - INFO - Completed 15/58 tasks
-2024-09-27 18:43:33,698 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-09-27 18:43:33,698 - INFO - 
-Event: Washington Commanders vs Cleveland Browns
-2024-09-27 18:43:33,699 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,699 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,699 - INFO - 
+2024-10-03 22:14:36,408 - INFO - Using regions: au,us2
+2024-10-03 22:14:36,649 - INFO - Time to fetch events: 0.24 seconds
+2024-10-03 22:14:36,650 - INFO - Number of events fetched: 26
+2024-10-03 22:14:36,722 - INFO - 
 Event: Atlanta Falcons vs Tampa Bay Buccaneers
-2024-09-27 18:43:33,699 - INFO - Market: player_last_td
-2024-09-27 18:43:33,699 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,700 - INFO - 
+2024-10-03 22:14:36,722 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,722 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,722 - INFO - Completed 1/52 tasks
+2024-10-03 22:14:36,866 - INFO - 
+Event: Cincinnati Bengals vs Baltimore Ravens
+2024-10-03 22:14:36,867 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,867 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,867 - INFO -   Player: Andrei Iosivas
+2024-10-03 22:14:36,867 - INFO -     Fliff: Yes: 330
+2024-10-03 22:14:36,867 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,867 - INFO -   Player: Charlie Kolar
+2024-10-03 22:14:36,867 - INFO -     Fliff: Yes: 840
+2024-10-03 22:14:36,867 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,867 - INFO -   Player: Chase Brown
+2024-10-03 22:14:36,867 - INFO -     Fliff: Yes: 160
+2024-10-03 22:14:36,867 - INFO -     TAB: Yes: 175
+2024-10-03 22:14:36,867 - INFO -   Player: Deonte Harty
+2024-10-03 22:14:36,867 - INFO -     Fliff: Yes: 1160
+2024-10-03 22:14:36,867 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,867 - INFO -   Player: Derrick Henry
+2024-10-03 22:14:36,867 - INFO -     Fliff: Yes: -180
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: -154
+2024-10-03 22:14:36,868 - INFO -   Player: Drew Sample
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 815
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,868 - INFO -   Player: Erick All
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 485
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,868 - INFO -   Player: Isaiah Likely
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 325
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,868 - INFO -   Player: Ja'Marr Chase
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 130
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 130
+2024-10-03 22:14:36,868 - INFO -   Player: Jermaine Burton
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 1210
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,868 - INFO -   Player: Joe Burrow
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 470
+2024-10-03 22:14:36,868 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,868 - INFO -   Player: Justice Hill
+2024-10-03 22:14:36,868 - INFO -     Fliff: Yes: 270
+2024-10-03 22:14:36,869 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,869 - INFO -   Player: Lamar Jackson
+2024-10-03 22:14:36,869 - INFO -     Fliff: Yes: 155
+2024-10-03 22:14:36,869 - INFO -     TAB: Yes: 160
+2024-10-03 22:14:36,869 - INFO -   Player: Mark Andrews
+2024-10-03 22:14:36,869 - INFO -     Fliff: Yes: 295
+2024-10-03 22:14:36,869 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,869 - INFO -   Player: Mike Gesicki
+2024-10-03 22:14:36,869 - INFO -     Fliff: Yes: 445
+2024-10-03 22:14:36,869 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,869 - INFO -   Player: Nelson Agholor
+2024-10-03 22:14:36,869 - INFO -     Fliff: Yes: 435
+2024-10-03 22:14:36,869 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,869 - INFO -   Player: Patrick Ricard
+2024-10-03 22:14:36,870 - INFO -     Fliff: Yes: 1205
+2024-10-03 22:14:36,870 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,870 - INFO -   Player: Rashod Bateman
+2024-10-03 22:14:36,870 - INFO -     Fliff: Yes: 330
+2024-10-03 22:14:36,870 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,870 - INFO -   Player: Tee Higgins
+2024-10-03 22:14:36,870 - INFO -     Fliff: Yes: 180
+2024-10-03 22:14:36,870 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,870 - INFO -   Player: Tylan Wallace
+2024-10-03 22:14:36,870 - INFO -     Fliff: Yes: 1270
+2024-10-03 22:14:36,870 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,870 - INFO -   Player: Zack Moss
+2024-10-03 22:14:36,871 - INFO -     Fliff: Yes: 125
+2024-10-03 22:14:36,871 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,871 - INFO -   Player: Zay Flowers
+2024-10-03 22:14:36,871 - INFO -     Fliff: Yes: 195
+2024-10-03 22:14:36,871 - INFO -     TAB: Yes: 190
+2024-10-03 22:14:36,871 - INFO - 
+Event: Minnesota Vikings vs New York Jets
+2024-10-03 22:14:36,871 - INFO - Market: player_last_td
+2024-10-03 22:14:36,872 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,872 - INFO -   Player: Aaron Jones
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,872 - INFO -   Player: Justin Jefferson
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,872 - INFO -   Player: Jordan Addison
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,872 - INFO -   Player: Jalen Nailor
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,872 - INFO -   Player: Ty Chandler
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,872 - INFO -   Player: Johnny Mundt
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,872 - INFO -   Player: Sam Darnold
+2024-10-03 22:14:36,872 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,872 - INFO -   Player: Brandon Powell
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,873 - INFO -   Player: Josh Oliver
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,873 - INFO -   Player: Trent Sherfield
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,873 - INFO -   Player: Robert Tonyan
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,873 - INFO -   Player: C.J. Ham
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,873 - INFO -   Player: Breece Hall
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,873 - INFO -   Player: Garrett Wilson
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,873 - INFO -   Player: Braelon Allen
+2024-10-03 22:14:36,873 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,873 - INFO -   Player: Allen Lazard
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,874 - INFO -   Player: Mike Williams
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,874 - INFO -   Player: Tyler Conklin
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,874 - INFO -   Player: Xavier Gipson
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,874 - INFO -   Player: Aaron Rodgers
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,874 - INFO -   Player: Jeremy Ruckert
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,874 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,874 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,874 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,875 - INFO - 
 Event: Washington Commanders vs Cleveland Browns
-2024-09-27 18:43:33,700 - INFO - Market: player_last_td
-2024-09-27 18:43:33,700 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,700 - INFO - 
-Event: Detroit Lions vs Seattle Seahawks
-2024-09-27 18:43:33,701 - INFO - Market: player_last_td
-2024-09-27 18:43:33,701 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,701 - INFO -   Player: David Montgomery
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,701 - INFO -   Player: Jahmyr Gibbs
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,701 - INFO -   Player: Amon-Ra St. Brown
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,701 - INFO -   Player: Jameson Williams
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,701 - INFO -   Player: Sam LaPorta
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,701 - INFO -   Player: Tim Patrick
-2024-09-27 18:43:33,701 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,702 - INFO -   Player: Brock Wright
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,702 - INFO -   Player: Jared Goff
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,702 - INFO -   Player: Kalif Raymond
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,702 - INFO -   Player: Parker Hesse
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,702 - INFO -   Player: Sione Vaki
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,702 - INFO -   Player: Craig Reynolds
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,702 - INFO -   Player: Kenneth Walker III
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,702 - INFO -   Player: DK Metcalf
-2024-09-27 18:43:33,702 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,702 - INFO -   Player: Tyler Lockett
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,703 - INFO -   Player: Zach Charbonnet
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,703 - INFO -   Player: Jaxon Smith-Njigba
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,703 - INFO -   Player: Noah Fant
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,703 - INFO -   Player: Geno Smith
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,703 - INFO -   Player: Laviska Shenault Jr
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,703 - INFO -   Player: Pharaoh Brown
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,703 - INFO -   Player: Jake Bobo
-2024-09-27 18:43:33,703 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,703 - INFO -   Player: Kenny McIntosh
-2024-09-27 18:43:33,704 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,704 - INFO -   Player: AJ Barner
-2024-09-27 18:43:33,704 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,704 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,704 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,704 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,704 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,710 - INFO - Completed 16/58 tasks
-2024-09-27 18:43:33,710 - INFO - Completed 17/58 tasks
-2024-09-27 18:43:33,710 - INFO - Completed 18/58 tasks
-2024-09-27 18:43:33,710 - INFO - 
-Event: Minnesota Vikings vs New York Jets
-2024-09-27 18:43:33,710 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,710 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,711 - INFO - 
-Event: San Francisco 49ers vs New England Patriots
-2024-09-27 18:43:33,711 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,711 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,711 - INFO -   Player: Jordan Mason
-2024-09-27 18:43:33,711 - INFO -     TAB: Yes: -154
-2024-09-27 18:43:33,711 - INFO -     Pinnacle: Yes: -145
-2024-09-27 18:43:33,711 - INFO -   Player: Brandon Aiyuk
-2024-09-27 18:43:33,711 - INFO -     TAB: Yes: 140
-2024-09-27 18:43:33,711 - INFO -     Pinnacle: Yes: 156
-2024-09-27 18:43:33,711 - INFO -   Player: George Kittle
-2024-09-27 18:43:33,711 - INFO -     TAB: Yes: 180
-2024-09-27 18:43:33,711 - INFO -     Pinnacle: Yes: 196
-2024-09-27 18:43:33,711 - INFO -   Player: Isaac Guerendo
-2024-09-27 18:43:33,711 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,711 - INFO -     Pinnacle: Yes: 458
-2024-09-27 18:43:33,712 - INFO -   Player: Kyle Juszczyk
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 551
-2024-09-27 18:43:33,712 - INFO -   Player: Brock Purdy
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 527
-2024-09-27 18:43:33,712 - INFO -   Player: Eric Saubert
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 1006
-2024-09-27 18:43:33,712 - INFO -   Player: Patrick Taylor
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 882
-2024-09-27 18:43:33,712 - INFO -   Player: Rhamondre Stevenson
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 147
-2024-09-27 18:43:33,712 - INFO -   Player: Antonio Gibson
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,712 - INFO -     Pinnacle: Yes: 388
-2024-09-27 18:43:33,712 - INFO -   Player: DeMario Douglas
-2024-09-27 18:43:33,712 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 391
-2024-09-27 18:43:33,713 - INFO -   Player: Hunter Henry
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 486
-2024-09-27 18:43:33,713 - INFO -   Player: Ja'Lynn Polk
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 546
-2024-09-27 18:43:33,713 - INFO -   Player: Jacoby Brissett
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 694
-2024-09-27 18:43:33,713 - INFO -   Player: Austin Hooper
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 861
-2024-09-27 18:43:33,713 - INFO -   Player: K.J. Osborn
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 902
-2024-09-27 18:43:33,713 - INFO -   Player: Tyquan Thornton
-2024-09-27 18:43:33,713 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,713 - INFO -     Pinnacle: Yes: 933
-2024-09-27 18:43:33,714 - INFO - 
-Event: Chicago Bears vs Carolina Panthers
-2024-09-27 18:43:33,714 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,714 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,714 - INFO - 
-Event: San Francisco 49ers vs New England Patriots
-2024-09-27 18:43:33,714 - INFO - Market: player_last_td
-2024-09-27 18:43:33,714 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,715 - INFO -   Player: Jordan Mason
-2024-09-27 18:43:33,715 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,715 - INFO -   Player: Brandon Aiyuk
-2024-09-27 18:43:33,715 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,715 - INFO -   Player: George Kittle
-2024-09-27 18:43:33,715 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,715 - INFO -   Player: Jauan Jennings
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,716 - INFO -   Player: Isaac Guerendo
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,716 - INFO -   Player: Kyle Juszczyk
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,716 - INFO -   Player: Brock Purdy
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,716 - INFO -   Player: Eric Saubert
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,716 - INFO -   Player: Ronnie Bell
-2024-09-27 18:43:33,716 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,716 - INFO -   Player: Patrick Taylor
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,717 - INFO -   Player: Chris Conley
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,717 - INFO -   Player: Jake Tonges
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,717 - INFO -   Player: Rhamondre Stevenson
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,717 - INFO -   Player: Antonio Gibson
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,717 - INFO -   Player: DeMario Douglas
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,717 - INFO -   Player: Hunter Henry
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,717 - INFO -   Player: Ja'Lynn Polk
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,717 - INFO -   Player: Jacoby Brissett
-2024-09-27 18:43:33,717 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,718 - INFO -   Player: Austin Hooper
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,718 - INFO -   Player: K.J. Osborn
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,718 - INFO -   Player: Tyquan Thornton
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,718 - INFO -   Player: JaMycal Hasty
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,718 - INFO -   Player: Kayshon Boutte
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,718 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,718 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,718 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,718 - INFO - 
+2024-10-03 22:14:36,875 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,875 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,875 - INFO -   Player: Amari Cooper
+2024-10-03 22:14:36,875 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,875 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,875 - INFO -   Player: Austin Ekeler
+2024-10-03 22:14:36,875 - INFO -     Fliff: Yes: 165
+2024-10-03 22:14:36,875 - INFO -     TAB: Yes: 160
+2024-10-03 22:14:36,875 - INFO -   Player: Ben Sinnott
+2024-10-03 22:14:36,875 - INFO -     Fliff: Yes: 1050
+2024-10-03 22:14:36,875 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,875 - INFO -   Player: Brian Robinson Jr.
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 110
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 110
+2024-10-03 22:14:36,876 - INFO -   Player: Cedric Tillman
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 830
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,876 - INFO -   Player: Deshaun Watson
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 290
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,876 - INFO -   Player: Dyami Brown
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 705
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,876 - INFO -   Player: Elijah Moore
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 335
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,876 - INFO -   Player: Jayden Daniels
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 140
+2024-10-03 22:14:36,876 - INFO -   Player: Jerry Jeudy
+2024-10-03 22:14:36,876 - INFO -     Fliff: Yes: 240
+2024-10-03 22:14:36,876 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,876 - INFO -   Player: John Bates
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 785
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,877 - INFO -   Player: Luke McCaffrey
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 455
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,877 - INFO -   Player: Noah Brown
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 305
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,877 - INFO -   Player: Olamide Zaccheaus
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 595
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,877 - INFO -   Player: Terry McLaurin
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 185
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 180
+2024-10-03 22:14:36,877 - INFO -   Player: Zach Ertz
+2024-10-03 22:14:36,877 - INFO -     Fliff: Yes: 315
+2024-10-03 22:14:36,877 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,878 - INFO - 
 Event: Atlanta Falcons vs Tampa Bay Buccaneers
-2024-09-27 18:43:33,719 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,719 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,719 - INFO - 
-Event: Miami Dolphins vs Tennessee Titans
-2024-09-27 18:43:33,719 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,719 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,719 - INFO -   Player: De'Von Achane
-2024-09-27 18:43:33,719 - INFO -     TAB: Yes: 120
-2024-09-27 18:43:33,720 - INFO -     Pinnacle: Yes: 128
-2024-09-27 18:43:33,720 - INFO -   Player: Tyreek Hill
-2024-09-27 18:43:33,720 - INFO -     TAB: Yes: 190
-2024-09-27 18:43:33,720 - INFO -     Pinnacle: Yes: 218
-2024-09-27 18:43:33,720 - INFO -   Player: Raheem Mostert
-2024-09-27 18:43:33,720 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,720 - INFO -     Pinnacle: Yes: 305
-2024-09-27 18:43:33,720 - INFO -   Player: Jaylen Waddle
-2024-09-27 18:43:33,720 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,720 - INFO -     Pinnacle: Yes: 293
-2024-09-27 18:43:33,720 - INFO -   Player: Jonnu Smith
-2024-09-27 18:43:33,720 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,720 - INFO -     Pinnacle: Yes: 639
-2024-09-27 18:43:33,721 - INFO -   Player: Braxton Berrios
-2024-09-27 18:43:33,721 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,721 - INFO -     Pinnacle: Yes: 851
-2024-09-27 18:43:33,721 - INFO -   Player: Durham Smythe
-2024-09-27 18:43:33,721 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,721 - INFO -     Pinnacle: Yes: 1049
-2024-09-27 18:43:33,721 - INFO -   Player: Alec Ingold
-2024-09-27 18:43:33,721 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,721 - INFO -     Pinnacle: Yes: 1086
-2024-09-27 18:43:33,721 - INFO -   Player: Tony Pollard
-2024-09-27 18:43:33,721 - INFO -     TAB: Yes: 160
-2024-09-27 18:43:33,721 - INFO -     Pinnacle: Yes: 183
-2024-09-27 18:43:33,721 - INFO -   Player: Tyjae Spears
-2024-09-27 18:43:33,721 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,721 - INFO -     Pinnacle: Yes: 295
-2024-09-27 18:43:33,721 - INFO -   Player: Calvin Ridley
-2024-09-27 18:43:33,722 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,722 - INFO -     Pinnacle: Yes: 320
-2024-09-27 18:43:33,722 - INFO -   Player: DeAndre Hopkins
-2024-09-27 18:43:33,722 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,722 - INFO -     Pinnacle: Yes: 360
-2024-09-27 18:43:33,722 - INFO -   Player: Tyler Boyd
-2024-09-27 18:43:33,722 - INFO -     TAB: Yes: 375
-2024-09-27 18:43:33,722 - INFO -     Pinnacle: Yes: 491
-2024-09-27 18:43:33,722 - INFO -   Player: Will Levis
-2024-09-27 18:43:33,722 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,722 - INFO -     Pinnacle: Yes: 443
-2024-09-27 18:43:33,722 - INFO -   Player: Chigoziem Okonkwo
-2024-09-27 18:43:33,722 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,722 - INFO -     Pinnacle: Yes: 595
-2024-09-27 18:43:33,723 - INFO -   Player: Treylon Burks
-2024-09-27 18:43:33,723 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,723 - INFO -     Pinnacle: Yes: 924
-2024-09-27 18:43:33,723 - INFO -   Player: Josh Whyle
-2024-09-27 18:43:33,723 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,723 - INFO -     Pinnacle: Yes: 1004
-2024-09-27 18:43:33,724 - INFO - 
-Event: Miami Dolphins vs Tennessee Titans
-2024-09-27 18:43:33,724 - INFO - Market: player_last_td
-2024-09-27 18:43:33,724 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,724 - INFO -   Player: De'Von Achane
-2024-09-27 18:43:33,724 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,724 - INFO -   Player: Tyreek Hill
-2024-09-27 18:43:33,724 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,724 - INFO -   Player: Raheem Mostert
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,725 - INFO -   Player: Jaylen Waddle
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,725 - INFO -   Player: Tyler Huntley
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,725 - INFO -   Player: Jonnu Smith
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,725 - INFO -   Player: Jeff Wilson Jr.
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,725 - INFO -   Player: Braxton Berrios
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,725 - INFO -   Player: Durham Smythe
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,725 - INFO -   Player: Alec Ingold
-2024-09-27 18:43:33,725 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,726 - INFO -   Player: Erik Ezukanma
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,726 - INFO -   Player: Julian Hill
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,726 - INFO -   Player: Tony Pollard
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,726 - INFO -   Player: Tyjae Spears
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,726 - INFO -   Player: Calvin Ridley
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,726 - INFO -   Player: DeAndre Hopkins
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,726 - INFO -   Player: Tyler Boyd
-2024-09-27 18:43:33,726 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,726 - INFO -   Player: Will Levis
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,727 - INFO -   Player: Chigoziem Okonkwo
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,727 - INFO -   Player: Treylon Burks
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,727 - INFO -   Player: Josh Whyle
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,727 - INFO -   Player: Nick Vannett
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,727 - INFO -   Player: Nick Westbrook-Ikhine
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,727 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,727 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,727 - INFO - 
-Event: Minnesota Vikings vs New York Jets
-2024-09-27 18:43:33,727 - INFO - Market: player_last_td
-2024-09-27 18:43:33,728 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,728 - INFO - 
-Event: Jacksonville Jaguars vs Indianapolis Colts
-2024-09-27 18:43:33,728 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,728 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,728 - INFO - 
-Event: Las Vegas Raiders vs Cleveland Browns
-2024-09-27 18:43:33,728 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,729 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,729 - INFO -   Player: Zamir White
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 180
-2024-09-27 18:43:33,729 - INFO -     Pinnacle: Yes: 226
-2024-09-27 18:43:33,729 - INFO -   Player: Jakobi Meyers
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,729 - INFO -     Pinnacle: Yes: 248
-2024-09-27 18:43:33,729 - INFO -   Player: Alexander Mattison
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,729 - INFO -     Pinnacle: Yes: 274
-2024-09-27 18:43:33,729 - INFO -   Player: Tre Tucker
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,729 - INFO -     Pinnacle: Yes: 276
-2024-09-27 18:43:33,729 - INFO -   Player: Gardner Minshew
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,729 - INFO -     Pinnacle: Yes: 780
-2024-09-27 18:43:33,729 - INFO -   Player: Ameer Abdullah
-2024-09-27 18:43:33,729 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,730 - INFO -     Pinnacle: Yes: 1088
-2024-09-27 18:43:33,730 - INFO -   Player: DJ Turner
-2024-09-27 18:43:33,730 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,730 - INFO -     Pinnacle: Yes: 570
-2024-09-27 18:43:33,730 - INFO -   Player: Jerome Ford
-2024-09-27 18:43:33,730 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,730 - INFO -     Pinnacle: Yes: 206
-2024-09-27 18:43:33,730 - INFO -   Player: Amari Cooper
-2024-09-27 18:43:33,730 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,730 - INFO -     Pinnacle: Yes: 265
-2024-09-27 18:43:33,730 - INFO -   Player: D'Onta Foreman
-2024-09-27 18:43:33,730 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,731 - INFO -     Pinnacle: Yes: 287
-2024-09-27 18:43:33,731 - INFO -   Player: Jerry Jeudy
-2024-09-27 18:43:33,731 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,731 - INFO -     Pinnacle: Yes: 314
-2024-09-27 18:43:33,731 - INFO -   Player: Deshaun Watson
-2024-09-27 18:43:33,731 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,731 - INFO -     Pinnacle: Yes: 325
-2024-09-27 18:43:33,732 - INFO -   Player: Elijah Moore
-2024-09-27 18:43:33,732 - INFO -     TAB: Yes: 375
-2024-09-27 18:43:33,732 - INFO -     Pinnacle: Yes: 439
-2024-09-27 18:43:33,732 - INFO -   Player: Jordan Akins
-2024-09-27 18:43:33,732 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,732 - INFO -     Pinnacle: Yes: 459
-2024-09-27 18:43:33,732 - INFO -   Player: Cedric Tillman
-2024-09-27 18:43:33,732 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,732 - INFO -     Pinnacle: Yes: 930
-2024-09-27 18:43:33,732 - INFO - 
-Event: Cincinnati Bengals vs Baltimore Ravens
-2024-09-27 18:43:33,733 - INFO - Market: player_last_td
-2024-09-27 18:43:33,733 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,733 - INFO - 
-Event: Chicago Bears vs Los Angeles Rams
-2024-09-27 18:43:33,733 - INFO - Market: player_last_td
-2024-09-27 18:43:33,733 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,733 - INFO -   Player: DJ Moore
-2024-09-27 18:43:33,733 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,733 - INFO -   Player: D'Andre Swift
-2024-09-27 18:43:33,733 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,733 - INFO -   Player: Roschon Johnson
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,734 - INFO -   Player: Rome Odunze
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,734 - INFO -   Player: Cole Kmet
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,734 - INFO -   Player: Caleb Williams
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,734 - INFO -   Player: Keenan Allen
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,734 - INFO -   Player: Khalil Herbert
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 2200
-2024-09-27 18:43:33,734 - INFO -   Player: Gerald Everett
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,734 - INFO -   Player: DeAndre Carter
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,734 - INFO -   Player: Velus Jones Jr.
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,734 - INFO -   Player: Marcedes Lewis
-2024-09-27 18:43:33,734 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,735 - INFO -   Player: Kyren Williams
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,735 - INFO -   Player: Demarcus Robinson
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,735 - INFO -   Player: Tutu Atwell
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,735 - INFO -   Player: Colby Parkinson
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,735 - INFO -   Player: Tyler Johnson
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,735 - INFO -   Player: Jordan Whittington
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,735 - INFO -   Player: Ronnie Rivers
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,735 - INFO -   Player: Blake Corum
-2024-09-27 18:43:33,735 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,735 - INFO -   Player: Matthew Stafford
-2024-09-27 18:43:33,736 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,736 - INFO -   Player: Hunter Long
-2024-09-27 18:43:33,736 - INFO -     TAB: Yes: 6600
-2024-09-27 18:43:33,736 - INFO -   Player: Davis Allen
-2024-09-27 18:43:33,736 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:33,736 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,736 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,736 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,736 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,742 - INFO - Completed 19/58 tasks
-2024-09-27 18:43:33,742 - INFO - Completed 20/58 tasks
-2024-09-27 18:43:33,743 - INFO - Completed 21/58 tasks
-2024-09-27 18:43:33,743 - INFO - Completed 22/58 tasks
-2024-09-27 18:43:33,743 - INFO - 
-Event: Los Angeles Chargers vs Kansas City Chiefs
-2024-09-27 18:43:33,743 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,743 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,743 - INFO -   Player: J.K. Dobbins
-2024-09-27 18:43:33,743 - INFO -     TAB: Yes: 150
-2024-09-27 18:43:33,743 - INFO -     Pinnacle: Yes: 184
-2024-09-27 18:43:33,743 - INFO -   Player: Quentin Johnston
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 315
-2024-09-27 18:43:33,744 - INFO -   Player: Joshua Palmer
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 370
-2024-09-27 18:43:33,744 - INFO -   Player: Ladd McConkey
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 329
-2024-09-27 18:43:33,744 - INFO -   Player: Gus Edwards
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 426
-2024-09-27 18:43:33,744 - INFO -   Player: Hayden Hurst
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 662
-2024-09-27 18:43:33,744 - INFO -   Player: Will Dissly
-2024-09-27 18:43:33,744 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:33,744 - INFO -     Pinnacle: Yes: 831
-2024-09-27 18:43:33,744 - INFO -   Player: Simi Fehoko
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 1195
-2024-09-27 18:43:33,745 - INFO -   Player: Rashee Rice
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 148
-2024-09-27 18:43:33,745 - INFO -   Player: Carson Steele
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 143
-2024-09-27 18:43:33,745 - INFO -   Player: Travis Kelce
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 221
-2024-09-27 18:43:33,745 - INFO -   Player: Xavier Worthy
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 248
-2024-09-27 18:43:33,745 - INFO -   Player: Patrick Mahomes
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,745 - INFO -     Pinnacle: Yes: 315
-2024-09-27 18:43:33,745 - INFO -   Player: Kareem Hunt
-2024-09-27 18:43:33,745 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,746 - INFO -     Pinnacle: Yes: 346
-2024-09-27 18:43:33,746 - INFO -   Player: Samaje Perine
-2024-09-27 18:43:33,746 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,746 - INFO -     Pinnacle: Yes: 479
-2024-09-27 18:43:33,746 - INFO -   Player: Justin Watson
-2024-09-27 18:43:33,746 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,746 - INFO -     Pinnacle: Yes: 610
-2024-09-27 18:43:33,746 - INFO -   Player: JuJu Smith-Schuster
-2024-09-27 18:43:33,746 - INFO -     TAB: Yes: 650
-2024-09-27 18:43:33,746 - INFO -     Pinnacle: Yes: 780
-2024-09-27 18:43:33,746 - INFO -   Player: Noah Gray
-2024-09-27 18:43:33,747 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,747 - INFO -     Pinnacle: Yes: 713
-2024-09-27 18:43:33,748 - INFO - 
-Event: Los Angeles Chargers vs Kansas City Chiefs
-2024-09-27 18:43:33,748 - INFO - Market: player_last_td
-2024-09-27 18:43:33,748 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,748 - INFO -   Player: J.K. Dobbins
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 800
-2024-09-27 18:43:33,748 - INFO -   Player: Quentin Johnston
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,748 - INFO -   Player: Joshua Palmer
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,748 - INFO -   Player: Ladd McConkey
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,748 - INFO -   Player: Gus Edwards
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,748 - INFO -   Player: Hayden Hurst
-2024-09-27 18:43:33,748 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,749 - INFO -   Player: Justin Herbert
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,749 - INFO -   Player: Will Dissly
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,749 - INFO -   Player: Derius Davis
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,749 - INFO -   Player: Easton Stick
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,749 - INFO -   Player: Simi Fehoko
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,749 - INFO -   Player: Taylor Heinicke
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,749 - INFO -   Player: Rashee Rice
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,749 - INFO -   Player: Carson Steele
-2024-09-27 18:43:33,749 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,750 - INFO -   Player: Travis Kelce
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,750 - INFO -   Player: Xavier Worthy
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,750 - INFO -   Player: Patrick Mahomes
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,750 - INFO -   Player: Kareem Hunt
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,750 - INFO -   Player: Samaje Perine
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,750 - INFO -   Player: Justin Watson
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,750 - INFO -   Player: JuJu Smith-Schuster
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,750 - INFO -   Player: Noah Gray
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:33,750 - INFO -   Player: Mecole Hardman
-2024-09-27 18:43:33,750 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,750 - INFO -   Player: Skyy Moore
-2024-09-27 18:43:33,751 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,751 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,751 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,751 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,751 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,751 - INFO - 
-Event: Detroit Lions vs Seattle Seahawks
-2024-09-27 18:43:33,751 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,751 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,751 - INFO -   Player: David Montgomery
-2024-09-27 18:43:33,752 - INFO -     TAB: Yes: -133
-2024-09-27 18:43:33,752 - INFO -     Pinnacle: Yes: -118
-2024-09-27 18:43:33,752 - INFO -   Player: Jahmyr Gibbs
-2024-09-27 18:43:33,752 - INFO -     TAB: Yes: -105
-2024-09-27 18:43:33,752 - INFO -     Pinnacle: Yes: 110
-2024-09-27 18:43:33,752 - INFO -   Player: Amon-Ra St. Brown
-2024-09-27 18:43:33,752 - INFO -     TAB: Yes: 120
-2024-09-27 18:43:33,752 - INFO -     Pinnacle: Yes: 135
-2024-09-27 18:43:33,752 - INFO -   Player: Jameson Williams
-2024-09-27 18:43:33,752 - INFO -     TAB: Yes: 180
-2024-09-27 18:43:33,752 - INFO -     Pinnacle: Yes: 209
-2024-09-27 18:43:33,752 - INFO -   Player: Sam LaPorta
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 299
-2024-09-27 18:43:33,753 - INFO -   Player: Tim Patrick
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 499
-2024-09-27 18:43:33,753 - INFO -   Player: Jared Goff
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 1060
-2024-09-27 18:43:33,753 - INFO -   Player: Kalif Raymond
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 987
-2024-09-27 18:43:33,753 - INFO -   Player: DK Metcalf
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 170
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 168
-2024-09-27 18:43:33,753 - INFO -   Player: Tyler Lockett
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 244
-2024-09-27 18:43:33,753 - INFO -   Player: Jaxon Smith-Njigba
-2024-09-27 18:43:33,753 - INFO -     TAB: Yes: 225
-2024-09-27 18:43:33,753 - INFO -     Pinnacle: Yes: 240
-2024-09-27 18:43:33,754 - INFO -   Player: Noah Fant
-2024-09-27 18:43:33,754 - INFO -     TAB: Yes: 400
-2024-09-27 18:43:33,754 - INFO -     Pinnacle: Yes: 463
-2024-09-27 18:43:33,754 - INFO -   Player: Geno Smith
-2024-09-27 18:43:33,754 - INFO -     TAB: Yes: 450
-2024-09-27 18:43:33,754 - INFO -     Pinnacle: Yes: 560
-2024-09-27 18:43:33,754 - INFO -   Player: Pharaoh Brown
-2024-09-27 18:43:33,754 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,754 - INFO -     Pinnacle: Yes: 1186
-2024-09-27 18:43:33,755 - INFO - 
-Event: Jacksonville Jaguars vs Indianapolis Colts
-2024-09-27 18:43:33,755 - INFO - Market: player_last_td
-2024-09-27 18:43:33,755 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,755 - INFO - 
-Event: New England Patriots vs Miami Dolphins
-2024-09-27 18:43:33,755 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,755 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,756 - INFO - 
-Event: Baltimore Ravens vs Buffalo Bills
-2024-09-27 18:43:33,756 - INFO - Market: player_last_td
-2024-09-27 18:43:33,756 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,756 - INFO -   Player: Derrick Henry
-2024-09-27 18:43:33,756 - INFO -     TAB: Yes: 500
-2024-09-27 18:43:33,756 - INFO -   Player: Lamar Jackson
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,757 - INFO -   Player: Zay Flowers
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:33,757 - INFO -   Player: Mark Andrews
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,757 - INFO -   Player: Isaiah Likely
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,757 - INFO -   Player: Justice Hill
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 2000
-2024-09-27 18:43:33,757 - INFO -   Player: Rashod Bateman
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,757 - INFO -   Player: Nelson Agholor
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,757 - INFO -   Player: Charlie Kolar
-2024-09-27 18:43:33,757 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,758 - INFO -   Player: Deonte Harty
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,758 - INFO -   Player: Patrick Ricard
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:33,758 - INFO -   Player: Josh Allen
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 700
-2024-09-27 18:43:33,758 - INFO -   Player: James Cook
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:33,758 - INFO -   Player: Khalil Shakir
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:33,758 - INFO -   Player: Dalton Kincaid
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 1400
-2024-09-27 18:43:33,758 - INFO -   Player: Keon Coleman
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:33,758 - INFO -   Player: Curtis Samuel
-2024-09-27 18:43:33,758 - INFO -     TAB: Yes: 1800
-2024-09-27 18:43:33,759 - INFO -   Player: Ty Johnson
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,759 - INFO -   Player: Dawson Knox
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,759 - INFO -   Player: Ray Davis
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,759 - INFO -   Player: Mack Hollins
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:33,759 - INFO -   Player: Marquez Valdes-Scantling
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:33,759 - INFO -   Player: Any Other Player
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:33,759 - INFO -   Player: No Touchdown
-2024-09-27 18:43:33,759 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:33,760 - INFO - Completed 23/58 tasks
-2024-09-27 18:43:33,760 - INFO - Completed 24/58 tasks
-2024-09-27 18:43:33,760 - INFO - Completed 25/58 tasks
-2024-09-27 18:43:33,760 - INFO - Completed 26/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 27/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 28/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 29/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 30/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 31/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 32/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 33/58 tasks
-2024-09-27 18:43:33,761 - INFO - Completed 34/58 tasks
-2024-09-27 18:43:33,761 - INFO - 
-Event: Denver Broncos vs Las Vegas Raiders
-2024-09-27 18:43:33,761 - INFO - Market: player_last_td
-2024-09-27 18:43:33,761 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,761 - INFO - 
-Event: Denver Broncos vs Las Vegas Raiders
-2024-09-27 18:43:33,761 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,761 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,762 - INFO - Completed 35/58 tasks
-2024-09-27 18:43:33,762 - INFO - Completed 36/58 tasks
-2024-09-27 18:43:33,762 - INFO - Completed 37/58 tasks
-2024-09-27 18:43:33,762 - INFO - Completed 38/58 tasks
-2024-09-27 18:43:33,762 - INFO - Completed 39/58 tasks
-2024-09-27 18:43:33,762 - INFO - Completed 40/58 tasks
-2024-09-27 18:43:33,763 - INFO - 
-Event: San Francisco 49ers vs Arizona Cardinals
-2024-09-27 18:43:33,763 - INFO - Market: player_last_td
-2024-09-27 18:43:33,763 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,764 - INFO - 
-Event: San Francisco 49ers vs Arizona Cardinals
-2024-09-27 18:43:33,764 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,764 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,764 - INFO - Completed 41/58 tasks
-2024-09-27 18:43:33,764 - INFO - Completed 42/58 tasks
-2024-09-27 18:43:33,764 - INFO - Completed 43/58 tasks
-2024-09-27 18:43:33,764 - INFO - Completed 44/58 tasks
-2024-09-27 18:43:33,799 - INFO - 
-Event: Cincinnati Bengals vs Baltimore Ravens
-2024-09-27 18:43:33,799 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,799 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,800 - INFO - Completed 45/58 tasks
-2024-09-27 18:43:33,813 - INFO - 
-Event: Baltimore Ravens vs Buffalo Bills
-2024-09-27 18:43:33,813 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,813 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:33,813 - INFO -   Player: Derrick Henry
-2024-09-27 18:43:33,813 - INFO -     TAB: Yes: -147
-2024-09-27 18:43:33,813 - INFO -     Pinnacle: Yes: -150
-2024-09-27 18:43:33,813 - INFO -   Player: Lamar Jackson
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 130
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 159
-2024-09-27 18:43:33,814 - INFO -   Player: Zay Flowers
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 226
-2024-09-27 18:43:33,814 - INFO -   Player: Mark Andrews
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 250
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 294
-2024-09-27 18:43:33,814 - INFO -   Player: Isaiah Likely
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 331
-2024-09-27 18:43:33,814 - INFO -   Player: Justice Hill
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 411
-2024-09-27 18:43:33,814 - INFO -   Player: Rashod Bateman
-2024-09-27 18:43:33,814 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,814 - INFO -     Pinnacle: Yes: 394
-2024-09-27 18:43:33,814 - INFO -   Player: Nelson Agholor
-2024-09-27 18:43:33,815 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,815 - INFO -     Pinnacle: Yes: 654
-2024-09-27 18:43:33,815 - INFO -   Player: Josh Allen
-2024-09-27 18:43:33,815 - INFO -     TAB: Yes: 120
-2024-09-27 18:43:33,815 - INFO -     Pinnacle: Yes: 124
-2024-09-27 18:43:33,815 - INFO -   Player: James Cook
-2024-09-27 18:43:33,815 - INFO -     TAB: Yes: 140
-2024-09-27 18:43:33,815 - INFO -     Pinnacle: Yes: 143
-2024-09-27 18:43:33,815 - INFO -   Player: Khalil Shakir
-2024-09-27 18:43:33,815 - INFO -     TAB: Yes: 200
-2024-09-27 18:43:33,815 - INFO -     Pinnacle: Yes: 245
-2024-09-27 18:43:33,815 - INFO -   Player: Dalton Kincaid
-2024-09-27 18:43:33,815 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,815 - INFO -     Pinnacle: Yes: 297
-2024-09-27 18:43:33,816 - INFO -   Player: Keon Coleman
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 275
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 319
-2024-09-27 18:43:33,816 - INFO -   Player: Curtis Samuel
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 350
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 419
-2024-09-27 18:43:33,816 - INFO -   Player: Ty Johnson
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 687
-2024-09-27 18:43:33,816 - INFO -   Player: Dawson Knox
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 640
-2024-09-27 18:43:33,816 - INFO -   Player: Ray Davis
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 550
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 629
-2024-09-27 18:43:33,816 - INFO -   Player: Mack Hollins
-2024-09-27 18:43:33,816 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,816 - INFO -     Pinnacle: Yes: 549
-2024-09-27 18:43:33,817 - INFO -   Player: Marquez Valdes-Scantling
-2024-09-27 18:43:33,817 - INFO -     TAB: Yes: 600
-2024-09-27 18:43:33,817 - INFO -     Pinnacle: Yes: 739
-2024-09-27 18:43:33,817 - INFO - Completed 46/58 tasks
-2024-09-27 18:43:33,842 - INFO - 
-Event: New England Patriots vs Miami Dolphins
-2024-09-27 18:43:33,842 - INFO - Market: player_last_td
-2024-09-27 18:43:33,842 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,842 - INFO - Completed 47/58 tasks
-2024-09-27 18:43:33,843 - INFO - 
+2024-10-03 22:14:36,878 - INFO - Market: player_last_td
+2024-10-03 22:14:36,878 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,878 - INFO - 
 Event: Houston Texans vs Buffalo Bills
-2024-09-27 18:43:33,843 - INFO - Market: player_anytime_td
-2024-09-27 18:43:33,843 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,843 - INFO - Completed 48/58 tasks
-2024-09-27 18:43:33,844 - INFO - 
+2024-10-03 22:14:36,878 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,878 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,878 - INFO -   Player: C.J. Stroud
+2024-10-03 22:14:36,878 - INFO -     Fliff: Yes: 510
+2024-10-03 22:14:36,878 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,878 - INFO -   Player: Cade Stover
+2024-10-03 22:14:36,878 - INFO -     Fliff: Yes: 750
+2024-10-03 22:14:36,878 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,879 - INFO -   Player: Dalton Kincaid
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 225
+2024-10-03 22:14:36,879 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,879 - INFO -   Player: Dalton Schultz
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 290
+2024-10-03 22:14:36,879 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,879 - INFO -   Player: Dawson Knox
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 560
+2024-10-03 22:14:36,879 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,879 - INFO -   Player: James Cook
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 105
+2024-10-03 22:14:36,879 - INFO -     TAB: Yes: 115
+2024-10-03 22:14:36,879 - INFO -   Player: Josh Allen
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 150
+2024-10-03 22:14:36,879 - INFO -     TAB: Yes: 130
+2024-10-03 22:14:36,879 - INFO -   Player: Keon Coleman
+2024-10-03 22:14:36,879 - INFO -     Fliff: Yes: 215
+2024-10-03 22:14:36,880 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,880 - INFO -   Player: Khalil Shakir
+2024-10-03 22:14:36,880 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,880 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,880 - INFO -   Player: Mack Hollins
+2024-10-03 22:14:36,880 - INFO -     Fliff: Yes: 350
+2024-10-03 22:14:36,880 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,880 - INFO -   Player: Nico Collins
+2024-10-03 22:14:36,880 - INFO -     Fliff: Yes: 120
+2024-10-03 22:14:36,880 - INFO -     TAB: Yes: 125
+2024-10-03 22:14:36,881 - INFO -   Player: Ray Davis
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 465
+2024-10-03 22:14:36,881 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,881 - INFO -   Player: Reggie Gilliam
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 1240
+2024-10-03 22:14:36,881 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,881 - INFO -   Player: Robert Woods
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 605
+2024-10-03 22:14:36,881 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,881 - INFO -   Player: Stefon Diggs
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 170
+2024-10-03 22:14:36,881 - INFO -     TAB: Yes: 170
+2024-10-03 22:14:36,881 - INFO -   Player: Tank Dell
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 235
+2024-10-03 22:14:36,881 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,881 - INFO -   Player: Ty Johnson
+2024-10-03 22:14:36,881 - INFO -     Fliff: Yes: 625
+2024-10-03 22:14:36,882 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,882 - INFO -   Player: Xavier Hutchinson
+2024-10-03 22:14:36,882 - INFO -     Fliff: Yes: 1265
+2024-10-03 22:14:36,882 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,884 - INFO - 
+Event: Minnesota Vikings vs New York Jets
+2024-10-03 22:14:36,884 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,884 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,884 - INFO -   Player: Aaron Jones
+2024-10-03 22:14:36,884 - INFO -     Fliff: Yes: 105
+2024-10-03 22:14:36,884 - INFO -     TAB: Yes: 105
+2024-10-03 22:14:36,884 - INFO -   Player: Aaron Rodgers
+2024-10-03 22:14:36,884 - INFO -     Fliff: Yes: 775
+2024-10-03 22:14:36,884 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,884 - INFO -   Player: Allen Lazard
+2024-10-03 22:14:36,884 - INFO -     Fliff: Yes: 280
+2024-10-03 22:14:36,884 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,884 - INFO -   Player: Braelon Allen
+2024-10-03 22:14:36,884 - INFO -     Fliff: Yes: 255
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 275
+2024-10-03 22:14:36,885 - INFO -   Player: Brandon Powell
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 685
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,885 - INFO -   Player: Breece Hall
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 110
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 120
+2024-10-03 22:14:36,885 - INFO -   Player: C.J. Ham
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 1315
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,885 - INFO -   Player: Garrett Wilson
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 175
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,885 - INFO -   Player: Jalen Nailor
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 420
+2024-10-03 22:14:36,885 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,885 - INFO -   Player: Jeremy Ruckert
+2024-10-03 22:14:36,885 - INFO -     Fliff: Yes: 750
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,886 - INFO -   Player: Johnny Mundt
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 485
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,886 - INFO -   Player: Jordan Addison
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 225
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 275
+2024-10-03 22:14:36,886 - INFO -   Player: Josh Oliver
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 670
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,886 - INFO -   Player: Justin Jefferson
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 100
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 115
+2024-10-03 22:14:36,886 - INFO -   Player: Mike Williams
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 320
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,886 - INFO -   Player: Robert Tonyan
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 1195
+2024-10-03 22:14:36,886 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,886 - INFO -   Player: Sam Darnold
+2024-10-03 22:14:36,886 - INFO -     Fliff: Yes: 510
+2024-10-03 22:14:36,887 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,887 - INFO -   Player: Trent Sherfield
+2024-10-03 22:14:36,887 - INFO -     Fliff: Yes: 1025
+2024-10-03 22:14:36,887 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,887 - INFO -   Player: Ty Chandler
+2024-10-03 22:14:36,887 - INFO -     Fliff: Yes: 305
+2024-10-03 22:14:36,887 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,887 - INFO -   Player: Tyler Conklin
+2024-10-03 22:14:36,887 - INFO -     Fliff: Yes: 355
+2024-10-03 22:14:36,887 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,887 - INFO -   Player: Xavier Gipson
+2024-10-03 22:14:36,887 - INFO -     Fliff: Yes: 720
+2024-10-03 22:14:36,887 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,888 - INFO - 
+Event: Cincinnati Bengals vs Baltimore Ravens
+2024-10-03 22:14:36,888 - INFO - Market: player_last_td
+2024-10-03 22:14:36,888 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,888 - INFO -   Player: Ja'Marr Chase
+2024-10-03 22:14:36,888 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,888 - INFO -   Player: Zack Moss
+2024-10-03 22:14:36,888 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,888 - INFO -   Player: Chase Brown
+2024-10-03 22:14:36,888 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,889 - INFO -   Player: Tee Higgins
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,889 - INFO -   Player: Andrei Iosivas
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,889 - INFO -   Player: Mike Gesicki
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,889 - INFO -   Player: Erick All
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,889 - INFO -   Player: Joe Burrow
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,889 - INFO -   Player: Drew Sample
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,889 - INFO -   Player: Jermaine Burton
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,889 - INFO -   Player: Derrick Henry
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,889 - INFO -   Player: Lamar Jackson
+2024-10-03 22:14:36,889 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,890 - INFO -   Player: Zay Flowers
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,890 - INFO -   Player: Justice Hill
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,890 - INFO -   Player: Mark Andrews
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,890 - INFO -   Player: Rashod Bateman
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,890 - INFO -   Player: Isaiah Likely
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,890 - INFO -   Player: Nelson Agholor
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,890 - INFO -   Player: Charlie Kolar
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,890 - INFO -   Player: Deonte Harty
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 10000
+2024-10-03 22:14:36,890 - INFO -   Player: Patrick Ricard
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 10000
+2024-10-03 22:14:36,890 - INFO -   Player: Tylan Wallace
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 10000
+2024-10-03 22:14:36,890 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,890 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,890 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,891 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,891 - INFO - 
+Event: San Francisco 49ers vs Arizona Cardinals
+2024-10-03 22:14:36,891 - INFO - Market: player_last_td
+2024-10-03 22:14:36,891 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,891 - INFO -   Player: Jordan Mason
+2024-10-03 22:14:36,891 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,891 - INFO -   Player: Deebo Samuel
+2024-10-03 22:14:36,891 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,891 - INFO -   Player: Brandon Aiyuk
+2024-10-03 22:14:36,891 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,891 - INFO -   Player: George Kittle
+2024-10-03 22:14:36,891 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,891 - INFO -   Player: Jauan Jennings
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,892 - INFO -   Player: Brock Purdy
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,892 - INFO -   Player: Isaac Guerendo
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,892 - INFO -   Player: Kyle Juszczyk
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,892 - INFO -   Player: Eric Saubert
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,892 - INFO -   Player: Patrick Taylor
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,892 - INFO -   Player: Chris Conley
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,892 - INFO -   Player: James Conner
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,892 - INFO -   Player: Marvin Harrison Jr.
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,892 - INFO -   Player: Kyler Murray
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,892 - INFO -   Player: Trey McBride
+2024-10-03 22:14:36,892 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,892 - INFO -   Player: Greg Dortch
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,893 - INFO -   Player: Michael Wilson
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,893 - INFO -   Player: Elijah Higgins
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,893 - INFO -   Player: Trey Benson
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,893 - INFO -   Player: Emari Demercado
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,893 - INFO -   Player: Tip Reiman
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,893 - INFO -   Player: DeeJay Dallas
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,893 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,893 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,893 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,894 - INFO - 
+Event: New England Patriots vs Miami Dolphins
+2024-10-03 22:14:36,894 - INFO - Market: player_last_td
+2024-10-03 22:14:36,894 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,894 - INFO -   Player: Rhamondre Stevenson
+2024-10-03 22:14:36,894 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,894 - INFO -   Player: Antonio Gibson
+2024-10-03 22:14:36,894 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,894 - INFO -   Player: Ja'Lynn Polk
+2024-10-03 22:14:36,894 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,894 - INFO -   Player: Hunter Henry
+2024-10-03 22:14:36,894 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,894 - INFO -   Player: DeMario Douglas
+2024-10-03 22:14:36,894 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,894 - INFO -   Player: Jacoby Brissett
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,895 - INFO -   Player: K.J. Osborn
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,895 - INFO -   Player: Austin Hooper
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,895 - INFO -   Player: JaMycal Hasty
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,895 - INFO -   Player: Tyquan Thornton
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,895 - INFO -   Player: Kayshon Boutte
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,895 - INFO -   Player: De'Von Achane
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,895 - INFO -   Player: Tyreek Hill
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,895 - INFO -   Player: Tyler Huntley
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,895 - INFO -   Player: Jaylen Waddle
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,895 - INFO -   Player: Raheem Mostert
+2024-10-03 22:14:36,895 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,896 - INFO -   Player: Jaylen Wright
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,896 - INFO -   Player: Odell Beckham Jr.
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,896 - INFO -   Player: Jonnu Smith
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,896 - INFO -   Player: Braxton Berrios
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,896 - INFO -   Player: Durham Smythe
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,896 - INFO -   Player: Alec Ingold
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,896 - INFO -   Player: Malik Washington
+2024-10-03 22:14:36,896 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,897 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,897 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,897 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,897 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,897 - INFO - 
+Event: Philadelphia Eagles vs Cleveland Browns
+2024-10-03 22:14:36,897 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,897 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,899 - INFO - Completed 2/52 tasks
+2024-10-03 22:14:36,899 - INFO - Completed 3/52 tasks
+2024-10-03 22:14:36,899 - INFO - Completed 4/52 tasks
+2024-10-03 22:14:36,899 - INFO - Completed 5/52 tasks
+2024-10-03 22:14:36,899 - INFO - Completed 6/52 tasks
+2024-10-03 22:14:36,899 - INFO - 
+Event: Kansas City Chiefs vs New Orleans Saints
+2024-10-03 22:14:36,900 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,900 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,900 - INFO -   Player: Adam Prentice
+2024-10-03 22:14:36,900 - INFO -     Fliff: Yes: 1070
+2024-10-03 22:14:36,900 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,900 - INFO -   Player: Alvin Kamara
+2024-10-03 22:14:36,900 - INFO -     Fliff: Yes: 105
+2024-10-03 22:14:36,900 - INFO -     TAB: Yes: 110
+2024-10-03 22:14:36,900 - INFO -   Player: Carson Steele
+2024-10-03 22:14:36,900 - INFO -     Fliff: Yes: 170
+2024-10-03 22:14:36,900 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,900 - INFO -   Player: Cedrick Wilson Jr.
+2024-10-03 22:14:36,900 - INFO -     Fliff: Yes: 710
+2024-10-03 22:14:36,900 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,900 - INFO -   Player: Chris Olave
+2024-10-03 22:14:36,900 - INFO -     Fliff: Yes: 210
+2024-10-03 22:14:36,900 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,900 - INFO -   Player: Clyde Edwards-Helaire
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 475
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,901 - INFO -   Player: Derek Carr
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 860
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,901 - INFO -   Player: Foster Moreau
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 655
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,901 - INFO -   Player: JuJu Smith-Schuster
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 455
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,901 - INFO -   Player: Justin Watson
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 360
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,901 - INFO -   Player: Juwan Johnson
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 515
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,901 - INFO -   Player: Kareem Hunt
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 160
+2024-10-03 22:14:36,901 - INFO -     TAB: Yes: 130
+2024-10-03 22:14:36,901 - INFO -   Player: Mason Tipton
+2024-10-03 22:14:36,901 - INFO -     Fliff: Yes: 790
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,902 - INFO -   Player: Mecole Hardman
+2024-10-03 22:14:36,902 - INFO -     Fliff: Yes: 805
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,902 - INFO -   Player: Noah Gray
+2024-10-03 22:14:36,902 - INFO -     Fliff: Yes: 570
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,902 - INFO -   Player: Patrick Mahomes
+2024-10-03 22:14:36,902 - INFO -     Fliff: Yes: 310
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,902 - INFO -   Player: Rashid Shaheed
+2024-10-03 22:14:36,902 - INFO -     Fliff: Yes: 220
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,902 - INFO -   Player: Samaje Perine
+2024-10-03 22:14:36,902 - INFO -     Fliff: Yes: 470
+2024-10-03 22:14:36,902 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,903 - INFO -   Player: Skyy Moore
+2024-10-03 22:14:36,903 - INFO -     Fliff: Yes: 720
+2024-10-03 22:14:36,903 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,903 - INFO -   Player: Travis Kelce
+2024-10-03 22:14:36,903 - INFO -     Fliff: Yes: 130
+2024-10-03 22:14:36,903 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,903 - INFO -   Player: Xavier Worthy
+2024-10-03 22:14:36,903 - INFO -     Fliff: Yes: 180
+2024-10-03 22:14:36,903 - INFO -     TAB: Yes: 175
+2024-10-03 22:14:36,903 - INFO - 
+Event: Houston Texans vs Buffalo Bills
+2024-10-03 22:14:36,904 - INFO - Market: player_last_td
+2024-10-03 22:14:36,904 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,904 - INFO -   Player: Joe Mixon
+2024-10-03 22:14:36,904 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,904 - INFO -   Player: Cam Akers
+2024-10-03 22:14:36,904 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,904 - INFO -   Player: Nico Collins
+2024-10-03 22:14:36,904 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,904 - INFO -   Player: Stefon Diggs
+2024-10-03 22:14:36,904 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,905 - INFO -   Player: Dameon Pierce
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,905 - INFO -   Player: Tank Dell
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,905 - INFO -   Player: Dalton Schultz
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,905 - INFO -   Player: Dare Ogunbowale
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,905 - INFO -   Player: C.J. Stroud
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,905 - INFO -   Player: Robert Woods
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 2800
+2024-10-03 22:14:36,905 - INFO -   Player: Cade Stover
+2024-10-03 22:14:36,905 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,905 - INFO -   Player: Xavier Hutchinson
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,906 - INFO -   Player: James Cook
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,906 - INFO -   Player: Josh Allen
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,906 - INFO -   Player: Keon Coleman
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,906 - INFO -   Player: Khalil Shakir
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,906 - INFO -   Player: Dalton Kincaid
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,906 - INFO -   Player: Curtis Samuel
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,906 - INFO -   Player: Mack Hollins
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,906 - INFO -   Player: Ray Davis
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 2800
+2024-10-03 22:14:36,906 - INFO -   Player: Marquez Valdes-Scantling
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,906 - INFO -   Player: Dawson Knox
+2024-10-03 22:14:36,906 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,907 - INFO -   Player: Ty Johnson
+2024-10-03 22:14:36,907 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,907 - INFO -   Player: Reggie Gilliam
+2024-10-03 22:14:36,907 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,907 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,907 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,907 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,907 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,907 - INFO - 
 Event: Chicago Bears vs Carolina Panthers
-2024-09-27 18:43:33,844 - INFO - Market: player_last_td
-2024-09-27 18:43:33,844 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:33,844 - INFO - Completed 49/58 tasks
-2024-09-27 18:43:34,971 - INFO - 
-Event: Las Vegas Raiders vs Cleveland Browns
-2024-09-27 18:43:34,971 - INFO - Market: player_last_td
-2024-09-27 18:43:34,971 - INFO - Common outcomes across all bookmakers:
-2024-09-27 18:43:34,971 - INFO -   Player: Davante Adams
-2024-09-27 18:43:34,971 - INFO -     TAB: Yes: 750
-2024-09-27 18:43:34,971 - INFO -   Player: Zamir White
-2024-09-27 18:43:34,971 - INFO -     TAB: Yes: 900
-2024-09-27 18:43:34,972 - INFO -   Player: Jakobi Meyers
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:34,972 - INFO -   Player: Alexander Mattison
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,972 - INFO -   Player: Tre Tucker
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,972 - INFO -   Player: Brock Bowers
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,972 - INFO -   Player: Gardner Minshew
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:34,972 - INFO -   Player: Michael Mayer
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:34,972 - INFO -   Player: Ameer Abdullah
-2024-09-27 18:43:34,972 - INFO -     TAB: Yes: 5000
-2024-09-27 18:43:34,972 - INFO -   Player: DJ Turner
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 4000
-2024-09-27 18:43:34,973 - INFO -   Player: Jerome Ford
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:34,973 - INFO -   Player: Amari Cooper
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1000
-2024-09-27 18:43:34,973 - INFO -   Player: D'Onta Foreman
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,973 - INFO -   Player: Jerry Jeudy
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,973 - INFO -   Player: Deshaun Watson
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1200
-2024-09-27 18:43:34,973 - INFO -   Player: David Njoku
-2024-09-27 18:43:34,973 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:34,974 - INFO -   Player: Elijah Moore
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 1600
-2024-09-27 18:43:34,974 - INFO -   Player: Jordan Akins
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:34,974 - INFO -   Player: Pierre Strong Jr.
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 2500
-2024-09-27 18:43:34,974 - INFO -   Player: Cedric Tillman
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 3300
-2024-09-27 18:43:34,974 - INFO -   Player: Blake Whiteheart
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 10000
-2024-09-27 18:43:34,974 - INFO -   Player: Any Other Player
-2024-09-27 18:43:34,974 - INFO -     TAB: Yes: 300
-2024-09-27 18:43:34,975 - INFO -   Player: No Touchdown
-2024-09-27 18:43:34,975 - INFO -     TAB: Yes: 8000
-2024-09-27 18:43:34,975 - INFO - Completed 50/58 tasks
-2024-09-27 18:43:35,082 - INFO - 
+2024-10-03 22:14:36,907 - INFO - Market: player_last_td
+2024-10-03 22:14:36,907 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,907 - INFO -   Player: D'Andre Swift
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,908 - INFO -   Player: DJ Moore
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,908 - INFO -   Player: Keenan Allen
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,908 - INFO -   Player: Roschon Johnson
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,908 - INFO -   Player: Cole Kmet
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,908 - INFO -   Player: Rome Odunze
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,908 - INFO -   Player: Caleb Williams
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,908 - INFO -   Player: Khalil Herbert
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,908 - INFO -   Player: Gerald Everett
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,908 - INFO -   Player: Marcedes Lewis
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,908 - INFO -   Player: DeAndre Carter
+2024-10-03 22:14:36,908 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,908 - INFO -   Player: Chuba Hubbard
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,909 - INFO -   Player: Diontae Johnson
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,909 - INFO -   Player: Xavier Legette
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,909 - INFO -   Player: Jonathan Mingo
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,909 - INFO -   Player: Miles Sanders
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,909 - INFO -   Player: Tommy Tremble
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 2800
+2024-10-03 22:14:36,909 - INFO -   Player: Ja'Tavion Sanders
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,909 - INFO -   Player: Andy Dalton
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,909 - INFO -   Player: David Moore
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,909 - INFO -   Player: Ian Thomas
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,909 - INFO -   Player: Raheem Blackshear
+2024-10-03 22:14:36,909 - INFO -     TAB: Yes: 10000
+2024-10-03 22:14:36,909 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,910 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,910 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,910 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,910 - INFO - 
+Event: Chicago Bears vs Carolina Panthers
+2024-10-03 22:14:36,910 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,910 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,910 - INFO -   Player: Andy Dalton
+2024-10-03 22:14:36,910 - INFO -     Fliff: Yes: 790
+2024-10-03 22:14:36,910 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,910 - INFO -   Player: Caleb Williams
+2024-10-03 22:14:36,910 - INFO -     Fliff: Yes: 395
+2024-10-03 22:14:36,910 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,910 - INFO -   Player: Chuba Hubbard
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 115
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 135
+2024-10-03 22:14:36,911 - INFO -   Player: Cole Kmet
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 320
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,911 - INFO -   Player: D'Andre Swift
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 140
+2024-10-03 22:14:36,911 - INFO -   Player: DJ Moore
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 190
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 180
+2024-10-03 22:14:36,911 - INFO -   Player: David Moore
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 905
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,911 - INFO -   Player: DeAndre Carter
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 1250
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,911 - INFO -   Player: Diontae Johnson
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 175
+2024-10-03 22:14:36,911 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,911 - INFO -   Player: Gerald Everett
+2024-10-03 22:14:36,911 - INFO -     Fliff: Yes: 840
+2024-10-03 22:14:36,912 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,912 - INFO -   Player: Jonathan Mingo
+2024-10-03 22:14:36,912 - INFO -     Fliff: Yes: 285
+2024-10-03 22:14:36,912 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,912 - INFO -   Player: Keenan Allen
+2024-10-03 22:14:36,912 - INFO -     Fliff: Yes: 225
+2024-10-03 22:14:36,912 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,912 - INFO -   Player: Khalil Herbert
+2024-10-03 22:14:36,912 - INFO -     Fliff: Yes: 570
+2024-10-03 22:14:36,912 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,912 - INFO -   Player: Marcedes Lewis
+2024-10-03 22:14:36,912 - INFO -     Fliff: Yes: 1145
+2024-10-03 22:14:36,912 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,912 - INFO -   Player: Miles Sanders
+2024-10-03 22:14:36,913 - INFO -     Fliff: Yes: 370
+2024-10-03 22:14:36,913 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,913 - INFO -   Player: Raheem Blackshear
+2024-10-03 22:14:36,913 - INFO -     Fliff: Yes: 1230
+2024-10-03 22:14:36,913 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,913 - INFO -   Player: Rome Odunze
+2024-10-03 22:14:36,913 - INFO -     Fliff: Yes: 315
+2024-10-03 22:14:36,913 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,913 - INFO -   Player: Roschon Johnson
+2024-10-03 22:14:36,913 - INFO -     Fliff: Yes: 260
+2024-10-03 22:14:36,913 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,913 - INFO -   Player: Tommy Tremble
+2024-10-03 22:14:36,913 - INFO -     Fliff: Yes: 475
+2024-10-03 22:14:36,913 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,914 - INFO -   Player: Xavier Legette
+2024-10-03 22:14:36,914 - INFO -     Fliff: Yes: 220
+2024-10-03 22:14:36,914 - INFO -     TAB: Yes: 275
+2024-10-03 22:14:36,914 - INFO - 
 Event: Pittsburgh Steelers vs Dallas Cowboys
-2024-09-27 18:43:35,082 - INFO - Market: player_anytime_td
-2024-09-27 18:43:35,083 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,083 - INFO - Completed 51/58 tasks
-2024-09-27 18:43:35,153 - INFO - 
-Event: Los Angeles Rams vs Green Bay Packers
-2024-09-27 18:43:35,154 - INFO - Market: player_anytime_td
-2024-09-27 18:43:35,154 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,154 - INFO - Completed 52/58 tasks
-2024-09-27 18:43:35,226 - INFO - 
+2024-10-03 22:14:36,914 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,914 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,914 - INFO -   Player: Calvin Austin III
+2024-10-03 22:14:36,914 - INFO -     Fliff: Yes: 425
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,915 - INFO -   Player: CeeDee Lamb
+2024-10-03 22:14:36,915 - INFO -     Fliff: Yes: 110
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 100
+2024-10-03 22:14:36,915 - INFO -   Player: Dak Prescott
+2024-10-03 22:14:36,915 - INFO -     Fliff: Yes: 460
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,915 - INFO -   Player: Deuce Vaughn
+2024-10-03 22:14:36,915 - INFO -     Fliff: Yes: 950
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,915 - INFO -   Player: Ezekiel Elliott
+2024-10-03 22:14:36,915 - INFO -     Fliff: Yes: 270
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,915 - INFO -   Player: George Pickens
+2024-10-03 22:14:36,915 - INFO -     Fliff: Yes: 160
+2024-10-03 22:14:36,915 - INFO -     TAB: Yes: 180
+2024-10-03 22:14:36,915 - INFO -   Player: Hunter Luepke
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 1025
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,916 - INFO -   Player: Jake Ferguson
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 240
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,916 - INFO -   Player: Jalen Brooks
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 555
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,916 - INFO -   Player: Jalen Tolbert
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 270
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,916 - INFO -   Player: Justin Fields
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,916 - INFO -   Player: KaVontae Turpin
+2024-10-03 22:14:36,916 - INFO -     Fliff: Yes: 425
+2024-10-03 22:14:36,916 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,917 - INFO -   Player: Luke Schoonmaker
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: 870
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,917 - INFO -   Player: Najee Harris
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: -130
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 105
+2024-10-03 22:14:36,917 - INFO -   Player: Pat Freiermuth
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: 295
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,917 - INFO -   Player: Rico Dowdle
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,917 - INFO -   Player: Ryan Flournoy
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: 1105
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,917 - INFO -   Player: Scott Miller
+2024-10-03 22:14:36,917 - INFO -     Fliff: Yes: 800
+2024-10-03 22:14:36,917 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,917 - INFO -   Player: Van Jefferson
+2024-10-03 22:14:36,918 - INFO -     Fliff: Yes: 450
+2024-10-03 22:14:36,918 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,919 - INFO - Completed 7/52 tasks
+2024-10-03 22:14:36,919 - INFO - Completed 8/52 tasks
+2024-10-03 22:14:36,919 - INFO - Completed 9/52 tasks
+2024-10-03 22:14:36,919 - INFO - Completed 10/52 tasks
+2024-10-03 22:14:36,919 - INFO - Completed 11/52 tasks
+2024-10-03 22:14:36,919 - INFO - 
+Event: San Francisco 49ers vs Arizona Cardinals
+2024-10-03 22:14:36,920 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,920 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,920 - INFO -   Player: Brandon Aiyuk
+2024-10-03 22:14:36,920 - INFO -     Fliff: Yes: 150
+2024-10-03 22:14:36,920 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,920 - INFO -   Player: Brock Purdy
+2024-10-03 22:14:36,920 - INFO -     Fliff: Yes: 460
+2024-10-03 22:14:36,920 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,920 - INFO -   Player: Chris Conley
+2024-10-03 22:14:36,920 - INFO -     Fliff: Yes: 1125
+2024-10-03 22:14:36,920 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,920 - INFO -   Player: Deebo Samuel
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: -120
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: -111
+2024-10-03 22:14:36,921 - INFO -   Player: Emari Demercado
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: 635
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,921 - INFO -   Player: George Kittle
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: 150
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: 160
+2024-10-03 22:14:36,921 - INFO -   Player: Greg Dortch
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: 275
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,921 - INFO -   Player: Isaac Guerendo
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: 595
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,921 - INFO -   Player: James Conner
+2024-10-03 22:14:36,921 - INFO -     Fliff: Yes: 100
+2024-10-03 22:14:36,921 - INFO -     TAB: Yes: 105
+2024-10-03 22:14:36,921 - INFO -   Player: Jauan Jennings
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,922 - INFO -   Player: Jordan Mason
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: -205
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: -182
+2024-10-03 22:14:36,922 - INFO -   Player: Kyle Juszczyk
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: 690
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,922 - INFO -   Player: Kyler Murray
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: 190
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,922 - INFO -   Player: Marvin Harrison Jr.
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: 185
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: 160
+2024-10-03 22:14:36,922 - INFO -   Player: Michael Wilson
+2024-10-03 22:14:36,922 - INFO -     Fliff: Yes: 280
+2024-10-03 22:14:36,922 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,922 - INFO -   Player: Patrick Taylor
+2024-10-03 22:14:36,923 - INFO -     Fliff: Yes: 830
+2024-10-03 22:14:36,923 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,923 - INFO -   Player: Trey Benson
+2024-10-03 22:14:36,923 - INFO -     Fliff: Yes: 535
+2024-10-03 22:14:36,923 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,923 - INFO -   Player: Trey McBride
+2024-10-03 22:14:36,923 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,923 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,923 - INFO - 
+Event: Jacksonville Jaguars vs Indianapolis Colts
+2024-10-03 22:14:36,923 - INFO - Market: player_last_td
+2024-10-03 22:14:36,923 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,923 - INFO -   Player: Travis Etienne Jr.
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,924 - INFO -   Player: Christian Kirk
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,924 - INFO -   Player: Brian Thomas Jr
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,924 - INFO -   Player: Evan Engram
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,924 - INFO -   Player: Brenton Strange
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,924 - INFO -   Player: Gabe Davis
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,924 - INFO -   Player: Tank Bigsby
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,924 - INFO -   Player: Trevor Lawrence
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,924 - INFO -   Player: Luke Farrell
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,924 - INFO -   Player: D'Ernest Johnson
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,924 - INFO -   Player: Parker Washington
+2024-10-03 22:14:36,924 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,924 - INFO -   Player: Devin Duvernay
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,925 - INFO -   Player: Jonathan Taylor
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,925 - INFO -   Player: Trey Sermon
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,925 - INFO -   Player: Anthony Richardson
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,925 - INFO -   Player: Michael Pittman Jr.
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,925 - INFO -   Player: Josh Downs
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,925 - INFO -   Player: Alec Pierce
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,925 - INFO -   Player: Tyler Goodson
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,925 - INFO -   Player: Adonai Mitchell
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,925 - INFO -   Player: Kylen Granson
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,925 - INFO -   Player: Mo Alie-Cox
+2024-10-03 22:14:36,925 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,925 - INFO -   Player: Drew Ogletree
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,926 - INFO -   Player: Ashton Dulin
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,926 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,926 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,926 - INFO - 
+Event: Denver Broncos vs Las Vegas Raiders
+2024-10-03 22:14:36,926 - INFO - Market: player_last_td
+2024-10-03 22:14:36,926 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,926 - INFO -   Player: Javonte Williams
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,926 - INFO -   Player: Bo Nix
+2024-10-03 22:14:36,926 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,926 - INFO -   Player: Courtland Sutton
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,927 - INFO -   Player: Jaleel McLaughlin
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,927 - INFO -   Player: Josh Reynolds
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,927 - INFO -   Player: Lil'Jordan Humphrey
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,927 - INFO -   Player: Devaughn Vele
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,927 - INFO -   Player: Greg Dulcich
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,927 - INFO -   Player: Adam Trautman
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,927 - INFO -   Player: Blake Watson
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,927 - INFO -   Player: Marvin Mims Jr.
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,927 - INFO -   Player: Michael Burton
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,927 - INFO -   Player: Alexander Mattison
+2024-10-03 22:14:36,927 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,927 - INFO -   Player: Zamir White
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,928 - INFO -   Player: Jakobi Meyers
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,928 - INFO -   Player: Brock Bowers
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,928 - INFO -   Player: Tre Tucker
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,928 - INFO -   Player: Ameer Abdullah
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,928 - INFO -   Player: DJ Turner
+2024-10-03 22:14:36,928 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,929 - INFO -   Player: Michael Mayer
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,929 - INFO -   Player: Gardner Minshew
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,929 - INFO -   Player: Tyreik McAllister
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,929 - INFO -   Player: Harrison Bryant
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,929 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,929 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,929 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,931 - INFO - Completed 12/52 tasks
+2024-10-03 22:14:36,931 - INFO - Completed 13/52 tasks
+2024-10-03 22:14:36,931 - INFO - Completed 14/52 tasks
+2024-10-03 22:14:36,931 - INFO - Completed 15/52 tasks
+2024-10-03 22:14:36,931 - INFO - Completed 16/52 tasks
+2024-10-03 22:14:36,932 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-03 22:14:36,932 - INFO - 
+Event: Baltimore Ravens vs Washington Commanders
+2024-10-03 22:14:36,932 - INFO - Market: player_last_td
+2024-10-03 22:14:36,932 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,932 - INFO - 
+Event: Green Bay Packers vs Arizona Cardinals
+2024-10-03 22:14:36,932 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,932 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,932 - INFO - 
+Event: Chicago Bears vs Jacksonville Jaguars
+2024-10-03 22:14:36,932 - INFO - Market: player_last_td
+2024-10-03 22:14:36,933 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,933 - INFO - 
 Event: Kansas City Chiefs vs New Orleans Saints
-2024-09-27 18:43:35,226 - INFO - Market: player_last_td
-2024-09-27 18:43:35,226 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,227 - INFO - Completed 53/58 tasks
-2024-09-27 18:43:35,332 - INFO - 
+2024-10-03 22:14:36,933 - INFO - Market: player_last_td
+2024-10-03 22:14:36,933 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,933 - INFO -   Player: Kareem Hunt
+2024-10-03 22:14:36,933 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,933 - INFO -   Player: Travis Kelce
+2024-10-03 22:14:36,933 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,933 - INFO -   Player: Xavier Worthy
+2024-10-03 22:14:36,933 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,933 - INFO -   Player: Carson Steele
+2024-10-03 22:14:36,933 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,933 - INFO -   Player: Patrick Mahomes
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,934 - INFO -   Player: Justin Watson
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,934 - INFO -   Player: Samaje Perine
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,934 - INFO -   Player: JuJu Smith-Schuster
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,934 - INFO -   Player: Clyde Edwards-Helaire
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,934 - INFO -   Player: Noah Gray
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,934 - INFO -   Player: Skyy Moore
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,934 - INFO -   Player: Mecole Hardman
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,934 - INFO -   Player: Alvin Kamara
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,934 - INFO -   Player: Chris Olave
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,934 - INFO -   Player: Rashid Shaheed
+2024-10-03 22:14:36,934 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,934 - INFO -   Player: Taysom Hill
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,935 - INFO -   Player: Jamaal Williams
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,935 - INFO -   Player: Juwan Johnson
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,935 - INFO -   Player: Kendre Miller
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,935 - INFO -   Player: Foster Moreau
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,935 - INFO -   Player: Cedrick Wilson Jr.
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,935 - INFO -   Player: Mason Tipton
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,935 - INFO -   Player: Derek Carr
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,935 - INFO -   Player: Adam Prentice
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,935 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,935 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,935 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,936 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,936 - INFO - 
+Event: Chicago Bears vs Jacksonville Jaguars
+2024-10-03 22:14:36,936 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,936 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,936 - INFO - 
+Event: New England Patriots vs Miami Dolphins
+2024-10-03 22:14:36,937 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,937 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,937 - INFO -   Player: Antonio Gibson
+2024-10-03 22:14:36,937 - INFO -     Fliff: Yes: 220
+2024-10-03 22:14:36,937 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,937 - INFO -   Player: Austin Hooper
+2024-10-03 22:14:36,937 - INFO -     Fliff: Yes: 725
+2024-10-03 22:14:36,937 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,937 - INFO -   Player: Braxton Berrios
+2024-10-03 22:14:36,937 - INFO -     Fliff: Yes: 915
+2024-10-03 22:14:36,937 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,937 - INFO -   Player: De'Von Achane
+2024-10-03 22:14:36,937 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 135
+2024-10-03 22:14:36,938 - INFO -   Player: DeMario Douglas
+2024-10-03 22:14:36,938 - INFO -     Fliff: Yes: 395
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,938 - INFO -   Player: Durham Smythe
+2024-10-03 22:14:36,938 - INFO -     Fliff: Yes: 970
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,938 - INFO -   Player: Hunter Henry
+2024-10-03 22:14:36,938 - INFO -     Fliff: Yes: 410
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,938 - INFO -   Player: Ja'Lynn Polk
+2024-10-03 22:14:36,938 - INFO -     Fliff: Yes: 340
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,938 - INFO -   Player: JaMycal Hasty
+2024-10-03 22:14:36,938 - INFO -     Fliff: Yes: 745
+2024-10-03 22:14:36,938 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,939 - INFO -   Player: Jacoby Brissett
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 520
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,939 - INFO -   Player: Jaylen Waddle
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 290
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,939 - INFO -   Player: Jonnu Smith
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 705
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,939 - INFO -   Player: K.J. Osborn
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 535
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,939 - INFO -   Player: Malik Washington
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 1145
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,939 - INFO -   Player: Rhamondre Stevenson
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 125
+2024-10-03 22:14:36,939 - INFO -     TAB: Yes: 115
+2024-10-03 22:14:36,939 - INFO -   Player: Tyler Huntley
+2024-10-03 22:14:36,939 - INFO -     Fliff: Yes: 290
+2024-10-03 22:14:36,940 - INFO -     TAB: Yes: 275
+2024-10-03 22:14:36,940 - INFO -   Player: Tyreek Hill
+2024-10-03 22:14:36,940 - INFO -     Fliff: Yes: 200
+2024-10-03 22:14:36,940 - INFO -     TAB: Yes: 190
+2024-10-03 22:14:36,940 - INFO - 
+Event: Seattle Seahawks vs New York Giants
+2024-10-03 22:14:36,940 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,940 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,940 - INFO -   Player: AJ Barner
+2024-10-03 22:14:36,940 - INFO -     Fliff: Yes: 870
+2024-10-03 22:14:36,940 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,940 - INFO -   Player: DK Metcalf
+2024-10-03 22:14:36,940 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,941 - INFO -   Player: Daniel Bellinger
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 1210
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,941 - INFO -   Player: Daniel Jones
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 250
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,941 - INFO -   Player: Darius Slayton
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 275
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,941 - INFO -   Player: Devin Singletary
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 130
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 130
+2024-10-03 22:14:36,941 - INFO -   Player: Geno Smith
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 450
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,941 - INFO -   Player: Jake Bobo
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 990
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,941 - INFO -   Player: Jalin Hyatt
+2024-10-03 22:14:36,941 - INFO -     Fliff: Yes: 420
+2024-10-03 22:14:36,941 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,942 - INFO -   Player: Jaxon Smith-Njigba
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 205
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 190
+2024-10-03 22:14:36,942 - INFO -   Player: Kenneth Walker III
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: -150
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: -167
+2024-10-03 22:14:36,942 - INFO -   Player: Laviska Shenault Jr
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 1105
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,942 - INFO -   Player: Noah Fant
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 455
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,942 - INFO -   Player: Pharaoh Brown
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 830
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,942 - INFO -   Player: Theo Johnson
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 600
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,942 - INFO -   Player: Tyler Lockett
+2024-10-03 22:14:36,942 - INFO -     Fliff: Yes: 225
+2024-10-03 22:14:36,942 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,942 - INFO -   Player: Wan'Dale Robinson
+2024-10-03 22:14:36,943 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,943 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,943 - INFO -   Player: Zach Charbonnet
+2024-10-03 22:14:36,943 - INFO -     Fliff: Yes: 280
+2024-10-03 22:14:36,943 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,943 - INFO - 
+Event: Baltimore Ravens vs Washington Commanders
+2024-10-03 22:14:36,943 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,943 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,943 - INFO - 
+Event: Seattle Seahawks vs New York Giants
+2024-10-03 22:14:36,943 - INFO - Market: player_last_td
+2024-10-03 22:14:36,944 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,944 - INFO -   Player: Kenneth Walker III
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,944 - INFO -   Player: DK Metcalf
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,944 - INFO -   Player: Jaxon Smith-Njigba
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,944 - INFO -   Player: Tyler Lockett
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,944 - INFO -   Player: Zach Charbonnet
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,944 - INFO -   Player: Noah Fant
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,944 - INFO -   Player: Geno Smith
+2024-10-03 22:14:36,944 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,945 - INFO -   Player: Jake Bobo
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,945 - INFO -   Player: AJ Barner
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,945 - INFO -   Player: Pharaoh Brown
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,945 - INFO -   Player: Laviska Shenault Jr
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,945 - INFO -   Player: Devin Singletary
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,945 - INFO -   Player: Malik Nabers
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,945 - INFO -   Player: Tyrone Tracy Jr.
+2024-10-03 22:14:36,945 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,945 - INFO -   Player: Wan'Dale Robinson
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,946 - INFO -   Player: Daniel Jones
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,946 - INFO -   Player: Darius Slayton
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,946 - INFO -   Player: Jalin Hyatt
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,946 - INFO -   Player: Eric Gray
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,946 - INFO -   Player: Theo Johnson
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,946 - INFO -   Player: Daniel Bellinger
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,946 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,946 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,946 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,947 - INFO - 
+Event: Las Vegas Raiders vs Pittsburgh Steelers
+2024-10-03 22:14:36,947 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,947 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,947 - INFO - 
+Event: Seattle Seahawks vs San Francisco 49ers
+2024-10-03 22:14:36,947 - INFO - Market: player_last_td
+2024-10-03 22:14:36,947 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,947 - INFO - 
+Event: Seattle Seahawks vs San Francisco 49ers
+2024-10-03 22:14:36,948 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,948 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,948 - INFO - 
+Event: Los Angeles Rams vs Green Bay Packers
+2024-10-03 22:14:36,948 - INFO - Market: player_last_td
+2024-10-03 22:14:36,948 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,948 - INFO -   Player: Kyren Williams
+2024-10-03 22:14:36,948 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,948 - INFO -   Player: Tutu Atwell
+2024-10-03 22:14:36,948 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,948 - INFO -   Player: Jordan Whittington
+2024-10-03 22:14:36,948 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,948 - INFO -   Player: Colby Parkinson
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,949 - INFO -   Player: Demarcus Robinson
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,949 - INFO -   Player: Tyler Johnson
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,949 - INFO -   Player: Ronnie Rivers
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,949 - INFO -   Player: Matthew Stafford
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,949 - INFO -   Player: Hunter Long
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,949 - INFO -   Player: Blake Corum
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,949 - INFO -   Player: Josh Jacobs
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,949 - INFO -   Player: Jayden Reed
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,949 - INFO -   Player: Dontayvion Wicks
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,949 - INFO -   Player: Romeo Doubs
+2024-10-03 22:14:36,949 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,949 - INFO -   Player: Tucker Kraft
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,950 - INFO -   Player: Emanuel Wilson
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,950 - INFO -   Player: Luke Musgrave
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,950 - INFO -   Player: Bo Melton
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,950 - INFO -   Player: Jordan Love
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,950 - INFO -   Player: Malik Heath
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,950 - INFO -   Player: Ben Sims
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,950 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,950 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,950 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,951 - INFO - 
+Event: Denver Broncos vs Las Vegas Raiders
+2024-10-03 22:14:36,951 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,951 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,951 - INFO -   Player: Adam Trautman
+2024-10-03 22:14:36,951 - INFO -     Fliff: Yes: 785
+2024-10-03 22:14:36,951 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,951 - INFO -   Player: Bo Nix
+2024-10-03 22:14:36,951 - INFO -     Fliff: Yes: 190
+2024-10-03 22:14:36,951 - INFO -     TAB: Yes: 225
+2024-10-03 22:14:36,951 - INFO -   Player: Brock Bowers
+2024-10-03 22:14:36,951 - INFO -     Fliff: Yes: 255
+2024-10-03 22:14:36,951 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,951 - INFO -   Player: Courtland Sutton
+2024-10-03 22:14:36,951 - INFO -     Fliff: Yes: 250
+2024-10-03 22:14:36,952 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,952 - INFO -   Player: DJ Turner
+2024-10-03 22:14:36,952 - INFO -     Fliff: Yes: 590
+2024-10-03 22:14:36,952 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,952 - INFO -   Player: Gardner Minshew
+2024-10-03 22:14:36,952 - INFO -     Fliff: Yes: 760
+2024-10-03 22:14:36,952 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,952 - INFO -   Player: Greg Dulcich
+2024-10-03 22:14:36,952 - INFO -     Fliff: Yes: 565
+2024-10-03 22:14:36,952 - INFO -     TAB: Yes: 550
+2024-10-03 22:14:36,952 - INFO -   Player: Jakobi Meyers
+2024-10-03 22:14:36,952 - INFO -     Fliff: Yes: 270
+2024-10-03 22:14:36,952 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,952 - INFO -   Player: Jaleel McLaughlin
+2024-10-03 22:14:36,952 - INFO -     Fliff: Yes: 250
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,953 - INFO -   Player: Javonte Williams
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 140
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,953 - INFO -   Player: Josh Reynolds
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 390
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,953 - INFO -   Player: Lil'Jordan Humphrey
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 495
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,953 - INFO -   Player: Marvin Mims Jr.
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 850
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,953 - INFO -   Player: Michael Mayer
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 690
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,953 - INFO -   Player: Tre Tucker
+2024-10-03 22:14:36,953 - INFO -     Fliff: Yes: 250
+2024-10-03 22:14:36,953 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,953 - INFO -   Player: Zamir White
+2024-10-03 22:14:36,954 - INFO -     Fliff: Yes: 195
+2024-10-03 22:14:36,954 - INFO -     TAB: Yes: 190
+2024-10-03 22:14:36,954 - INFO - Completed 17/52 tasks
+2024-10-03 22:14:36,954 - INFO - Completed 18/52 tasks
+2024-10-03 22:14:36,954 - INFO - Completed 19/52 tasks
+2024-10-03 22:14:36,955 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-03 22:14:36,955 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-03 22:14:36,955 - INFO - 
+Event: New England Patriots vs Houston Texans
+2024-10-03 22:14:36,955 - INFO - Market: player_last_td
+2024-10-03 22:14:36,955 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,956 - INFO - 
+Event: Denver Broncos vs Los Angeles Chargers
+2024-10-03 22:14:36,956 - INFO - Market: player_last_td
+2024-10-03 22:14:36,956 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,957 - INFO - Completed 20/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 21/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 22/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 23/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 24/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 25/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 26/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 27/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 28/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 29/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 30/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 31/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 32/52 tasks
+2024-10-03 22:14:36,957 - INFO - Completed 33/52 tasks
+2024-10-03 22:14:36,958 - INFO - 
+Event: Las Vegas Raiders vs Pittsburgh Steelers
+2024-10-03 22:14:36,958 - INFO - Market: player_last_td
+2024-10-03 22:14:36,958 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,958 - INFO - 
+Event: Philadelphia Eagles vs Cleveland Browns
+2024-10-03 22:14:36,958 - INFO - Market: player_last_td
+2024-10-03 22:14:36,958 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,958 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-03 22:14:36,958 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-03 22:14:36,958 - INFO - 
+Event: Tennessee Titans vs Indianapolis Colts
+2024-10-03 22:14:36,958 - INFO - Market: player_last_td
+2024-10-03 22:14:36,959 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,959 - INFO - 
+Event: Los Angeles Rams vs Green Bay Packers
+2024-10-03 22:14:36,959 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,959 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,959 - INFO -   Player: Blake Corum
+2024-10-03 22:14:36,959 - INFO -     Fliff: Yes: 1200
+2024-10-03 22:14:36,959 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:36,959 - INFO -   Player: Bo Melton
+2024-10-03 22:14:36,959 - INFO -     Fliff: Yes: 480
+2024-10-03 22:14:36,959 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,959 - INFO -   Player: Colby Parkinson
+2024-10-03 22:14:36,959 - INFO -     Fliff: Yes: 255
+2024-10-03 22:14:36,959 - INFO -     TAB: Yes: 350
+2024-10-03 22:14:36,960 - INFO -   Player: Demarcus Robinson
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: 290
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,960 - INFO -   Player: Dontayvion Wicks
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: 155
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: 150
+2024-10-03 22:14:36,960 - INFO -   Player: Emanuel Wilson
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: 300
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: 275
+2024-10-03 22:14:36,960 - INFO -   Player: Hunter Long
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: 1215
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,960 - INFO -   Player: Jayden Reed
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: -115
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: -105
+2024-10-03 22:14:36,960 - INFO -   Player: Jordan Love
+2024-10-03 22:14:36,960 - INFO -     Fliff: Yes: 730
+2024-10-03 22:14:36,960 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,961 - INFO -   Player: Jordan Whittington
+2024-10-03 22:14:36,961 - INFO -     Fliff: Yes: 240
+2024-10-03 22:14:36,961 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,961 - INFO -   Player: Josh Jacobs
+2024-10-03 22:14:36,961 - INFO -     Fliff: Yes: -130
+2024-10-03 22:14:36,961 - INFO -     TAB: Yes: -125
+2024-10-03 22:14:36,961 - INFO -   Player: Kyren Williams
+2024-10-03 22:14:36,961 - INFO -     Fliff: Yes: -195
+2024-10-03 22:14:36,961 - INFO -     TAB: Yes: -200
+2024-10-03 22:14:36,961 - INFO -   Player: Luke Musgrave
+2024-10-03 22:14:36,961 - INFO -     Fliff: Yes: 445
+2024-10-03 22:14:36,961 - INFO -     TAB: Yes: 450
+2024-10-03 22:14:36,961 - INFO -   Player: Malik Heath
+2024-10-03 22:14:36,961 - INFO -     Fliff: Yes: 815
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:36,962 - INFO -   Player: Matthew Stafford
+2024-10-03 22:14:36,962 - INFO -     Fliff: Yes: 1040
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,962 - INFO -   Player: Romeo Doubs
+2024-10-03 22:14:36,962 - INFO -     Fliff: Yes: 155
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,962 - INFO -   Player: Ronnie Rivers
+2024-10-03 22:14:36,962 - INFO -     Fliff: Yes: 405
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,962 - INFO -   Player: Tucker Kraft
+2024-10-03 22:14:36,962 - INFO -     Fliff: Yes: 195
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,962 - INFO -   Player: Tutu Atwell
+2024-10-03 22:14:36,962 - INFO -     Fliff: Yes: 230
+2024-10-03 22:14:36,962 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,963 - INFO -   Player: Tyler Johnson
+2024-10-03 22:14:36,963 - INFO -     Fliff: Yes: 425
+2024-10-03 22:14:36,963 - INFO -     TAB: Yes: 500
+2024-10-03 22:14:36,963 - INFO - 
+Event: Tennessee Titans vs Indianapolis Colts
+2024-10-03 22:14:36,963 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,963 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,963 - INFO - 
+Event: Dallas Cowboys vs Detroit Lions
+2024-10-03 22:14:36,963 - INFO - Market: player_last_td
+2024-10-03 22:14:36,963 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,963 - INFO - 
+Event: Dallas Cowboys vs Detroit Lions
+2024-10-03 22:14:36,964 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,964 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,964 - INFO - 
+Event: Green Bay Packers vs Arizona Cardinals
+2024-10-03 22:14:36,964 - INFO - Market: player_last_td
+2024-10-03 22:14:36,964 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:36,964 - INFO - 
+Event: Jacksonville Jaguars vs Indianapolis Colts
+2024-10-03 22:14:36,964 - INFO - Market: player_anytime_td
+2024-10-03 22:14:36,964 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,964 - INFO -   Player: Adonai Mitchell
+2024-10-03 22:14:36,964 - INFO -     Fliff: Yes: 635
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 650
+2024-10-03 22:14:36,965 - INFO -   Player: Alec Pierce
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 360
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,965 - INFO -   Player: Ashton Dulin
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 945
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,965 - INFO -   Player: Brian Thomas Jr
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 170
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 170
+2024-10-03 22:14:36,965 - INFO -   Player: Christian Kirk
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 170
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 170
+2024-10-03 22:14:36,965 - INFO -   Player: D'Ernest Johnson
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 635
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,965 - INFO -   Player: Devin Duvernay
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 1030
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,965 - INFO -   Player: Drew Ogletree
+2024-10-03 22:14:36,965 - INFO -     Fliff: Yes: 930
+2024-10-03 22:14:36,965 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,966 - INFO -   Player: Evan Engram
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 220
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,966 - INFO -   Player: Gabe Davis
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 265
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,966 - INFO -   Player: Josh Downs
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 295
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 250
+2024-10-03 22:14:36,966 - INFO -   Player: Kylen Granson
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 695
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,966 - INFO -   Player: Michael Pittman Jr.
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 210
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 200
+2024-10-03 22:14:36,966 - INFO -   Player: Mo Alie-Cox
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 710
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 750
+2024-10-03 22:14:36,966 - INFO -   Player: Parker Washington
+2024-10-03 22:14:36,966 - INFO -     Fliff: Yes: 870
+2024-10-03 22:14:36,966 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:36,966 - INFO -   Player: Tank Bigsby
+2024-10-03 22:14:36,967 - INFO -     Fliff: Yes: 360
+2024-10-03 22:14:36,967 - INFO -     TAB: Yes: 325
+2024-10-03 22:14:36,967 - INFO -   Player: Travis Etienne Jr.
+2024-10-03 22:14:36,967 - INFO -     Fliff: Yes: 100
+2024-10-03 22:14:36,967 - INFO -     TAB: Yes: 105
+2024-10-03 22:14:36,967 - INFO -   Player: Trevor Lawrence
+2024-10-03 22:14:36,967 - INFO -     Fliff: Yes: 425
+2024-10-03 22:14:36,967 - INFO -     TAB: Yes: 400
+2024-10-03 22:14:36,967 - INFO - 
 Event: Pittsburgh Steelers vs Dallas Cowboys
-2024-09-27 18:43:35,332 - INFO - Market: player_last_td
-2024-09-27 18:43:35,333 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,333 - INFO - Completed 54/58 tasks
-2024-09-27 18:43:35,335 - INFO - 
-Event: Los Angeles Rams vs Green Bay Packers
-2024-09-27 18:43:35,336 - INFO - Market: player_last_td
-2024-09-27 18:43:35,336 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,336 - INFO - Completed 55/58 tasks
-2024-09-27 18:43:35,345 - INFO - 
-Event: Seattle Seahawks vs New York Giants
-2024-09-27 18:43:35,345 - INFO - Market: player_last_td
-2024-09-27 18:43:35,345 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,345 - INFO - Completed 56/58 tasks
-2024-09-27 18:43:35,408 - INFO - 
-Event: Kansas City Chiefs vs New Orleans Saints
-2024-09-27 18:43:35,408 - INFO - Market: player_anytime_td
-2024-09-27 18:43:35,408 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,408 - INFO - Completed 57/58 tasks
-2024-09-27 18:43:35,500 - INFO - 
-Event: Seattle Seahawks vs New York Giants
-2024-09-27 18:43:35,500 - INFO - Market: player_anytime_td
-2024-09-27 18:43:35,500 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
-2024-09-27 18:43:35,500 - INFO - Completed 58/58 tasks
-2024-09-27 18:43:35,500 - INFO - Requests used: 3006
-2024-09-27 18:43:35,500 - INFO - Requests remaining: 16994
-2024-09-27 18:43:35,505 - INFO - Time to fetch events: 0.23 seconds
-2024-09-27 18:43:35,505 - INFO - Time to fetch all odds: 2.09 seconds
-2024-09-27 18:43:35,505 - INFO - Total execution time: 2.32 seconds
+2024-10-03 22:14:36,967 - INFO - Market: player_last_td
+2024-10-03 22:14:36,967 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:36,967 - INFO -   Player: Najee Harris
+2024-10-03 22:14:36,967 - INFO -     TAB: Yes: 600
+2024-10-03 22:14:36,967 - INFO -   Player: Justin Fields
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,968 - INFO -   Player: George Pickens
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:36,968 - INFO -   Player: Pat Freiermuth
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,968 - INFO -   Player: Jaylen Warren
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,968 - INFO -   Player: Cordarrelle Patterson
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,968 - INFO -   Player: Aaron Shampklin
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,968 - INFO -   Player: Calvin Austin III
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,968 - INFO -   Player: Van Jefferson
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:36,968 - INFO -   Player: Scott Miller
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,968 - INFO -   Player: Darnell Washington
+2024-10-03 22:14:36,968 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:36,968 - INFO -   Player: MyCole Pruitt
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,969 - INFO -   Player: Roman Wilson
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,969 - INFO -   Player: Connor Heyward
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,969 - INFO -   Player: CeeDee Lamb
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:36,969 - INFO -   Player: Rico Dowdle
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,969 - INFO -   Player: Jake Ferguson
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:36,969 - INFO -   Player: Jalen Tolbert
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:36,969 - INFO -   Player: Ezekiel Elliott
+2024-10-03 22:14:36,969 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:36,969 - INFO -   Player: KaVontae Turpin
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:36,970 - INFO -   Player: Jalen Brooks
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 2200
+2024-10-03 22:14:36,970 - INFO -   Player: Dak Prescott
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:36,970 - INFO -   Player: Luke Schoonmaker
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,970 - INFO -   Player: Hunter Luepke
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:36,970 - INFO -   Player: Ryan Flournoy
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,970 - INFO -   Player: Deuce Vaughn
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:36,970 - INFO -   Player: Any Other Player
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:36,970 - INFO -   Player: No Touchdown
+2024-10-03 22:14:36,970 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:36,971 - INFO - Completed 34/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 35/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 36/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 37/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 38/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 39/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 40/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 41/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 42/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 43/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 44/52 tasks
+2024-10-03 22:14:36,971 - INFO - Completed 45/52 tasks
+2024-10-03 22:14:37,927 - WARNING - Rate limit hit (attempt 2/5). Retrying...
+2024-10-03 22:14:38,189 - INFO - 
+Event: Washington Commanders vs Cleveland Browns
+2024-10-03 22:14:38,189 - INFO - Market: player_last_td
+2024-10-03 22:14:38,189 - INFO - Common outcomes across all bookmakers:
+2024-10-03 22:14:38,190 - INFO -   Player: Brian Robinson Jr.
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 700
+2024-10-03 22:14:38,190 - INFO -   Player: Jayden Daniels
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:38,190 - INFO -   Player: Austin Ekeler
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 900
+2024-10-03 22:14:38,190 - INFO -   Player: Terry McLaurin
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:38,190 - INFO -   Player: Jeremy McNichols
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 1200
+2024-10-03 22:14:38,190 - INFO -   Player: Zach Ertz
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:38,190 - INFO -   Player: Noah Brown
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:38,190 - INFO -   Player: Luke McCaffrey
+2024-10-03 22:14:38,190 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:38,190 - INFO -   Player: Olamide Zaccheaus
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 2500
+2024-10-03 22:14:38,191 - INFO -   Player: Dyami Brown
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:38,191 - INFO -   Player: John Bates
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:38,191 - INFO -   Player: Ben Sinnott
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 6600
+2024-10-03 22:14:38,191 - INFO -   Player: Jerome Ford
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 800
+2024-10-03 22:14:38,191 - INFO -   Player: Amari Cooper
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:38,191 - INFO -   Player: Jerry Jeudy
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:38,191 - INFO -   Player: David Njoku
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 1000
+2024-10-03 22:14:38,191 - INFO -   Player: Deshaun Watson
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 1400
+2024-10-03 22:14:38,191 - INFO -   Player: D'Onta Foreman
+2024-10-03 22:14:38,191 - INFO -     TAB: Yes: 1800
+2024-10-03 22:14:38,192 - INFO -   Player: Elijah Moore
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 1600
+2024-10-03 22:14:38,192 - INFO -   Player: Jordan Akins
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 2000
+2024-10-03 22:14:38,192 - INFO -   Player: Pierre Strong Jr.
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 3300
+2024-10-03 22:14:38,192 - INFO -   Player: Cedric Tillman
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 4000
+2024-10-03 22:14:38,192 - INFO -   Player: Blake Whiteheart
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 5000
+2024-10-03 22:14:38,192 - INFO -   Player: Any Other Player
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 300
+2024-10-03 22:14:38,192 - INFO -   Player: No Touchdown
+2024-10-03 22:14:38,192 - INFO -     TAB: Yes: 8000
+2024-10-03 22:14:38,193 - INFO - Completed 46/52 tasks
+2024-10-03 22:14:38,202 - INFO - 
+Event: New England Patriots vs Houston Texans
+2024-10-03 22:14:38,203 - INFO - Market: player_anytime_td
+2024-10-03 22:14:38,203 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:38,203 - INFO - Completed 47/52 tasks
+2024-10-03 22:14:38,602 - INFO - 
+Event: Denver Broncos vs Los Angeles Chargers
+2024-10-03 22:14:38,602 - INFO - Market: player_anytime_td
+2024-10-03 22:14:38,602 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:38,602 - INFO - Completed 48/52 tasks
+2024-10-03 22:14:38,606 - INFO - 
+Event: New York Giants vs Cincinnati Bengals
+2024-10-03 22:14:38,606 - INFO - Market: player_anytime_td
+2024-10-03 22:14:38,606 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:38,606 - INFO - Completed 49/52 tasks
+2024-10-03 22:14:38,618 - INFO - 
+Event: New York Jets vs Buffalo Bills
+2024-10-03 22:14:38,618 - INFO - Market: player_anytime_td
+2024-10-03 22:14:38,618 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:38,619 - INFO - Completed 50/52 tasks
+2024-10-03 22:14:38,673 - INFO - 
+Event: New York Giants vs Cincinnati Bengals
+2024-10-03 22:14:38,673 - INFO - Market: player_last_td
+2024-10-03 22:14:38,673 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:38,674 - INFO - Completed 51/52 tasks
+2024-10-03 22:14:40,464 - INFO - 
+Event: New York Jets vs Buffalo Bills
+2024-10-03 22:14:40,464 - INFO - Market: player_last_td
+2024-10-03 22:14:40,465 - WARNING - Not all desired bookmakers are available for this event/market. Skipping.
+2024-10-03 22:14:40,465 - INFO - Completed 52/52 tasks
+2024-10-03 22:14:40,465 - INFO - Requests used: 166
+2024-10-03 22:14:40,465 - INFO - Requests remaining: 19834.0
+2024-10-03 22:14:40,469 - INFO - Time to fetch events: 0.24 seconds
+2024-10-03 22:14:40,469 - INFO - Time to fetch all odds: 3.81 seconds
+2024-10-03 22:14:40,469 - INFO - Total execution time: 4.06 seconds
