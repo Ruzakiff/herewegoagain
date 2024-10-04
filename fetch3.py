@@ -168,27 +168,59 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                 opt_no_info = f"No: {opt_no['price']}" if opt_no else "No: N/A"
                 logger.info(f"    {opt_bm}: {opt_yes_info}, {opt_no_info}")
                 if opt_yes and opt_no:
-                    valid_optional_prices.append((opt_yes['price'], opt_no['price']))
+                    valid_optional_prices.append((opt_bm, opt_yes['price'], opt_no['price']))
             else:
                 logger.info(f"    {opt_bm}: Market not available")
 
         # Calculate sharp prices if possible
         if principal_yes and principal_no:
-            all_yes_prices = [principal_yes['price']] + [price[0] for price in valid_optional_prices]
-            all_no_prices = [principal_no['price']] + [price[1] for price in valid_optional_prices]
+            all_yes_prices = [(principal_bookmaker, principal_yes['price'])]
+            all_no_prices = [(principal_bookmaker, principal_no['price'])]
             
-            sharp_yes = statistics.mean(all_yes_prices)
-            sharp_no = statistics.mean(all_no_prices)
+            for opt_bm, yes_price, no_price in valid_optional_prices:
+                all_yes_prices.append((opt_bm, yes_price))
+                all_no_prices.append((opt_bm, no_price))
             
-            logger.info(f"    Sharp prices: Yes: {sharp_yes:.2f}, No: {sharp_no:.2f}")
+            logger.info("    Calculation of sharp prices:")
+            logger.info("      Yes prices used in calculation:")
+            for bm, price in all_yes_prices:
+                logger.info(f"        {bm}: {price}")
             
-            if base_yes:
-                # Calculate edge
-                implied_prob_sharp = 1 / (1 + 10000 / abs(sharp_yes)) if sharp_yes < 0 else 1 / (1 + abs(sharp_yes) / 100)
-                implied_prob_base = 1 / (1 + 10000 / abs(base_yes['price'])) if base_yes['price'] < 0 else 1 / (1 + abs(base_yes['price']) / 100)
-                edge = (implied_prob_sharp - implied_prob_base) / implied_prob_sharp * 100
-                
-                logger.info(f"    Edge: {edge:.2f}%")
+            yes_sum = sum(price for _, price in all_yes_prices)
+            yes_count = len(all_yes_prices)
+            sharp_yes = yes_sum / yes_count if yes_count > 0 else None
+            
+            logger.info(f"      Yes sum: {yes_sum}")
+            logger.info(f"      Yes count: {yes_count}")
+            logger.info(f"      Sharp Yes: {sharp_yes:.2f}" if sharp_yes is not None else "      Sharp Yes: N/A")
+
+            logger.info("      No prices used in calculation:")
+            for bm, price in all_no_prices:
+                logger.info(f"        {bm}: {price}")
+            
+            no_sum = sum(price for _, price in all_no_prices)
+            no_count = len(all_no_prices)
+            sharp_no = no_sum / no_count if no_count > 0 else None
+            
+            logger.info(f"      No sum: {no_sum}")
+            logger.info(f"      No count: {no_count}")
+            logger.info(f"      Sharp No: {sharp_no:.2f}" if sharp_no is not None else "      Sharp No: N/A")
+
+            if sharp_yes is not None and sharp_no is not None:
+                logger.info(f"    Final Sharp prices: Yes: {sharp_yes:.2f}, No: {sharp_no:.2f}")
+            
+                if base_yes:
+                    # Calculate edge
+                    implied_prob_sharp = 1 / (1 + 10000 / abs(sharp_yes)) if sharp_yes < 0 else 1 / (1 + abs(sharp_yes) / 100)
+                    implied_prob_base = 1 / (1 + 10000 / abs(base_yes['price'])) if base_yes['price'] < 0 else 1 / (1 + abs(base_yes['price']) / 100)
+                    edge = (implied_prob_sharp - implied_prob_base) / implied_prob_sharp * 100
+                    
+                    logger.info(f"    Edge calculation:")
+                    logger.info(f"      Implied probability (sharp): {implied_prob_sharp:.4f}")
+                    logger.info(f"      Implied probability (base): {implied_prob_base:.4f}")
+                    logger.info(f"      Edge: {edge:.2f}%")
+            else:
+                logger.info("    Unable to calculate sharp prices due to insufficient data")
 
     # Here you can add any additional processing or calculations if needed
 
@@ -257,8 +289,8 @@ async def main():
     overall_start_time = time.time()
     sport = 'americanfootball_nfl'
     market_bookmaker_combinations = [
-        ('player_anytime_td', ['fliff', 'tab']),
-        ('player_last_td', ['fliff','tab'])
+        ('player_anytime_td', ['fliff', 'tab','espnbet','pinnacle']),
+        ('player_last_td', ['fliff', 'tab','espnbet','pinnacle'])
     ]
     
     principal_bookmaker = 'fliff'
@@ -352,6 +384,29 @@ async def main():
     logger.info(f"Time to fetch events: {events_end_time - events_start_time:.2f} seconds")
     logger.info(f"Time to fetch all odds: {odds_end_time - odds_start_time:.2f} seconds")
     logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
+
+if __name__ == '__main__':
+    asyncio.run(main())
+    asyncio.run(main())
+    asyncio.run(main())
+    logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
+
+if __name__ == '__main__':
+    asyncio.run(main())
+    asyncio.run(main())
+
+if __name__ == '__main__':
+    asyncio.run(main())
+    logger.info(f"Time to fetch events: {events_end_time - events_start_time:.2f} seconds")
+    logger.info(f"Time to fetch all odds: {odds_end_time - odds_start_time:.2f} seconds")
+    logger.info(f"Total execution time: {overall_end_time - overall_start_time:.2f} seconds")
+
+if __name__ == '__main__':
+    asyncio.run(main())
+    asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.run(main())
+    asyncio.run(main())
 
 if __name__ == '__main__':
     asyncio.run(main())
