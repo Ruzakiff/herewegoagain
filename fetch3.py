@@ -6,6 +6,8 @@ import random
 import csv
 from typing import Dict
 import calculations
+import statistics  # Add this import at the top of your file
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
                     filename='fetch_log.txt', filemode='w')
@@ -93,7 +95,7 @@ def get_quota_usage(headers):
         'requests_last': headers.get('x-requests-last', 'N/A')
     }
 
-async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker):
+async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals):
     logger.info(f"\nEvent: {event['home_team']} vs {event['away_team']}")
     logger.info(f"Market: {market}")
     
@@ -103,19 +105,14 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
 
     available_bookmakers = {bm['key']: bm for bm in odds.get('bookmakers', [])}
     
-    # Check if all desired bookmakers are available
-    if not all(bm in available_bookmakers for bm in desired_bookmakers):
-        logger.warning("Not all desired bookmakers are available for this event/market. Skipping.")
-        return
-
-    # Check if principal and base bookmakers are in desired_bookmakers
-    if principal_bookmaker not in desired_bookmakers or base_bookmaker not in desired_bookmakers:
-        logger.warning(f"Both '{principal_bookmaker}' and '{base_bookmaker}' must be in the desired bookmakers list. Skipping.")
+    # Check if principal and base bookmakers are available
+    if principal_bookmaker not in available_bookmakers or base_bookmaker not in available_bookmakers:
+        logger.warning(f"Both '{principal_bookmaker}' and '{base_bookmaker}' must be available. Skipping.")
         return
 
     # Get the market data for principal and base bookmakers
-    principal_bm = available_bookmakers.get(principal_bookmaker, {})
-    base_bm = available_bookmakers.get(base_bookmaker, {})
+    principal_bm = available_bookmakers[principal_bookmaker]
+    base_bm = available_bookmakers[base_bookmaker]
     principal_market = next((m for m in principal_bm.get('markets', []) if m['key'] == market), None)
     base_market = next((m for m in base_bm.get('markets', []) if m['key'] == market), None)
     
@@ -132,49 +129,68 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
 
     logger.info(f"{principal_bookmaker} has both 'yes' and 'no' outcomes.")
 
-    # Create a set of player descriptions for both principal and base bookmakers
-    principal_players = set(outcome['description'] for outcome in principal_market['outcomes'])
-    base_players = set(outcome['description'] for outcome in base_market['outcomes'])
+    # Get available optional principal bookmakers
+    available_optional_principals = [bm for bm in optional_principals if bm in available_bookmakers]
+    
+    # Create a set of player descriptions for all bookmakers
+    all_players = set(outcome['description'] for outcome in principal_market['outcomes'])
+    all_players.update(outcome['description'] for outcome in base_market['outcomes'])
+    for opt_bm in available_optional_principals:
+        opt_market = next((m for m in available_bookmakers[opt_bm].get('markets', []) if m['key'] == market), None)
+        if opt_market:
+            all_players.update(outcome['description'] for outcome in opt_market['outcomes'])
 
-    # Find common players
-    common_players = principal_players.intersection(base_players)
-
-    logger.info(f"Number of players in {principal_bookmaker}: {len(principal_players)}")
-    logger.info(f"Number of players in {base_bookmaker}: {len(base_players)}")
-    logger.info(f"Number of common players: {len(common_players)}")
-
-    # Log outcomes for common players
-    logger.info("Outcomes for common players:")
-    for description in common_players:
+    # Log outcomes for all players and perform calculations
+    logger.info("Outcomes and calculations for all players:")
+    for description in all_players:
         logger.info(f"  Player: {description}")
         
+        # Log principal bookmaker outcomes
         principal_yes = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
         principal_no = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'no'), None)
-        base_yes = next((o for o in base_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
-        
         principal_yes_info = f"Yes: {principal_yes['price']}" if principal_yes else "Yes: N/A"
         principal_no_info = f"No: {principal_no['price']}" if principal_no else "No: N/A"
-        base_yes_info = f"Yes: {base_yes['price']}" if base_yes else "Yes: N/A"
-        
         logger.info(f"    {principal_bookmaker}: {principal_yes_info}, {principal_no_info}")
+        
+        # Log base bookmaker outcome
+        base_yes = next((o for o in base_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
+        base_yes_info = f"Yes: {base_yes['price']}" if base_yes else "Yes: N/A"
         logger.info(f"    {base_bookmaker}: {base_yes_info}")
+        
+        # Log optional principal bookmakers outcomes
+        valid_optional_prices = []
+        for opt_bm in available_optional_principals:
+            opt_market = next((m for m in available_bookmakers[opt_bm].get('markets', []) if m['key'] == market), None)
+            if opt_market:
+                opt_yes = next((o for o in opt_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
+                opt_no = next((o for o in opt_market['outcomes'] if o['description'] == description and o['name'].lower() == 'no'), None)
+                opt_yes_info = f"Yes: {opt_yes['price']}" if opt_yes else "Yes: N/A"
+                opt_no_info = f"No: {opt_no['price']}" if opt_no else "No: N/A"
+                logger.info(f"    {opt_bm}: {opt_yes_info}, {opt_no_info}")
+                if opt_yes and opt_no:
+                    valid_optional_prices.append((opt_yes['price'], opt_no['price']))
+            else:
+                logger.info(f"    {opt_bm}: Market not available")
 
-    # Log players only in principal bookmaker
-    only_in_principal = principal_players - base_players
-    if only_in_principal:
-        logger.info(f"Players only in {principal_bookmaker}:")
-        for player in only_in_principal:
-            logger.info(f"  {player}")
-
-    # Log players only in base bookmaker
-    only_in_base = base_players - principal_players
-    if only_in_base:
-        logger.info(f"Players only in {base_bookmaker}:")
-        for player in only_in_base:
-            logger.info(f"  {player}")
+        # Calculate sharp prices if possible
+        if principal_yes and principal_no:
+            all_yes_prices = [principal_yes['price']] + [price[0] for price in valid_optional_prices]
+            all_no_prices = [principal_no['price']] + [price[1] for price in valid_optional_prices]
+            
+            sharp_yes = statistics.mean(all_yes_prices)
+            sharp_no = statistics.mean(all_no_prices)
+            
+            logger.info(f"    Sharp prices: Yes: {sharp_yes:.2f}, No: {sharp_no:.2f}")
+            
+            if base_yes:
+                # Calculate edge
+                implied_prob_sharp = 1 / (1 + 10000 / abs(sharp_yes)) if sharp_yes < 0 else 1 / (1 + abs(sharp_yes) / 100)
+                implied_prob_base = 1 / (1 + 10000 / abs(base_yes['price'])) if base_yes['price'] < 0 else 1 / (1 + abs(base_yes['price']) / 100)
+                edge = (implied_prob_sharp - implied_prob_base) / implied_prob_sharp * 100
+                
+                logger.info(f"    Edge: {edge:.2f}%")
 
     # Here you can add any additional processing or calculations if needed
-    # For example: calculations.calculate_odds(event, filtered_market_data, market)
 
 async def process_event_for_combination(session, sport, event, market, bookmakers, token_bucket, regions):
     max_retries = 5
@@ -199,7 +215,7 @@ async def process_event_for_combination(session, sport, event, market, bookmaker
             await asyncio.sleep(1)
     return None
 
-async def fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions, principal_bookmaker, base_bookmaker):
+async def fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions, principal_bookmaker, base_bookmaker, optional_principals):
     api_key = await read_api_key()
     base_url = 'https://api.the-odds-api.com/v4'
     url = f'{base_url}/sports/{sport}/events/{event["id"]}/odds'
@@ -214,7 +230,7 @@ async def fetch_event_data(session, sport, event, market, bookmakers, token_buck
     odds, headers = await fetch_with_retry(session, url, params, token_bucket)
     
     if odds:
-        await process_event_odds(event, odds, bookmakers, market, principal_bookmaker, base_bookmaker)
+        await process_event_odds(event, odds, bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals)
     
     return headers
 
@@ -242,11 +258,12 @@ async def main():
     sport = 'americanfootball_nfl'
     market_bookmaker_combinations = [
         ('player_anytime_td', ['fliff', 'tab']),
-        ('player_last_td', ['tab'])
+        ('player_last_td', ['fliff','tab'])
     ]
     
     principal_bookmaker = 'fliff'
     base_bookmaker = 'tab'
+    optional_principals = ['pinnacle', 'espnbet']  # Add optional principal bookmakers here
     
     # Load BOOKMAKER_REGIONS from file
     BOOKMAKER_REGIONS = await load_bookmaker_regions()
@@ -296,7 +313,10 @@ async def main():
         logger.info(f"Number of events fetched: {len(events)}")
 
         tasks = [
-            asyncio.create_task(fetch_event_data(session, sport, event, market, bookmakers, token_bucket, regions, principal_bookmaker, base_bookmaker))
+            asyncio.create_task(fetch_event_data(
+                session, sport, event, market, bookmakers, token_bucket, regions, 
+                principal_bookmaker, base_bookmaker, optional_principals
+            ))
             for event in events
             for market, bookmakers in market_bookmaker_combinations
         ]
