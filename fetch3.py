@@ -226,28 +226,41 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                     mult_devig_yes, mult_devig_no = calculations.mult_devig(sharp_yes_decimal, sharp_no_decimal)
                     logger.info(f"      Result: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}")
 
+                    # Determine ground truth line
+                    ground_truth_yes = min(power_devig_yes, mult_devig_yes)
+                    ground_truth_no = min(power_devig_no, mult_devig_no)
+                    logger.info(f"    Ground Truth Line: Yes: {ground_truth_yes:.4f}, No: {ground_truth_no:.4f}")
+
                     if base_yes:
                         base_yes_decimal = calculations.american_to_decimal(base_yes['price'])
                         logger.info(f"    Base price: Yes: {base_yes['price']} (Decimal: {base_yes_decimal:.4f})")
                         
-                        # Calculate edge using power devigged odds
-                        logger.info(f"    Edge calculation (Power Devig):")
-                        implied_prob_sharp_power = Decimal('1') / Decimal(str(power_devig_yes))
+                        # Calculate edge using ground truth odds
+                        logger.info(f"    Edge calculation (Ground Truth):")
+                        implied_prob_ground_truth = Decimal('1') / Decimal(str(ground_truth_yes))
                         implied_prob_base = Decimal('1') / base_yes_decimal
-                        logger.info(f"      Implied prob (sharp): 1 / {power_devig_yes:.4f} = {float(implied_prob_sharp_power):.4f}")
+                        logger.info(f"      Implied prob (ground truth): 1 / {ground_truth_yes:.4f} = {float(implied_prob_ground_truth):.4f}")
                         logger.info(f"      Implied prob (base): 1 / {base_yes_decimal:.4f} = {float(implied_prob_base):.4f}")
-                        edge_power = (implied_prob_sharp_power - implied_prob_base) / implied_prob_sharp_power * Decimal('100')
-                        logger.info(f"      Edge: ({float(implied_prob_sharp_power):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_sharp_power):.4f} * 100 = {float(edge_power):.2f}%")
+                        edge = (implied_prob_ground_truth - implied_prob_base) / implied_prob_ground_truth * Decimal('100')
+                        logger.info(f"      Edge: ({float(implied_prob_ground_truth):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_ground_truth):.4f} * 100 = {float(edge):.2f}%")
                         
-                        # Calculate edge using multiplicative devigged odds
-                        logger.info(f"    Edge calculation (Multiplicative Devig):")
-                        implied_prob_sharp_mult = Decimal('1') / Decimal(str(mult_devig_yes))
-                        logger.info(f"      Implied prob (sharp): 1 / {mult_devig_yes:.4f} = {float(implied_prob_sharp_mult):.4f}")
-                        logger.info(f"      Implied prob (base): 1 / {base_yes_decimal:.4f} = {float(implied_prob_base):.4f}")
-                        edge_mult = (implied_prob_sharp_mult - implied_prob_base) / implied_prob_sharp_mult * Decimal('100')
-                        logger.info(f"      Edge: ({float(implied_prob_sharp_mult):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_sharp_mult):.4f} * 100 = {float(edge_mult):.2f}%")
+                        # Calculate EV difference
+                        logger.info(f"    EV Difference calculation:")
+                        ev_difference = calculations.calculate_ev_difference(ground_truth_yes, base_yes_decimal)
+                        logger.info(f"      Input: Ground Truth Yes: {ground_truth_yes:.4f}, Base Yes: {base_yes_decimal:.4f}")
+                        logger.info(f"      EV Difference: {ev_difference:.4f}")
+                        # Convert ground truth and base odds back to American
+                        ground_truth_yes_american = calculations.decimal_to_american(ground_truth_yes)
+                        ground_truth_no_american = calculations.decimal_to_american(ground_truth_no)
+                        base_yes_american = base_yes['price']  # Already in American odds
+
+                        logger.info(f"    Final odds (American):")
+                        logger.info(f"      Ground Truth: Yes: {ground_truth_yes_american}, No: {ground_truth_no_american}")
+                        logger.info(f"      Base: Yes: {base_yes_american}")
+                        
                 except Exception as e:
-                    logger.error(f"Error in devigging calculations: {str(e)}")
+                    logger.error(f"Error in calculations: {str(e)}")
+                    logger.exception("Exception details:")  # This will print the full traceback
             else:
                 logger.info("    Unable to calculate sharp prices due to insufficient data")
 

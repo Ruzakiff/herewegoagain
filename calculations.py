@@ -54,26 +54,13 @@ def additive_devig(price1, price2):
     actualunderdecimal = 1 / (compunderimplied / total_probability)
     return actualoverdecimal, actualunderdecimal
 
-def calculate_ev_difference(sharp_over, sharp_under, base_over, base_under):
-    # Calculate implied probabilities
-    sharp_over_prob = 1 / sharp_over
-    sharp_under_prob = 1 / sharp_under
-    base_over_prob = 1 / base_over
-    base_under_prob = 1 / base_under
-
-    # Calculate fair probabilities (devigged)
-    sharp_total = sharp_over_prob + sharp_under_prob
-    sharp_fair_over = sharp_over_prob / sharp_total
-    sharp_fair_under = sharp_under_prob / sharp_total
-
-    # Calculate EV for over and under
-    ev_over = (sharp_fair_over * base_over) - 1
-    ev_under = (sharp_fair_under * base_under) - 1
-
-    # Calculate the percentage EV difference
-    ev_difference = max(ev_over, ev_under) * 100
-
-    return ev_difference
+def calculate_ev_difference(sharp_odds, base_odds):
+    sharp_odds = Decimal(str(sharp_odds))
+    base_odds = Decimal(str(base_odds))
+    sharp_prob = Decimal('1') / sharp_odds
+    base_prob = Decimal('1') / base_odds
+    ev_difference = (Decimal('1') - sharp_prob) * base_odds - sharp_prob
+    return float(ev_difference)  # Convert back to float for consistency with other functions
 
 def american_to_decimal(american_odds):
     american_odds = Decimal(str(american_odds))
