@@ -59,7 +59,7 @@ def calculate_ev_difference(sharp_odds, base_odds):
     base_odds = Decimal(str(base_odds))
     sharp_prob = Decimal('1') / sharp_odds
     base_prob = Decimal('1') / base_odds
-    ev_difference = (Decimal('1') - sharp_prob) * base_odds - sharp_prob
+    ev_difference = base_prob - sharp_prob
     return float(ev_difference)  # Convert back to float for consistency with other functions
 
 def american_to_decimal(american_odds):
