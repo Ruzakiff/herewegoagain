@@ -227,8 +227,8 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                     logger.info(f"      Result: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}")
 
                     # Determine ground truth line
-                    ground_truth_yes = min(power_devig_yes, mult_devig_yes)
-                    ground_truth_no = min(power_devig_no, mult_devig_no)
+                    ground_truth_yes = max(power_devig_yes, mult_devig_yes)
+                    ground_truth_no = max(power_devig_no, mult_devig_no)
                     logger.info(f"    Ground Truth Line: Yes: {ground_truth_yes:.4f}, No: {ground_truth_no:.4f}")
 
                     if base_yes:
