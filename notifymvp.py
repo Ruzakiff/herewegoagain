@@ -1,4 +1,4 @@
-from simplebot import send_discord_notification, run_bot
+from simplebot import send_discord_notification, run_bot, bot
 import time
 import random
 import threading
@@ -16,13 +16,18 @@ def run_odds_processing():
         time.sleep(1)  # Wait a bit between rounds
     print("Simulation complete.")
 
+def wait_for_bot_ready():
+    while bot.loop is None or not bot.is_ready():
+        time.sleep(0.1)
+    print("Bot is ready!")
+
 if __name__ == "__main__":
     # Start the bot in a separate thread
     bot_thread = threading.Thread(target=run_bot)
     bot_thread.start()
 
-    # Give the bot some time to start up
-    time.sleep(5)
+    # Wait for the bot to be ready
+    wait_for_bot_ready()
 
     # Run the odds processing
     run_odds_processing()
