@@ -4,7 +4,7 @@ import os
 import asyncio
 import threading
 from shared import notification_queue, newest_message, newest_message_lock, PriorityMessage, send_discord_notification
-from notifymvp import run_odds_processing
+from fetch3 import main as fetch_main, AggressiveTokenBucket, load_bookmaker_regions
 
 class realBot(commands.Bot):
     def __init__(self):
@@ -51,13 +51,34 @@ class Commands(commands.Cog):
         await ctx.send("Pong!")
 
     @commands.command()
-    async def start_odds(self, ctx, rounds: int = 5):
-        await ctx.send(f"Starting odds processing for {rounds} rounds...")
-        # Import here to avoid circular import
-        from notifymvp import run_odds_processing
+    async def start_odds(self, ctx, sport: str = 'americanfootball_nfl'):
+        await ctx.send(f"Starting odds processing for {sport}...")
+        
         # Run odds processing in a separate thread to avoid blocking the bot
-        threading.Thread(target=run_odds_processing, args=(rounds,)).start()
+        threading.Thread(target=asyncio.run, args=(self.run_odds_processing(sport),)).start()
+        
         await ctx.send("Odds processing started in the background.")
+
+    async def run_odds_processing(self, sport):
+        # Set up the parameters for fetch_main
+        market_bookmaker_combinations = [
+            ('player_anytime_td', ['fliff', 'tab', 'espnbet', 'pinnacle']),
+            ('player_last_td', ['fliff', 'tab', 'espnbet', 'pinnacle'])
+        ]
+        principal_bookmaker = 'fliff'
+        base_bookmaker = 'tab'
+        optional_principals = ['pinnacle', 'espnbet']
+
+        # Load bookmaker regions
+        BOOKMAKER_REGIONS = await load_bookmaker_regions()
+
+        # Set up token bucket
+        rate = 10  # tokens per second
+        capacity = 50  # maximum tokens
+        token_bucket = AggressiveTokenBucket(rate, capacity)
+
+        # Run the main function from fetch3
+        await fetch_main(sport, market_bookmaker_combinations, principal_bookmaker, base_bookmaker, optional_principals, BOOKMAKER_REGIONS, token_bucket)
 
 bot = realBot()
 
