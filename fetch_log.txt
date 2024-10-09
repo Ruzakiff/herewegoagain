@@ -1,1998 +1,629 @@
-2024-10-08 18:44:00,526 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-10-08 18:44:00,527 - INFO - logging in using static token
-2024-10-08 18:44:01,114 - INFO - Shard ID None has connected to Gateway (Session ID: 00831e893422e6c62c62d04e19efcc33).
-2024-10-08 18:44:11,763 - INFO - Using regions: eu,au,us2
-2024-10-08 18:44:12,035 - INFO - Time to fetch events: 0.27 seconds
-2024-10-08 18:44:12,036 - INFO - Number of events fetched: 29
-2024-10-08 18:44:12,111 - INFO - 
+2024-10-08 23:51:39,323 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-10-08 23:51:39,324 - INFO - logging in using static token
+2024-10-08 23:51:40,153 - INFO - Shard ID None has connected to Gateway (Session ID: 7446380aa570de7b9d476ee6dda9e6a0).
+2024-10-08 23:51:42,481 - INFO - Using regions: au,eu,us2
+2024-10-08 23:51:42,560 - INFO - Time to fetch events: 0.08 seconds
+2024-10-08 23:51:42,560 - INFO - Number of events fetched: 29
+2024-10-08 23:51:42,725 - INFO - 
 Event: Seattle Seahawks vs San Francisco 49ers
-2024-10-08 18:44:12,111 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,111 - INFO - fliff has both 'yes' and 'no' outcomes.
-2024-10-08 18:44:12,111 - INFO - Outcomes and calculations for all players:
-2024-10-08 18:44:12,111 - INFO -   Player: Jordan Mason
-2024-10-08 18:44:12,111 - INFO -     fliff: Yes: -155, No: 100
-2024-10-08 18:44:12,111 - INFO -     tab: Yes: -154
-2024-10-08 18:44:12,111 - INFO -     pinnacle: Yes: -142, No: 118
-2024-10-08 18:44:12,112 - INFO -     espnbet: Yes: -155, No: N/A
-2024-10-08 18:44:12,112 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,112 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,112 - INFO -         fliff: -155
-2024-10-08 18:44:12,112 - INFO -         pinnacle: -142
-2024-10-08 18:44:12,112 - INFO -       Yes sum: -297
-2024-10-08 18:44:12,112 - INFO -       Yes count: 2
-2024-10-08 18:44:12,112 - INFO -       Sharp Yes (American): -148.50
-2024-10-08 18:44:12,112 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,112 - INFO -         fliff: 100
-2024-10-08 18:44:12,112 - INFO -         pinnacle: 118
-2024-10-08 18:44:12,112 - INFO -       No sum: 218
-2024-10-08 18:44:12,112 - INFO -       No count: 2
-2024-10-08 18:44:12,112 - INFO -       Sharp No (American): 109.00
-2024-10-08 18:44:12,113 - INFO -     Final Sharp prices: Yes: -148.50 (Decimal: 1.6734), No: 109.00 (Decimal: 2.0900)
-2024-10-08 18:44:12,113 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,113 - INFO -       Input: Yes: 1.6734, No: 2.0900
-2024-10-08 18:44:12,115 - INFO -       Result: Yes: 1.7797, No: 2.2826
-2024-10-08 18:44:12,115 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,115 - INFO -       Input: Yes: 1.6734, No: 2.0900
-2024-10-08 18:44:12,115 - INFO -       Result: Yes: 1.8007, No: 2.2490
-2024-10-08 18:44:12,115 - INFO -     Ground Truth Line: Yes: 1.8007, No: 2.2826
-2024-10-08 18:44:12,116 - INFO -     Base price: Yes: -154 (Decimal: 1.6494)
-2024-10-08 18:44:12,116 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,116 - INFO -       Implied prob (ground truth): 1 / 1.8007 = 0.5553
-2024-10-08 18:44:12,116 - INFO -       Implied prob (base): 1 / 1.6494 = 0.6063
-2024-10-08 18:44:12,116 - INFO -       Edge: (0.5553 - 0.6063) / 0.5553 * 100 = -9.17%
-2024-10-08 18:44:12,116 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,116 - INFO -       Input: Ground Truth Yes: 1.8007, Base Yes: 1.6494
-2024-10-08 18:44:12,116 - INFO -       EV Difference: -4.6700
-2024-10-08 18:44:12,116 - INFO -     Final odds (American):
-2024-10-08 18:44:12,116 - INFO -       Ground Truth: Yes: -125, No: 128
-2024-10-08 18:44:12,116 - INFO -       Base: Yes: -154
-2024-10-08 18:44:12,116 - INFO -   Player: Trent Taylor
-2024-10-08 18:44:12,116 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,116 - INFO -     tab: Yes: 1200
-2024-10-08 18:44:12,117 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -   Player: Evan Brown
-2024-10-08 18:44:12,117 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,117 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -     espnbet: Yes: 1000, No: N/A
-2024-10-08 18:44:12,117 - INFO -   Player: Jake Tonges
-2024-10-08 18:44:12,117 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,117 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,117 - INFO -     espnbet: Yes: 1100, No: N/A
-2024-10-08 18:44:12,117 - INFO -   Player: Patrick Taylor
-2024-10-08 18:44:12,117 - INFO -     fliff: Yes: 1145, No: -999900
-2024-10-08 18:44:12,117 - INFO -     tab: Yes: 1200
-2024-10-08 18:44:12,118 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,118 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,118 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,118 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,118 - INFO -         fliff: 1145
-2024-10-08 18:44:12,118 - INFO -       Yes sum: 1145
-2024-10-08 18:44:12,118 - INFO -       Yes count: 1
-2024-10-08 18:44:12,118 - INFO -       Sharp Yes (American): 1145.00
-2024-10-08 18:44:12,118 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,118 - INFO -         fliff: -999900
-2024-10-08 18:44:12,118 - INFO -       No sum: -999900
-2024-10-08 18:44:12,118 - INFO -       No count: 1
-2024-10-08 18:44:12,118 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,118 - INFO -     Final Sharp prices: Yes: 1145.00 (Decimal: 12.4500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,118 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,118 - INFO -       Input: Yes: 12.4500, No: 1.0001
-2024-10-08 18:44:12,121 - INFO -       Result: Yes: 3133.0127, No: 1.0003
-2024-10-08 18:44:12,121 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,122 - INFO -       Input: Yes: 12.4500, No: 1.0001
-2024-10-08 18:44:12,122 - INFO -       Result: Yes: 13.4488, No: 1.0803
-2024-10-08 18:44:12,122 - INFO -     Ground Truth Line: Yes: 3133.0127, No: 1.0803
-2024-10-08 18:44:12,122 - INFO -     Base price: Yes: 1200 (Decimal: 13.0000)
-2024-10-08 18:44:12,122 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,122 - INFO -       Implied prob (ground truth): 1 / 3133.0127 = 0.0003
-2024-10-08 18:44:12,122 - INFO -       Implied prob (base): 1 / 13.0000 = 0.0769
-2024-10-08 18:44:12,122 - INFO -       Edge: (0.0003 - 0.0769) / 0.0003 * 100 = -24000.10%
-2024-10-08 18:44:12,122 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,122 - INFO -       Input: Ground Truth Yes: 3133.0127, Base Yes: 13.0000
-2024-10-08 18:44:12,122 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,122 - INFO -     Final odds (American):
-2024-10-08 18:44:12,122 - INFO -       Ground Truth: Yes: 313201, No: -1245
-2024-10-08 18:44:12,123 - INFO -       Base: Yes: 1200
-2024-10-08 18:44:12,123 - INFO -   Player: Kenneth Walker III
-2024-10-08 18:44:12,123 - INFO -     fliff: Yes: -105, No: -140
-2024-10-08 18:44:12,123 - INFO -     tab: Yes: -111
-2024-10-08 18:44:12,123 - INFO -     pinnacle: Yes: 102, No: -124
-2024-10-08 18:44:12,123 - INFO -     espnbet: Yes: -140, No: N/A
-2024-10-08 18:44:12,123 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,123 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,123 - INFO -         fliff: -105
-2024-10-08 18:44:12,123 - INFO -         pinnacle: 102
-2024-10-08 18:44:12,123 - INFO -       Yes sum: -3
-2024-10-08 18:44:12,123 - INFO -       Yes count: 2
-2024-10-08 18:44:12,123 - INFO -       Sharp Yes (American): -1.50
-2024-10-08 18:44:12,123 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,123 - INFO -         fliff: -140
-2024-10-08 18:44:12,123 - INFO -         pinnacle: -124
-2024-10-08 18:44:12,123 - INFO -       No sum: -264
-2024-10-08 18:44:12,124 - INFO -       No count: 2
-2024-10-08 18:44:12,124 - INFO -       Sharp No (American): -132.00
-2024-10-08 18:44:12,124 - INFO -     Final Sharp prices: Yes: -1.50 (Decimal: 67.6667), No: -132.00 (Decimal: 1.7576)
-2024-10-08 18:44:12,124 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,124 - INFO -       Input: Yes: 67.6667, No: 1.7576
-2024-10-08 18:44:12,127 - INFO -       Result: Yes: 5.1034, No: 1.2437
-2024-10-08 18:44:12,127 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,127 - INFO -       Input: Yes: 67.6667, No: 1.7576
-2024-10-08 18:44:12,127 - INFO -       Result: Yes: 39.5000, No: 1.0260
-2024-10-08 18:44:12,127 - INFO -     Ground Truth Line: Yes: 39.5000, No: 1.2437
-2024-10-08 18:44:12,127 - INFO -     Base price: Yes: -111 (Decimal: 1.9009)
-2024-10-08 18:44:12,127 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,127 - INFO -       Implied prob (ground truth): 1 / 39.5000 = 0.0253
-2024-10-08 18:44:12,127 - INFO -       Implied prob (base): 1 / 1.9009 = 0.5261
-2024-10-08 18:44:12,127 - INFO -       Edge: (0.0253 - 0.5261) / 0.0253 * 100 = -1977.96%
-2024-10-08 18:44:12,128 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,128 - INFO -       Input: Ground Truth Yes: 39.5000, Base Yes: 1.9009
-2024-10-08 18:44:12,128 - INFO -       EV Difference: -2.4100
-2024-10-08 18:44:12,128 - INFO -     Final odds (American):
-2024-10-08 18:44:12,128 - INFO -       Ground Truth: Yes: 3850, No: -410
-2024-10-08 18:44:12,128 - INFO -       Base: Yes: -111
-2024-10-08 18:44:12,128 - INFO -   Player: George Kittle
-2024-10-08 18:44:12,128 - INFO -     fliff: Yes: 160, No: -245
-2024-10-08 18:44:12,128 - INFO -     tab: Yes: 160
-2024-10-08 18:44:12,128 - INFO -     pinnacle: Yes: 179, No: -228
-2024-10-08 18:44:12,128 - INFO -     espnbet: Yes: 150, No: N/A
-2024-10-08 18:44:12,128 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,128 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,128 - INFO -         fliff: 160
-2024-10-08 18:44:12,128 - INFO -         pinnacle: 179
-2024-10-08 18:44:12,128 - INFO -       Yes sum: 339
-2024-10-08 18:44:12,129 - INFO -       Yes count: 2
-2024-10-08 18:44:12,129 - INFO -       Sharp Yes (American): 169.50
-2024-10-08 18:44:12,129 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,129 - INFO -         fliff: -245
-2024-10-08 18:44:12,129 - INFO -         pinnacle: -228
-2024-10-08 18:44:12,129 - INFO -       No sum: -473
-2024-10-08 18:44:12,129 - INFO -       No count: 2
-2024-10-08 18:44:12,129 - INFO -       Sharp No (American): -236.50
-2024-10-08 18:44:12,129 - INFO -     Final Sharp prices: Yes: 169.50 (Decimal: 2.6950), No: -236.50 (Decimal: 1.4228)
-2024-10-08 18:44:12,129 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,129 - INFO -       Input: Yes: 2.6950, No: 1.4228
-2024-10-08 18:44:12,131 - INFO -       Result: Yes: 3.0523, No: 1.4873
-2024-10-08 18:44:12,131 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,132 - INFO -       Input: Yes: 2.6950, No: 1.4228
-2024-10-08 18:44:12,132 - INFO -       Result: Yes: 2.8941, No: 1.5280
-2024-10-08 18:44:12,132 - INFO -     Ground Truth Line: Yes: 3.0523, No: 1.5280
-2024-10-08 18:44:12,132 - INFO -     Base price: Yes: 160 (Decimal: 2.6000)
-2024-10-08 18:44:12,132 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,132 - INFO -       Implied prob (ground truth): 1 / 3.0523 = 0.3276
-2024-10-08 18:44:12,132 - INFO -       Implied prob (base): 1 / 2.6000 = 0.3846
-2024-10-08 18:44:12,132 - INFO -       Edge: (0.3276 - 0.3846) / 0.3276 * 100 = -17.40%
-2024-10-08 18:44:12,132 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,132 - INFO -       Input: Ground Truth Yes: 3.0523, Base Yes: 2.6000
-2024-10-08 18:44:12,132 - INFO -       EV Difference: -4.8500
-2024-10-08 18:44:12,132 - INFO -     Final odds (American):
-2024-10-08 18:44:12,132 - INFO -       Ground Truth: Yes: 205, No: -189
-2024-10-08 18:44:12,133 - INFO -       Base: Yes: 160
-2024-10-08 18:44:12,133 - INFO -   Player: Deebo Samuel
-2024-10-08 18:44:12,133 - INFO -     fliff: Yes: 115, No: -175
-2024-10-08 18:44:12,133 - INFO -     tab: Yes: 115
-2024-10-08 18:44:12,133 - INFO -     pinnacle: Yes: 123, No: -151
-2024-10-08 18:44:12,133 - INFO -     espnbet: Yes: 110, No: N/A
-2024-10-08 18:44:12,133 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,133 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,133 - INFO -         fliff: 115
-2024-10-08 18:44:12,133 - INFO -         pinnacle: 123
-2024-10-08 18:44:12,133 - INFO -       Yes sum: 238
-2024-10-08 18:44:12,133 - INFO -       Yes count: 2
-2024-10-08 18:44:12,133 - INFO -       Sharp Yes (American): 119.00
-2024-10-08 18:44:12,133 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,133 - INFO -         fliff: -175
-2024-10-08 18:44:12,133 - INFO -         pinnacle: -151
-2024-10-08 18:44:12,134 - INFO -       No sum: -326
-2024-10-08 18:44:12,134 - INFO -       No count: 2
-2024-10-08 18:44:12,134 - INFO -       Sharp No (American): -163.00
-2024-10-08 18:44:12,134 - INFO -     Final Sharp prices: Yes: 119.00 (Decimal: 2.1900), No: -163.00 (Decimal: 1.6135)
-2024-10-08 18:44:12,134 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,134 - INFO -       Input: Yes: 2.1900, No: 1.6135
-2024-10-08 18:44:12,136 - INFO -       Result: Yes: 2.4086, No: 1.7099
-2024-10-08 18:44:12,136 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,136 - INFO -       Input: Yes: 2.1900, No: 1.6135
-2024-10-08 18:44:12,136 - INFO -       Result: Yes: 2.3573, No: 1.7368
-2024-10-08 18:44:12,136 - INFO -     Ground Truth Line: Yes: 2.4086, No: 1.7368
-2024-10-08 18:44:12,136 - INFO -     Base price: Yes: 115 (Decimal: 2.1500)
-2024-10-08 18:44:12,136 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,137 - INFO -       Implied prob (ground truth): 1 / 2.4086 = 0.4152
-2024-10-08 18:44:12,137 - INFO -       Implied prob (base): 1 / 2.1500 = 0.4651
-2024-10-08 18:44:12,137 - INFO -       Edge: (0.4152 - 0.4651) / 0.4152 * 100 = -12.03%
-2024-10-08 18:44:12,137 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,137 - INFO -       Input: Ground Truth Yes: 2.4086, Base Yes: 2.1500
-2024-10-08 18:44:12,137 - INFO -       EV Difference: -4.4600
-2024-10-08 18:44:12,137 - INFO -     Final odds (American):
-2024-10-08 18:44:12,137 - INFO -       Ground Truth: Yes: 141, No: -136
-2024-10-08 18:44:12,137 - INFO -       Base: Yes: 115
-2024-10-08 18:44:12,137 - INFO -   Player: Brock Purdy
-2024-10-08 18:44:12,137 - INFO -     fliff: Yes: 545, No: -1450
-2024-10-08 18:44:12,138 - INFO -     tab: Yes: 500
-2024-10-08 18:44:12,138 - INFO -     pinnacle: Yes: 636, No: -1284
-2024-10-08 18:44:12,138 - INFO -     espnbet: Yes: 500, No: N/A
-2024-10-08 18:44:12,138 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,138 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,138 - INFO -         fliff: 545
-2024-10-08 18:44:12,138 - INFO -         pinnacle: 636
-2024-10-08 18:44:12,138 - INFO -       Yes sum: 1181
-2024-10-08 18:44:12,138 - INFO -       Yes count: 2
-2024-10-08 18:44:12,139 - INFO -       Sharp Yes (American): 590.50
-2024-10-08 18:44:12,139 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,139 - INFO -         fliff: -1450
-2024-10-08 18:44:12,139 - INFO -         pinnacle: -1284
-2024-10-08 18:44:12,139 - INFO -       No sum: -2734
-2024-10-08 18:44:12,139 - INFO -       No count: 2
-2024-10-08 18:44:12,139 - INFO -       Sharp No (American): -1367.00
-2024-10-08 18:44:12,139 - INFO -     Final Sharp prices: Yes: 590.50 (Decimal: 6.9050), No: -1367.00 (Decimal: 1.0732)
-2024-10-08 18:44:12,139 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,139 - INFO -       Input: Yes: 6.9050, No: 1.0732
-2024-10-08 18:44:12,141 - INFO -       Result: Yes: 11.6530, No: 1.0939
-2024-10-08 18:44:12,141 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,141 - INFO -       Input: Yes: 6.9050, No: 1.0732
-2024-10-08 18:44:12,141 - INFO -       Result: Yes: 7.4343, No: 1.1554
-2024-10-08 18:44:12,142 - INFO -     Ground Truth Line: Yes: 11.6530, No: 1.1554
-2024-10-08 18:44:12,142 - INFO -     Base price: Yes: 500 (Decimal: 6.0000)
-2024-10-08 18:44:12,142 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,142 - INFO -       Implied prob (ground truth): 1 / 11.6530 = 0.0858
-2024-10-08 18:44:12,142 - INFO -       Implied prob (base): 1 / 6.0000 = 0.1667
-2024-10-08 18:44:12,142 - INFO -       Edge: (0.0858 - 0.1667) / 0.0858 * 100 = -94.22%
-2024-10-08 18:44:12,142 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,142 - INFO -       Input: Ground Truth Yes: 11.6530, Base Yes: 6.0000
-2024-10-08 18:44:12,142 - INFO -       EV Difference: -4.1600
-2024-10-08 18:44:12,142 - INFO -     Final odds (American):
-2024-10-08 18:44:12,142 - INFO -       Ground Truth: Yes: 1065, No: -643
-2024-10-08 18:44:12,143 - INFO -       Base: Yes: 500
-2024-10-08 18:44:12,143 - INFO -   Player: Ronnie Bell
-2024-10-08 18:44:12,143 - INFO -     fliff: Yes: 970, No: -29310
-2024-10-08 18:44:12,143 - INFO -     tab: Yes: 1000
-2024-10-08 18:44:12,143 - INFO -     pinnacle: Yes: 1240, No: -4232
-2024-10-08 18:44:12,143 - INFO -     espnbet: Yes: 1100, No: N/A
-2024-10-08 18:44:12,143 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,143 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,143 - INFO -         fliff: 970
-2024-10-08 18:44:12,143 - INFO -         pinnacle: 1240
-2024-10-08 18:44:12,143 - INFO -       Yes sum: 2210
-2024-10-08 18:44:12,143 - INFO -       Yes count: 2
-2024-10-08 18:44:12,143 - INFO -       Sharp Yes (American): 1105.00
-2024-10-08 18:44:12,144 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,144 - INFO -         fliff: -29310
-2024-10-08 18:44:12,144 - INFO -         pinnacle: -4232
-2024-10-08 18:44:12,144 - INFO -       No sum: -33542
-2024-10-08 18:44:12,144 - INFO -       No count: 2
-2024-10-08 18:44:12,144 - INFO -       Sharp No (American): -16771.00
-2024-10-08 18:44:12,144 - INFO -     Final Sharp prices: Yes: 1105.00 (Decimal: 12.0500), No: -16771.00 (Decimal: 1.0060)
-2024-10-08 18:44:12,144 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,144 - INFO -       Input: Yes: 12.0500, No: 1.0060
-2024-10-08 18:44:12,146 - INFO -       Result: Yes: 92.8956, No: 1.0109
-2024-10-08 18:44:12,146 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,146 - INFO -       Input: Yes: 12.0500, No: 1.0060
-2024-10-08 18:44:12,147 - INFO -       Result: Yes: 12.9786, No: 1.0835
-2024-10-08 18:44:12,147 - INFO -     Ground Truth Line: Yes: 92.8956, No: 1.0835
-2024-10-08 18:44:12,147 - INFO -     Base price: Yes: 1000 (Decimal: 11.0000)
-2024-10-08 18:44:12,147 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,147 - INFO -       Implied prob (ground truth): 1 / 92.8956 = 0.0108
-2024-10-08 18:44:12,147 - INFO -       Implied prob (base): 1 / 11.0000 = 0.0909
-2024-10-08 18:44:12,147 - INFO -       Edge: (0.0108 - 0.0909) / 0.0108 * 100 = -744.51%
-2024-10-08 18:44:12,147 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,147 - INFO -       Input: Ground Truth Yes: 92.8956, Base Yes: 11.0000
-2024-10-08 18:44:12,147 - INFO -       EV Difference: -0.9500
-2024-10-08 18:44:12,147 - INFO -     Final odds (American):
-2024-10-08 18:44:12,147 - INFO -       Ground Truth: Yes: 9190, No: -1198
-2024-10-08 18:44:12,147 - INFO -       Base: Yes: 1000
-2024-10-08 18:44:12,148 - INFO -   Player: Jaxon Smith-Njigba
-2024-10-08 18:44:12,148 - INFO -     fliff: Yes: 220, No: -360
-2024-10-08 18:44:12,148 - INFO -     tab: Yes: 200
-2024-10-08 18:44:12,148 - INFO -     pinnacle: Yes: 251, No: -343
-2024-10-08 18:44:12,148 - INFO -     espnbet: Yes: 200, No: N/A
-2024-10-08 18:44:12,148 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,148 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,148 - INFO -         fliff: 220
-2024-10-08 18:44:12,148 - INFO -         pinnacle: 251
-2024-10-08 18:44:12,148 - INFO -       Yes sum: 471
-2024-10-08 18:44:12,148 - INFO -       Yes count: 2
-2024-10-08 18:44:12,148 - INFO -       Sharp Yes (American): 235.50
-2024-10-08 18:44:12,148 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,148 - INFO -         fliff: -360
-2024-10-08 18:44:12,148 - INFO -         pinnacle: -343
-2024-10-08 18:44:12,148 - INFO -       No sum: -703
-2024-10-08 18:44:12,149 - INFO -       No count: 2
-2024-10-08 18:44:12,149 - INFO -       Sharp No (American): -351.50
-2024-10-08 18:44:12,149 - INFO -     Final Sharp prices: Yes: 235.50 (Decimal: 3.3550), No: -351.50 (Decimal: 1.2845)
-2024-10-08 18:44:12,149 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,149 - INFO -       Input: Yes: 3.3550, No: 1.2845
-2024-10-08 18:44:12,151 - INFO -       Result: Yes: 4.0070, No: 1.3326
-2024-10-08 18:44:12,151 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,151 - INFO -       Input: Yes: 3.3550, No: 1.2845
-2024-10-08 18:44:12,151 - INFO -       Result: Yes: 3.6119, No: 1.3829
-2024-10-08 18:44:12,152 - INFO -     Ground Truth Line: Yes: 4.0070, No: 1.3829
-2024-10-08 18:44:12,152 - INFO -     Base price: Yes: 200 (Decimal: 3.0000)
-2024-10-08 18:44:12,152 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,152 - INFO -       Implied prob (ground truth): 1 / 4.0070 = 0.2496
-2024-10-08 18:44:12,152 - INFO -       Implied prob (base): 1 / 3.0000 = 0.3333
-2024-10-08 18:44:12,152 - INFO -       Edge: (0.2496 - 0.3333) / 0.2496 * 100 = -33.57%
-2024-10-08 18:44:12,152 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,152 - INFO -       Input: Ground Truth Yes: 4.0070, Base Yes: 3.0000
-2024-10-08 18:44:12,152 - INFO -       EV Difference: -6.2700
-2024-10-08 18:44:12,152 - INFO -     Final odds (American):
-2024-10-08 18:44:12,152 - INFO -       Ground Truth: Yes: 301, No: -261
-2024-10-08 18:44:12,152 - INFO -       Base: Yes: 200
-2024-10-08 18:44:12,152 - INFO -   Player: George Fant
-2024-10-08 18:44:12,153 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,153 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,153 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,153 - INFO -     espnbet: Yes: 425, No: N/A
-2024-10-08 18:44:12,153 - INFO -   Player: Pharaoh Brown
-2024-10-08 18:44:12,153 - INFO -     fliff: Yes: 895, No: -9335
-2024-10-08 18:44:12,153 - INFO -     tab: Yes: 800
-2024-10-08 18:44:12,153 - INFO -     pinnacle: Yes: 1118, No: -3451
-2024-10-08 18:44:12,153 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,153 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,153 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,153 - INFO -         fliff: 895
-2024-10-08 18:44:12,153 - INFO -         pinnacle: 1118
-2024-10-08 18:44:12,153 - INFO -       Yes sum: 2013
-2024-10-08 18:44:12,153 - INFO -       Yes count: 2
-2024-10-08 18:44:12,154 - INFO -       Sharp Yes (American): 1006.50
-2024-10-08 18:44:12,154 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,154 - INFO -         fliff: -9335
-2024-10-08 18:44:12,154 - INFO -         pinnacle: -3451
-2024-10-08 18:44:12,154 - INFO -       No sum: -12786
-2024-10-08 18:44:12,154 - INFO -       No count: 2
-2024-10-08 18:44:12,154 - INFO -       Sharp No (American): -6393.00
-2024-10-08 18:44:12,154 - INFO -     Final Sharp prices: Yes: 1006.50 (Decimal: 11.0650), No: -6393.00 (Decimal: 1.0156)
-2024-10-08 18:44:12,154 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,154 - INFO -       Input: Yes: 11.0650, No: 1.0156
-2024-10-08 18:44:12,156 - INFO -       Result: Yes: 41.9507, No: 1.0244
-2024-10-08 18:44:12,156 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,157 - INFO -       Input: Yes: 11.0650, No: 1.0156
-2024-10-08 18:44:12,157 - INFO -       Result: Yes: 11.8946, No: 1.0918
-2024-10-08 18:44:12,157 - INFO -     Ground Truth Line: Yes: 41.9507, No: 1.0918
-2024-10-08 18:44:12,157 - INFO -     Base price: Yes: 800 (Decimal: 9.0000)
-2024-10-08 18:44:12,157 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,157 - INFO -       Implied prob (ground truth): 1 / 41.9507 = 0.0238
-2024-10-08 18:44:12,157 - INFO -       Implied prob (base): 1 / 9.0000 = 0.1111
-2024-10-08 18:44:12,157 - INFO -       Edge: (0.0238 - 0.1111) / 0.0238 * 100 = -366.12%
-2024-10-08 18:44:12,157 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,157 - INFO -       Input: Ground Truth Yes: 41.9507, Base Yes: 9.0000
-2024-10-08 18:44:12,157 - INFO -       EV Difference: -1.8700
-2024-10-08 18:44:12,157 - INFO -     Final odds (American):
-2024-10-08 18:44:12,157 - INFO -       Ground Truth: Yes: 4095, No: -1089
-2024-10-08 18:44:12,157 - INFO -       Base: Yes: 800
-2024-10-08 18:44:12,157 - INFO -   Player: Dareke Young
-2024-10-08 18:44:12,158 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,158 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,158 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,158 - INFO -     espnbet: Yes: 1500, No: N/A
-2024-10-08 18:44:12,158 - INFO -   Player: Jauan Jennings
-2024-10-08 18:44:12,158 - INFO -     fliff: Yes: 315, No: -570
-2024-10-08 18:44:12,158 - INFO -     tab: Yes: 300
-2024-10-08 18:44:12,158 - INFO -     pinnacle: Yes: 360, No: -550
-2024-10-08 18:44:12,158 - INFO -     espnbet: Yes: 225, No: N/A
-2024-10-08 18:44:12,158 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,158 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,158 - INFO -         fliff: 315
-2024-10-08 18:44:12,158 - INFO -         pinnacle: 360
-2024-10-08 18:44:12,158 - INFO -       Yes sum: 675
-2024-10-08 18:44:12,158 - INFO -       Yes count: 2
-2024-10-08 18:44:12,159 - INFO -       Sharp Yes (American): 337.50
-2024-10-08 18:44:12,159 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,159 - INFO -         fliff: -570
-2024-10-08 18:44:12,159 - INFO -         pinnacle: -550
-2024-10-08 18:44:12,159 - INFO -       No sum: -1120
-2024-10-08 18:44:12,159 - INFO -       No count: 2
-2024-10-08 18:44:12,159 - INFO -       Sharp No (American): -560.00
-2024-10-08 18:44:12,159 - INFO -     Final Sharp prices: Yes: 337.50 (Decimal: 4.3750), No: -560.00 (Decimal: 1.1786)
-2024-10-08 18:44:12,159 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,159 - INFO -       Input: Yes: 4.3750, No: 1.1786
-2024-10-08 18:44:12,161 - INFO -       Result: Yes: 5.6851, No: 1.2134
-2024-10-08 18:44:12,161 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,161 - INFO -       Input: Yes: 4.3750, No: 1.1786
-2024-10-08 18:44:12,162 - INFO -       Result: Yes: 4.7121, No: 1.2694
-2024-10-08 18:44:12,162 - INFO -     Ground Truth Line: Yes: 5.6851, No: 1.2694
-2024-10-08 18:44:12,162 - INFO -     Base price: Yes: 300 (Decimal: 4.0000)
-2024-10-08 18:44:12,162 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,162 - INFO -       Implied prob (ground truth): 1 / 5.6851 = 0.1759
-2024-10-08 18:44:12,162 - INFO -       Implied prob (base): 1 / 4.0000 = 0.2500
-2024-10-08 18:44:12,162 - INFO -       Edge: (0.1759 - 0.2500) / 0.1759 * 100 = -42.13%
-2024-10-08 18:44:12,162 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,162 - INFO -       Input: Ground Truth Yes: 5.6851, Base Yes: 4.0000
-2024-10-08 18:44:12,162 - INFO -       EV Difference: -5.2100
-2024-10-08 18:44:12,162 - INFO -     Final odds (American):
-2024-10-08 18:44:12,162 - INFO -       Ground Truth: Yes: 469, No: -371
-2024-10-08 18:44:12,162 - INFO -       Base: Yes: 300
-2024-10-08 18:44:12,162 - INFO -   Player: Eric Saubert
-2024-10-08 18:44:12,162 - INFO -     fliff: Yes: 960, No: -23155
-2024-10-08 18:44:12,163 - INFO -     tab: Yes: 800
-2024-10-08 18:44:12,163 - INFO -     pinnacle: Yes: 1223, No: -4119
-2024-10-08 18:44:12,163 - INFO -     espnbet: Yes: 1000, No: N/A
-2024-10-08 18:44:12,163 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,163 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,163 - INFO -         fliff: 960
-2024-10-08 18:44:12,163 - INFO -         pinnacle: 1223
-2024-10-08 18:44:12,163 - INFO -       Yes sum: 2183
-2024-10-08 18:44:12,163 - INFO -       Yes count: 2
-2024-10-08 18:44:12,163 - INFO -       Sharp Yes (American): 1091.50
-2024-10-08 18:44:12,163 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,163 - INFO -         fliff: -23155
-2024-10-08 18:44:12,163 - INFO -         pinnacle: -4119
-2024-10-08 18:44:12,163 - INFO -       No sum: -27274
-2024-10-08 18:44:12,163 - INFO -       No count: 2
-2024-10-08 18:44:12,163 - INFO -       Sharp No (American): -13637.00
-2024-10-08 18:44:12,164 - INFO -     Final Sharp prices: Yes: 1091.50 (Decimal: 11.9150), No: -13637.00 (Decimal: 1.0073)
-2024-10-08 18:44:12,164 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,164 - INFO -       Input: Yes: 11.9150, No: 1.0073
-2024-10-08 18:44:12,166 - INFO -       Result: Yes: 78.2792, No: 1.0129
-2024-10-08 18:44:12,166 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,166 - INFO -       Input: Yes: 11.9150, No: 1.0073
-2024-10-08 18:44:12,166 - INFO -       Result: Yes: 12.8283, No: 1.0845
-2024-10-08 18:44:12,166 - INFO -     Ground Truth Line: Yes: 78.2792, No: 1.0845
-2024-10-08 18:44:12,166 - INFO -     Base price: Yes: 800 (Decimal: 9.0000)
-2024-10-08 18:44:12,166 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,166 - INFO -       Implied prob (ground truth): 1 / 78.2792 = 0.0128
-2024-10-08 18:44:12,166 - INFO -       Implied prob (base): 1 / 9.0000 = 0.1111
-2024-10-08 18:44:12,166 - INFO -       Edge: (0.0128 - 0.1111) / 0.0128 * 100 = -769.77%
-2024-10-08 18:44:12,167 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,167 - INFO -       Input: Ground Truth Yes: 78.2792, Base Yes: 9.0000
-2024-10-08 18:44:12,167 - INFO -       EV Difference: -1.1300
-2024-10-08 18:44:12,167 - INFO -     Final odds (American):
-2024-10-08 18:44:12,167 - INFO -       Ground Truth: Yes: 7728, No: -1183
-2024-10-08 18:44:12,167 - INFO -       Base: Yes: 800
-2024-10-08 18:44:12,167 - INFO -   Player: Isaac Guerendo
-2024-10-08 18:44:12,167 - INFO -     fliff: Yes: 425, No: -905
-2024-10-08 18:44:12,167 - INFO -     tab: Yes: 400
-2024-10-08 18:44:12,167 - INFO -     pinnacle: Yes: 546, No: -1004
-2024-10-08 18:44:12,167 - INFO -     espnbet: Yes: 550, No: N/A
-2024-10-08 18:44:12,167 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,167 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,167 - INFO -         fliff: 425
-2024-10-08 18:44:12,168 - INFO -         pinnacle: 546
-2024-10-08 18:44:12,168 - INFO -       Yes sum: 971
-2024-10-08 18:44:12,168 - INFO -       Yes count: 2
-2024-10-08 18:44:12,168 - INFO -       Sharp Yes (American): 485.50
-2024-10-08 18:44:12,168 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,168 - INFO -         fliff: -905
-2024-10-08 18:44:12,168 - INFO -         pinnacle: -1004
-2024-10-08 18:44:12,168 - INFO -       No sum: -1909
-2024-10-08 18:44:12,168 - INFO -       No count: 2
-2024-10-08 18:44:12,168 - INFO -       Sharp No (American): -954.50
-2024-10-08 18:44:12,168 - INFO -     Final Sharp prices: Yes: 485.50 (Decimal: 5.8550), No: -954.50 (Decimal: 1.1048)
-2024-10-08 18:44:12,168 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,168 - INFO -       Input: Yes: 5.8550, No: 1.1048
-2024-10-08 18:44:12,170 - INFO -       Result: Yes: 8.7066, No: 1.1298
-2024-10-08 18:44:12,170 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,170 - INFO -       Input: Yes: 5.8550, No: 1.1048
-2024-10-08 18:44:12,170 - INFO -       Result: Yes: 6.2998, No: 1.1887
-2024-10-08 18:44:12,170 - INFO -     Ground Truth Line: Yes: 8.7066, No: 1.1887
-2024-10-08 18:44:12,171 - INFO -     Base price: Yes: 400 (Decimal: 5.0000)
-2024-10-08 18:44:12,171 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,171 - INFO -       Implied prob (ground truth): 1 / 8.7066 = 0.1149
-2024-10-08 18:44:12,171 - INFO -       Implied prob (base): 1 / 5.0000 = 0.2000
-2024-10-08 18:44:12,171 - INFO -       Edge: (0.1149 - 0.2000) / 0.1149 * 100 = -74.13%
-2024-10-08 18:44:12,171 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,171 - INFO -       Input: Ground Truth Yes: 8.7066, Base Yes: 5.0000
-2024-10-08 18:44:12,171 - INFO -       EV Difference: -4.8900
-2024-10-08 18:44:12,171 - INFO -     Final odds (American):
-2024-10-08 18:44:12,171 - INFO -       Ground Truth: Yes: 771, No: -530
-2024-10-08 18:44:12,171 - INFO -       Base: Yes: 400
-2024-10-08 18:44:12,171 - INFO -   Player: Brandon Aiyuk
-2024-10-08 18:44:12,171 - INFO -     fliff: Yes: 135, No: -210
-2024-10-08 18:44:12,172 - INFO -     tab: Yes: 150
-2024-10-08 18:44:12,172 - INFO -     pinnacle: Yes: 157, No: -195
-2024-10-08 18:44:12,172 - INFO -     espnbet: Yes: 145, No: N/A
-2024-10-08 18:44:12,172 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,172 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,172 - INFO -         fliff: 135
-2024-10-08 18:44:12,172 - INFO -         pinnacle: 157
-2024-10-08 18:44:12,172 - INFO -       Yes sum: 292
-2024-10-08 18:44:12,172 - INFO -       Yes count: 2
-2024-10-08 18:44:12,172 - INFO -       Sharp Yes (American): 146.00
-2024-10-08 18:44:12,172 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,172 - INFO -         fliff: -210
-2024-10-08 18:44:12,172 - INFO -         pinnacle: -195
-2024-10-08 18:44:12,173 - INFO -       No sum: -405
-2024-10-08 18:44:12,173 - INFO -       No count: 2
-2024-10-08 18:44:12,173 - INFO -       Sharp No (American): -202.50
-2024-10-08 18:44:12,173 - INFO -     Final Sharp prices: Yes: 146.00 (Decimal: 2.4600), No: -202.50 (Decimal: 1.4938)
-2024-10-08 18:44:12,173 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,173 - INFO -       Input: Yes: 2.4600, No: 1.4938
-2024-10-08 18:44:12,175 - INFO -       Result: Yes: 2.7526, No: 1.5706
-2024-10-08 18:44:12,175 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,175 - INFO -       Input: Yes: 2.4600, No: 1.4938
-2024-10-08 18:44:12,176 - INFO -       Result: Yes: 2.6468, No: 1.6072
-2024-10-08 18:44:12,176 - INFO -     Ground Truth Line: Yes: 2.7526, No: 1.6072
-2024-10-08 18:44:12,176 - INFO -     Base price: Yes: 150 (Decimal: 2.5000)
-2024-10-08 18:44:12,176 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,176 - INFO -       Implied prob (ground truth): 1 / 2.7526 = 0.3633
-2024-10-08 18:44:12,176 - INFO -       Implied prob (base): 1 / 2.5000 = 0.4000
-2024-10-08 18:44:12,176 - INFO -       Edge: (0.3633 - 0.4000) / 0.3633 * 100 = -10.10%
-2024-10-08 18:44:12,176 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,176 - INFO -       Input: Ground Truth Yes: 2.7526, Base Yes: 2.5000
-2024-10-08 18:44:12,176 - INFO -       EV Difference: -3.3300
-2024-10-08 18:44:12,176 - INFO -     Final odds (American):
-2024-10-08 18:44:12,176 - INFO -       Ground Truth: Yes: 175, No: -165
-2024-10-08 18:44:12,176 - INFO -       Base: Yes: 150
-2024-10-08 18:44:12,176 - INFO -   Player: Tyler Lockett
-2024-10-08 18:44:12,177 - INFO -     fliff: Yes: 235, No: -385
-2024-10-08 18:44:12,177 - INFO -     tab: Yes: 225
-2024-10-08 18:44:12,177 - INFO -     pinnacle: Yes: 266, No: -369
-2024-10-08 18:44:12,177 - INFO -     espnbet: Yes: 250, No: N/A
-2024-10-08 18:44:12,177 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,177 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,177 - INFO -         fliff: 235
-2024-10-08 18:44:12,177 - INFO -         pinnacle: 266
-2024-10-08 18:44:12,177 - INFO -       Yes sum: 501
-2024-10-08 18:44:12,177 - INFO -       Yes count: 2
-2024-10-08 18:44:12,177 - INFO -       Sharp Yes (American): 250.50
-2024-10-08 18:44:12,177 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,177 - INFO -         fliff: -385
-2024-10-08 18:44:12,177 - INFO -         pinnacle: -369
-2024-10-08 18:44:12,177 - INFO -       No sum: -754
-2024-10-08 18:44:12,177 - INFO -       No count: 2
-2024-10-08 18:44:12,178 - INFO -       Sharp No (American): -377.00
-2024-10-08 18:44:12,178 - INFO -     Final Sharp prices: Yes: 250.50 (Decimal: 3.5050), No: -377.00 (Decimal: 1.2653)
-2024-10-08 18:44:12,178 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,178 - INFO -       Input: Yes: 3.5050, No: 1.2653
-2024-10-08 18:44:12,180 - INFO -       Result: Yes: 4.2230, No: 1.3103
-2024-10-08 18:44:12,180 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,180 - INFO -       Input: Yes: 3.5050, No: 1.2653
-2024-10-08 18:44:12,180 - INFO -       Result: Yes: 3.7702, No: 1.3610
-2024-10-08 18:44:12,180 - INFO -     Ground Truth Line: Yes: 4.2230, No: 1.3610
-2024-10-08 18:44:12,180 - INFO -     Base price: Yes: 225 (Decimal: 3.2500)
-2024-10-08 18:44:12,180 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,180 - INFO -       Implied prob (ground truth): 1 / 4.2230 = 0.2368
-2024-10-08 18:44:12,181 - INFO -       Implied prob (base): 1 / 3.2500 = 0.3077
-2024-10-08 18:44:12,181 - INFO -       Edge: (0.2368 - 0.3077) / 0.2368 * 100 = -29.94%
-2024-10-08 18:44:12,181 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,181 - INFO -       Input: Ground Truth Yes: 4.2230, Base Yes: 3.2500
-2024-10-08 18:44:12,181 - INFO -       EV Difference: -5.4600
-2024-10-08 18:44:12,182 - INFO -     Final odds (American):
-2024-10-08 18:44:12,182 - INFO -       Ground Truth: Yes: 322, No: -277
-2024-10-08 18:44:12,182 - INFO -       Base: Yes: 225
-2024-10-08 18:44:12,182 - INFO -   Player: Kenny McIntosh
-2024-10-08 18:44:12,182 - INFO -     fliff: Yes: 1565, No: -999900
-2024-10-08 18:44:12,182 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,182 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,182 - INFO -     espnbet: Yes: 1800, No: N/A
-2024-10-08 18:44:12,182 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,182 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,183 - INFO -         fliff: 1565
-2024-10-08 18:44:12,183 - INFO -       Yes sum: 1565
-2024-10-08 18:44:12,183 - INFO -       Yes count: 1
-2024-10-08 18:44:12,183 - INFO -       Sharp Yes (American): 1565.00
-2024-10-08 18:44:12,183 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,183 - INFO -         fliff: -999900
-2024-10-08 18:44:12,183 - INFO -       No sum: -999900
-2024-10-08 18:44:12,183 - INFO -       No count: 1
-2024-10-08 18:44:12,183 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,183 - INFO -     Final Sharp prices: Yes: 1565.00 (Decimal: 16.6500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,183 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,183 - INFO -       Input: Yes: 16.6500, No: 1.0001
-2024-10-08 18:44:12,186 - INFO -       Result: Yes: 3452.4734, No: 1.0003
-2024-10-08 18:44:12,186 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,187 - INFO -       Input: Yes: 16.6500, No: 1.0001
-2024-10-08 18:44:12,187 - INFO -       Result: Yes: 17.6483, No: 1.0601
-2024-10-08 18:44:12,187 - INFO -     Ground Truth Line: Yes: 3452.4734, No: 1.0601
-2024-10-08 18:44:12,187 - INFO -   Player: Noah Fant
-2024-10-08 18:44:12,187 - INFO -     fliff: Yes: 370, No: -730
-2024-10-08 18:44:12,187 - INFO -     tab: Yes: 350
-2024-10-08 18:44:12,187 - INFO -     pinnacle: Yes: 426, No: -699
-2024-10-08 18:44:12,187 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,187 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,187 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,187 - INFO -         fliff: 370
-2024-10-08 18:44:12,187 - INFO -         pinnacle: 426
-2024-10-08 18:44:12,187 - INFO -       Yes sum: 796
-2024-10-08 18:44:12,187 - INFO -       Yes count: 2
-2024-10-08 18:44:12,187 - INFO -       Sharp Yes (American): 398.00
-2024-10-08 18:44:12,188 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,188 - INFO -         fliff: -730
-2024-10-08 18:44:12,188 - INFO -         pinnacle: -699
-2024-10-08 18:44:12,188 - INFO -       No sum: -1429
-2024-10-08 18:44:12,188 - INFO -       No count: 2
-2024-10-08 18:44:12,188 - INFO -       Sharp No (American): -714.50
-2024-10-08 18:44:12,188 - INFO -     Final Sharp prices: Yes: 398.00 (Decimal: 4.9800), No: -714.50 (Decimal: 1.1400)
-2024-10-08 18:44:12,188 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,188 - INFO -       Input: Yes: 4.9800, No: 1.1400
-2024-10-08 18:44:12,190 - INFO -       Result: Yes: 6.8718, No: 1.1703
-2024-10-08 18:44:12,191 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,191 - INFO -       Input: Yes: 4.9800, No: 1.1400
-2024-10-08 18:44:12,191 - INFO -       Result: Yes: 5.3686, No: 1.2289
-2024-10-08 18:44:12,191 - INFO -     Ground Truth Line: Yes: 6.8718, No: 1.2289
-2024-10-08 18:44:12,191 - INFO -     Base price: Yes: 350 (Decimal: 4.5000)
-2024-10-08 18:44:12,191 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,191 - INFO -       Implied prob (ground truth): 1 / 6.8718 = 0.1455
-2024-10-08 18:44:12,191 - INFO -       Implied prob (base): 1 / 4.5000 = 0.2222
-2024-10-08 18:44:12,191 - INFO -       Edge: (0.1455 - 0.2222) / 0.1455 * 100 = -52.71%
-2024-10-08 18:44:12,191 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,191 - INFO -       Input: Ground Truth Yes: 6.8718, Base Yes: 4.5000
-2024-10-08 18:44:12,191 - INFO -       EV Difference: -5.0200
-2024-10-08 18:44:12,191 - INFO -     Final odds (American):
-2024-10-08 18:44:12,192 - INFO -       Ground Truth: Yes: 587, No: -437
-2024-10-08 18:44:12,192 - INFO -       Base: Yes: 350
-2024-10-08 18:44:12,192 - INFO -   Player: Geno Smith
-2024-10-08 18:44:12,192 - INFO -     fliff: Yes: 435, No: -950
-2024-10-08 18:44:12,192 - INFO -     tab: Yes: 450
-2024-10-08 18:44:12,192 - INFO -     pinnacle: Yes: 509, No: -906
-2024-10-08 18:44:12,192 - INFO -     espnbet: Yes: 550, No: N/A
-2024-10-08 18:44:12,192 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,192 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,192 - INFO -         fliff: 435
-2024-10-08 18:44:12,192 - INFO -         pinnacle: 509
-2024-10-08 18:44:12,192 - INFO -       Yes sum: 944
-2024-10-08 18:44:12,192 - INFO -       Yes count: 2
-2024-10-08 18:44:12,192 - INFO -       Sharp Yes (American): 472.00
-2024-10-08 18:44:12,192 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,192 - INFO -         fliff: -950
-2024-10-08 18:44:12,193 - INFO -         pinnacle: -906
-2024-10-08 18:44:12,193 - INFO -       No sum: -1856
-2024-10-08 18:44:12,193 - INFO -       No count: 2
-2024-10-08 18:44:12,193 - INFO -       Sharp No (American): -928.00
-2024-10-08 18:44:12,193 - INFO -     Final Sharp prices: Yes: 472.00 (Decimal: 5.7200), No: -928.00 (Decimal: 1.1078)
-2024-10-08 18:44:12,193 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,193 - INFO -       Input: Yes: 5.7200, No: 1.1078
-2024-10-08 18:44:12,195 - INFO -       Result: Yes: 8.4815, No: 1.1337
-2024-10-08 18:44:12,195 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,196 - INFO -       Input: Yes: 5.7200, No: 1.1078
-2024-10-08 18:44:12,196 - INFO -       Result: Yes: 6.1636, No: 1.1937
-2024-10-08 18:44:12,196 - INFO -     Ground Truth Line: Yes: 8.4815, No: 1.1937
-2024-10-08 18:44:12,196 - INFO -     Base price: Yes: 450 (Decimal: 5.5000)
-2024-10-08 18:44:12,196 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,196 - INFO -       Implied prob (ground truth): 1 / 8.4815 = 0.1179
-2024-10-08 18:44:12,196 - INFO -       Implied prob (base): 1 / 5.5000 = 0.1818
-2024-10-08 18:44:12,196 - INFO -       Edge: (0.1179 - 0.1818) / 0.1179 * 100 = -54.21%
-2024-10-08 18:44:12,197 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,197 - INFO -       Input: Ground Truth Yes: 8.4815, Base Yes: 5.5000
-2024-10-08 18:44:12,197 - INFO -       EV Difference: -4.1400
-2024-10-08 18:44:12,197 - INFO -     Final odds (American):
-2024-10-08 18:44:12,197 - INFO -       Ground Truth: Yes: 748, No: -516
-2024-10-08 18:44:12,197 - INFO -       Base: Yes: 450
-2024-10-08 18:44:12,197 - INFO -   Player: Zach Charbonnet
-2024-10-08 18:44:12,197 - INFO -     fliff: Yes: 325, No: -590
-2024-10-08 18:44:12,197 - INFO -     tab: Yes: 300
-2024-10-08 18:44:12,197 - INFO -     pinnacle: Yes: 369, No: -570
-2024-10-08 18:44:12,197 - INFO -     espnbet: Yes: 300, No: N/A
-2024-10-08 18:44:12,197 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,197 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,197 - INFO -         fliff: 325
-2024-10-08 18:44:12,197 - INFO -         pinnacle: 369
-2024-10-08 18:44:12,198 - INFO -       Yes sum: 694
-2024-10-08 18:44:12,198 - INFO -       Yes count: 2
-2024-10-08 18:44:12,198 - INFO -       Sharp Yes (American): 347.00
-2024-10-08 18:44:12,198 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,198 - INFO -         fliff: -590
-2024-10-08 18:44:12,198 - INFO -         pinnacle: -570
-2024-10-08 18:44:12,198 - INFO -       No sum: -1160
-2024-10-08 18:44:12,198 - INFO -       No count: 2
-2024-10-08 18:44:12,198 - INFO -       Sharp No (American): -580.00
-2024-10-08 18:44:12,198 - INFO -     Final Sharp prices: Yes: 347.00 (Decimal: 4.4700), No: -580.00 (Decimal: 1.1724)
-2024-10-08 18:44:12,198 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,198 - INFO -       Input: Yes: 4.4700, No: 1.1724
-2024-10-08 18:44:12,201 - INFO -       Result: Yes: 5.8466, No: 1.2063
-2024-10-08 18:44:12,201 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,201 - INFO -       Input: Yes: 4.4700, No: 1.1724
-2024-10-08 18:44:12,201 - INFO -       Result: Yes: 4.8126, No: 1.2623
-2024-10-08 18:44:12,201 - INFO -     Ground Truth Line: Yes: 5.8466, No: 1.2623
-2024-10-08 18:44:12,201 - INFO -     Base price: Yes: 300 (Decimal: 4.0000)
-2024-10-08 18:44:12,201 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,201 - INFO -       Implied prob (ground truth): 1 / 5.8466 = 0.1710
-2024-10-08 18:44:12,201 - INFO -       Implied prob (base): 1 / 4.0000 = 0.2500
-2024-10-08 18:44:12,201 - INFO -       Edge: (0.1710 - 0.2500) / 0.1710 * 100 = -46.16%
-2024-10-08 18:44:12,201 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,202 - INFO -       Input: Ground Truth Yes: 5.8466, Base Yes: 4.0000
-2024-10-08 18:44:12,202 - INFO -       EV Difference: -5.4000
-2024-10-08 18:44:12,202 - INFO -     Final odds (American):
-2024-10-08 18:44:12,202 - INFO -       Ground Truth: Yes: 485, No: -381
-2024-10-08 18:44:12,202 - INFO -       Base: Yes: 300
-2024-10-08 18:44:12,202 - INFO -   Player: Jake Bobo
-2024-10-08 18:44:12,202 - INFO -     fliff: Yes: 950, No: -18770
-2024-10-08 18:44:12,202 - INFO -     tab: Yes: 700
-2024-10-08 18:44:12,202 - INFO -     pinnacle: Yes: 1205, No: -3999
-2024-10-08 18:44:12,202 - INFO -     espnbet: Yes: 900, No: N/A
-2024-10-08 18:44:12,202 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,202 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,202 - INFO -         fliff: 950
-2024-10-08 18:44:12,202 - INFO -         pinnacle: 1205
-2024-10-08 18:44:12,203 - INFO -       Yes sum: 2155
-2024-10-08 18:44:12,203 - INFO -       Yes count: 2
-2024-10-08 18:44:12,203 - INFO -       Sharp Yes (American): 1077.50
-2024-10-08 18:44:12,203 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,203 - INFO -         fliff: -18770
-2024-10-08 18:44:12,203 - INFO -         pinnacle: -3999
-2024-10-08 18:44:12,203 - INFO -       No sum: -22769
-2024-10-08 18:44:12,203 - INFO -       No count: 2
-2024-10-08 18:44:12,203 - INFO -       Sharp No (American): -11384.50
-2024-10-08 18:44:12,203 - INFO -     Final Sharp prices: Yes: 1077.50 (Decimal: 11.7750), No: -11384.50 (Decimal: 1.0088)
-2024-10-08 18:44:12,203 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,203 - INFO -       Input: Yes: 11.7750, No: 1.0088
-2024-10-08 18:44:12,205 - INFO -       Result: Yes: 67.4545, No: 1.0150
-2024-10-08 18:44:12,205 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,206 - INFO -       Input: Yes: 11.7750, No: 1.0088
-2024-10-08 18:44:12,206 - INFO -       Result: Yes: 12.6725, No: 1.0857
-2024-10-08 18:44:12,206 - INFO -     Ground Truth Line: Yes: 67.4545, No: 1.0857
-2024-10-08 18:44:12,206 - INFO -     Base price: Yes: 700 (Decimal: 8.0000)
-2024-10-08 18:44:12,206 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,206 - INFO -       Implied prob (ground truth): 1 / 67.4545 = 0.0148
-2024-10-08 18:44:12,206 - INFO -       Implied prob (base): 1 / 8.0000 = 0.1250
-2024-10-08 18:44:12,206 - INFO -       Edge: (0.0148 - 0.1250) / 0.0148 * 100 = -743.18%
-2024-10-08 18:44:12,206 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,206 - INFO -       Input: Ground Truth Yes: 67.4545, Base Yes: 8.0000
-2024-10-08 18:44:12,206 - INFO -       EV Difference: -1.3100
-2024-10-08 18:44:12,206 - INFO -     Final odds (American):
-2024-10-08 18:44:12,207 - INFO -       Ground Truth: Yes: 6645, No: -1167
-2024-10-08 18:44:12,207 - INFO -       Base: Yes: 700
-2024-10-08 18:44:12,207 - INFO -   Player: DK Metcalf
-2024-10-08 18:44:12,207 - INFO -     fliff: Yes: 135, No: -205
-2024-10-08 18:44:12,207 - INFO -     tab: Yes: 150
-2024-10-08 18:44:12,207 - INFO -     pinnacle: Yes: 154, No: -192
-2024-10-08 18:44:12,207 - INFO -     espnbet: Yes: 145, No: N/A
-2024-10-08 18:44:12,207 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,207 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,207 - INFO -         fliff: 135
-2024-10-08 18:44:12,207 - INFO -         pinnacle: 154
-2024-10-08 18:44:12,207 - INFO -       Yes sum: 289
-2024-10-08 18:44:12,207 - INFO -       Yes count: 2
-2024-10-08 18:44:12,207 - INFO -       Sharp Yes (American): 144.50
-2024-10-08 18:44:12,208 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,208 - INFO -         fliff: -205
-2024-10-08 18:44:12,208 - INFO -         pinnacle: -192
-2024-10-08 18:44:12,208 - INFO -       No sum: -397
-2024-10-08 18:44:12,208 - INFO -       No count: 2
-2024-10-08 18:44:12,208 - INFO -       Sharp No (American): -198.50
-2024-10-08 18:44:12,208 - INFO -     Final Sharp prices: Yes: 144.50 (Decimal: 2.4450), No: -198.50 (Decimal: 1.5038)
-2024-10-08 18:44:12,208 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,208 - INFO -       Input: Yes: 2.4450, No: 1.5038
-2024-10-08 18:44:12,210 - INFO -       Result: Yes: 2.7244, No: 1.5799
-2024-10-08 18:44:12,210 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,210 - INFO -       Input: Yes: 2.4450, No: 1.5038
-2024-10-08 18:44:12,211 - INFO -       Result: Yes: 2.6259, No: 1.6150
-2024-10-08 18:44:12,211 - INFO -     Ground Truth Line: Yes: 2.7244, No: 1.6150
-2024-10-08 18:44:12,211 - INFO -     Base price: Yes: 150 (Decimal: 2.5000)
-2024-10-08 18:44:12,211 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,211 - INFO -       Implied prob (ground truth): 1 / 2.7244 = 0.3670
-2024-10-08 18:44:12,211 - INFO -       Implied prob (base): 1 / 2.5000 = 0.4000
-2024-10-08 18:44:12,211 - INFO -       Edge: (0.3670 - 0.4000) / 0.3670 * 100 = -8.98%
-2024-10-08 18:44:12,211 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,211 - INFO -       Input: Ground Truth Yes: 2.7244, Base Yes: 2.5000
-2024-10-08 18:44:12,211 - INFO -       EV Difference: -3.0200
-2024-10-08 18:44:12,211 - INFO -     Final odds (American):
-2024-10-08 18:44:12,211 - INFO -       Ground Truth: Yes: 172, No: -163
-2024-10-08 18:44:12,211 - INFO -       Base: Yes: 150
-2024-10-08 18:44:12,211 - INFO -   Player: AJ Barner
-2024-10-08 18:44:12,211 - INFO -     fliff: Yes: 900, No: -10000
-2024-10-08 18:44:12,212 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,212 - INFO -     pinnacle: Yes: 1144, No: -3612
-2024-10-08 18:44:12,212 - INFO -     espnbet: Yes: 900, No: N/A
-2024-10-08 18:44:12,212 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,212 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,212 - INFO -         fliff: 900
-2024-10-08 18:44:12,212 - INFO -         pinnacle: 1144
-2024-10-08 18:44:12,212 - INFO -       Yes sum: 2044
-2024-10-08 18:44:12,212 - INFO -       Yes count: 2
-2024-10-08 18:44:12,212 - INFO -       Sharp Yes (American): 1022.00
-2024-10-08 18:44:12,212 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,212 - INFO -         fliff: -10000
-2024-10-08 18:44:12,212 - INFO -         pinnacle: -3612
-2024-10-08 18:44:12,212 - INFO -       No sum: -13612
-2024-10-08 18:44:12,212 - INFO -       No count: 2
-2024-10-08 18:44:12,212 - INFO -       Sharp No (American): -6806.00
-2024-10-08 18:44:12,212 - INFO -     Final Sharp prices: Yes: 1022.00 (Decimal: 11.2200), No: -6806.00 (Decimal: 1.0147)
-2024-10-08 18:44:12,213 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,213 - INFO -       Input: Yes: 11.2200, No: 1.0147
-2024-10-08 18:44:12,215 - INFO -       Result: Yes: 44.2407, No: 1.0231
-2024-10-08 18:44:12,215 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,215 - INFO -       Input: Yes: 11.2200, No: 1.0147
-2024-10-08 18:44:12,215 - INFO -       Result: Yes: 12.0575, No: 1.0904
-2024-10-08 18:44:12,215 - INFO -     Ground Truth Line: Yes: 44.2407, No: 1.0904
-2024-10-08 18:44:12,215 - INFO -   Player: Laviska Shenault Jr
-2024-10-08 18:44:12,216 - INFO -     fliff: Yes: 975, No: -34385
-2024-10-08 18:44:12,216 - INFO -     tab: Yes: 1000
-2024-10-08 18:44:12,216 - INFO -     pinnacle: Yes: 1250, No: -4298
-2024-10-08 18:44:12,216 - INFO -     espnbet: Yes: 900, No: N/A
-2024-10-08 18:44:12,216 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,216 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,216 - INFO -         fliff: 975
-2024-10-08 18:44:12,216 - INFO -         pinnacle: 1250
-2024-10-08 18:44:12,216 - INFO -       Yes sum: 2225
-2024-10-08 18:44:12,216 - INFO -       Yes count: 2
-2024-10-08 18:44:12,216 - INFO -       Sharp Yes (American): 1112.50
-2024-10-08 18:44:12,216 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,216 - INFO -         fliff: -34385
-2024-10-08 18:44:12,217 - INFO -         pinnacle: -4298
-2024-10-08 18:44:12,217 - INFO -       No sum: -38683
-2024-10-08 18:44:12,217 - INFO -       No count: 2
-2024-10-08 18:44:12,217 - INFO -       Sharp No (American): -19341.50
-2024-10-08 18:44:12,217 - INFO -     Final Sharp prices: Yes: 1112.50 (Decimal: 12.1250), No: -19341.50 (Decimal: 1.0052)
-2024-10-08 18:44:12,217 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,217 - INFO -       Input: Yes: 12.1250, No: 1.0052
-2024-10-08 18:44:12,219 - INFO -       Result: Yes: 104.5633, No: 1.0097
-2024-10-08 18:44:12,219 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,219 - INFO -       Input: Yes: 12.1250, No: 1.0052
-2024-10-08 18:44:12,219 - INFO -       Result: Yes: 13.0626, No: 1.0829
-2024-10-08 18:44:12,219 - INFO -     Ground Truth Line: Yes: 104.5633, No: 1.0829
-2024-10-08 18:44:12,219 - INFO -     Base price: Yes: 1000 (Decimal: 11.0000)
-2024-10-08 18:44:12,219 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,220 - INFO -       Implied prob (ground truth): 1 / 104.5633 = 0.0096
-2024-10-08 18:44:12,220 - INFO -       Implied prob (base): 1 / 11.0000 = 0.0909
-2024-10-08 18:44:12,220 - INFO -       Edge: (0.0096 - 0.0909) / 0.0096 * 100 = -850.58%
-2024-10-08 18:44:12,220 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,220 - INFO -       Input: Ground Truth Yes: 104.5633, Base Yes: 11.0000
-2024-10-08 18:44:12,220 - INFO -       EV Difference: -0.8600
-2024-10-08 18:44:12,220 - INFO -     Final odds (American):
-2024-10-08 18:44:12,220 - INFO -       Ground Truth: Yes: 10356, No: -1206
-2024-10-08 18:44:12,220 - INFO -       Base: Yes: 1000
-2024-10-08 18:44:12,220 - INFO -   Player: Kyle Juszczyk
-2024-10-08 18:44:12,220 - INFO -     fliff: Yes: 695, No: -2680
-2024-10-08 18:44:12,220 - INFO -     tab: Yes: 650
-2024-10-08 18:44:12,220 - INFO -     pinnacle: Yes: 828, No: -1993
-2024-10-08 18:44:12,220 - INFO -     espnbet: Yes: 550, No: N/A
-2024-10-08 18:44:12,220 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,221 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,221 - INFO -         fliff: 695
-2024-10-08 18:44:12,221 - INFO -         pinnacle: 828
-2024-10-08 18:44:12,221 - INFO -       Yes sum: 1523
-2024-10-08 18:44:12,221 - INFO -       Yes count: 2
-2024-10-08 18:44:12,221 - INFO -       Sharp Yes (American): 761.50
-2024-10-08 18:44:12,221 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,221 - INFO -         fliff: -2680
-2024-10-08 18:44:12,221 - INFO -         pinnacle: -1993
-2024-10-08 18:44:12,221 - INFO -       No sum: -4673
-2024-10-08 18:44:12,221 - INFO -       No count: 2
-2024-10-08 18:44:12,221 - INFO -       Sharp No (American): -2336.50
-2024-10-08 18:44:12,221 - INFO -     Final Sharp prices: Yes: 761.50 (Decimal: 8.6150), No: -2336.50 (Decimal: 1.0428)
-2024-10-08 18:44:12,222 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,222 - INFO -       Input: Yes: 8.6150, No: 1.0428
-2024-10-08 18:44:12,223 - INFO -       Result: Yes: 18.2115, No: 1.0581
-2024-10-08 18:44:12,223 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,223 - INFO -       Input: Yes: 8.6150, No: 1.0428
-2024-10-08 18:44:12,223 - INFO -       Result: Yes: 9.2614, No: 1.1210
-2024-10-08 18:44:12,223 - INFO -     Ground Truth Line: Yes: 18.2115, No: 1.1210
-2024-10-08 18:44:12,224 - INFO -     Base price: Yes: 650 (Decimal: 7.5000)
-2024-10-08 18:44:12,224 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,224 - INFO -       Implied prob (ground truth): 1 / 18.2115 = 0.0549
-2024-10-08 18:44:12,224 - INFO -       Implied prob (base): 1 / 7.5000 = 0.1333
-2024-10-08 18:44:12,224 - INFO -       Edge: (0.0549 - 0.1333) / 0.0549 * 100 = -142.82%
-2024-10-08 18:44:12,224 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,224 - INFO -       Input: Ground Truth Yes: 18.2115, Base Yes: 7.5000
-2024-10-08 18:44:12,224 - INFO -       EV Difference: -3.2300
-2024-10-08 18:44:12,224 - INFO -     Final odds (American):
-2024-10-08 18:44:12,224 - INFO -       Ground Truth: Yes: 1721, No: -826
-2024-10-08 18:44:12,224 - INFO -       Base: Yes: 650
-2024-10-08 18:44:12,242 - INFO - Completed 1/58 tasks
-2024-10-08 18:44:12,347 - INFO - 
-Event: Las Vegas Raiders vs Pittsburgh Steelers
-2024-10-08 18:44:12,348 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,348 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,348 - INFO - 
-Event: Denver Broncos vs Los Angeles Chargers
-2024-10-08 18:44:12,348 - INFO - Market: player_last_td
-2024-10-08 18:44:12,348 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,348 - INFO - 
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Ronnie Bell
+    fliff: Yes: 1005, No: -333235
+    tab: Yes: 1000
+    pinnacle: Yes: 1302, No: -4667
+    espnbet: Yes: 1100, No: N/A
+  Player: Trent Taylor
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Geno Smith
+    fliff: Yes: 455, No: -1015
+    tab: Yes: 450
+    pinnacle: Yes: 523, No: -946
+    espnbet: Yes: 500, No: N/A
+  Player: De'Vondre Campbell
+    fliff: Yes: 1810, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyler Lockett
+    fliff: Yes: 225, No: -370
+    tab: Yes: 225
+    pinnacle: Yes: 256, No: -352
+    espnbet: Yes: 250, No: N/A
+  Player: Zach Charbonnet
+    fliff: Yes: 315, No: -570
+    tab: Yes: 300
+    pinnacle: Yes: 360, No: -552
+    espnbet: Yes: 275, No: N/A
+  Player: Fred Warner
+    fliff: Yes: 1585, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Noah Fant
+    fliff: Yes: 385, No: -760
+    tab: Yes: 350
+    pinnacle: Yes: 431, No: -709
+    espnbet: Yes: N/A, No: N/A
+  Player: George Fant
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 425, No: N/A
+  Player: AJ Barner
+    fliff: Yes: 945, No: -17445
+    tab: Yes: N/A
+    pinnacle: Yes: 1186, No: -3873
+    espnbet: Yes: 850, No: N/A
+  Player: Nick Bosa
+    fliff: Yes: 1910, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jauan Jennings
+    fliff: Yes: 325, No: -595
+    tab: Yes: 300
+    pinnacle: Yes: 372, No: -576
+    espnbet: Yes: 225, No: N/A
+  Player: DK Metcalf
+    fliff: Yes: 140, No: -210
+    tab: Yes: 150
+    pinnacle: Yes: 156, No: -195
+    espnbet: Yes: 145, No: N/A
+  Player: Patrick Taylor
+    fliff: Yes: 1145, No: -999900
+    tab: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brandon Aiyuk
+    fliff: Yes: 135, No: -205
+    tab: Yes: 150
+    pinnacle: Yes: 149, No: -184
+    espnbet: Yes: 145, No: N/A
+  Player: Jacob Cowing
+    fliff: Yes: 1385, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jake Tonges
+    fliff: Yes: 1665, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+  Player: Kenny McIntosh
+    fliff: Yes: 1620, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Kyle Juszczyk
+    fliff: Yes: 645, No: -2195
+    tab: Yes: 650
+    pinnacle: Yes: 765, No: -1741
+    espnbet: Yes: 550, No: N/A
+  Player: Evan Brown
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 850, No: N/A
+  Player: Deebo Samuel
+    fliff: Yes: 115, No: -175
+    tab: Yes: 115
+    pinnacle: Yes: 125, No: -153
+    espnbet: Yes: 110, No: N/A
+  Player: Jaxon Smith-Njigba
+    fliff: Yes: 205, No: -325
+    tab: Yes: 200
+    pinnacle: Yes: 230, No: -306
+    espnbet: Yes: 200, No: N/A
+  Player: Kenneth Walker III
+    fliff: Yes: -105, No: -145
+    tab: Yes: -111
+    pinnacle: Yes: -104, No: -117
+    espnbet: Yes: -145, No: N/A
+  Player: Isaac Guerendo
+    fliff: Yes: 410, No: -870
+    tab: Yes: 400
+    pinnacle: Yes: 524, No: -941
+    espnbet: Yes: 550, No: N/A
+  Player: Dareke Young
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: George Kittle
+    fliff: Yes: 165, No: -245
+    tab: Yes: 160
+    pinnacle: Yes: 175, No: -222
+    espnbet: Yes: 150, No: N/A
+  Player: Jordan Mason
+    fliff: Yes: -160, No: 105
+    tab: Yes: -154
+    pinnacle: Yes: -143, No: 118
+    espnbet: Yes: -170, No: N/A
+  Player: Pharaoh Brown
+    fliff: Yes: 905, No: -10655
+    tab: Yes: 800
+    pinnacle: Yes: 1141, No: -3593
+    espnbet: Yes: N/A, No: N/A
+  Player: Laviska Shenault Jr
+    fliff: Yes: 960, No: -22630
+    tab: Yes: 1000
+    pinnacle: Yes: 1240, No: -4232
+    espnbet: Yes: 900, No: N/A
+  Player: Eric Saubert
+    fliff: Yes: 1180, No: -999900
+    tab: Yes: 800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Brock Purdy
+    fliff: Yes: 565, No: -1565
+    tab: Yes: 500
+    pinnacle: Yes: 621, No: -1234
+    espnbet: Yes: 500, No: N/A
+  Player: Deommodore Lenoir
+    fliff: Yes: 1565, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jake Bobo
+    fliff: Yes: 950, No: -19510
+    tab: Yes: 700
+    pinnacle: Yes: 1191, No: -3907
+    espnbet: Yes: 850, No: N/A
+2024-10-08 23:51:42,760 - WARNING - 
+Event: Baltimore Ravens vs Washington Commanders
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,760 - WARNING - 
+Event: Philadelphia Eagles vs Cleveland Browns
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,771 - INFO - Completed 1/58 tasks
+2024-10-08 23:51:42,772 - WARNING - 
 Event: Green Bay Packers vs Arizona Cardinals
-2024-10-08 18:44:12,348 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,348 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,348 - INFO - 
-Event: New Orleans Saints vs Tampa Bay Buccaneers
-2024-10-08 18:44:12,349 - INFO - Market: player_last_td
-2024-10-08 18:44:12,349 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,349 - INFO - 
-Event: Denver Broncos vs Los Angeles Chargers
-2024-10-08 18:44:12,349 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,349 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,349 - INFO - 
-Event: New England Patriots vs Houston Texans
-2024-10-08 18:44:12,349 - INFO - Market: player_last_td
-2024-10-08 18:44:12,349 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,349 - INFO - 
-Event: Chicago Bears vs Jacksonville Jaguars
-2024-10-08 18:44:12,349 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,350 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,350 - INFO - 
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,772 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,772 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,775 - INFO - Completed 2/58 tasks
+2024-10-08 23:51:42,775 - INFO - Completed 3/58 tasks
+2024-10-08 23:51:42,784 - INFO - Completed 4/58 tasks
+2024-10-08 23:51:42,785 - WARNING - 
+Event: Tennessee Titans vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,786 - WARNING - 
+Event: Green Bay Packers vs Arizona Cardinals
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,850 - INFO - 
 Event: Seattle Seahawks vs San Francisco 49ers
-2024-10-08 18:44:12,350 - INFO - Market: player_last_td
-2024-10-08 18:44:12,350 - INFO - fliff has both 'yes' and 'no' outcomes.
-2024-10-08 18:44:12,350 - INFO - Outcomes and calculations for all players:
-2024-10-08 18:44:12,351 - INFO -   Player: Jordan Mason
-2024-10-08 18:44:12,351 - INFO -     fliff: Yes: 460, No: -1035
-2024-10-08 18:44:12,351 - INFO -     tab: Yes: 550
-2024-10-08 18:44:12,351 - INFO -     pinnacle: Yes: 531, No: -967
-2024-10-08 18:44:12,351 - INFO -     espnbet: Yes: 450, No: N/A
-2024-10-08 18:44:12,351 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,351 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,351 - INFO -         fliff: 460
-2024-10-08 18:44:12,351 - INFO -         pinnacle: 531
-2024-10-08 18:44:12,351 - INFO -       Yes sum: 991
-2024-10-08 18:44:12,351 - INFO -       Yes count: 2
-2024-10-08 18:44:12,351 - INFO -       Sharp Yes (American): 495.50
-2024-10-08 18:44:12,352 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,352 - INFO -         fliff: -1035
-2024-10-08 18:44:12,352 - INFO -         pinnacle: -967
-2024-10-08 18:44:12,352 - INFO -       No sum: -2002
-2024-10-08 18:44:12,352 - INFO -       No count: 2
-2024-10-08 18:44:12,352 - INFO -       Sharp No (American): -1001.00
-2024-10-08 18:44:12,352 - INFO -     Final Sharp prices: Yes: 495.50 (Decimal: 5.9550), No: -1001.00 (Decimal: 1.0999)
-2024-10-08 18:44:12,352 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,352 - INFO -       Input: Yes: 5.9550, No: 1.0999
-2024-10-08 18:44:12,355 - INFO -       Result: Yes: 9.0265, No: 1.1246
-2024-10-08 18:44:12,356 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,356 - INFO -       Input: Yes: 5.9550, No: 1.0999
-2024-10-08 18:44:12,356 - INFO -       Result: Yes: 6.4141, No: 1.1847
-2024-10-08 18:44:12,356 - INFO -     Ground Truth Line: Yes: 9.0265, No: 1.1847
-2024-10-08 18:44:12,356 - INFO -     Base price: Yes: 550 (Decimal: 6.5000)
-2024-10-08 18:44:12,356 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,356 - INFO -       Implied prob (ground truth): 1 / 9.0265 = 0.1108
-2024-10-08 18:44:12,356 - INFO -       Implied prob (base): 1 / 6.5000 = 0.1538
-2024-10-08 18:44:12,356 - INFO -       Edge: (0.1108 - 0.1538) / 0.1108 * 100 = -38.87%
-2024-10-08 18:44:12,356 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,356 - INFO -       Input: Ground Truth Yes: 9.0265, Base Yes: 6.5000
-2024-10-08 18:44:12,356 - INFO -       EV Difference: -3.1000
-2024-10-08 18:44:12,357 - INFO -     Final odds (American):
-2024-10-08 18:44:12,357 - INFO -       Ground Truth: Yes: 803, No: -541
-2024-10-08 18:44:12,357 - INFO -       Base: Yes: 550
-2024-10-08 18:44:12,357 - INFO -   Player: Trent Taylor
-2024-10-08 18:44:12,357 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,357 - INFO -     tab: Yes: 8000
-2024-10-08 18:44:12,357 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,357 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,357 - INFO -   Player: Jake Tonges
-2024-10-08 18:44:12,357 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,357 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,357 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,357 - INFO -     espnbet: Yes: 4000, No: N/A
-2024-10-08 18:44:12,357 - INFO -   Player: Patrick Taylor
-2024-10-08 18:44:12,357 - INFO -     fliff: Yes: 1810, No: -999900
-2024-10-08 18:44:12,358 - INFO -     tab: Yes: 8000
-2024-10-08 18:44:12,358 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,358 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,358 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,358 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,358 - INFO -         fliff: 1810
-2024-10-08 18:44:12,358 - INFO -       Yes sum: 1810
-2024-10-08 18:44:12,358 - INFO -       Yes count: 1
-2024-10-08 18:44:12,358 - INFO -       Sharp Yes (American): 1810.00
-2024-10-08 18:44:12,358 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,358 - INFO -         fliff: -999900
-2024-10-08 18:44:12,358 - INFO -       No sum: -999900
-2024-10-08 18:44:12,358 - INFO -       No count: 1
-2024-10-08 18:44:12,359 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,359 - INFO -     Final Sharp prices: Yes: 1810.00 (Decimal: 19.1000), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,359 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,359 - INFO -       Input: Yes: 19.1000, No: 1.0001
-2024-10-08 18:44:12,362 - INFO -       Result: Yes: 3602.2007, No: 1.0003
-2024-10-08 18:44:12,362 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,362 - INFO -       Input: Yes: 19.1000, No: 1.0001
-2024-10-08 18:44:12,362 - INFO -       Result: Yes: 20.0981, No: 1.0524
-2024-10-08 18:44:12,362 - INFO -     Ground Truth Line: Yes: 3602.2007, No: 1.0524
-2024-10-08 18:44:12,362 - INFO -     Base price: Yes: 8000 (Decimal: 81.0000)
-2024-10-08 18:44:12,363 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,363 - INFO -       Implied prob (ground truth): 1 / 3602.2007 = 0.0003
-2024-10-08 18:44:12,363 - INFO -       Implied prob (base): 1 / 81.0000 = 0.0123
-2024-10-08 18:44:12,363 - INFO -       Edge: (0.0003 - 0.0123) / 0.0003 * 100 = -4347.16%
-2024-10-08 18:44:12,363 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,363 - INFO -       Input: Ground Truth Yes: 3602.2007, Base Yes: 81.0000
-2024-10-08 18:44:12,363 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,363 - INFO -     Final odds (American):
-2024-10-08 18:44:12,363 - INFO -       Ground Truth: Yes: 360120, No: -1910
-2024-10-08 18:44:12,363 - INFO -       Base: Yes: 8000
-2024-10-08 18:44:12,363 - INFO -   Player: Kenneth Walker III
-2024-10-08 18:44:12,363 - INFO -     fliff: Yes: 610, No: -1855
-2024-10-08 18:44:12,363 - INFO -     tab: Yes: 750
-2024-10-08 18:44:12,363 - INFO -     pinnacle: Yes: 715, No: -1554
-2024-10-08 18:44:12,363 - INFO -     espnbet: Yes: 500, No: N/A
-2024-10-08 18:44:12,364 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,364 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,364 - INFO -         fliff: 610
-2024-10-08 18:44:12,364 - INFO -         pinnacle: 715
-2024-10-08 18:44:12,364 - INFO -       Yes sum: 1325
-2024-10-08 18:44:12,364 - INFO -       Yes count: 2
-2024-10-08 18:44:12,364 - INFO -       Sharp Yes (American): 662.50
-2024-10-08 18:44:12,364 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,364 - INFO -         fliff: -1855
-2024-10-08 18:44:12,364 - INFO -         pinnacle: -1554
-2024-10-08 18:44:12,364 - INFO -       No sum: -3409
-2024-10-08 18:44:12,365 - INFO -       No count: 2
-2024-10-08 18:44:12,365 - INFO -       Sharp No (American): -1704.50
-2024-10-08 18:44:12,365 - INFO -     Final Sharp prices: Yes: 662.50 (Decimal: 7.6250), No: -1704.50 (Decimal: 1.0587)
-2024-10-08 18:44:12,365 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,365 - INFO -       Input: Yes: 7.6250, No: 1.0587
-2024-10-08 18:44:12,367 - INFO -       Result: Yes: 14.0058, No: 1.0769
-2024-10-08 18:44:12,367 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,367 - INFO -       Input: Yes: 7.6250, No: 1.0587
-2024-10-08 18:44:12,367 - INFO -       Result: Yes: 8.2024, No: 1.1388
-2024-10-08 18:44:12,367 - INFO -     Ground Truth Line: Yes: 14.0058, No: 1.1388
-2024-10-08 18:44:12,367 - INFO -     Base price: Yes: 750 (Decimal: 8.5000)
-2024-10-08 18:44:12,367 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,367 - INFO -       Implied prob (ground truth): 1 / 14.0058 = 0.0714
-2024-10-08 18:44:12,367 - INFO -       Implied prob (base): 1 / 8.5000 = 0.1176
-2024-10-08 18:44:12,368 - INFO -       Edge: (0.0714 - 0.1176) / 0.0714 * 100 = -64.77%
-2024-10-08 18:44:12,368 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,368 - INFO -       Input: Ground Truth Yes: 14.0058, Base Yes: 8.5000
-2024-10-08 18:44:12,368 - INFO -       EV Difference: -2.8100
-2024-10-08 18:44:12,368 - INFO -     Final odds (American):
-2024-10-08 18:44:12,368 - INFO -       Ground Truth: Yes: 1301, No: -720
-2024-10-08 18:44:12,368 - INFO -       Base: Yes: 750
-2024-10-08 18:44:12,368 - INFO -   Player: Any Other Player
-2024-10-08 18:44:12,368 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,368 - INFO -     tab: Yes: 300
-2024-10-08 18:44:12,368 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,368 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,368 - INFO -   Player: George Kittle
-2024-10-08 18:44:12,368 - INFO -     fliff: Yes: 775, No: -4000
-2024-10-08 18:44:12,369 - INFO -     tab: Yes: 1000
-2024-10-08 18:44:12,369 - INFO -     pinnacle: Yes: 940, No: -2496
-2024-10-08 18:44:12,369 - INFO -     espnbet: Yes: 850, No: N/A
-2024-10-08 18:44:12,369 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,369 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,369 - INFO -         fliff: 775
-2024-10-08 18:44:12,369 - INFO -         pinnacle: 940
-2024-10-08 18:44:12,369 - INFO -       Yes sum: 1715
-2024-10-08 18:44:12,369 - INFO -       Yes count: 2
-2024-10-08 18:44:12,369 - INFO -       Sharp Yes (American): 857.50
-2024-10-08 18:44:12,369 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,369 - INFO -         fliff: -4000
-2024-10-08 18:44:12,369 - INFO -         pinnacle: -2496
-2024-10-08 18:44:12,369 - INFO -       No sum: -6496
-2024-10-08 18:44:12,369 - INFO -       No count: 2
-2024-10-08 18:44:12,369 - INFO -       Sharp No (American): -3248.00
-2024-10-08 18:44:12,370 - INFO -     Final Sharp prices: Yes: 857.50 (Decimal: 9.5750), No: -3248.00 (Decimal: 1.0308)
-2024-10-08 18:44:12,370 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,370 - INFO -       Input: Yes: 9.5750, No: 1.0308
-2024-10-08 18:44:12,371 - INFO -       Result: Yes: 23.9587, No: 1.0436
-2024-10-08 18:44:12,372 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,372 - INFO -       Input: Yes: 9.5750, No: 1.0308
-2024-10-08 18:44:12,372 - INFO -       Result: Yes: 10.2890, No: 1.1077
-2024-10-08 18:44:12,372 - INFO -     Ground Truth Line: Yes: 23.9587, No: 1.1077
-2024-10-08 18:44:12,372 - INFO -     Base price: Yes: 1000 (Decimal: 11.0000)
-2024-10-08 18:44:12,372 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,372 - INFO -       Implied prob (ground truth): 1 / 23.9587 = 0.0417
-2024-10-08 18:44:12,372 - INFO -       Implied prob (base): 1 / 11.0000 = 0.0909
-2024-10-08 18:44:12,372 - INFO -       Edge: (0.0417 - 0.0909) / 0.0417 * 100 = -117.81%
-2024-10-08 18:44:12,372 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,373 - INFO -       Input: Ground Truth Yes: 23.9587, Base Yes: 11.0000
-2024-10-08 18:44:12,373 - INFO -       EV Difference: -2.2600
-2024-10-08 18:44:12,373 - INFO -     Final odds (American):
-2024-10-08 18:44:12,373 - INFO -       Ground Truth: Yes: 2296, No: -929
-2024-10-08 18:44:12,373 - INFO -       Base: Yes: 1000
-2024-10-08 18:44:12,373 - INFO -   Player: Deebo Samuel
-2024-10-08 18:44:12,373 - INFO -     fliff: Yes: 660, No: -2315
-2024-10-08 18:44:12,373 - INFO -     tab: Yes: 800
-2024-10-08 18:44:12,373 - INFO -     pinnacle: Yes: 784, No: -1814
-2024-10-08 18:44:12,373 - INFO -     espnbet: Yes: 700, No: N/A
-2024-10-08 18:44:12,373 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,373 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,373 - INFO -         fliff: 660
-2024-10-08 18:44:12,373 - INFO -         pinnacle: 784
-2024-10-08 18:44:12,373 - INFO -       Yes sum: 1444
-2024-10-08 18:44:12,373 - INFO -       Yes count: 2
-2024-10-08 18:44:12,374 - INFO -       Sharp Yes (American): 722.00
-2024-10-08 18:44:12,374 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,374 - INFO -         fliff: -2315
-2024-10-08 18:44:12,374 - INFO -         pinnacle: -1814
-2024-10-08 18:44:12,374 - INFO -       No sum: -4129
-2024-10-08 18:44:12,374 - INFO -       No count: 2
-2024-10-08 18:44:12,374 - INFO -       Sharp No (American): -2064.50
-2024-10-08 18:44:12,374 - INFO -     Final Sharp prices: Yes: 722.00 (Decimal: 8.2200), No: -2064.50 (Decimal: 1.0484)
-2024-10-08 18:44:12,374 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,374 - INFO -       Input: Yes: 8.2200, No: 1.0484
-2024-10-08 18:44:12,376 - INFO -       Result: Yes: 16.4194, No: 1.0649
-2024-10-08 18:44:12,376 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,376 - INFO -       Input: Yes: 8.2200, No: 1.0484
-2024-10-08 18:44:12,376 - INFO -       Result: Yes: 8.8402, No: 1.1275
-2024-10-08 18:44:12,376 - INFO -     Ground Truth Line: Yes: 16.4194, No: 1.1275
-2024-10-08 18:44:12,376 - INFO -     Base price: Yes: 800 (Decimal: 9.0000)
-2024-10-08 18:44:12,377 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,377 - INFO -       Implied prob (ground truth): 1 / 16.4194 = 0.0609
-2024-10-08 18:44:12,377 - INFO -       Implied prob (base): 1 / 9.0000 = 0.1111
-2024-10-08 18:44:12,377 - INFO -       Edge: (0.0609 - 0.1111) / 0.0609 * 100 = -82.44%
-2024-10-08 18:44:12,377 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,377 - INFO -       Input: Ground Truth Yes: 16.4194, Base Yes: 9.0000
-2024-10-08 18:44:12,377 - INFO -       EV Difference: -2.7500
-2024-10-08 18:44:12,377 - INFO -     Final odds (American):
-2024-10-08 18:44:12,377 - INFO -       Ground Truth: Yes: 1542, No: -784
-2024-10-08 18:44:12,377 - INFO -       Base: Yes: 800
-2024-10-08 18:44:12,377 - INFO -   Player: Brock Purdy
-2024-10-08 18:44:12,377 - INFO -     fliff: Yes: 1415, No: -999900
-2024-10-08 18:44:12,377 - INFO -     tab: Yes: 2500
-2024-10-08 18:44:12,377 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,377 - INFO -     espnbet: Yes: 2000, No: N/A
-2024-10-08 18:44:12,378 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,378 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,378 - INFO -         fliff: 1415
-2024-10-08 18:44:12,378 - INFO -       Yes sum: 1415
-2024-10-08 18:44:12,378 - INFO -       Yes count: 1
-2024-10-08 18:44:12,378 - INFO -       Sharp Yes (American): 1415.00
-2024-10-08 18:44:12,378 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,378 - INFO -         fliff: -999900
-2024-10-08 18:44:12,378 - INFO -       No sum: -999900
-2024-10-08 18:44:12,378 - INFO -       No count: 1
-2024-10-08 18:44:12,378 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,378 - INFO -     Final Sharp prices: Yes: 1415.00 (Decimal: 15.1500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,378 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,378 - INFO -       Input: Yes: 15.1500, No: 1.0001
-2024-10-08 18:44:12,381 - INFO -       Result: Yes: 3349.0904, No: 1.0003
-2024-10-08 18:44:12,381 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,381 - INFO -       Input: Yes: 15.1500, No: 1.0001
-2024-10-08 18:44:12,381 - INFO -       Result: Yes: 16.1485, No: 1.0660
-2024-10-08 18:44:12,382 - INFO -     Ground Truth Line: Yes: 3349.0904, No: 1.0660
-2024-10-08 18:44:12,382 - INFO -     Base price: Yes: 2500 (Decimal: 26.0000)
-2024-10-08 18:44:12,382 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,382 - INFO -       Implied prob (ground truth): 1 / 3349.0904 = 0.0003
-2024-10-08 18:44:12,382 - INFO -       Implied prob (base): 1 / 26.0000 = 0.0385
-2024-10-08 18:44:12,382 - INFO -       Edge: (0.0003 - 0.0385) / 0.0003 * 100 = -12781.12%
-2024-10-08 18:44:12,382 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,382 - INFO -       Input: Ground Truth Yes: 3349.0904, Base Yes: 26.0000
-2024-10-08 18:44:12,382 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,382 - INFO -     Final odds (American):
-2024-10-08 18:44:12,382 - INFO -       Ground Truth: Yes: 334809, No: -1515
-2024-10-08 18:44:12,382 - INFO -       Base: Yes: 2500
-2024-10-08 18:44:12,382 - INFO -   Player: Ronnie Bell
-2024-10-08 18:44:12,383 - INFO -     fliff: Yes: 1750, No: -999900
-2024-10-08 18:44:12,383 - INFO -     tab: Yes: 6600
-2024-10-08 18:44:12,383 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,383 - INFO -     espnbet: Yes: 4000, No: N/A
-2024-10-08 18:44:12,383 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,383 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,383 - INFO -         fliff: 1750
-2024-10-08 18:44:12,383 - INFO -       Yes sum: 1750
-2024-10-08 18:44:12,383 - INFO -       Yes count: 1
-2024-10-08 18:44:12,383 - INFO -       Sharp Yes (American): 1750.00
-2024-10-08 18:44:12,383 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,383 - INFO -         fliff: -999900
-2024-10-08 18:44:12,384 - INFO -       No sum: -999900
-2024-10-08 18:44:12,384 - INFO -       No count: 1
-2024-10-08 18:44:12,384 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,384 - INFO -     Final Sharp prices: Yes: 1750.00 (Decimal: 18.5000), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,384 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,384 - INFO -       Input: Yes: 18.5000, No: 1.0001
-2024-10-08 18:44:12,387 - INFO -       Result: Yes: 3567.4502, No: 1.0003
-2024-10-08 18:44:12,387 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,387 - INFO -       Input: Yes: 18.5000, No: 1.0001
-2024-10-08 18:44:12,387 - INFO -       Result: Yes: 19.4981, No: 1.0541
-2024-10-08 18:44:12,387 - INFO -     Ground Truth Line: Yes: 3567.4502, No: 1.0541
-2024-10-08 18:44:12,387 - INFO -     Base price: Yes: 6600 (Decimal: 67.0000)
-2024-10-08 18:44:12,387 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,387 - INFO -       Implied prob (ground truth): 1 / 3567.4502 = 0.0003
-2024-10-08 18:44:12,387 - INFO -       Implied prob (base): 1 / 67.0000 = 0.0149
-2024-10-08 18:44:12,388 - INFO -       Edge: (0.0003 - 0.0149) / 0.0003 * 100 = -5224.55%
-2024-10-08 18:44:12,388 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,388 - INFO -       Input: Ground Truth Yes: 3567.4502, Base Yes: 67.0000
-2024-10-08 18:44:12,388 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,388 - INFO -     Final odds (American):
-2024-10-08 18:44:12,388 - INFO -       Ground Truth: Yes: 356645, No: -1850
-2024-10-08 18:44:12,388 - INFO -       Base: Yes: 6600
-2024-10-08 18:44:12,388 - INFO -   Player: Jaxon Smith-Njigba
-2024-10-08 18:44:12,388 - INFO -     fliff: Yes: 835, No: -5750
-2024-10-08 18:44:12,388 - INFO -     tab: Yes: 1000
-2024-10-08 18:44:12,388 - INFO -     pinnacle: Yes: 1026, No: -2935
-2024-10-08 18:44:12,389 - INFO -     espnbet: Yes: 1000, No: N/A
-2024-10-08 18:44:12,389 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,389 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,389 - INFO -         fliff: 835
-2024-10-08 18:44:12,389 - INFO -         pinnacle: 1026
-2024-10-08 18:44:12,389 - INFO -       Yes sum: 1861
-2024-10-08 18:44:12,389 - INFO -       Yes count: 2
-2024-10-08 18:44:12,389 - INFO -       Sharp Yes (American): 930.50
-2024-10-08 18:44:12,389 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,389 - INFO -         fliff: -5750
-2024-10-08 18:44:12,389 - INFO -         pinnacle: -2935
-2024-10-08 18:44:12,389 - INFO -       No sum: -8685
-2024-10-08 18:44:12,389 - INFO -       No count: 2
-2024-10-08 18:44:12,389 - INFO -       Sharp No (American): -4342.50
-2024-10-08 18:44:12,389 - INFO -     Final Sharp prices: Yes: 930.50 (Decimal: 10.3050), No: -4342.50 (Decimal: 1.0230)
-2024-10-08 18:44:12,389 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,390 - INFO -       Input: Yes: 10.3050, No: 1.0230
-2024-10-08 18:44:12,391 - INFO -       Result: Yes: 30.4850, No: 1.0339
-2024-10-08 18:44:12,391 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,392 - INFO -       Input: Yes: 10.3050, No: 1.0230
-2024-10-08 18:44:12,392 - INFO -       Result: Yes: 11.0730, No: 1.0993
-2024-10-08 18:44:12,392 - INFO -     Ground Truth Line: Yes: 30.4850, No: 1.0993
-2024-10-08 18:44:12,392 - INFO -     Base price: Yes: 1000 (Decimal: 11.0000)
-2024-10-08 18:44:12,392 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,392 - INFO -       Implied prob (ground truth): 1 / 30.4850 = 0.0328
-2024-10-08 18:44:12,392 - INFO -       Implied prob (base): 1 / 11.0000 = 0.0909
-2024-10-08 18:44:12,392 - INFO -       Edge: (0.0328 - 0.0909) / 0.0328 * 100 = -177.14%
-2024-10-08 18:44:12,392 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,392 - INFO -       Input: Ground Truth Yes: 30.4850, Base Yes: 11.0000
-2024-10-08 18:44:12,392 - INFO -       EV Difference: -2.1000
-2024-10-08 18:44:12,393 - INFO -     Final odds (American):
-2024-10-08 18:44:12,393 - INFO -       Ground Truth: Yes: 2949, No: -1007
-2024-10-08 18:44:12,393 - INFO -       Base: Yes: 1000
-2024-10-08 18:44:12,393 - INFO -   Player: Pharaoh Brown
-2024-10-08 18:44:12,393 - INFO -     fliff: Yes: 1695, No: -999900
-2024-10-08 18:44:12,393 - INFO -     tab: Yes: 5000
-2024-10-08 18:44:12,393 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,393 - INFO -     espnbet: Yes: 3500, No: N/A
-2024-10-08 18:44:12,393 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,393 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,393 - INFO -         fliff: 1695
-2024-10-08 18:44:12,393 - INFO -       Yes sum: 1695
-2024-10-08 18:44:12,393 - INFO -       Yes count: 1
-2024-10-08 18:44:12,395 - INFO -       Sharp Yes (American): 1695.00
-2024-10-08 18:44:12,395 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,395 - INFO -         fliff: -999900
-2024-10-08 18:44:12,395 - INFO -       No sum: -999900
-2024-10-08 18:44:12,395 - INFO -       No count: 1
-2024-10-08 18:44:12,395 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,395 - INFO -     Final Sharp prices: Yes: 1695.00 (Decimal: 17.9500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,395 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,395 - INFO -       Input: Yes: 17.9500, No: 1.0001
-2024-10-08 18:44:12,398 - INFO -       Result: Yes: 3534.5569, No: 1.0003
-2024-10-08 18:44:12,398 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,398 - INFO -       Input: Yes: 17.9500, No: 1.0001
-2024-10-08 18:44:12,398 - INFO -       Result: Yes: 18.9482, No: 1.0557
-2024-10-08 18:44:12,398 - INFO -     Ground Truth Line: Yes: 3534.5569, No: 1.0557
-2024-10-08 18:44:12,398 - INFO -     Base price: Yes: 5000 (Decimal: 51.0000)
-2024-10-08 18:44:12,398 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,398 - INFO -       Implied prob (ground truth): 1 / 3534.5569 = 0.0003
-2024-10-08 18:44:12,399 - INFO -       Implied prob (base): 1 / 51.0000 = 0.0196
-2024-10-08 18:44:12,399 - INFO -       Edge: (0.0003 - 0.0196) / 0.0003 * 100 = -6830.50%
-2024-10-08 18:44:12,399 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,399 - INFO -       Input: Ground Truth Yes: 3534.5569, Base Yes: 51.0000
-2024-10-08 18:44:12,399 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,399 - INFO -     Final odds (American):
-2024-10-08 18:44:12,399 - INFO -       Ground Truth: Yes: 353356, No: -1795
-2024-10-08 18:44:12,399 - INFO -       Base: Yes: 5000
-2024-10-08 18:44:12,400 - INFO -   Player: Dareke Young
-2024-10-08 18:44:12,400 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,400 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,400 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,400 - INFO -     espnbet: Yes: 6000, No: N/A
-2024-10-08 18:44:12,400 - INFO -   Player: Jauan Jennings
-2024-10-08 18:44:12,400 - INFO -     fliff: Yes: 965, No: -26930
-2024-10-08 18:44:12,400 - INFO -     tab: Yes: 1600
-2024-10-08 18:44:12,400 - INFO -     pinnacle: Yes: 1235, No: -4194
-2024-10-08 18:44:12,400 - INFO -     espnbet: Yes: 1200, No: N/A
-2024-10-08 18:44:12,400 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,400 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,401 - INFO -         fliff: 965
-2024-10-08 18:44:12,401 - INFO -         pinnacle: 1235
-2024-10-08 18:44:12,401 - INFO -       Yes sum: 2200
-2024-10-08 18:44:12,401 - INFO -       Yes count: 2
-2024-10-08 18:44:12,401 - INFO -       Sharp Yes (American): 1100.00
-2024-10-08 18:44:12,401 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,401 - INFO -         fliff: -26930
-2024-10-08 18:44:12,401 - INFO -         pinnacle: -4194
-2024-10-08 18:44:12,401 - INFO -       No sum: -31124
-2024-10-08 18:44:12,401 - INFO -       No count: 2
-2024-10-08 18:44:12,401 - INFO -       Sharp No (American): -15562.00
-2024-10-08 18:44:12,401 - INFO -     Final Sharp prices: Yes: 1100.00 (Decimal: 12.0000), No: -15562.00 (Decimal: 1.0064)
-2024-10-08 18:44:12,401 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,401 - INFO -       Input: Yes: 12.0000, No: 1.0064
-2024-10-08 18:44:12,403 - INFO -       Result: Yes: 87.3013, No: 1.0116
-2024-10-08 18:44:12,404 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,404 - INFO -       Input: Yes: 12.0000, No: 1.0064
-2024-10-08 18:44:12,404 - INFO -       Result: Yes: 12.9234, No: 1.0839
-2024-10-08 18:44:12,404 - INFO -     Ground Truth Line: Yes: 87.3013, No: 1.0839
-2024-10-08 18:44:12,404 - INFO -     Base price: Yes: 1600 (Decimal: 17.0000)
-2024-10-08 18:44:12,404 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,404 - INFO -       Implied prob (ground truth): 1 / 87.3013 = 0.0115
-2024-10-08 18:44:12,404 - INFO -       Implied prob (base): 1 / 17.0000 = 0.0588
-2024-10-08 18:44:12,404 - INFO -       Edge: (0.0115 - 0.0588) / 0.0115 * 100 = -413.54%
-2024-10-08 18:44:12,404 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,404 - INFO -       Input: Ground Truth Yes: 87.3013, Base Yes: 17.0000
-2024-10-08 18:44:12,405 - INFO -       EV Difference: -0.9200
-2024-10-08 18:44:12,405 - INFO -     Final odds (American):
-2024-10-08 18:44:12,405 - INFO -       Ground Truth: Yes: 8630, No: -1192
-2024-10-08 18:44:12,405 - INFO -       Base: Yes: 1600
-2024-10-08 18:44:12,405 - INFO -   Player: Eric Saubert
-2024-10-08 18:44:12,405 - INFO -     fliff: Yes: 1790, No: -999900
-2024-10-08 18:44:12,405 - INFO -     tab: Yes: 4000
-2024-10-08 18:44:12,405 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,405 - INFO -     espnbet: Yes: 4000, No: N/A
-2024-10-08 18:44:12,406 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,406 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,406 - INFO -         fliff: 1790
-2024-10-08 18:44:12,406 - INFO -       Yes sum: 1790
-2024-10-08 18:44:12,406 - INFO -       Yes count: 1
-2024-10-08 18:44:12,406 - INFO -       Sharp Yes (American): 1790.00
-2024-10-08 18:44:12,406 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,406 - INFO -         fliff: -999900
-2024-10-08 18:44:12,406 - INFO -       No sum: -999900
-2024-10-08 18:44:12,406 - INFO -       No count: 1
-2024-10-08 18:44:12,406 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,406 - INFO -     Final Sharp prices: Yes: 1790.00 (Decimal: 18.9000), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,406 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,406 - INFO -       Input: Yes: 18.9000, No: 1.0001
-2024-10-08 18:44:12,410 - INFO -       Result: Yes: 3590.7441, No: 1.0003
-2024-10-08 18:44:12,410 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,410 - INFO -       Input: Yes: 18.9000, No: 1.0001
-2024-10-08 18:44:12,410 - INFO -       Result: Yes: 19.8981, No: 1.0529
-2024-10-08 18:44:12,410 - INFO -     Ground Truth Line: Yes: 3590.7441, No: 1.0529
-2024-10-08 18:44:12,411 - INFO -     Base price: Yes: 4000 (Decimal: 41.0000)
-2024-10-08 18:44:12,411 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,411 - INFO -       Implied prob (ground truth): 1 / 3590.7441 = 0.0003
-2024-10-08 18:44:12,411 - INFO -       Implied prob (base): 1 / 41.0000 = 0.0244
-2024-10-08 18:44:12,411 - INFO -       Edge: (0.0003 - 0.0244) / 0.0003 * 100 = -8657.91%
-2024-10-08 18:44:12,411 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,411 - INFO -       Input: Ground Truth Yes: 3590.7441, Base Yes: 41.0000
-2024-10-08 18:44:12,411 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,412 - INFO -     Final odds (American):
-2024-10-08 18:44:12,413 - INFO -       Ground Truth: Yes: 358974, No: -1890
-2024-10-08 18:44:12,413 - INFO -       Base: Yes: 4000
-2024-10-08 18:44:12,413 - INFO -   Player: Isaac Guerendo
-2024-10-08 18:44:12,413 - INFO -     fliff: Yes: 1235, No: -999900
-2024-10-08 18:44:12,413 - INFO -     tab: Yes: 2200
-2024-10-08 18:44:12,413 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,413 - INFO -     espnbet: Yes: 2200, No: N/A
-2024-10-08 18:44:12,413 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,413 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,413 - INFO -         fliff: 1235
-2024-10-08 18:44:12,413 - INFO -       Yes sum: 1235
-2024-10-08 18:44:12,413 - INFO -       Yes count: 1
-2024-10-08 18:44:12,413 - INFO -       Sharp Yes (American): 1235.00
-2024-10-08 18:44:12,413 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,413 - INFO -         fliff: -999900
-2024-10-08 18:44:12,414 - INFO -       No sum: -999900
-2024-10-08 18:44:12,414 - INFO -       No count: 1
-2024-10-08 18:44:12,414 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,414 - INFO -     Final Sharp prices: Yes: 1235.00 (Decimal: 13.3500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,414 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,414 - INFO -       Input: Yes: 13.3500, No: 1.0001
-2024-10-08 18:44:12,417 - INFO -       Result: Yes: 3210.0310, No: 1.0003
-2024-10-08 18:44:12,417 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,417 - INFO -       Input: Yes: 13.3500, No: 1.0001
-2024-10-08 18:44:12,417 - INFO -       Result: Yes: 14.3487, No: 1.0749
-2024-10-08 18:44:12,417 - INFO -     Ground Truth Line: Yes: 3210.0310, No: 1.0749
-2024-10-08 18:44:12,418 - INFO -     Base price: Yes: 2200 (Decimal: 23.0000)
-2024-10-08 18:44:12,418 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,418 - INFO -       Implied prob (ground truth): 1 / 3210.0310 = 0.0003
-2024-10-08 18:44:12,418 - INFO -       Implied prob (base): 1 / 23.0000 = 0.0435
-2024-10-08 18:44:12,418 - INFO -       Edge: (0.0003 - 0.0435) / 0.0003 * 100 = -13856.66%
-2024-10-08 18:44:12,418 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,418 - INFO -       Input: Ground Truth Yes: 3210.0310, Base Yes: 23.0000
-2024-10-08 18:44:12,418 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,418 - INFO -     Final odds (American):
-2024-10-08 18:44:12,418 - INFO -       Ground Truth: Yes: 320903, No: -1335
-2024-10-08 18:44:12,418 - INFO -       Base: Yes: 2200
-2024-10-08 18:44:12,418 - INFO -   Player: Brandon Aiyuk
-2024-10-08 18:44:12,418 - INFO -     fliff: Yes: 725, No: -3125
-2024-10-08 18:44:12,418 - INFO -     tab: Yes: 900
-2024-10-08 18:44:12,419 - INFO -     pinnacle: Yes: 873, No: -2186
-2024-10-08 18:44:12,419 - INFO -     espnbet: Yes: 850, No: N/A
-2024-10-08 18:44:12,419 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,419 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,419 - INFO -         fliff: 725
-2024-10-08 18:44:12,419 - INFO -         pinnacle: 873
-2024-10-08 18:44:12,419 - INFO -       Yes sum: 1598
-2024-10-08 18:44:12,419 - INFO -       Yes count: 2
-2024-10-08 18:44:12,419 - INFO -       Sharp Yes (American): 799.00
-2024-10-08 18:44:12,419 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,419 - INFO -         fliff: -3125
-2024-10-08 18:44:12,419 - INFO -         pinnacle: -2186
-2024-10-08 18:44:12,419 - INFO -       No sum: -5311
-2024-10-08 18:44:12,419 - INFO -       No count: 2
-2024-10-08 18:44:12,419 - INFO -       Sharp No (American): -2655.50
-2024-10-08 18:44:12,419 - INFO -     Final Sharp prices: Yes: 799.00 (Decimal: 8.9900), No: -2655.50 (Decimal: 1.0377)
-2024-10-08 18:44:12,419 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,420 - INFO -       Input: Yes: 8.9900, No: 1.0377
-2024-10-08 18:44:12,421 - INFO -       Result: Yes: 20.2527, No: 1.0519
-2024-10-08 18:44:12,421 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,422 - INFO -       Input: Yes: 8.9900, No: 1.0377
-2024-10-08 18:44:12,422 - INFO -       Result: Yes: 9.6637, No: 1.1154
-2024-10-08 18:44:12,422 - INFO -     Ground Truth Line: Yes: 20.2527, No: 1.1154
-2024-10-08 18:44:12,422 - INFO -     Base price: Yes: 900 (Decimal: 10.0000)
-2024-10-08 18:44:12,422 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,422 - INFO -       Implied prob (ground truth): 1 / 20.2527 = 0.0494
-2024-10-08 18:44:12,422 - INFO -       Implied prob (base): 1 / 10.0000 = 0.1000
-2024-10-08 18:44:12,422 - INFO -       Edge: (0.0494 - 0.1000) / 0.0494 * 100 = -102.53%
-2024-10-08 18:44:12,422 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,422 - INFO -       Input: Ground Truth Yes: 20.2527, Base Yes: 10.0000
-2024-10-08 18:44:12,423 - INFO -       EV Difference: -2.5000
-2024-10-08 18:44:12,423 - INFO -     Final odds (American):
-2024-10-08 18:44:12,423 - INFO -       Ground Truth: Yes: 1925, No: -866
-2024-10-08 18:44:12,423 - INFO -       Base: Yes: 900
-2024-10-08 18:44:12,423 - INFO -   Player: Tyler Lockett
-2024-10-08 18:44:12,423 - INFO -     fliff: Yes: 875, No: -7965
-2024-10-08 18:44:12,423 - INFO -     tab: Yes: 1000
-2024-10-08 18:44:12,423 - INFO -     pinnacle: Yes: 1091, No: -3294
-2024-10-08 18:44:12,423 - INFO -     espnbet: Yes: 1200, No: N/A
-2024-10-08 18:44:12,423 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,423 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,423 - INFO -         fliff: 875
-2024-10-08 18:44:12,423 - INFO -         pinnacle: 1091
-2024-10-08 18:44:12,424 - INFO -       Yes sum: 1966
-2024-10-08 18:44:12,424 - INFO -       Yes count: 2
-2024-10-08 18:44:12,424 - INFO -       Sharp Yes (American): 983.00
-2024-10-08 18:44:12,424 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,424 - INFO -         fliff: -7965
-2024-10-08 18:44:12,424 - INFO -         pinnacle: -3294
-2024-10-08 18:44:12,424 - INFO -       No sum: -11259
-2024-10-08 18:44:12,424 - INFO -       No count: 2
-2024-10-08 18:44:12,424 - INFO -       Sharp No (American): -5629.50
-2024-10-08 18:44:12,424 - INFO -     Final Sharp prices: Yes: 983.00 (Decimal: 10.8300), No: -5629.50 (Decimal: 1.0178)
-2024-10-08 18:44:12,424 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,424 - INFO -       Input: Yes: 10.8300, No: 1.0178
-2024-10-08 18:44:12,426 - INFO -       Result: Yes: 37.7618, No: 1.0272
-2024-10-08 18:44:12,426 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,426 - INFO -       Input: Yes: 10.8300, No: 1.0178
-2024-10-08 18:44:12,426 - INFO -       Result: Yes: 11.6410, No: 1.0940
-2024-10-08 18:44:12,426 - INFO -     Ground Truth Line: Yes: 37.7618, No: 1.0940
-2024-10-08 18:44:12,427 - INFO -     Base price: Yes: 1000 (Decimal: 11.0000)
-2024-10-08 18:44:12,427 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,427 - INFO -       Implied prob (ground truth): 1 / 37.7618 = 0.0265
-2024-10-08 18:44:12,427 - INFO -       Implied prob (base): 1 / 11.0000 = 0.0909
-2024-10-08 18:44:12,427 - INFO -       Edge: (0.0265 - 0.0909) / 0.0265 * 100 = -243.29%
-2024-10-08 18:44:12,427 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,427 - INFO -       Input: Ground Truth Yes: 37.7618, Base Yes: 11.0000
-2024-10-08 18:44:12,427 - INFO -       EV Difference: -1.8800
-2024-10-08 18:44:12,427 - INFO -     Final odds (American):
-2024-10-08 18:44:12,427 - INFO -       Ground Truth: Yes: 3676, No: -1064
-2024-10-08 18:44:12,427 - INFO -       Base: Yes: 1000
-2024-10-08 18:44:12,427 - INFO -   Player: No Touchdown
-2024-10-08 18:44:12,427 - INFO -     fliff: Yes: N/A, No: N/A
-2024-10-08 18:44:12,427 - INFO -     tab: Yes: 8000
-2024-10-08 18:44:12,427 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,428 - INFO -     espnbet: Yes: N/A, No: N/A
-2024-10-08 18:44:12,428 - INFO -   Player: Kenny McIntosh
-2024-10-08 18:44:12,428 - INFO -     fliff: Yes: 1955, No: -999900
-2024-10-08 18:44:12,428 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,428 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,428 - INFO -     espnbet: Yes: 6000, No: N/A
-2024-10-08 18:44:12,428 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,428 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,428 - INFO -         fliff: 1955
-2024-10-08 18:44:12,428 - INFO -       Yes sum: 1955
-2024-10-08 18:44:12,428 - INFO -       Yes count: 1
-2024-10-08 18:44:12,428 - INFO -       Sharp Yes (American): 1955.00
-2024-10-08 18:44:12,428 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,428 - INFO -         fliff: -999900
-2024-10-08 18:44:12,429 - INFO -       No sum: -999900
-2024-10-08 18:44:12,429 - INFO -       No count: 1
-2024-10-08 18:44:12,429 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,429 - INFO -     Final Sharp prices: Yes: 1955.00 (Decimal: 20.5500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,429 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,429 - INFO -       Input: Yes: 20.5500, No: 1.0001
-2024-10-08 18:44:12,432 - INFO -       Result: Yes: 3681.7311, No: 1.0003
-2024-10-08 18:44:12,432 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,432 - INFO -       Input: Yes: 20.5500, No: 1.0001
-2024-10-08 18:44:12,432 - INFO -       Result: Yes: 21.5479, No: 1.0487
-2024-10-08 18:44:12,432 - INFO -     Ground Truth Line: Yes: 3681.7311, No: 1.0487
-2024-10-08 18:44:12,432 - INFO -   Player: Noah Fant
-2024-10-08 18:44:12,432 - INFO -     fliff: Yes: 1200, No: -999900
-2024-10-08 18:44:12,432 - INFO -     tab: Yes: 2000
-2024-10-08 18:44:12,433 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,433 - INFO -     espnbet: Yes: 1800, No: N/A
-2024-10-08 18:44:12,433 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,433 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,433 - INFO -         fliff: 1200
-2024-10-08 18:44:12,433 - INFO -       Yes sum: 1200
-2024-10-08 18:44:12,433 - INFO -       Yes count: 1
-2024-10-08 18:44:12,433 - INFO -       Sharp Yes (American): 1200.00
-2024-10-08 18:44:12,433 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,433 - INFO -         fliff: -999900
-2024-10-08 18:44:12,433 - INFO -       No sum: -999900
-2024-10-08 18:44:12,433 - INFO -       No count: 1
-2024-10-08 18:44:12,433 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,434 - INFO -     Final Sharp prices: Yes: 1200.00 (Decimal: 13.0000), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,434 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,434 - INFO -       Input: Yes: 13.0000, No: 1.0001
-2024-10-08 18:44:12,437 - INFO -       Result: Yes: 3180.7391, No: 1.0003
-2024-10-08 18:44:12,437 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,437 - INFO -       Input: Yes: 13.0000, No: 1.0001
-2024-10-08 18:44:12,437 - INFO -       Result: Yes: 13.9987, No: 1.0769
-2024-10-08 18:44:12,437 - INFO -     Ground Truth Line: Yes: 3180.7391, No: 1.0769
-2024-10-08 18:44:12,437 - INFO -     Base price: Yes: 2000 (Decimal: 21.0000)
-2024-10-08 18:44:12,437 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,437 - INFO -       Implied prob (ground truth): 1 / 3180.7391 = 0.0003
-2024-10-08 18:44:12,437 - INFO -       Implied prob (base): 1 / 21.0000 = 0.0476
-2024-10-08 18:44:12,437 - INFO -       Edge: (0.0003 - 0.0476) / 0.0003 * 100 = -15046.38%
-2024-10-08 18:44:12,438 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,438 - INFO -       Input: Ground Truth Yes: 3180.7391, Base Yes: 21.0000
-2024-10-08 18:44:12,438 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,438 - INFO -     Final odds (American):
-2024-10-08 18:44:12,438 - INFO -       Ground Truth: Yes: 317974, No: -1300
-2024-10-08 18:44:12,438 - INFO -       Base: Yes: 2000
-2024-10-08 18:44:12,438 - INFO -   Player: Geno Smith
-2024-10-08 18:44:12,438 - INFO -     fliff: Yes: 1300, No: -999900
-2024-10-08 18:44:12,438 - INFO -     tab: Yes: 2500
-2024-10-08 18:44:12,438 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,438 - INFO -     espnbet: Yes: 2000, No: N/A
-2024-10-08 18:44:12,438 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,438 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,439 - INFO -         fliff: 1300
-2024-10-08 18:44:12,439 - INFO -       Yes sum: 1300
-2024-10-08 18:44:12,439 - INFO -       Yes count: 1
-2024-10-08 18:44:12,439 - INFO -       Sharp Yes (American): 1300.00
-2024-10-08 18:44:12,439 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,439 - INFO -         fliff: -999900
-2024-10-08 18:44:12,439 - INFO -       No sum: -999900
-2024-10-08 18:44:12,439 - INFO -       No count: 1
-2024-10-08 18:44:12,439 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,439 - INFO -     Final Sharp prices: Yes: 1300.00 (Decimal: 14.0000), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,439 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,439 - INFO -       Input: Yes: 14.0000, No: 1.0001
-2024-10-08 18:44:12,443 - INFO -       Result: Yes: 3262.3748, No: 1.0003
-2024-10-08 18:44:12,443 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,443 - INFO -       Input: Yes: 14.0000, No: 1.0001
-2024-10-08 18:44:12,443 - INFO -       Result: Yes: 14.9986, No: 1.0714
-2024-10-08 18:44:12,443 - INFO -     Ground Truth Line: Yes: 3262.3748, No: 1.0714
-2024-10-08 18:44:12,443 - INFO -     Base price: Yes: 2500 (Decimal: 26.0000)
-2024-10-08 18:44:12,443 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,443 - INFO -       Implied prob (ground truth): 1 / 3262.3748 = 0.0003
-2024-10-08 18:44:12,443 - INFO -       Implied prob (base): 1 / 26.0000 = 0.0385
-2024-10-08 18:44:12,443 - INFO -       Edge: (0.0003 - 0.0385) / 0.0003 * 100 = -12447.60%
-2024-10-08 18:44:12,444 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,444 - INFO -       Input: Ground Truth Yes: 3262.3748, Base Yes: 26.0000
-2024-10-08 18:44:12,444 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,444 - INFO -     Final odds (American):
-2024-10-08 18:44:12,444 - INFO -       Ground Truth: Yes: 326137, No: -1400
-2024-10-08 18:44:12,444 - INFO -       Base: Yes: 2500
-2024-10-08 18:44:12,444 - INFO -   Player: Zach Charbonnet
-2024-10-08 18:44:12,444 - INFO -     fliff: Yes: 1105, No: -999900
-2024-10-08 18:44:12,444 - INFO -     tab: Yes: 1800
-2024-10-08 18:44:12,444 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,444 - INFO -     espnbet: Yes: 1400, No: N/A
-2024-10-08 18:44:12,444 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,445 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,445 - INFO -         fliff: 1105
-2024-10-08 18:44:12,445 - INFO -       Yes sum: 1105
-2024-10-08 18:44:12,445 - INFO -       Yes count: 1
-2024-10-08 18:44:12,445 - INFO -       Sharp Yes (American): 1105.00
-2024-10-08 18:44:12,445 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,445 - INFO -         fliff: -999900
-2024-10-08 18:44:12,445 - INFO -       No sum: -999900
-2024-10-08 18:44:12,445 - INFO -       No count: 1
-2024-10-08 18:44:12,445 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,445 - INFO -     Final Sharp prices: Yes: 1105.00 (Decimal: 12.0500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,445 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,445 - INFO -       Input: Yes: 12.0500, No: 1.0001
-2024-10-08 18:44:12,448 - INFO -       Result: Yes: 3096.9059, No: 1.0003
-2024-10-08 18:44:12,449 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,449 - INFO -       Input: Yes: 12.0500, No: 1.0001
-2024-10-08 18:44:12,449 - INFO -       Result: Yes: 13.0488, No: 1.0830
-2024-10-08 18:44:12,449 - INFO -     Ground Truth Line: Yes: 3096.9059, No: 1.0830
-2024-10-08 18:44:12,449 - INFO -     Base price: Yes: 1800 (Decimal: 19.0000)
-2024-10-08 18:44:12,449 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,449 - INFO -       Implied prob (ground truth): 1 / 3096.9059 = 0.0003
-2024-10-08 18:44:12,449 - INFO -       Implied prob (base): 1 / 19.0000 = 0.0526
-2024-10-08 18:44:12,449 - INFO -       Edge: (0.0003 - 0.0526) / 0.0003 * 100 = -16199.50%
-2024-10-08 18:44:12,450 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,450 - INFO -       Input: Ground Truth Yes: 3096.9059, Base Yes: 19.0000
-2024-10-08 18:44:12,450 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,450 - INFO -     Final odds (American):
-2024-10-08 18:44:12,450 - INFO -       Ground Truth: Yes: 309591, No: -1205
-2024-10-08 18:44:12,450 - INFO -       Base: Yes: 1800
-2024-10-08 18:44:12,450 - INFO -   Player: Jake Bobo
-2024-10-08 18:44:12,450 - INFO -     fliff: Yes: 1645, No: -999900
-2024-10-08 18:44:12,450 - INFO -     tab: Yes: 6600
-2024-10-08 18:44:12,450 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,450 - INFO -     espnbet: Yes: 3500, No: N/A
-2024-10-08 18:44:12,451 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,451 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,451 - INFO -         fliff: 1645
-2024-10-08 18:44:12,451 - INFO -       Yes sum: 1645
-2024-10-08 18:44:12,451 - INFO -       Yes count: 1
-2024-10-08 18:44:12,451 - INFO -       Sharp Yes (American): 1645.00
-2024-10-08 18:44:12,451 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,451 - INFO -         fliff: -999900
-2024-10-08 18:44:12,451 - INFO -       No sum: -999900
-2024-10-08 18:44:12,451 - INFO -       No count: 1
-2024-10-08 18:44:12,451 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,451 - INFO -     Final Sharp prices: Yes: 1645.00 (Decimal: 17.4500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,452 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,452 - INFO -       Input: Yes: 17.4500, No: 1.0001
-2024-10-08 18:44:12,455 - INFO -       Result: Yes: 3503.7369, No: 1.0003
-2024-10-08 18:44:12,455 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,455 - INFO -       Input: Yes: 17.4500, No: 1.0001
-2024-10-08 18:44:12,455 - INFO -       Result: Yes: 18.4483, No: 1.0573
-2024-10-08 18:44:12,455 - INFO -     Ground Truth Line: Yes: 3503.7369, No: 1.0573
-2024-10-08 18:44:12,455 - INFO -     Base price: Yes: 6600 (Decimal: 67.0000)
-2024-10-08 18:44:12,455 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,455 - INFO -       Implied prob (ground truth): 1 / 3503.7369 = 0.0003
-2024-10-08 18:44:12,455 - INFO -       Implied prob (base): 1 / 67.0000 = 0.0149
-2024-10-08 18:44:12,456 - INFO -       Edge: (0.0003 - 0.0149) / 0.0003 * 100 = -5129.46%
-2024-10-08 18:44:12,456 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,456 - INFO -       Input: Ground Truth Yes: 3503.7369, Base Yes: 67.0000
-2024-10-08 18:44:12,456 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,456 - INFO -     Final odds (American):
-2024-10-08 18:44:12,456 - INFO -       Ground Truth: Yes: 350274, No: -1745
-2024-10-08 18:44:12,456 - INFO -       Base: Yes: 6600
-2024-10-08 18:44:12,456 - INFO -   Player: DK Metcalf
-2024-10-08 18:44:12,456 - INFO -     fliff: Yes: 620, No: -1940
-2024-10-08 18:44:12,457 - INFO -     tab: Yes: 800
-2024-10-08 18:44:12,457 - INFO -     pinnacle: Yes: 729, No: -1605
-2024-10-08 18:44:12,457 - INFO -     espnbet: Yes: 850, No: N/A
-2024-10-08 18:44:12,457 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,457 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,457 - INFO -         fliff: 620
-2024-10-08 18:44:12,457 - INFO -         pinnacle: 729
-2024-10-08 18:44:12,457 - INFO -       Yes sum: 1349
-2024-10-08 18:44:12,457 - INFO -       Yes count: 2
-2024-10-08 18:44:12,457 - INFO -       Sharp Yes (American): 674.50
-2024-10-08 18:44:12,457 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,458 - INFO -         fliff: -1940
-2024-10-08 18:44:12,458 - INFO -         pinnacle: -1605
-2024-10-08 18:44:12,458 - INFO -       No sum: -3545
-2024-10-08 18:44:12,458 - INFO -       No count: 2
-2024-10-08 18:44:12,458 - INFO -       Sharp No (American): -1772.50
-2024-10-08 18:44:12,458 - INFO -     Final Sharp prices: Yes: 674.50 (Decimal: 7.7450), No: -1772.50 (Decimal: 1.0564)
-2024-10-08 18:44:12,458 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,458 - INFO -       Input: Yes: 7.7450, No: 1.0564
-2024-10-08 18:44:12,460 - INFO -       Result: Yes: 14.4659, No: 1.0743
-2024-10-08 18:44:12,460 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,460 - INFO -       Input: Yes: 7.7450, No: 1.0564
-2024-10-08 18:44:12,460 - INFO -       Result: Yes: 8.3314, No: 1.1364
-2024-10-08 18:44:12,460 - INFO -     Ground Truth Line: Yes: 14.4659, No: 1.1364
-2024-10-08 18:44:12,460 - INFO -     Base price: Yes: 800 (Decimal: 9.0000)
-2024-10-08 18:44:12,460 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,460 - INFO -       Implied prob (ground truth): 1 / 14.4659 = 0.0691
-2024-10-08 18:44:12,460 - INFO -       Implied prob (base): 1 / 9.0000 = 0.1111
-2024-10-08 18:44:12,461 - INFO -       Edge: (0.0691 - 0.1111) / 0.0691 * 100 = -60.73%
-2024-10-08 18:44:12,461 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,461 - INFO -       Input: Ground Truth Yes: 14.4659, Base Yes: 9.0000
-2024-10-08 18:44:12,461 - INFO -       EV Difference: -2.6100
-2024-10-08 18:44:12,461 - INFO -     Final odds (American):
-2024-10-08 18:44:12,461 - INFO -       Ground Truth: Yes: 1347, No: -733
-2024-10-08 18:44:12,461 - INFO -       Base: Yes: 800
-2024-10-08 18:44:12,461 - INFO -   Player: AJ Barner
-2024-10-08 18:44:12,461 - INFO -     fliff: Yes: 1705, No: -999900
-2024-10-08 18:44:12,461 - INFO -     tab: Yes: N/A
-2024-10-08 18:44:12,461 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,461 - INFO -     espnbet: Yes: 3500, No: N/A
-2024-10-08 18:44:12,461 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,461 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,461 - INFO -         fliff: 1705
-2024-10-08 18:44:12,461 - INFO -       Yes sum: 1705
-2024-10-08 18:44:12,462 - INFO -       Yes count: 1
-2024-10-08 18:44:12,462 - INFO -       Sharp Yes (American): 1705.00
-2024-10-08 18:44:12,462 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,462 - INFO -         fliff: -999900
-2024-10-08 18:44:12,462 - INFO -       No sum: -999900
-2024-10-08 18:44:12,462 - INFO -       No count: 1
-2024-10-08 18:44:12,462 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,462 - INFO -     Final Sharp prices: Yes: 1705.00 (Decimal: 18.0500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,462 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,462 - INFO -       Input: Yes: 18.0500, No: 1.0001
-2024-10-08 18:44:12,466 - INFO -       Result: Yes: 3540.6143, No: 1.0003
-2024-10-08 18:44:12,466 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,466 - INFO -       Input: Yes: 18.0500, No: 1.0001
-2024-10-08 18:44:12,466 - INFO -       Result: Yes: 19.0482, No: 1.0554
-2024-10-08 18:44:12,466 - INFO -     Ground Truth Line: Yes: 3540.6143, No: 1.0554
-2024-10-08 18:44:12,466 - INFO -   Player: Laviska Shenault Jr
-2024-10-08 18:44:12,466 - INFO -     fliff: Yes: 1675, No: -999900
-2024-10-08 18:44:12,467 - INFO -     tab: Yes: 6600
-2024-10-08 18:44:12,467 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,467 - INFO -     espnbet: Yes: 3500, No: N/A
-2024-10-08 18:44:12,467 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,467 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,467 - INFO -         fliff: 1675
-2024-10-08 18:44:12,467 - INFO -       Yes sum: 1675
-2024-10-08 18:44:12,467 - INFO -       Yes count: 1
-2024-10-08 18:44:12,467 - INFO -       Sharp Yes (American): 1675.00
-2024-10-08 18:44:12,467 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,467 - INFO -         fliff: -999900
-2024-10-08 18:44:12,467 - INFO -       No sum: -999900
-2024-10-08 18:44:12,467 - INFO -       No count: 1
-2024-10-08 18:44:12,467 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,468 - INFO -     Final Sharp prices: Yes: 1675.00 (Decimal: 17.7500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,468 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,468 - INFO -       Input: Yes: 17.7500, No: 1.0001
-2024-10-08 18:44:12,472 - INFO -       Result: Yes: 3522.3367, No: 1.0003
-2024-10-08 18:44:12,472 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,472 - INFO -       Input: Yes: 17.7500, No: 1.0001
-2024-10-08 18:44:12,472 - INFO -       Result: Yes: 18.7482, No: 1.0563
-2024-10-08 18:44:12,472 - INFO -     Ground Truth Line: Yes: 3522.3367, No: 1.0563
-2024-10-08 18:44:12,472 - INFO -     Base price: Yes: 6600 (Decimal: 67.0000)
-2024-10-08 18:44:12,472 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,472 - INFO -       Implied prob (ground truth): 1 / 3522.3367 = 0.0003
-2024-10-08 18:44:12,472 - INFO -       Implied prob (base): 1 / 67.0000 = 0.0149
-2024-10-08 18:44:12,472 - INFO -       Edge: (0.0003 - 0.0149) / 0.0003 * 100 = -5157.22%
-2024-10-08 18:44:12,472 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,472 - INFO -       Input: Ground Truth Yes: 3522.3367, Base Yes: 67.0000
-2024-10-08 18:44:12,473 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,473 - INFO -     Final odds (American):
-2024-10-08 18:44:12,473 - INFO -       Ground Truth: Yes: 352134, No: -1775
-2024-10-08 18:44:12,473 - INFO -       Base: Yes: 6600
-2024-10-08 18:44:12,473 - INFO -   Player: Kyle Juszczyk
-2024-10-08 18:44:12,473 - INFO -     fliff: Yes: 1655, No: -999900
-2024-10-08 18:44:12,473 - INFO -     tab: Yes: 3300
-2024-10-08 18:44:12,473 - INFO -     pinnacle: Yes: N/A, No: N/A
-2024-10-08 18:44:12,473 - INFO -     espnbet: Yes: 2200, No: N/A
-2024-10-08 18:44:12,473 - INFO -     Calculation of sharp prices:
-2024-10-08 18:44:12,473 - INFO -       Yes prices used in calculation:
-2024-10-08 18:44:12,473 - INFO -         fliff: 1655
-2024-10-08 18:44:12,473 - INFO -       Yes sum: 1655
-2024-10-08 18:44:12,473 - INFO -       Yes count: 1
-2024-10-08 18:44:12,473 - INFO -       Sharp Yes (American): 1655.00
-2024-10-08 18:44:12,473 - INFO -       No prices used in calculation:
-2024-10-08 18:44:12,474 - INFO -         fliff: -999900
-2024-10-08 18:44:12,474 - INFO -       No sum: -999900
-2024-10-08 18:44:12,474 - INFO -       No count: 1
-2024-10-08 18:44:12,474 - INFO -       Sharp No (American): -999900.00
-2024-10-08 18:44:12,474 - INFO -     Final Sharp prices: Yes: 1655.00 (Decimal: 17.5500), No: -999900.00 (Decimal: 1.0001)
-2024-10-08 18:44:12,474 - INFO -     Power Devig calculation:
-2024-10-08 18:44:12,474 - INFO -       Input: Yes: 17.5500, No: 1.0001
-2024-10-08 18:44:12,477 - INFO -       Result: Yes: 3509.9733, No: 1.0003
-2024-10-08 18:44:12,477 - INFO -     Multiplicative Devig calculation:
-2024-10-08 18:44:12,477 - INFO -       Input: Yes: 17.5500, No: 1.0001
-2024-10-08 18:44:12,477 - INFO -       Result: Yes: 18.5482, No: 1.0570
-2024-10-08 18:44:12,477 - INFO -     Ground Truth Line: Yes: 3509.9733, No: 1.0570
-2024-10-08 18:44:12,477 - INFO -     Base price: Yes: 3300 (Decimal: 34.0000)
-2024-10-08 18:44:12,477 - INFO -     Edge calculation (Ground Truth):
-2024-10-08 18:44:12,477 - INFO -       Implied prob (ground truth): 1 / 3509.9733 = 0.0003
-2024-10-08 18:44:12,477 - INFO -       Implied prob (base): 1 / 34.0000 = 0.0294
-2024-10-08 18:44:12,478 - INFO -       Edge: (0.0003 - 0.0294) / 0.0003 * 100 = -10223.45%
-2024-10-08 18:44:12,478 - INFO -     EV Difference calculation:
-2024-10-08 18:44:12,478 - INFO -       Input: Ground Truth Yes: 3509.9733, Base Yes: 34.0000
-2024-10-08 18:44:12,478 - INFO -       EV Difference: -0.0300
-2024-10-08 18:44:12,478 - INFO -     Final odds (American):
-2024-10-08 18:44:12,478 - INFO -       Ground Truth: Yes: 350897, No: -1755
-2024-10-08 18:44:12,478 - INFO -       Base: Yes: 3300
-2024-10-08 18:44:12,478 - INFO - 
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Ronnie Bell
+    fliff: Yes: 1680, No: -999900
+    tab: Yes: 6600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Trent Taylor
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 8000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: No Touchdown
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 8000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Geno Smith
+    fliff: Yes: 1290, No: -999900
+    tab: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Tyler Lockett
+    fliff: Yes: 865, No: -7200
+    tab: Yes: 1000
+    pinnacle: Yes: 1083, No: -3252
+    espnbet: Yes: 1300, No: N/A
+  Player: Zach Charbonnet
+    fliff: Yes: 1080, No: -999900
+    tab: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1300, No: N/A
+  Player: Noah Fant
+    fliff: Yes: 1225, No: -999900
+    tab: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: AJ Barner
+    fliff: Yes: 1800, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Jauan Jennings
+    fliff: Yes: 1060, No: -999900
+    tab: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1200, No: N/A
+  Player: DK Metcalf
+    fliff: Yes: 660, No: -2285
+    tab: Yes: 800
+    pinnacle: Yes: 802, No: -1887
+    espnbet: Yes: 900, No: N/A
+  Player: Patrick Taylor
+    fliff: Yes: 1820, No: -999900
+    tab: Yes: 8000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brandon Aiyuk
+    fliff: Yes: 735, No: -3235
+    tab: Yes: 900
+    pinnacle: Yes: 876, No: -2199
+    espnbet: Yes: 900, No: N/A
+  Player: Jacob Cowing
+    fliff: Yes: 1955, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jake Tonges
+    fliff: Yes: 2045, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Kenny McIntosh
+    fliff: Yes: 1995, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Kyle Juszczyk
+    fliff: Yes: 1560, No: -999900
+    tab: Yes: 3300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2500, No: N/A
+  Player: Deebo Samuel
+    fliff: Yes: 610, No: -1860
+    tab: Yes: 800
+    pinnacle: Yes: 722, No: -1578
+    espnbet: Yes: 750, No: N/A
+  Player: Jaxon Smith-Njigba
+    fliff: Yes: 830, No: -5750
+    tab: Yes: 1000
+    pinnacle: Yes: 1018, No: -2894
+    espnbet: Yes: 1100, No: N/A
+  Player: Kenneth Walker III
+    fliff: Yes: 625, No: -2000
+    tab: Yes: 750
+    pinnacle: Yes: 751, No: -1685
+    espnbet: Yes: 450, No: N/A
+  Player: Isaac Guerendo
+    fliff: Yes: 1200, No: -999900
+    tab: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2500, No: N/A
+  Player: Dareke Young
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: George Kittle
+    fliff: Yes: 760, No: -3690
+    tab: Yes: 1000
+    pinnacle: Yes: 895, No: -2286
+    espnbet: Yes: 900, No: N/A
+  Player: Jordan Mason
+    fliff: Yes: 460, No: -1030
+    tab: Yes: 550
+    pinnacle: Yes: 543, No: -1001
+    espnbet: Yes: 500, No: N/A
+  Player: Pharaoh Brown
+    fliff: Yes: 1785, No: -999900
+    tab: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Any Other Player
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Laviska Shenault Jr
+    fliff: Yes: 1690, No: -999900
+    tab: Yes: 6600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Eric Saubert
+    fliff: Yes: 1855, No: -999900
+    tab: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: Brock Purdy
+    fliff: Yes: 1360, No: -999900
+    tab: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Jake Bobo
+    fliff: Yes: 1675, No: -999900
+    tab: Yes: 6600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+2024-10-08 23:51:42,850 - WARNING - 
+Event: Denver Broncos vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,851 - WARNING - 
 Event: Philadelphia Eagles vs Cleveland Browns
-2024-10-08 18:44:12,478 - INFO - Market: player_last_td
-2024-10-08 18:44:12,479 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,479 - INFO - 
-Event: Baltimore Ravens vs Washington Commanders
-2024-10-08 18:44:12,479 - INFO - Market: player_last_td
-2024-10-08 18:44:12,479 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,479 - INFO - 
-Event: Tennessee Titans vs Indianapolis Colts
-2024-10-08 18:44:12,479 - INFO - Market: player_last_td
-2024-10-08 18:44:12,479 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,480 - INFO - 
-Event: Baltimore Ravens vs Washington Commanders
-2024-10-08 18:44:12,480 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,480 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,480 - INFO - 
-Event: Green Bay Packers vs Arizona Cardinals
-2024-10-08 18:44:12,480 - INFO - Market: player_last_td
-2024-10-08 18:44:12,480 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,482 - INFO - 
-Event: New York Giants vs Cincinnati Bengals
-2024-10-08 18:44:12,482 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,482 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,482 - INFO - 
-Event: New York Jets vs Buffalo Bills
-2024-10-08 18:44:12,482 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,482 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,483 - INFO - 
-Event: Carolina Panthers vs Atlanta Falcons
-2024-10-08 18:44:12,483 - INFO - Market: player_last_td
-2024-10-08 18:44:12,483 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,483 - INFO - 
-Event: New Orleans Saints vs Tampa Bay Buccaneers
-2024-10-08 18:44:12,483 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,483 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,483 - INFO - 
-Event: Buffalo Bills vs Tennessee Titans
-2024-10-08 18:44:12,483 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,483 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,483 - INFO - 
-Event: Indianapolis Colts vs Miami Dolphins
-2024-10-08 18:44:12,484 - INFO - Market: player_last_td
-2024-10-08 18:44:12,484 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,487 - INFO - Completed 2/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 3/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 4/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 5/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 6/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 7/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 8/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 9/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 10/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 11/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 12/58 tasks
-2024-10-08 18:44:12,487 - INFO - Completed 13/58 tasks
-2024-10-08 18:44:12,488 - INFO - Completed 14/58 tasks
-2024-10-08 18:44:12,488 - INFO - 
-Event: New York Giants vs Cincinnati Bengals
-2024-10-08 18:44:12,488 - INFO - Market: player_last_td
-2024-10-08 18:44:12,488 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,488 - INFO - 
-Event: Dallas Cowboys vs Detroit Lions
-2024-10-08 18:44:12,488 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,489 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,489 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,489 - INFO - 
-Event: New York Giants vs Philadelphia Eagles
-2024-10-08 18:44:12,489 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,489 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,489 - INFO - 
-Event: New Orleans Saints vs Denver Broncos
-2024-10-08 18:44:12,489 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,489 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,490 - INFO - 
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,851 - WARNING - 
 Event: Chicago Bears vs Jacksonville Jaguars
-2024-10-08 18:44:12,490 - INFO - Market: player_last_td
-2024-10-08 18:44:12,490 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,490 - INFO - 
-Event: Carolina Panthers vs Atlanta Falcons
-2024-10-08 18:44:12,490 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,490 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,490 - INFO - 
-Event: New York Jets vs Buffalo Bills
-2024-10-08 18:44:12,490 - INFO - Market: player_last_td
-2024-10-08 18:44:12,490 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,490 - INFO - 
-Event: Dallas Cowboys vs Detroit Lions
-2024-10-08 18:44:12,491 - INFO - Market: player_last_td
-2024-10-08 18:44:12,491 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,491 - INFO - 
-Event: Cleveland Browns vs Cincinnati Bengals
-2024-10-08 18:44:12,491 - INFO - Market: player_last_td
-2024-10-08 18:44:12,491 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,491 - INFO - 
-Event: Buffalo Bills vs Tennessee Titans
-2024-10-08 18:44:12,491 - INFO - Market: player_last_td
-2024-10-08 18:44:12,491 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,491 - INFO - 
-Event: Tennessee Titans vs Indianapolis Colts
-2024-10-08 18:44:12,491 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,491 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,492 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,492 - INFO - 
-Event: Minnesota Vikings vs Detroit Lions
-2024-10-08 18:44:12,492 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,492 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,492 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,492 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,492 - INFO - 
-Event: Las Vegas Raiders vs Pittsburgh Steelers
-2024-10-08 18:44:12,492 - INFO - Market: player_last_td
-2024-10-08 18:44:12,492 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,493 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,493 - INFO - 
-Event: Philadelphia Eagles vs Cleveland Browns
-2024-10-08 18:44:12,493 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,493 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,493 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,493 - INFO - 
-Event: Washington Commanders vs Carolina Panthers
-2024-10-08 18:44:12,493 - INFO - Market: player_last_td
-2024-10-08 18:44:12,494 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,494 - INFO - 
-Event: Washington Commanders vs Carolina Panthers
-2024-10-08 18:44:12,494 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,494 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,494 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,494 - INFO - 
-Event: New Orleans Saints vs Denver Broncos
-2024-10-08 18:44:12,494 - INFO - Market: player_last_td
-2024-10-08 18:44:12,494 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,495 - INFO - 
-Event: New York Giants vs Philadelphia Eagles
-2024-10-08 18:44:12,495 - INFO - Market: player_last_td
-2024-10-08 18:44:12,495 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,495 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,495 - WARNING - Rate limit hit (attempt 1/5). Retrying...
-2024-10-08 18:44:12,495 - INFO - 
-Event: Minnesota Vikings vs Detroit Lions
-2024-10-08 18:44:12,495 - INFO - Market: player_last_td
-2024-10-08 18:44:12,495 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,495 - INFO - 
-Event: Atlanta Falcons vs Seattle Seahawks
-2024-10-08 18:44:12,495 - INFO - Market: player_anytime_td
-2024-10-08 18:44:12,496 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,496 - INFO - 
-Event: Atlanta Falcons vs Seattle Seahawks
-2024-10-08 18:44:12,496 - INFO - Market: player_last_td
-2024-10-08 18:44:12,496 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:12,496 - INFO - Completed 15/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 16/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 17/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 18/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 19/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 20/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 21/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 22/58 tasks
-2024-10-08 18:44:12,496 - INFO - Completed 23/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 24/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 25/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 26/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 27/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 28/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 29/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 30/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 31/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 32/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 33/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 34/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 35/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 36/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 37/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 38/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 39/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 40/58 tasks
-2024-10-08 18:44:12,497 - INFO - Completed 41/58 tasks
-2024-10-08 18:44:13,215 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,455 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,468 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,510 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,563 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,593 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,646 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,646 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,813 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,865 - WARNING - Rate limit hit (attempt 2/5). Retrying...
-2024-10-08 18:44:13,981 - INFO - 
-Event: Tampa Bay Buccaneers vs Baltimore Ravens
-2024-10-08 18:44:13,981 - INFO - Market: player_anytime_td
-2024-10-08 18:44:13,982 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:13,982 - INFO - Completed 42/58 tasks
-2024-10-08 18:44:14,118 - INFO - 
-Event: Los Angeles Rams vs Las Vegas Raiders
-2024-10-08 18:44:14,119 - INFO - Market: player_last_td
-2024-10-08 18:44:14,119 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,119 - INFO - Completed 43/58 tasks
-2024-10-08 18:44:14,321 - INFO - 
-Event: Indianapolis Colts vs Miami Dolphins
-2024-10-08 18:44:14,321 - INFO - Market: player_anytime_td
-2024-10-08 18:44:14,321 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,321 - INFO - Completed 44/58 tasks
-2024-10-08 18:44:14,414 - INFO - 
-Event: Cleveland Browns vs Cincinnati Bengals
-2024-10-08 18:44:14,414 - INFO - Market: player_anytime_td
-2024-10-08 18:44:14,414 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,415 - INFO - Completed 45/58 tasks
-2024-10-08 18:44:14,430 - INFO - 
-Event: Green Bay Packers vs Houston Texans
-2024-10-08 18:44:14,430 - INFO - Market: player_last_td
-2024-10-08 18:44:14,430 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,431 - INFO - Completed 46/58 tasks
-2024-10-08 18:44:14,506 - INFO - 
-Event: Jacksonville Jaguars vs New England Patriots
-2024-10-08 18:44:14,506 - INFO - Market: player_anytime_td
-2024-10-08 18:44:14,506 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,507 - INFO - Completed 47/58 tasks
-2024-10-08 18:44:14,563 - INFO - 
-Event: Green Bay Packers vs Houston Texans
-2024-10-08 18:44:14,564 - INFO - Market: player_anytime_td
-2024-10-08 18:44:14,564 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:14,564 - INFO - Completed 48/58 tasks
-2024-10-08 18:44:15,623 - INFO - 
-Event: Tampa Bay Buccaneers vs Baltimore Ravens
-2024-10-08 18:44:15,623 - INFO - Market: player_last_td
-2024-10-08 18:44:15,623 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:15,623 - INFO - Completed 49/58 tasks
-2024-10-08 18:44:15,649 - INFO - 
-Event: Pittsburgh Steelers vs New York Jets
-2024-10-08 18:44:15,650 - INFO - Market: player_last_td
-2024-10-08 18:44:15,650 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:15,650 - INFO - Completed 50/58 tasks
-2024-10-08 18:44:15,823 - INFO - 
-Event: Arizona Cardinals vs Los Angeles Chargers
-2024-10-08 18:44:15,824 - INFO - Market: player_last_td
-2024-10-08 18:44:15,824 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:15,824 - INFO - Completed 51/58 tasks
-2024-10-08 18:44:15,929 - INFO - 
-Event: Los Angeles Rams vs Las Vegas Raiders
-2024-10-08 18:44:15,930 - INFO - Market: player_anytime_td
-2024-10-08 18:44:15,930 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:15,930 - INFO - Completed 52/58 tasks
-2024-10-08 18:44:16,040 - INFO - 
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,851 - WARNING - 
+Event: Baltimore Ravens vs Washington Commanders
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
 Event: New England Patriots vs Houston Texans
-2024-10-08 18:44:16,041 - INFO - Market: player_anytime_td
-2024-10-08 18:44:16,041 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,041 - INFO - Completed 53/58 tasks
-2024-10-08 18:44:16,151 - INFO - 
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
+Event: New Orleans Saints vs Denver Broncos
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
+Event: Buffalo Bills vs Tennessee Titans
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
+Event: Atlanta Falcons vs Seattle Seahawks
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
+Event: New York Giants vs Philadelphia Eagles
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,853 - WARNING - 
+Event: Cleveland Browns vs Cincinnati Bengals
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,861 - INFO - Completed 5/58 tasks
+2024-10-08 23:51:42,861 - INFO - Completed 6/58 tasks
+2024-10-08 23:51:42,861 - INFO - Completed 7/58 tasks
+2024-10-08 23:51:42,862 - INFO - Completed 8/58 tasks
+2024-10-08 23:51:42,862 - INFO - Completed 9/58 tasks
+2024-10-08 23:51:42,862 - INFO - Completed 10/58 tasks
+2024-10-08 23:51:42,862 - INFO - Completed 11/58 tasks
+2024-10-08 23:51:42,863 - WARNING - 
+Event: Buffalo Bills vs Tennessee Titans
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,864 - WARNING - 
+Event: Indianapolis Colts vs Miami Dolphins
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,864 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,864 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,864 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,864 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,865 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,865 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,865 - WARNING - 
+Event: Atlanta Falcons vs Seattle Seahawks
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,866 - WARNING - 
+Event: Cleveland Browns vs Cincinnati Bengals
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,866 - WARNING - 
+Event: Las Vegas Raiders vs Pittsburgh Steelers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,867 - WARNING - 
+Event: Tennessee Titans vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,867 - WARNING - 
+Event: New Orleans Saints vs Denver Broncos
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,867 - WARNING - 
+Event: Carolina Panthers vs Atlanta Falcons
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,867 - WARNING - 
+Event: Las Vegas Raiders vs Pittsburgh Steelers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,868 - WARNING - 
+Event: New England Patriots vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,868 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,868 - WARNING - 
+Event: New York Giants vs Cincinnati Bengals
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,868 - WARNING - 
 Event: Jacksonville Jaguars vs New England Patriots
-2024-10-08 18:44:16,151 - INFO - Market: player_last_td
-2024-10-08 18:44:16,151 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,151 - INFO - Completed 54/58 tasks
-2024-10-08 18:44:16,379 - INFO - 
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,868 - WARNING - 
+Event: New York Jets vs Buffalo Bills
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,869 - WARNING - 
+Event: New Orleans Saints vs Tampa Bay Buccaneers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,869 - WARNING - 
+Event: New Orleans Saints vs Tampa Bay Buccaneers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,869 - WARNING - 
+Event: Dallas Cowboys vs Detroit Lions
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,869 - WARNING - 
+Event: Dallas Cowboys vs Detroit Lions
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,870 - WARNING - 
+Event: Carolina Panthers vs Atlanta Falcons
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,870 - WARNING - 
+Event: New York Giants vs Cincinnati Bengals
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,870 - WARNING - 
+Event: Jacksonville Jaguars vs New England Patriots
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:42,870 - INFO - Completed 12/58 tasks
+2024-10-08 23:51:42,870 - INFO - Completed 13/58 tasks
+2024-10-08 23:51:42,870 - INFO - Completed 14/58 tasks
+2024-10-08 23:51:42,870 - INFO - Completed 15/58 tasks
+2024-10-08 23:51:42,870 - INFO - Completed 16/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 17/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 18/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 19/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 20/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 21/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 22/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 23/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 24/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 25/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 26/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 27/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 28/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 29/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 30/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 31/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 32/58 tasks
+2024-10-08 23:51:42,871 - INFO - Completed 33/58 tasks
+2024-10-08 23:51:42,872 - INFO - Completed 34/58 tasks
+2024-10-08 23:51:42,872 - INFO - Completed 35/58 tasks
+2024-10-08 23:51:42,872 - INFO - Completed 36/58 tasks
+2024-10-08 23:51:42,872 - INFO - Completed 37/58 tasks
+2024-10-08 23:51:42,895 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,896 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,896 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:42,898 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-08 23:51:43,654 - WARNING - Rate limit hit (attempt 2/5). Retrying...
+2024-10-08 23:51:43,821 - WARNING - Rate limit hit (attempt 2/5). Retrying...
+2024-10-08 23:51:43,859 - WARNING - Rate limit hit (attempt 2/5). Retrying...
+2024-10-08 23:51:43,980 - WARNING - 
+Event: Green Bay Packers vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:43,981 - INFO - Completed 38/58 tasks
+2024-10-08 23:51:44,007 - WARNING - 
+Event: New York Jets vs Buffalo Bills
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,007 - INFO - Completed 39/58 tasks
+2024-10-08 23:51:44,075 - WARNING - 
+Event: Los Angeles Rams vs Las Vegas Raiders
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,075 - INFO - Completed 40/58 tasks
+2024-10-08 23:51:44,130 - WARNING - 
+Event: Minnesota Vikings vs Detroit Lions
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,130 - INFO - Completed 41/58 tasks
+2024-10-08 23:51:44,250 - WARNING - 
+Event: New York Giants vs Philadelphia Eagles
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,250 - INFO - Completed 42/58 tasks
+2024-10-08 23:51:44,309 - WARNING - 
+Event: Los Angeles Rams vs Las Vegas Raiders
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,310 - INFO - Completed 43/58 tasks
+2024-10-08 23:51:44,339 - WARNING - 
 Event: Pittsburgh Steelers vs New York Jets
-2024-10-08 18:44:16,379 - INFO - Market: player_anytime_td
-2024-10-08 18:44:16,379 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,380 - INFO - Completed 55/58 tasks
-2024-10-08 18:44:16,391 - INFO - 
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,340 - INFO - Completed 44/58 tasks
+2024-10-08 23:51:44,349 - WARNING - 
+Event: Tampa Bay Buccaneers vs Baltimore Ravens
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,349 - INFO - Completed 45/58 tasks
+2024-10-08 23:51:44,382 - WARNING - 
+Event: Washington Commanders vs Carolina Panthers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,383 - INFO - Completed 46/58 tasks
+2024-10-08 23:51:44,402 - WARNING - 
+Event: Washington Commanders vs Carolina Panthers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,403 - WARNING - 
+Event: Denver Broncos vs Los Angeles Chargers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,403 - INFO - Completed 47/58 tasks
+2024-10-08 23:51:44,404 - INFO - Completed 48/58 tasks
+2024-10-08 23:51:44,462 - WARNING - 
 Event: San Francisco 49ers vs Kansas City Chiefs
-2024-10-08 18:44:16,391 - INFO - Market: player_last_td
-2024-10-08 18:44:16,391 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,392 - INFO - Completed 56/58 tasks
-2024-10-08 18:44:16,416 - INFO - 
-Event: San Francisco 49ers vs Kansas City Chiefs
-2024-10-08 18:44:16,417 - INFO - Market: player_anytime_td
-2024-10-08 18:44:16,417 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,417 - INFO - Completed 57/58 tasks
-2024-10-08 18:44:16,622 - INFO - 
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,463 - INFO - Completed 49/58 tasks
+2024-10-08 23:51:44,561 - WARNING - 
+Event: Green Bay Packers vs Houston Texans
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,561 - INFO - Completed 50/58 tasks
+2024-10-08 23:51:44,580 - WARNING - 
+Event: Tampa Bay Buccaneers vs Baltimore Ravens
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,580 - INFO - Completed 51/58 tasks
+2024-10-08 23:51:44,599 - WARNING - 
+Event: Pittsburgh Steelers vs New York Jets
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,600 - INFO - Completed 52/58 tasks
+2024-10-08 23:51:44,616 - WARNING - 
+Event: Chicago Bears vs Jacksonville Jaguars
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,617 - INFO - Completed 53/58 tasks
+2024-10-08 23:51:44,760 - WARNING - 
+Event: Minnesota Vikings vs Detroit Lions
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,760 - INFO - Completed 54/58 tasks
+2024-10-08 23:51:44,877 - WARNING - 
+Event: Indianapolis Colts vs Miami Dolphins
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:44,878 - INFO - Completed 55/58 tasks
+2024-10-08 23:51:46,308 - WARNING - 
 Event: Arizona Cardinals vs Los Angeles Chargers
-2024-10-08 18:44:16,622 - INFO - Market: player_anytime_td
-2024-10-08 18:44:16,622 - WARNING - Both 'fliff' and 'tab' must be available. Skipping.
-2024-10-08 18:44:16,623 - INFO - Completed 58/58 tasks
-2024-10-08 18:44:16,623 - INFO - Requests used: 4482
-2024-10-08 18:44:16,623 - INFO - Requests remaining: 15518.0
-2024-10-08 18:44:16,629 - INFO - Time to fetch events: 0.27 seconds
-2024-10-08 18:44:16,629 - INFO - Time to fetch all odds: 4.59 seconds
-2024-10-08 18:44:16,629 - INFO - Total execution time: 4.87 seconds
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:46,309 - INFO - Completed 56/58 tasks
+2024-10-08 23:51:46,525 - WARNING - 
+Event: San Francisco 49ers vs Kansas City Chiefs
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:46,525 - INFO - Completed 57/58 tasks
+2024-10-08 23:51:46,857 - WARNING - 
+Event: Arizona Cardinals vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-08 23:51:46,857 - INFO - Completed 58/58 tasks
+2024-10-08 23:51:46,857 - INFO - Requests used: 5802
+2024-10-08 23:51:46,857 - INFO - Requests remaining: 14198.0
+2024-10-08 23:51:46,863 - INFO - Time to fetch events: 0.08 seconds
+2024-10-08 23:51:46,863 - INFO - Time to fetch all odds: 4.30 seconds
+2024-10-08 23:51:46,863 - INFO - Total execution time: 4.38 seconds

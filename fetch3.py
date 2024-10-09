@@ -9,6 +9,8 @@ import calculations
 import statistics  # Add this import at the top of your file
 from decimal import Decimal
 from shared import send_discord_notification
+import traceback  # Add this import at the top of your file
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
                     filename='fetch_log.txt', filemode='w')
@@ -97,43 +99,43 @@ def get_quota_usage(headers):
     }
 
 async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals):
-    logger.info(f"\nEvent: {event['home_team']} vs {event['away_team']}")
-    logger.info(f"Market: {market}")
+    log_messages = []
+    log_messages.append(f"\nEvent: {event['home_team']} vs {event['away_team']}")
+    log_messages.append(f"Market: {market}")
     
     if not odds:
-        logger.error("Failed to fetch odds data.")
+        log_messages.append("Failed to fetch odds data.")
+        logger.error("\n".join(log_messages))
         return
 
     available_bookmakers = {bm['key']: bm for bm in odds.get('bookmakers', [])}
     
-    # Check if principal and base bookmakers are available
     if principal_bookmaker not in available_bookmakers or base_bookmaker not in available_bookmakers:
-        logger.warning(f"Both '{principal_bookmaker}' and '{base_bookmaker}' must be available. Skipping.")
+        log_messages.append(f"Both '{principal_bookmaker}' and '{base_bookmaker}' must be available. Skipping.")
+        logger.warning("\n".join(log_messages))
         return
 
-    # Get the market data for principal and base bookmakers
     principal_bm = available_bookmakers[principal_bookmaker]
     base_bm = available_bookmakers[base_bookmaker]
     principal_market = next((m for m in principal_bm.get('markets', []) if m['key'] == market), None)
     base_market = next((m for m in base_bm.get('markets', []) if m['key'] == market), None)
     
     if not principal_market or not base_market:
-        logger.warning(f"Market {market} not available for both {principal_bookmaker} and {base_bookmaker}. Skipping.")
+        log_messages.append(f"Market {market} not available for both {principal_bookmaker} and {base_bookmaker}. Skipping.")
+        logger.warning("\n".join(log_messages))
         return
 
-    # Check if principal bookmaker has both 'yes' and 'no' outcomes
     principal_outcomes = {outcome['name'].lower(): outcome for outcome in principal_market['outcomes']}
     
     if not {'yes', 'no'}.issubset(principal_outcomes.keys()):
-        logger.warning(f"{principal_bookmaker} does not have both 'yes' and 'no' outcomes. Skipping.")
+        log_messages.append(f"{principal_bookmaker} does not have both 'yes' and 'no' outcomes. Skipping.")
+        logger.warning("\n".join(log_messages))
         return
 
-    logger.info(f"{principal_bookmaker} has both 'yes' and 'no' outcomes.")
+    log_messages.append(f"{principal_bookmaker} has both 'yes' and 'no' outcomes.")
 
-    # Get available optional principal bookmakers
     available_optional_principals = [bm for bm in optional_principals if bm in available_bookmakers]
     
-    # Create a set of player descriptions for all bookmakers
     all_players = set(outcome['description'] for outcome in principal_market['outcomes'])
     all_players.update(outcome['description'] for outcome in base_market['outcomes'])
     for opt_bm in available_optional_principals:
@@ -141,24 +143,20 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
         if opt_market:
             all_players.update(outcome['description'] for outcome in opt_market['outcomes'])
 
-    # Log outcomes for all players and perform calculations
-    logger.info("Outcomes and calculations for all players:")
+    log_messages.append("Outcomes and calculations for all players:")
     for description in all_players:
-        logger.info(f"  Player: {description}")
+        log_messages.append(f"  Player: {description}")
         
-        # Log principal bookmaker outcomes
         principal_yes = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
         principal_no = next((o for o in principal_market['outcomes'] if o['description'] == description and o['name'].lower() == 'no'), None)
         principal_yes_info = f"Yes: {principal_yes['price']}" if principal_yes else "Yes: N/A"
         principal_no_info = f"No: {principal_no['price']}" if principal_no else "No: N/A"
-        logger.info(f"    {principal_bookmaker}: {principal_yes_info}, {principal_no_info}")
+        log_messages.append(f"    {principal_bookmaker}: {principal_yes_info}, {principal_no_info}")
         
-        # Log base bookmaker outcome
         base_yes = next((o for o in base_market['outcomes'] if o['description'] == description and o['name'].lower() == 'yes'), None)
         base_yes_info = f"Yes: {base_yes['price']}" if base_yes else "Yes: N/A"
-        logger.info(f"    {base_bookmaker}: {base_yes_info}")
+        log_messages.append(f"    {base_bookmaker}: {base_yes_info}")
         
-        # Log optional principal bookmakers outcomes
         valid_optional_prices = []
         for opt_bm in available_optional_principals:
             opt_market = next((m for m in available_bookmakers[opt_bm].get('markets', []) if m['key'] == market), None)
@@ -167,17 +165,12 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                 opt_no = next((o for o in opt_market['outcomes'] if o['description'] == description and o['name'].lower() == 'no'), None)
                 opt_yes_info = f"Yes: {opt_yes['price']}" if opt_yes else "Yes: N/A"
                 opt_no_info = f"No: {opt_no['price']}" if opt_no else "No: N/A"
-                log_message = f"    {opt_bm}: {opt_yes_info}, {opt_no_info}"
-                logger.info(log_message)
-                send_discord_notification(log_message)
+                log_messages.append(f"    {opt_bm}: {opt_yes_info}, {opt_no_info}")
                 if opt_yes and opt_no:
                     valid_optional_prices.append((opt_bm, opt_yes['price'], opt_no['price']))
             else:
-                log_message = f"    {opt_bm}: Market not available"
-                logger.info(log_message)
-                send_discord_notification(log_message)
+                log_messages.append(f"    {opt_bm}: Market not available")
 
-        # Calculate sharp prices if possible
         if principal_yes and principal_no:
             all_yes_prices = [(principal_bookmaker, principal_yes['price'])]
             all_no_prices = [(principal_bookmaker, principal_no['price'])]
@@ -186,151 +179,84 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                 all_yes_prices.append((opt_bm, yes_price))
                 all_no_prices.append((opt_bm, no_price))
             
-            log_message = "    Calculation of sharp prices:"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            log_message = "      Yes prices used in calculation:"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            for bm, price in all_yes_prices:
-                log_message = f"        {bm}: {price}"
-                logger.info(log_message)
-                send_discord_notification(log_message)
-            
             yes_sum = sum(price for _, price in all_yes_prices)
             yes_count = len(all_yes_prices)
             sharp_yes = yes_sum / yes_count if yes_count > 0 else None
             
-            log_message = f"      Yes sum: {yes_sum}"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            log_message = f"      Yes count: {yes_count}"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            log_message = f"      Sharp Yes (American): {sharp_yes:.2f}" if sharp_yes is not None else "      Sharp Yes: N/A"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-
-            log_message = "      No prices used in calculation:"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            for bm, price in all_no_prices:
-                log_message = f"        {bm}: {price}"
-                logger.info(log_message)
-                send_discord_notification(log_message)
-            
             no_sum = sum(price for _, price in all_no_prices)
             no_count = len(all_no_prices)
             sharp_no = no_sum / no_count if no_count > 0 else None
-            
-            log_message = f"      No sum: {no_sum}"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            log_message = f"      No count: {no_count}"
-            logger.info(log_message)
-            send_discord_notification(log_message)
-            log_message = f"      Sharp No (American): {sharp_no:.2f}" if sharp_no is not None else "      Sharp No: N/A"
-            logger.info(log_message)
-            send_discord_notification(log_message)
 
             if sharp_yes is not None and sharp_no is not None:
                 sharp_yes_decimal = calculations.american_to_decimal(sharp_yes)
                 sharp_no_decimal = calculations.american_to_decimal(sharp_no)
-                log_message = f"    Final Sharp prices: Yes: {sharp_yes:.2f} (Decimal: {sharp_yes_decimal:.4f}), " \
-                              f"No: {sharp_no:.2f} (Decimal: {sharp_no_decimal:.4f})"
-                logger.info(log_message)
-                send_discord_notification(log_message)
 
                 try:
-                    # Apply power devigging
-                    log_message = f"    Power Devig calculation:"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
-                    log_message = f"      Input: Yes: {sharp_yes_decimal:.4f}, No: {sharp_no_decimal:.4f}"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
                     power_devig_yes, power_devig_no = calculations.power_devig(sharp_yes_decimal, sharp_no_decimal)
-                    log_message = f"      Result: Yes: {power_devig_yes:.4f}, No: {power_devig_no:.4f}"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
-
-                    # Apply multiplicative devigging
-                    log_message = f"    Multiplicative Devig calculation:"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
-                    log_message = f"      Input: Yes: {sharp_yes_decimal:.4f}, No: {sharp_no_decimal:.4f}"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
                     mult_devig_yes, mult_devig_no = calculations.mult_devig(sharp_yes_decimal, sharp_no_decimal)
-                    log_message = f"      Result: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
 
-                    # Determine ground truth line
                     ground_truth_yes = max(power_devig_yes, mult_devig_yes)
                     ground_truth_no = max(power_devig_no, mult_devig_no)
-                    log_message = f"    Ground Truth Line: Yes: {ground_truth_yes:.4f}, No: {ground_truth_no:.4f}"
-                    logger.info(log_message)
-                    send_discord_notification(log_message)
 
                     if base_yes:
                         base_yes_decimal = calculations.american_to_decimal(base_yes['price'])
-                        log_message = f"    Base price: Yes: {base_yes['price']} (Decimal: {base_yes_decimal:.4f})"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
                         
-                        # Calculate edge using ground truth odds
-                        log_message = f"    Edge calculation (Ground Truth):"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
                         implied_prob_ground_truth = Decimal('1') / Decimal(str(ground_truth_yes))
                         implied_prob_base = Decimal('1') / base_yes_decimal
-                        log_message = f"      Implied prob (ground truth): 1 / {ground_truth_yes:.4f} = {float(implied_prob_ground_truth):.4f}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        log_message = f"      Implied prob (base): 1 / {base_yes_decimal:.4f} = {float(implied_prob_base):.4f}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
                         edge = (implied_prob_ground_truth - implied_prob_base) / implied_prob_ground_truth * Decimal('100')
-                        log_message = f"      Edge: ({float(implied_prob_ground_truth):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_ground_truth):.4f} * 100 = {float(edge):.2f}%"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
                         
-                        # Calculate EV difference
-                        log_message = f"    EV Difference calculation:"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
                         ev_difference = calculations.calculate_ev_difference(ground_truth_yes, base_yes_decimal)
-                        log_message = f"      Input: Ground Truth Yes: {ground_truth_yes:.4f}, Base Yes: {base_yes_decimal:.4f}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        log_message = f"      EV Difference: {ev_difference:.4f}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        # Convert ground truth and base odds back to American
+                        
                         ground_truth_yes_american = calculations.decimal_to_american(ground_truth_yes)
                         ground_truth_no_american = calculations.decimal_to_american(ground_truth_no)
-                        base_yes_american = base_yes['price']  # Already in American odds
+                        base_yes_american = base_yes['price']
 
-                        log_message = f"    Final odds (American):"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        log_message = f"      Ground Truth: Yes: {ground_truth_yes_american}, No: {ground_truth_no_american}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        log_message = f"      Base: Yes: {base_yes_american}"
-                        logger.info(log_message)
-                        send_discord_notification(log_message)
-                        
+                        if ev_difference < 0:  # Only send notification for positive EV
+                            timestamp = int(time.time() * 1000)  # Get current time in milliseconds
+                            notification_message = [
+                                f"Timestamp: {timestamp}",
+                                f"Message ID: {timestamp:x}",  # Hexadecimal representation for easy comparison
+                                f"Event: {event['home_team']} vs {event['away_team']}",
+                                f"Market: {market}",
+                                f"Player: {description}",
+                                f"Positive EV detected:",
+                                f"Calculation steps:",
+                                f"  1. Sharp prices:",
+                                f"     Yes prices used in calculation:"
+                            ]
+                            for bm, price in all_yes_prices:
+                                notification_message.append(f"       {bm}: {price}")
+                            notification_message.extend([
+                                f"     Final Sharp Yes: {sharp_yes:.2f} ({sharp_yes_decimal:.4f})",
+                                f"     No prices used in calculation:"
+                            ])
+                            for bm, price in all_no_prices:
+                                notification_message.append(f"       {bm}: {price}")
+                            notification_message.extend([
+                                f"     Final Sharp No: {sharp_no:.2f} ({sharp_no_decimal:.4f})",
+                                f"  2. Power Devig: Yes: {power_devig_yes:.4f}, No: {power_devig_no:.4f}",
+                                f"  3. Mult Devig: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}",
+                                f"  4. Ground Truth:",
+                                f"     Yes: {ground_truth_yes:.4f} ({ground_truth_yes_american})",
+                                f"     No: {ground_truth_no:.4f} ({ground_truth_no_american})",
+                                f"  5. Base price ({base_bookmaker}): Yes: {base_yes['price']} ({base_yes_decimal:.4f})",
+                                f"  6. Implied probabilities:",
+                                f"     Ground Truth: {float(implied_prob_ground_truth):.4f}",
+                                f"     Base: {float(implied_prob_base):.4f}",
+                                f"  7. Edge calculation:",
+                                f"     ({float(implied_prob_ground_truth):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_ground_truth):.4f} * 100 = {float(edge):.2f}%",
+                                f"  8. EV Difference: {ev_difference:.4f}"
+                            ])
+                            await send_discord_notification("\n".join(notification_message))
+
                 except Exception as e:
-                    log_message = f"Error in calculations: {str(e)}"
-                    logger.error(log_message)
-                    send_discord_notification(log_message)
-                    logger.exception("Exception details:")  # This will print the full traceback
+                    log_messages.append(f"Error in calculations: {str(e)}")
+                    log_messages.append("Exception details:")
+                    log_messages.append(traceback.format_exc())
             else:
-                log_message = "    Unable to calculate sharp prices due to insufficient data"
-                logger.info(log_message)
-                send_discord_notification(log_message)
+                log_messages.append("    Unable to calculate sharp prices due to insufficient data")
+    
+    logger.info("\n".join(log_messages))
 
     # Here you can add any additional processing or calculations if needed
 
