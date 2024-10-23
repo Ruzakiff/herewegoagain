@@ -6,6 +6,10 @@ import threading
 from shared import notification_queue, send_discord_notification
 from fetch3 import main as fetch_main, AggressiveTokenBucket, load_bookmaker_regions
 import logging
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Set up logging at the top of your file
 logging.basicConfig(level=logging.DEBUG, filename='realbot.log', filemode='a',
@@ -41,14 +45,22 @@ class realBot(commands.Bot):
         channel = self.get_channel(self.channel_id)
         if channel:
             try:
-                await channel.send(message)
-                print(f"Message sent successfully: {message[:50]}...")
+                # Send the message and create a thread
+                sent_message = await channel.send(message)
+                
+                # Create a thread for the sent message
+                thread_name = f"Notification {sent_message.id}"
+                thread = await sent_message.create_thread(name=thread_name, auto_archive_duration=1440)
+                
+                # Log the successful message send
+                logger.info(f"Message sent successfully and thread created: {message[:50]}...")
+                
             except Exception as e:
-                print(f"Failed to send message: {str(e)}")
+                logger.error(f"Failed to send message: {str(e)}")
                 # Put the message back in the queue if sending fails
                 await notification_queue.put(message)
         else:
-            print(f"Channel not found: {self.channel_id}")
+            logger.error(f"Channel not found: {self.channel_id}")
 
 class Commands(commands.Cog):
     def __init__(self, bot):
@@ -95,5 +107,3 @@ def run_bot():
 
 if __name__ == "__main__":
     run_bot()
-
-

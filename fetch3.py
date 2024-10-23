@@ -211,7 +211,7 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                         ground_truth_no_american = calculations.decimal_to_american(ground_truth_no)
                         base_yes_american = base_yes['price']
 
-                        if ev_difference < 0:  # Only send notification for positive EV
+                        if ev_difference > 0:  # Only send notification for positive EV
                             timestamp = int(time.time() * 1000)  # Get current time in milliseconds
                             notification_message = [
                                 f"Timestamp: {timestamp}",
