@@ -29,9 +29,16 @@ role_to_id = {
     "Tipico_us":1116138843591168010,
     "Aces":1115734288114131055,
     "5%":1115735250539118703,
-    "nit": 1115733528378875915
+    "nit": 1115733528378875915,
+    "tab": 1298784594140594197
     # Add more mappings as needed
 }
+sports_to_id = {
+    "NFL": 1127408339236696114,
+    "NBA": 1
+    # Add more sports and their corresponding IDs here as needed
+}
+
 
 class realBot(commands.Bot):
     def __init__(self):
@@ -78,7 +85,7 @@ class realBot(commands.Bot):
                 await notification_queue.put(message)
         else:
             logger.error(f"Channel not found: {self.channel_id}")
-
+    
 class Commands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
