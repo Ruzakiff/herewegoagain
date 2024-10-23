@@ -172,24 +172,24 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                 log_messages.append(f"    {opt_bm}: Market not available")
 
         if principal_yes and principal_no:
-            all_yes_prices = [(principal_bookmaker, principal_yes['price'])]
-            all_no_prices = [(principal_bookmaker, principal_no['price'])]
+            all_yes_prices = [(principal_bookmaker, calculations.american_to_decimal(principal_yes['price']))]
+            all_no_prices = [(principal_bookmaker, calculations.american_to_decimal(principal_no['price']))]
             
             for opt_bm, yes_price, no_price in valid_optional_prices:
-                all_yes_prices.append((opt_bm, yes_price))
-                all_no_prices.append((opt_bm, no_price))
+                all_yes_prices.append((opt_bm, calculations.american_to_decimal(yes_price)))
+                all_no_prices.append((opt_bm, calculations.american_to_decimal(no_price)))
             
             yes_sum = sum(price for _, price in all_yes_prices)
             yes_count = len(all_yes_prices)
-            sharp_yes = yes_sum / yes_count if yes_count > 0 else None
+            sharp_yes_decimal = yes_sum / yes_count if yes_count > 0 else None
             
             no_sum = sum(price for _, price in all_no_prices)
             no_count = len(all_no_prices)
-            sharp_no = no_sum / no_count if no_count > 0 else None
+            sharp_no_decimal = no_sum / no_count if no_count > 0 else None
 
-            if sharp_yes is not None and sharp_no is not None:
-                sharp_yes_decimal = calculations.american_to_decimal(sharp_yes)
-                sharp_no_decimal = calculations.american_to_decimal(sharp_no)
+            if sharp_yes_decimal is not None and sharp_no_decimal is not None:
+                sharp_yes = calculations.decimal_to_american(sharp_yes_decimal)
+                sharp_no = calculations.decimal_to_american(sharp_no_decimal)
 
                 try:
                     power_devig_yes, power_devig_no = calculations.power_devig(sharp_yes_decimal, sharp_no_decimal)
@@ -225,13 +225,13 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                                 f"     Yes prices used in calculation:"
                             ]
                             for bm, price in all_yes_prices:
-                                notification_message.append(f"       {bm}: {price}")
+                                notification_message.append(f"       {bm}: {calculations.decimal_to_american(price)} ({price:.4f})")
                             notification_message.extend([
                                 f"     Final Sharp Yes: {sharp_yes:.2f} ({sharp_yes_decimal:.4f})",
                                 f"     No prices used in calculation:"
                             ])
                             for bm, price in all_no_prices:
-                                notification_message.append(f"       {bm}: {price}")
+                                notification_message.append(f"       {bm}: {calculations.decimal_to_american(price)} ({price:.4f})")
                             notification_message.extend([
                                 f"     Final Sharp No: {sharp_no:.2f} ({sharp_no_decimal:.4f})",
                                 f"  2. Power Devig: Yes: {power_devig_yes:.4f}, No: {power_devig_no:.4f}",

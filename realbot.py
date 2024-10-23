@@ -16,6 +16,23 @@ logging.basicConfig(level=logging.DEBUG, filename='realbot.log', filemode='a',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+role_to_id = {
+    "Fanduel": 1115732713438195773,
+    "FreeBets": 1115904331879825438,
+    "Barstool": 1116116559212056598,
+    "Superbook":1116130466773344317,
+    "Betmgm":1116130539024437291,
+    "Wynnbet":1116130988909678682,
+    "Draftkings":1116130988909678682,
+    "Williamhill_us":1116138362970058862,
+    "Tipico_us":1116138843591168010,
+    "Aces":1115734288114131055,
+    "5%":1115735250539118703,
+    "nit": 1115733528378875915
+    # Add more mappings as needed
+}
+
 class realBot(commands.Bot):
     def __init__(self):
         intents = discord.Intents.default()
