@@ -136,13 +136,23 @@ class realBot(commands.Bot):
         market = data['market']
         player = data['player']
 
+        # Determine additional mentions based on EV
+        additional_mentions = ""
+        if ev >= 10:  # 10% or higher
+            additional_mentions = f"<@&{self.role_to_id['Aces']}> <@&{self.role_to_id['5%']}> <@&{self.role_to_id['nit']}>"
+        elif ev >=5:  # 5% or higher
+            additional_mentions = f"<@&{self.role_to_id['5%']}> <@&{self.role_to_id['nit']}>"
+        elif ev >= 3:  # 3% or higher
+            additional_mentions = f"<@&{self.role_to_id['nit']}>"
+
         return (
             f"{sport_mention}{sport_emoji}\n"
             f"EV: {ev:.4f}\n"
             f"{event}\n"
             f"Base Price: {base_price}\n"
             f"Market: {market}\n"
-            f"Player: {player}"
+            f"Player: {player}\n"
+            f"{additional_mentions}"
         )
 
     def create_thread_message(self, data):
