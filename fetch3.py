@@ -10,6 +10,7 @@ import statistics  # Add this import at the top of your file
 from decimal import Decimal
 from shared import send_discord_notification
 import traceback  # Add this import at the top of your file
+import json
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
@@ -97,6 +98,12 @@ def get_quota_usage(headers):
         'requests_remaining': headers.get('x-requests-remaining', 'N/A'),
         'requests_last': headers.get('x-requests-last', 'N/A')
     }
+
+# Add this function at the top of your file
+def decimal_default(obj):
+    if isinstance(obj, Decimal):
+        return float(obj)
+    raise TypeError
 
 async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals):
     log_messages = []
@@ -212,42 +219,39 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                         base_yes_american = base_yes['price']
 
                         if ev_difference < 0:  # Only send notification for positive EV
-                            timestamp = int(time.time() * 1000)  # Get current time in milliseconds
-                            notification_message = [
-                                f"Timestamp: {timestamp}",
-                                f"Message ID: {timestamp:x}",  # Hexadecimal representation for easy comparison
-                                f"Event: {event['home_team']} vs {event['away_team']}",
-                                f"Market: {market}",
-                                f"Player: {description}",
-                                f"Positive EV detected:",
-                                f"Calculation steps:",
-                                f"  1. Sharp prices:",
-                                f"     Yes prices used in calculation:"
-                            ]
-                            for bm, price in all_yes_prices:
-                                notification_message.append(f"       {bm}: {calculations.decimal_to_american(price)} ({price:.4f})")
-                            notification_message.extend([
-                                f"     Final Sharp Yes: {sharp_yes:.2f} ({sharp_yes_decimal:.4f})",
-                                f"     No prices used in calculation:"
-                            ])
-                            for bm, price in all_no_prices:
-                                notification_message.append(f"       {bm}: {calculations.decimal_to_american(price)} ({price:.4f})")
-                            notification_message.extend([
-                                f"     Final Sharp No: {sharp_no:.2f} ({sharp_no_decimal:.4f})",
-                                f"  2. Power Devig: Yes: {power_devig_yes:.4f}, No: {power_devig_no:.4f}",
-                                f"  3. Mult Devig: Yes: {mult_devig_yes:.4f}, No: {mult_devig_no:.4f}",
-                                f"  4. Ground Truth:",
-                                f"     Yes: {ground_truth_yes:.4f} ({ground_truth_yes_american})",
-                                f"     No: {ground_truth_no:.4f} ({ground_truth_no_american})",
-                                f"  5. Base price ({base_bookmaker}): Yes: {base_yes['price']} ({base_yes_decimal:.4f})",
-                                f"  6. Implied probabilities:",
-                                f"     Ground Truth: {float(implied_prob_ground_truth):.4f}",
-                                f"     Base: {float(implied_prob_base):.4f}",
-                                f"  7. Edge calculation:",
-                                f"     ({float(implied_prob_ground_truth):.4f} - {float(implied_prob_base):.4f}) / {float(implied_prob_ground_truth):.4f} * 100 = {float(edge):.2f}%",
-                                f"  8. EV Difference: {ev_difference:.4f}"
-                            ])
-                            await send_discord_notification("\n".join(notification_message))
+                            notification_data = {
+                                "timestamp": int(time.time() * 1000),
+                                "message_id": f"{int(time.time() * 1000):x}",
+                                "event": f"{event['home_team']} vs {event['away_team']}",
+                                "market": market,
+                                "player": description,
+                                "sharp_prices": {
+                                    "yes": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_yes_prices],
+                                    "no": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_no_prices],
+                                    "final_sharp_yes": {"american": sharp_yes, "decimal": float(sharp_yes_decimal)},
+                                    "final_sharp_no": {"american": sharp_no, "decimal": float(sharp_no_decimal)}
+                                },
+                                "devig": {
+                                    "power": {"yes": float(power_devig_yes), "no": float(power_devig_no)},
+                                    "mult": {"yes": float(mult_devig_yes), "no": float(mult_devig_no)}
+                                },
+                                "ground_truth": {
+                                    "yes": {"decimal": float(ground_truth_yes), "american": ground_truth_yes_american},
+                                    "no": {"decimal": float(ground_truth_no), "american": ground_truth_no_american}
+                                },
+                                "base_price": {
+                                    "bookmaker": base_bookmaker,
+                                    "american": base_yes['price'],
+                                    "decimal": float(base_yes_decimal)
+                                },
+                                "implied_probabilities": {
+                                    "ground_truth": float(implied_prob_ground_truth),
+                                    "base": float(implied_prob_base)
+                                },
+                                "edge": float(edge),
+                                "ev_difference": float(ev_difference)
+                            }
+                            await send_discord_notification(json.dumps(notification_data, default=decimal_default))
 
                 except Exception as e:
                     log_messages.append(f"Error in calculations: {str(e)}")

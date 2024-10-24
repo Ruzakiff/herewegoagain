@@ -1,2 +1,747 @@
-2024-10-23 19:42:19,456 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-10-23 19:42:19,458 - INFO - logging in using static token
+2024-10-23 20:08:09,435 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-10-23 20:08:09,437 - INFO - logging in using static token
+2024-10-23 20:08:10,453 - INFO - Shard ID None has connected to Gateway (Session ID: f3330f9c44c151118037628cb5cca6f1).
+2024-10-23 20:08:11,624 - INFO - Using regions: us2,eu,au
+2024-10-23 20:08:11,861 - INFO - Time to fetch events: 0.24 seconds
+2024-10-23 20:08:11,861 - INFO - Number of events fetched: 32
+2024-10-23 20:08:12,130 - INFO - 
+Event: Los Angeles Rams vs Minnesota Vikings
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Fabian Moreau
+    fliff: Yes: 2060, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jonathan Bullard
+    fliff: Yes: 2025, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Omar Speights
+    fliff: Yes: 2040, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tre'Davious White
+    fliff: Yes: 1740, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Kyren Williams
+    fliff: Yes: -165, No: 110
+    tab: Yes: -167
+    pinnacle: Yes: -148, No: 126
+    espnbet: Yes: -225, No: N/A
+  Player: Blake Corum
+    fliff: Yes: 835, No: -6035
+    tab: Yes: 400
+    pinnacle: Yes: 820, No: -1936
+    espnbet: Yes: 550, No: N/A
+  Player: Harrison Smith
+    fliff: Yes: 1645, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Stephon Gilmore
+    fliff: Yes: 1785, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Byron Murphy Jr.
+    fliff: Yes: 1695, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ivan Pace Jr.
+    fliff: Yes: 1860, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Aaron Jones
+    fliff: Yes: -120, No: -120
+    tab: Yes: -125
+    pinnacle: Yes: -119, No: -102
+    espnbet: Yes: -130, No: N/A
+  Player: Kamren Curl
+    fliff: Yes: 1665, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Demarcus Robinson
+    fliff: Yes: 350, No: -665
+    tab: Yes: 350
+    pinnacle: Yes: 396, No: -625
+    espnbet: Yes: 350, No: N/A
+  Player: Byron Young
+    fliff: Yes: 2025, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Kamu Grugier-Hill
+    fliff: Yes: 2060, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Christian Rozeboom
+    fliff: Yes: 1850, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Michael Hoecht
+    fliff: Yes: 2040, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Sam Darnold
+    fliff: Yes: 330, No: -600
+    tab: Yes: 400
+    pinnacle: Yes: 366, No: -560
+    espnbet: Yes: 450, No: N/A
+  Player: Pat Jones II
+    fliff: Yes: 1985, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Cobie Durant
+    fliff: Yes: 2010, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Josh Metellus
+    fliff: Yes: 1750, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Davis Allen
+    fliff: Yes: 1585, No: -999900
+    tab: Yes: 800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+  Player: Camryn Bynum
+    fliff: Yes: 1685, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Darious Williams
+    fliff: Yes: 1775, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tutu Atwell
+    fliff: Yes: 315, No: -565
+    tab: Yes: 350
+    pinnacle: Yes: 374, No: -522
+    espnbet: Yes: 300, No: N/A
+  Player: Johnny Mundt
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 450
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 400, No: N/A
+  Player: Kobie Turner
+    fliff: Yes: 2025, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Taki Taimani
+    fliff: Yes: 2060, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Colby Parkinson
+    fliff: Yes: 270, No: -460
+    tab: Yes: 300
+    pinnacle: Yes: 308, No: -446
+    espnbet: Yes: 300, No: N/A
+  Player: Cooper Kupp
+    fliff: Yes: 140, No: -210
+    tab: Yes: 125
+    pinnacle: Yes: 130, No: -160
+    espnbet: Yes: 115, No: N/A
+  Player: Quentin Lake
+    fliff: Yes: 1635, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: C.J. Ham
+    fliff: Yes: 990, No: -52530
+    tab: Yes: 1200
+    pinnacle: Yes: 1281, No: -4519
+    espnbet: Yes: N/A, No: N/A
+  Player: Harrison Phillips
+    fliff: Yes: 2000, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Trent Sherfield
+    fliff: Yes: 1120, No: -999900
+    tab: Yes: 1000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Brandon Powell
+    fliff: Yes: 750, No: -3565
+    tab: Yes: 1000
+    pinnacle: Yes: 916, No: -2385
+    espnbet: Yes: 1100, No: N/A
+  Player: Andrew Van Ginkel
+    fliff: Yes: 1865, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Justin Jefferson
+    fliff: Yes: -110, No: -140
+    tab: Yes: 100
+    pinnacle: Yes: -103, No: -117
+    espnbet: Yes: -125, No: N/A
+  Player: Jaylen McCollough
+    fliff: Yes: 2055, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Shaquill Griffin
+    fliff: Yes: 1985, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ty Chandler
+    fliff: Yes: 355, No: -670
+    tab: Yes: 275
+    pinnacle: Yes: 370, No: -569
+    espnbet: Yes: 300, No: N/A
+  Player: Josh Oliver
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 700
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Cam Akers
+    fliff: Yes: 665, No: -2380
+    tab: Yes: 800
+    pinnacle: Yes: 722, No: -1566
+    espnbet: Yes: 900, No: N/A
+  Player: Jordan Addison
+    fliff: Yes: 215, No: -350
+    tab: Yes: 180
+    pinnacle: Yes: 228, No: -303
+    espnbet: Yes: 165, No: N/A
+  Player: Josh Wallace
+    fliff: Yes: 1765, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jared Verse
+    fliff: Yes: 1895, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Matthew Stafford
+    fliff: Yes: 990, No: -58725
+    tab: Yes: 1200
+    pinnacle: Yes: 1294, No: -4607
+    espnbet: Yes: 1600, No: N/A
+  Player: Jalen Nailor
+    fliff: Yes: 415, No: -855
+    tab: Yes: 450
+    pinnacle: Yes: 461, No: -774
+    espnbet: Yes: 350, No: N/A
+  Player: Jonathan Greenard
+    fliff: Yes: 2040, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: T.J. Hockenson
+    fliff: Yes: 290, No: -505
+    tab: Yes: 250
+    pinnacle: Yes: 328, No: -485
+    espnbet: Yes: N/A, No: N/A
+  Player: Jordan Whittington
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ronnie Rivers
+    fliff: Yes: 1345, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Tyler Johnson
+    fliff: Yes: 475, No: -1095
+    tab: Yes: 500
+    pinnacle: Yes: 584, No: -1113
+    espnbet: Yes: 500, No: N/A
+  Player: Jerry Tillery
+    fliff: Yes: 2025, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Hunter Long
+    fliff: Yes: 1145, No: -999900
+    tab: Yes: 800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+2024-10-23 20:08:12,149 - INFO - Completed 1/64 tasks
+2024-10-23 20:08:12,735 - WARNING - 
+Event: Jacksonville Jaguars vs Green Bay Packers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:12,735 - INFO - Completed 2/64 tasks
+2024-10-23 20:08:13,028 - WARNING - 
+Event: Houston Texans vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,028 - INFO - Completed 3/64 tasks
+2024-10-23 20:08:13,061 - WARNING - 
+Event: Cleveland Browns vs Los Angeles Chargers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,061 - INFO - Completed 4/64 tasks
+2024-10-23 20:08:13,070 - WARNING - 
+Event: Tampa Bay Buccaneers vs Atlanta Falcons
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,070 - INFO - Completed 5/64 tasks
+2024-10-23 20:08:13,129 - WARNING - 
+Event: Jacksonville Jaguars vs Green Bay Packers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,130 - INFO - Completed 6/64 tasks
+2024-10-23 20:08:13,200 - INFO - Message sent successfully and thread created: 🏈 NFL Positive EV Detected!
+Event: Los Angeles Ram...
+2024-10-23 20:08:13,223 - WARNING - 
+Event: Minnesota Vikings vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,223 - INFO - Completed 7/64 tasks
+2024-10-23 20:08:13,303 - WARNING - 
+Event: Philadelphia Eagles vs Jacksonville Jaguars
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,303 - INFO - Completed 8/64 tasks
+2024-10-23 20:08:13,463 - WARNING - 
+Event: Arizona Cardinals vs Chicago Bears
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,463 - INFO - Completed 9/64 tasks
+2024-10-23 20:08:13,513 - WARNING - 
+Event: Atlanta Falcons vs Dallas Cowboys
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,513 - INFO - Completed 10/64 tasks
+2024-10-23 20:08:13,549 - WARNING - 
+Event: Kansas City Chiefs vs Tampa Bay Buccaneers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,549 - INFO - Completed 11/64 tasks
+2024-10-23 20:08:13,621 - WARNING - 
+Event: Kansas City Chiefs vs Tampa Bay Buccaneers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,621 - INFO - Completed 12/64 tasks
+2024-10-23 20:08:13,625 - WARNING - 
+Event: Seattle Seahawks vs Los Angeles Rams
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,626 - INFO - Completed 13/64 tasks
+2024-10-23 20:08:13,653 - WARNING - 
+Event: New York Giants vs Washington Commanders
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,654 - INFO - Completed 14/64 tasks
+2024-10-23 20:08:13,716 - WARNING - 
+Event: Minnesota Vikings vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,716 - INFO - Completed 15/64 tasks
+2024-10-23 20:08:13,719 - WARNING - 
+Event: Denver Broncos vs Carolina Panthers
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,719 - INFO - Completed 16/64 tasks
+2024-10-23 20:08:13,791 - WARNING - 
+Event: Cincinnati Bengals vs Las Vegas Raiders
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,791 - INFO - Completed 17/64 tasks
+2024-10-23 20:08:13,803 - WARNING - 
+Event: Cleveland Browns vs Baltimore Ravens
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,804 - INFO - Completed 18/64 tasks
+2024-10-23 20:08:13,836 - WARNING - 
+Event: Detroit Lions vs Tennessee Titans
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,836 - INFO - Completed 19/64 tasks
+2024-10-23 20:08:13,841 - WARNING - 
+Event: Miami Dolphins vs Arizona Cardinals
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,842 - INFO - Completed 20/64 tasks
+2024-10-23 20:08:13,910 - WARNING - 
+Event: Buffalo Bills vs Miami Dolphins
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,910 - INFO - Completed 21/64 tasks
+2024-10-23 20:08:13,925 - WARNING - 
+Event: New York Giants vs Washington Commanders
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,925 - INFO - Completed 22/64 tasks
+2024-10-23 20:08:13,938 - WARNING - 
+Event: Philadelphia Eagles vs Jacksonville Jaguars
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,938 - INFO - Completed 23/64 tasks
+2024-10-23 20:08:13,955 - WARNING - 
+Event: Arizona Cardinals vs Chicago Bears
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:13,956 - INFO - Completed 24/64 tasks
+2024-10-23 20:08:14,037 - INFO - 
+Event: Los Angeles Rams vs Minnesota Vikings
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Kyren Williams
+    fliff: Yes: 445, No: -970
+    tab: Yes: 450
+    pinnacle: Yes: 542, No: -856
+    espnbet: Yes: 375, No: N/A
+  Player: Blake Corum
+    fliff: Yes: 1585, No: -999900
+    tab: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: Any Other Player
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Aaron Jones
+    fliff: Yes: 515, No: -1295
+    tab: Yes: 550
+    pinnacle: Yes: 598, No: -1162
+    espnbet: Yes: 550, No: N/A
+  Player: Demarcus Robinson
+    fliff: Yes: 1045, No: -999900
+    tab: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1600, No: N/A
+  Player: Sam Darnold
+    fliff: Yes: 1040, No: -999900
+    tab: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: No Touchdown
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 8000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Davis Allen
+    fliff: Yes: 1965, No: -999900
+    tab: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Tutu Atwell
+    fliff: Yes: 1035, No: -999900
+    tab: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: Johnny Mundt
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Colby Parkinson
+    fliff: Yes: 935, No: -15775
+    tab: Yes: 1600
+    pinnacle: Yes: 1186, No: -3873
+    espnbet: Yes: 1500, No: N/A
+  Player: Cooper Kupp
+    fliff: Yes: 575, No: -1620
+    tab: Yes: 900
+    pinnacle: Yes: 675, No: -1411
+    espnbet: Yes: 700, No: N/A
+  Player: C.J. Ham
+    fliff: Yes: 1750, No: -999900
+    tab: Yes: 6600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Trent Sherfield
+    fliff: Yes: 1810, No: -999900
+    tab: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: Brandon Powell
+    fliff: Yes: 1545, No: -999900
+    tab: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: Justin Jefferson
+    fliff: Yes: 535, No: -1395
+    tab: Yes: 700
+    pinnacle: Yes: 676, No: -1174
+    espnbet: Yes: 550, No: N/A
+  Player: Ty Chandler
+    fliff: Yes: 1135, No: -999900
+    tab: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1400, No: N/A
+  Player: Josh Oliver
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: Cam Akers
+    fliff: Yes: 1575, No: -999900
+    tab: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Jordan Addison
+    fliff: Yes: 915, No: -11395
+    tab: Yes: 1200
+    pinnacle: Yes: 1148, No: -3632
+    espnbet: Yes: 900, No: N/A
+  Player: Matthew Stafford
+    fliff: Yes: 1715, No: -999900
+    tab: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Jordan Whittington
+    fliff: Yes: N/A, No: N/A
+    tab: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jalen Nailor
+    fliff: Yes: 1180, No: -999900
+    tab: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1600, No: N/A
+  Player: T.J. Hockenson
+    fliff: Yes: 1045, No: -999900
+    tab: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ronnie Rivers
+    fliff: Yes: 1870, No: -999900
+    tab: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 7500, No: N/A
+  Player: Tyler Johnson
+    fliff: Yes: 1175, No: -999900
+    tab: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: Hunter Long
+    fliff: Yes: 1845, No: -999900
+    tab: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+2024-10-23 20:08:14,040 - INFO - Completed 25/64 tasks
+2024-10-23 20:08:14,040 - WARNING - 
+Event: Seattle Seahawks vs Los Angeles Rams
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,041 - INFO - Completed 26/64 tasks
+2024-10-23 20:08:14,099 - WARNING - 
+Event: Seattle Seahawks vs Buffalo Bills
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,099 - INFO - Completed 27/64 tasks
+2024-10-23 20:08:14,135 - WARNING - 
+Event: Washington Commanders vs Chicago Bears
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,135 - INFO - Completed 28/64 tasks
+2024-10-23 20:08:14,175 - WARNING - 
+Event: Carolina Panthers vs New Orleans Saints
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,175 - INFO - Completed 29/64 tasks
+2024-10-23 20:08:14,304 - WARNING - 
+Event: Detroit Lions vs Tennessee Titans
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,305 - INFO - Completed 30/64 tasks
+2024-10-23 20:08:14,315 - WARNING - 
+Event: Minnesota Vikings vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,316 - INFO - Completed 31/64 tasks
+2024-10-23 20:08:14,323 - INFO - Message sent successfully and thread created: 🏈 NFL Positive EV Detected!
+Event: Los Angeles Ram...
+2024-10-23 20:08:14,417 - WARNING - 
+Event: Cleveland Browns vs Baltimore Ravens
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,417 - INFO - Completed 32/64 tasks
+2024-10-23 20:08:14,496 - WARNING - 
+Event: Los Angeles Chargers vs New Orleans Saints
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,497 - INFO - Completed 33/64 tasks
+2024-10-23 20:08:14,610 - WARNING - 
+Event: Green Bay Packers vs Detroit Lions
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,610 - INFO - Completed 34/64 tasks
+2024-10-23 20:08:14,680 - WARNING - 
+Event: Green Bay Packers vs Detroit Lions
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,680 - INFO - Completed 35/64 tasks
+2024-10-23 20:08:14,691 - WARNING - 
+Event: Denver Broncos vs Carolina Panthers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,691 - INFO - Completed 36/64 tasks
+2024-10-23 20:08:14,716 - WARNING - 
+Event: Washington Commanders vs Chicago Bears
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,716 - INFO - Completed 37/64 tasks
+2024-10-23 20:08:14,930 - WARNING - 
+Event: Los Angeles Chargers vs New Orleans Saints
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,931 - INFO - Completed 38/64 tasks
+2024-10-23 20:08:14,981 - WARNING - 
+Event: New York Jets vs Houston Texans
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:14,981 - INFO - Completed 39/64 tasks
+2024-10-23 20:08:15,084 - WARNING - 
+Event: Cleveland Browns vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,085 - INFO - Completed 40/64 tasks
+2024-10-23 20:08:15,135 - WARNING - 
+Event: Pittsburgh Steelers vs New York Giants
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,135 - INFO - Completed 41/64 tasks
+2024-10-23 20:08:15,214 - INFO - Message sent successfully and thread created: 🏈 NFL Positive EV Detected!
+Event: Los Angeles Ram...
+2024-10-23 20:08:15,314 - WARNING - 
+Event: Houston Texans vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,314 - INFO - Completed 42/64 tasks
+2024-10-23 20:08:15,349 - WARNING - 
+Event: Cincinnati Bengals vs Philadelphia Eagles
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,350 - INFO - Completed 43/64 tasks
+2024-10-23 20:08:15,611 - WARNING - 
+Event: New England Patriots vs New York Jets
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,611 - INFO - Completed 44/64 tasks
+2024-10-23 20:08:15,824 - WARNING - 
+Event: Miami Dolphins vs Arizona Cardinals
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,825 - WARNING - 
+Event: Las Vegas Raiders vs Kansas City Chiefs
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,825 - INFO - Completed 45/64 tasks
+2024-10-23 20:08:15,825 - INFO - Completed 46/64 tasks
+2024-10-23 20:08:15,827 - WARNING - 
+Event: San Francisco 49ers vs Dallas Cowboys
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,833 - INFO - Completed 47/64 tasks
+2024-10-23 20:08:15,863 - WARNING - 
+Event: San Francisco 49ers vs Dallas Cowboys
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,863 - INFO - Completed 48/64 tasks
+2024-10-23 20:08:15,878 - WARNING - 
+Event: Buffalo Bills vs Miami Dolphins
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,879 - WARNING - 
+Event: Tennessee Titans vs New England Patriots
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,879 - INFO - Completed 49/64 tasks
+2024-10-23 20:08:15,879 - INFO - Completed 50/64 tasks
+2024-10-23 20:08:15,896 - WARNING - 
+Event: Carolina Panthers vs New Orleans Saints
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,897 - INFO - Completed 51/64 tasks
+2024-10-23 20:08:15,919 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-10-23 20:08:15,942 - WARNING - 
+Event: Pittsburgh Steelers vs New York Giants
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,943 - INFO - Completed 52/64 tasks
+2024-10-23 20:08:15,948 - WARNING - 
+Event: New York Jets vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,948 - INFO - Completed 53/64 tasks
+2024-10-23 20:08:15,955 - WARNING - 
+Event: Tampa Bay Buccaneers vs Atlanta Falcons
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,955 - INFO - Completed 54/64 tasks
+2024-10-23 20:08:15,960 - WARNING - 
+Event: Seattle Seahawks vs Buffalo Bills
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:15,960 - INFO - Completed 55/64 tasks
+2024-10-23 20:08:16,290 - WARNING - 
+Event: Minnesota Vikings vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,290 - INFO - Completed 56/64 tasks
+2024-10-23 20:08:16,430 - INFO - Message sent successfully and thread created: 🏈 NFL Positive EV Detected!
+Event: Los Angeles Ram...
+2024-10-23 20:08:16,752 - WARNING - 
+Event: Baltimore Ravens vs Denver Broncos
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,752 - INFO - Completed 57/64 tasks
+2024-10-23 20:08:16,831 - WARNING - 
+Event: Tennessee Titans vs New England Patriots
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,831 - INFO - Completed 58/64 tasks
+2024-10-23 20:08:16,832 - WARNING - 
+Event: Cincinnati Bengals vs Las Vegas Raiders
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,833 - WARNING - 
+Event: Atlanta Falcons vs Dallas Cowboys
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,833 - INFO - Completed 59/64 tasks
+2024-10-23 20:08:16,833 - INFO - Completed 60/64 tasks
+2024-10-23 20:08:16,851 - WARNING - 
+Event: Cincinnati Bengals vs Philadelphia Eagles
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,851 - INFO - Completed 61/64 tasks
+2024-10-23 20:08:16,855 - WARNING - 
+Event: Las Vegas Raiders vs Kansas City Chiefs
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,856 - WARNING - 
+Event: New England Patriots vs New York Jets
+Market: player_anytime_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:16,856 - INFO - Completed 62/64 tasks
+2024-10-23 20:08:16,856 - INFO - Completed 63/64 tasks
+2024-10-23 20:08:17,683 - WARNING - 
+Event: Baltimore Ravens vs Denver Broncos
+Market: player_last_td
+Both 'fliff' and 'tab' must be available. Skipping.
+2024-10-23 20:08:17,683 - INFO - Completed 64/64 tasks
+2024-10-23 20:08:17,683 - INFO - Requests used: 6576
+2024-10-23 20:08:17,683 - INFO - Requests remaining: 13424.0
+2024-10-23 20:08:17,688 - INFO - Time to fetch events: 0.24 seconds
+2024-10-23 20:08:17,688 - INFO - Time to fetch all odds: 5.82 seconds
+2024-10-23 20:08:17,688 - INFO - Total execution time: 6.06 seconds
