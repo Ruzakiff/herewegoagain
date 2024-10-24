@@ -105,7 +105,7 @@ def decimal_default(obj):
         return float(obj)
     raise TypeError
 
-async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals):
+async def process_event_odds(event, odds, desired_bookmakers, market, principal_bookmaker, base_bookmaker, optional_principals, sport='NFL'):
     log_messages = []
     log_messages.append(f"\nEvent: {event['home_team']} vs {event['away_team']}")
     log_messages.append(f"Market: {market}")
@@ -218,13 +218,14 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                         ground_truth_no_american = calculations.decimal_to_american(ground_truth_no)
                         base_yes_american = base_yes['price']
 
-                        if ev_difference < 0:  # Only send notification for positive EV
+                        if ev_difference > 0:  # Only send notification for positive EV
                             notification_data = {
                                 "timestamp": int(time.time() * 1000),
                                 "message_id": f"{int(time.time() * 1000):x}",
                                 "event": f"{event['home_team']} vs {event['away_team']}",
                                 "market": market,
                                 "player": description,
+                                "sport": sport,  # Add this line
                                 "sharp_prices": {
                                     "yes": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_yes_prices],
                                     "no": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_no_prices],
@@ -421,3 +422,4 @@ if __name__ == '__main__':
                    token_bucket)
 
     asyncio.run(run_main())
+

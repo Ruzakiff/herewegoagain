@@ -48,6 +48,26 @@ class realBot(commands.Bot):
         super().__init__(command_prefix='!', intents=intents)
         self.channel_id = int(os.getenv('DISCORD_CHANNEL_ID'))
         self.bg_task = None
+        self.sports_to_id = {
+            "NFL": 1127408339236696114,
+            "NBA": 1  # Add more sports and their corresponding IDs here as needed
+        }
+        self.role_to_id = {
+            "Fanduel": 1115732713438195773,
+            "FreeBets": 1115904331879825438,
+            "Barstool": 1116116559212056598,
+            "Superbook":1116130466773344317,
+            "Betmgm":1116130539024437291,
+            "Wynnbet":1116130988909678682,
+            "Draftkings":1116130988909678682,
+            "Williamhill_us":1116138362970058862,
+            "Tipico_us":1116138843591168010,
+            "Aces":1115734288114131055,
+            "5%":1115735250539118703,
+            "nit": 1115733528378875915,
+            "tab": 1298784594140594197
+            # Add more mappings as needed
+        }
 
     async def setup_hook(self):
         await self.add_cog(Commands(self))
@@ -68,12 +88,16 @@ class realBot(commands.Bot):
 
     
     async def send_discord_notification(self, json_message):
-        channel = self.get_channel(self.channel_id)
-        if channel:
-            try:
-                # Parse the JSON message
-                parsed_data = json.loads(json_message)
-                
+        try:
+            # Parse the JSON message
+            parsed_data = json.loads(json_message)
+            
+            # Determine the channel based on the sport
+            sport = parsed_data.get('sport', 'default')
+            channel_id = self.sports_to_id.get(sport, self.channel_id)
+            channel = self.get_channel(channel_id)
+
+            if channel:
                 # Create a concise message for the main channel
                 main_message = self.create_main_message(parsed_data)
                 
@@ -91,23 +115,34 @@ class realBot(commands.Bot):
                 await thread.send(thread_message)
                 
                 # Log the successful message send
-                logger.info(f"Message sent successfully and thread created: {main_message[:50]}...")
+                logger.info(f"Message sent successfully to {sport} channel and thread created: {main_message[:50]}...")
                 
-            except Exception as e:
-                logger.error(f"Failed to send message: {str(e)}")
-                # Put the message back in the queue if sending fails
-                await notification_queue.put(json_message)
-        else:
-            logger.error(f"Channel not found: {self.channel_id}")
+            else:
+                logger.error(f"Channel not found for {sport} notifications")
+                
+        except Exception as e:
+            logger.error(f"Failed to send message: {str(e)}")
+            # Put the message back in the queue if sending fails
+            await notification_queue.put(json_message)
 
     def create_main_message(self, data):
+        sport = data.get('sport', 'default')
+        sport_mention = f"<@&{self.role_to_id['tab']}> " if sport == 'NFL' else ""
+        sport_emoji = "🏈 " if sport == 'NFL' else ""
+        
+        ev = data['ev_difference']
+        event = data['event']
+        base_price = f"{data['base_price']['american']} ({data['base_price']['decimal']:.2f})"
+        market = data['market']
+        player = data['player']
+
         return (
-            f"🏈 NFL Positive EV Detected!\n"
-            f"Event: {data['event']}\n"
-            f"Market: {data['market']}\n"
-            f"Player: {data['player']}\n"
-            f"Edge: {data['edge']:.2f}%\n"
-            f"EV Difference: {data['ev_difference']:.4f}"
+            f"{sport_mention}{sport_emoji}\n"
+            f"EV: {ev:.4f}\n"
+            f"{event}\n"
+            f"Base Price: {base_price}\n"
+            f"Market: {market}\n"
+            f"Player: {player}"
         )
 
     def create_thread_message(self, data):
