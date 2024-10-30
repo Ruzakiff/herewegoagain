@@ -130,7 +130,7 @@ class realBot(commands.Bot):
         sport_mention = f"<@&{self.role_to_id['tab']}> " if sport == 'NFL' else ""
         sport_emoji = "🏈 " if sport == 'NFL' else ""
         
-        ev = data['ev_difference']
+        ev = data['edge']
         event = data['event']
         base_price = f"{data['base_price']['american']} ({data['base_price']['decimal']:.2f})"
         market = data['market']
