@@ -31,7 +31,8 @@ role_to_id = {
     "Aces":1115734288114131055,
     "5%":1115735250539118703,
     "nit": 1115733528378875915,
-    "tab": 1298784594140594197
+    "Tab": 1298784594140594197,
+    "Hardrockbet":1308479890647023778
     # Add more mappings as needed
 }
 sports_to_id = {
@@ -65,7 +66,9 @@ class realBot(commands.Bot):
             "Aces":1115734288114131055,
             "5%":1115735250539118703,
             "nit": 1115733528378875915,
-            "tab": 1298784594140594197
+            "Tab": 1298784594140594197,
+            "Hardrockbet":1308479890647023778
+
             # Add more mappings as needed
         }
 
@@ -127,7 +130,8 @@ class realBot(commands.Bot):
 
     def create_main_message(self, data):
         sport = data.get('sport', 'default')
-        sport_mention = f"<@&{self.role_to_id['tab']}> " if sport == 'NFL' else ""
+        base_bookmaker = data['base_price']['bookmaker'].capitalize()  # Get base bookmaker and capitalize it
+        bookmaker_mention = f"<@&{self.role_to_id.get(base_bookmaker, '')}> " if base_bookmaker in self.role_to_id else ""
         sport_emoji = "🏈 " if sport == 'NFL' else ""
         
         ev = data['edge']
@@ -146,7 +150,7 @@ class realBot(commands.Bot):
             additional_mentions = f"<@&{self.role_to_id['nit']}>"
 
         return (
-            f"{sport_mention}{sport_emoji}\n"
+            f"{bookmaker_mention}{sport_emoji}\n"
             f"EV: {ev:.4f}\n"
             f"{event}\n"
             f"Base Price: {base_price}\n"
@@ -188,23 +192,27 @@ class Commands(commands.Cog):
         await ctx.send("Pong!")
 
     @commands.command()
-    async def start_odds(self, ctx, sport: str = 'americanfootball_nfl'):
-        await ctx.send(f"Starting odds processing for {sport}...")
+    async def start_odds(self, ctx, base_bookmaker: str = 'fanduel'):
+        sport = 'americanfootball_nfl'  # Fixed sport
+        await ctx.send(f"Starting odds processing with {base_bookmaker} as base bookmaker...")
         
         # Run odds processing in a separate thread to avoid blocking the bot
-        threading.Thread(target=asyncio.run, args=(self.run_odds_processing(sport),)).start()
+        threading.Thread(target=asyncio.run, args=(self.run_odds_processing(base_bookmaker),)).start()
         
         await ctx.send("Odds processing started in the background.")
 
-    async def run_odds_processing(self, sport):
+    async def run_odds_processing(self, base_bookmaker):
+        sport = 'americanfootball_nfl'  # Fixed sport
         # Set up the parameters for fetch_main
-        market_bookmaker_combinations = [
-            ('player_anytime_td', ['fliff', 'tab', 'espnbet', 'pinnacle']),
-            ('player_last_td', ['fliff', 'tab', 'espnbet', 'pinnacle'])
-        ]
         principal_bookmaker = 'fliff'
-        base_bookmaker = 'tab'
         optional_principals = ['pinnacle', 'espnbet']
+
+        # Create market bookmaker combinations dynamically
+        markets = ['player_anytime_td', 'player_last_td']
+        market_bookmaker_combinations = []
+        for market in markets:
+            bookmakers = [principal_bookmaker, base_bookmaker] + optional_principals
+            market_bookmaker_combinations.append((market, bookmakers))
 
         # Load bookmaker regions
         BOOKMAKER_REGIONS = await load_bookmaker_regions()
