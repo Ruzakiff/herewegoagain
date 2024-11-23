@@ -2,3 +2,4 @@ venv/
 
 # Environment variables
 .env
+*.txt
