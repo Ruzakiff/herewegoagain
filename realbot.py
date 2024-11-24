@@ -8,7 +8,7 @@ from fetch3 import main as fetch_main, AggressiveTokenBucket, load_bookmaker_reg
 import logging
 from dotenv import load_dotenv
 import json
-from maketweet import text_to_image
+from maketweet import text_to_image, watermark_image
 import io
 from datetime import datetime
 import pytz
@@ -114,14 +114,19 @@ class realBot(commands.Bot):
                 
                 # Create and send thread image
                 image_text = self.create_thread_image_text(parsed_data)
-                image = text_to_image(image_text)
+                raw_image = text_to_image(image_text)
                 
-                # Convert PIL Image to bytes
-                img_byte_arr = io.BytesIO()
-                image.save(img_byte_arr, format='PNG')
-                img_byte_arr.seek(0)
+                # Convert PIL Image to bytes and save temporary raw image
+                temp_raw = io.BytesIO()
+                raw_image.save(temp_raw, format='PNG')
+                temp_raw.seek(0)
                 
-                await thread.send(file=discord.File(img_byte_arr, 'notification.png'))
+                # Create watermarked version
+                temp_watermarked = io.BytesIO()
+                watermark_image(temp_raw, "MAYBEEV - NFLBOT", temp_watermarked)
+                temp_watermarked.seek(0)
+                
+                await thread.send(file=discord.File(temp_watermarked, 'notification.png'))
                 
                 logger.info(f"Message sent successfully to {sport} channel and thread created: {main_message[:50]}...")
                 

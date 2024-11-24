@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
+import io
 
 
 
@@ -68,9 +69,9 @@ def text_to_image(text, width=800, height=382, font_size=26):
 
     return image
 
-def watermark_image(image_path, watermark_text, output_path):
-    # Open the original image
-    original_image = Image.open(image_path).convert("RGBA")
+def watermark_image(image_data, watermark_text, output_path=None):
+    # Open the original image from BytesIO
+    original_image = Image.open(image_data).convert("RGBA")
     txt_layer = Image.new("RGBA", original_image.size, (255, 255, 255, 0))
 
     # Load a font and set its size
@@ -84,20 +85,27 @@ def watermark_image(image_path, watermark_text, output_path):
     text_width = bbox[2] - bbox[0]
     text_height = bbox[3] - bbox[1]
     
-    # Create a transparent layer for watermark
-    watermark_layer = Image.new("RGBA", (text_width, text_height), (255, 255, 255, 0))
+    # Add padding to the watermark layer
+    padding = 20  # Adjust this value if needed
+    watermark_layer = Image.new("RGBA", 
+                              (text_width + padding * 2, text_height + padding * 2), 
+                              (255, 255, 255, 0))
 
-    # Draw the watermark text with lighter grey and more transparency
+    # Draw the watermark text with padding offset
     draw_watermark = ImageDraw.Draw(watermark_layer)
-    draw_watermark.text((0, 0), watermark_text, font=font, fill=(242, 242, 242, 128))  # Light grey, translucent
+    draw_watermark.text((padding, padding), watermark_text, 
+                       font=font, fill=(242, 242, 242, 128))
 
     # Rotate the watermark layer by 45 degrees and resize it
-    watermark_layer = watermark_layer.rotate(-45, expand=1)  # Changed from -45 to 45
-    ratio = min(original_image.width / watermark_layer.width, original_image.height / watermark_layer.height)
-    watermark_layer = watermark_layer.resize((int(watermark_layer.width * ratio), int(watermark_layer.height * ratio)))
+    watermark_layer = watermark_layer.rotate(-45, expand=1)
+    ratio = min(original_image.width / watermark_layer.width, 
+               original_image.height / watermark_layer.height)
+    watermark_layer = watermark_layer.resize((int(watermark_layer.width * ratio), 
+                                            int(watermark_layer.height * ratio)))
 
     # Calculate the position to place the watermark (center of the image)
-    position = (int((original_image.width - watermark_layer.width) / 2), int((original_image.height - watermark_layer.height) / 2))
+    position = (int((original_image.width - watermark_layer.width) / 2), 
+               int((original_image.height - watermark_layer.height) / 2))
 
     # Paste the watermark layer onto the transparent text layer
     txt_layer.paste(watermark_layer, position, watermark_layer)
@@ -105,8 +113,12 @@ def watermark_image(image_path, watermark_text, output_path):
     # Combine the original image with the watermark layer
     watermarked_image = Image.alpha_composite(original_image, txt_layer)
 
-    # Save the watermarked image
-    watermarked_image.save(output_path)
+    # Instead of saving to file, handle BytesIO if output_path is BytesIO
+    if isinstance(output_path, io.BytesIO):
+        watermarked_image.save(output_path, format='PNG')
+    elif output_path:
+        watermarked_image.save(output_path)
+    return watermarked_image
 
 if __name__ == "__main__":
     # Test text_to_image function
@@ -126,7 +138,10 @@ DEVIG LINES: -115/-115"""
     image = text_to_image(test_text)
     image.save("test_bet.png")
     
-    # Test watermark
-    watermark_image("test_bet.png", "WATERMARK TEST", "test_watermarked.png")
+    # Test watermark with file
+    with open("test_bet.png", 'rb') as img_file:
+        img_bytes = io.BytesIO(img_file.read())
+        watermarked = watermark_image(img_bytes, "WATERMARK TEST")
+        watermarked.save("test_watermarked.png")
     
     print("Test images have been created: 'test_bet.png' and 'test_watermarked.png'")
