@@ -8,6 +8,10 @@ from fetch3 import main as fetch_main, AggressiveTokenBucket, load_bookmaker_reg
 import logging
 from dotenv import load_dotenv
 import json
+from maketweet import text_to_image
+import io
+from datetime import datetime
+import pytz
 
 # Load environment variables from .env file
 load_dotenv()
@@ -93,32 +97,32 @@ class realBot(commands.Bot):
     
     async def send_discord_notification(self, json_message):
         try:
-            # Parse the JSON message
             parsed_data = json.loads(json_message)
-            
-            # Determine the channel based on the sport
             sport = parsed_data.get('sport', 'default')
             channel_id = self.sports_to_id.get(sport, self.channel_id)
             channel = self.get_channel(channel_id)
 
             if channel:
-                # Create a concise message for the main channel
                 main_message = self.create_main_message(parsed_data)
-                
-                # Send the main message and create a thread
                 sent_message = await channel.send(main_message)
                 
-                # Create a thread for the sent message
                 thread_name = f"Notification {sent_message.id}"
                 thread = await sent_message.create_thread(name=thread_name, auto_archive_duration=1440)
                 
-                # Create a detailed message for the thread
                 thread_message = self.create_thread_message(parsed_data)
-                
-                # Send the detailed message in the thread
                 await thread.send(thread_message)
                 
-                # Log the successful message send
+                # Create and send thread image
+                image_text = self.create_thread_image_text(parsed_data)
+                image = text_to_image(image_text)
+                
+                # Convert PIL Image to bytes
+                img_byte_arr = io.BytesIO()
+                image.save(img_byte_arr, format='PNG')
+                img_byte_arr.seek(0)
+                
+                await thread.send(file=discord.File(img_byte_arr, 'notification.png'))
+                
                 logger.info(f"Message sent successfully to {sport} channel and thread created: {main_message[:50]}...")
                 
             else:
@@ -126,7 +130,6 @@ class realBot(commands.Bot):
                 
         except Exception as e:
             logger.error(f"Failed to send message: {str(e)}")
-            # Put the message back in the queue if sending fails
             await notification_queue.put(json_message)
 
     def create_main_message(self, data):
@@ -183,6 +186,30 @@ class realBot(commands.Bot):
             f"8. EV Difference: {data['ev_difference']:.4f}"
         ]
         return "\n".join(message)
+
+    def create_thread_image_text(self, data):
+        # Parse event string to get away and home teams
+        event_parts = data['event'].split(' vs ')
+        away_team = event_parts[0]
+        home_team = event_parts[1]
+
+        # Convert UTC time to Eastern
+        utc_time = datetime.fromisoformat(data['commence_time'].replace('Z', '+00:00'))
+        eastern = pytz.timezone('US/Eastern')
+        eastern_time = utc_time.astimezone(eastern)
+        formatted_time = eastern_time.strftime('%A %B %d, %I:%M%p EST')
+
+        return (
+            f"{formatted_time}\n"
+            f"{away_team}@{home_team}\n\n"
+            f"BOOK: {data['base_price']['bookmaker']}\n"
+            f"BET: {data['player']} {data['market'].replace('_', ' ').title()}\n"
+            f"ODDS: {data['base_price']['american']}\n"
+            f"EV: {data['edge']:.2f}%\n\n"
+            f"FV: {data['ground_truth']['yes']['american']}\n"
+            f"DEVIG: {data['devig']['method_used'].title()} Devig\n"
+            f"DEVIG LINES: {data['sharp_prices']['final_sharp_yes']['american']}/{data['sharp_prices']['final_sharp_no']['american']}"
+        )
 
 class Commands(commands.Cog):
     def __init__(self, bot):

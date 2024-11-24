@@ -202,8 +202,18 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                     power_devig_yes, power_devig_no = calculations.power_devig(sharp_yes_decimal, sharp_no_decimal)
                     mult_devig_yes, mult_devig_no = calculations.mult_devig(sharp_yes_decimal, sharp_no_decimal)
 
-                    ground_truth_yes = max(power_devig_yes, mult_devig_yes)
-                    ground_truth_no = max(power_devig_no, mult_devig_no)
+                    # Determine which method produced the maximum value
+                    if power_devig_yes >= mult_devig_yes:
+                        ground_truth_yes = power_devig_yes
+                        devig_method = "power"
+                    else:
+                        ground_truth_yes = mult_devig_yes
+                        devig_method = "mult"
+
+                    if power_devig_no >= mult_devig_no:
+                        ground_truth_no = power_devig_no
+                    else:
+                        ground_truth_no = mult_devig_no
 
                     if base_yes:
                         base_yes_decimal = calculations.american_to_decimal(base_yes['price'])
@@ -223,9 +233,10 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                                 "timestamp": int(time.time() * 1000),
                                 "message_id": f"{int(time.time() * 1000):x}",
                                 "event": f"{event['home_team']} vs {event['away_team']}",
+                                "commence_time": event['commence_time'],
                                 "market": market,
                                 "player": description,
-                                "sport": sport,  # Add this line
+                                "sport": sport,
                                 "sharp_prices": {
                                     "yes": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_yes_prices],
                                     "no": [{"bookmaker": bm, "american": calculations.decimal_to_american(price), "decimal": float(price)} for bm, price in all_no_prices],
@@ -234,7 +245,8 @@ async def process_event_odds(event, odds, desired_bookmakers, market, principal_
                                 },
                                 "devig": {
                                     "power": {"yes": float(power_devig_yes), "no": float(power_devig_no)},
-                                    "mult": {"yes": float(mult_devig_yes), "no": float(mult_devig_no)}
+                                    "mult": {"yes": float(mult_devig_yes), "no": float(mult_devig_no)},
+                                    "method_used": devig_method
                                 },
                                 "ground_truth": {
                                     "yes": {"decimal": float(ground_truth_yes), "american": ground_truth_yes_american},
