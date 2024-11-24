@@ -36,21 +36,24 @@ def text_to_image(text, width=800, height=382, font_size=26):
                 line = word
         lines.append(line)
 
-    # Draw white border
+    # Draw white border with padding
     border_width = 1
-    draw.rectangle([(0, 0), (width-1, height-1)], outline=(255, 255, 255), width=border_width)
+    padding = 10  # Pixels from edge
+    draw.rectangle([(padding, padding), (width-padding-1, height-padding-1)], 
+                  outline=(255, 255, 255), 
+                  width=border_width)
 
     # Draw the text with different colors based on content
-    y = 20
+    y = 20 + padding  # Adjust starting y position to account for padding
     line_count = 0
     for line in lines:
-        # White text for the header/date lines
-        if "Wednesday" in line or "Houston" in line:
+        # First two lines are always header (date and teams)
+        if line_count < 2:
             draw.text((20, y), line, (255, 255, 255), font=font)
             line_count += 1
             # Draw separator line after the second line
             if line_count == 2:
-                separator_y = y + font_size + 2  # Position line just below the text
+                separator_y = y + font_size + 2
                 draw.line([(20, separator_y), (width-20, separator_y)], fill=(255, 255, 255), width=1)
         # Bright green text (LED-like) for BOOK and BET lines
         elif line.startswith("BOOK:") or line.startswith("BET:"):
@@ -89,7 +92,7 @@ def watermark_image(image_path, watermark_text, output_path):
     draw_watermark.text((0, 0), watermark_text, font=font, fill=(242, 242, 242, 128))  # Light grey, translucent
 
     # Rotate the watermark layer by 45 degrees and resize it
-    watermark_layer = watermark_layer.rotate(45, expand=1)  # Changed from -45 to 45
+    watermark_layer = watermark_layer.rotate(-45, expand=1)  # Changed from -45 to 45
     ratio = min(original_image.width / watermark_layer.width, original_image.height / watermark_layer.height)
     watermark_layer = watermark_layer.resize((int(watermark_layer.width * ratio), int(watermark_layer.height * ratio)))
 
