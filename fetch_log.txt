@@ -20140,3 +20140,2642 @@ Outcomes and calculations for all players:
 2024-11-25 23:33:08,028 - INFO - Time to fetch all odds: 1.46 seconds
 2024-11-25 23:33:08,028 - INFO - Total execution time: 1.52 seconds
 2024-11-25 23:34:44,150 - INFO - Shard ID None has successfully RESUMED session 8adc4b227dfbba35e482ed0fd975a0ee.
+2024-11-26 00:13:47,411 - INFO - Shard ID None has successfully RESUMED session 8adc4b227dfbba35e482ed0fd975a0ee.
+2024-11-26 00:16:25,876 - WARNING - Unknown region for bookmaker: hardrock
+2024-11-26 00:16:25,876 - WARNING - Unknown region for bookmaker: hardrock
+2024-11-26 00:16:25,876 - INFO - Using regions: eu,us2
+2024-11-26 00:16:25,954 - INFO - Time to fetch events: 0.08 seconds
+2024-11-26 00:16:25,954 - INFO - Number of events fetched: 16
+2024-11-26 00:16:26,015 - WARNING - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,020 - INFO - Completed 1/32 tasks
+2024-11-26 00:16:26,040 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,040 - WARNING - Rate limit hit (attempt 1/5). Retrying...
+2024-11-26 00:16:26,040 - INFO - Completed 2/32 tasks
+2024-11-26 00:16:26,042 - WARNING - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,042 - INFO - Completed 3/32 tasks
+2024-11-26 00:16:26,063 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,063 - INFO - Completed 4/32 tasks
+2024-11-26 00:16:26,064 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,064 - INFO - Completed 5/32 tasks
+2024-11-26 00:16:26,065 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,065 - INFO - Completed 6/32 tasks
+2024-11-26 00:16:26,073 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,073 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,074 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,074 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,074 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,074 - INFO - Completed 7/32 tasks
+2024-11-26 00:16:26,074 - INFO - Completed 8/32 tasks
+2024-11-26 00:16:26,074 - INFO - Completed 9/32 tasks
+2024-11-26 00:16:26,074 - INFO - Completed 10/32 tasks
+2024-11-26 00:16:26,074 - INFO - Completed 11/32 tasks
+2024-11-26 00:16:26,074 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,074 - INFO - Completed 12/32 tasks
+2024-11-26 00:16:26,075 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,075 - INFO - Completed 13/32 tasks
+2024-11-26 00:16:26,075 - WARNING - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,075 - INFO - Completed 14/32 tasks
+2024-11-26 00:16:26,077 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,077 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,077 - INFO - Completed 15/32 tasks
+2024-11-26 00:16:26,077 - INFO - Completed 16/32 tasks
+2024-11-26 00:16:26,078 - WARNING - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,078 - WARNING - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,078 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,078 - INFO - Completed 17/32 tasks
+2024-11-26 00:16:26,078 - INFO - Completed 18/32 tasks
+2024-11-26 00:16:26,078 - INFO - Completed 19/32 tasks
+2024-11-26 00:16:26,079 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,079 - INFO - Completed 20/32 tasks
+2024-11-26 00:16:26,079 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,079 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,080 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,080 - INFO - Completed 21/32 tasks
+2024-11-26 00:16:26,080 - INFO - Completed 22/32 tasks
+2024-11-26 00:16:26,080 - INFO - Completed 23/32 tasks
+2024-11-26 00:16:26,081 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,081 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,081 - INFO - Completed 24/32 tasks
+2024-11-26 00:16:26,081 - INFO - Completed 25/32 tasks
+2024-11-26 00:16:26,082 - WARNING - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,082 - INFO - Completed 26/32 tasks
+2024-11-26 00:16:26,083 - WARNING - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,083 - INFO - Completed 27/32 tasks
+2024-11-26 00:16:26,084 - WARNING - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,084 - INFO - Completed 28/32 tasks
+2024-11-26 00:16:26,087 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,087 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,087 - INFO - Completed 29/32 tasks
+2024-11-26 00:16:26,087 - INFO - Completed 30/32 tasks
+2024-11-26 00:16:26,087 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_last_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:26,088 - INFO - Completed 31/32 tasks
+2024-11-26 00:16:27,469 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_anytime_td
+Both 'fliff' and 'hardrock' must be available. Skipping.
+2024-11-26 00:16:27,469 - INFO - Completed 32/32 tasks
+2024-11-26 00:16:27,470 - INFO - Requests used: 8336
+2024-11-26 00:16:27,470 - INFO - Requests remaining: 11664.0
+2024-11-26 00:16:27,472 - INFO - Time to fetch events: 0.08 seconds
+2024-11-26 00:16:27,472 - INFO - Time to fetch all odds: 1.52 seconds
+2024-11-26 00:16:27,472 - INFO - Total execution time: 1.60 seconds
+2024-11-26 00:17:02,794 - INFO - Using regions: eu,us2
+2024-11-26 00:17:02,873 - INFO - Time to fetch events: 0.08 seconds
+2024-11-26 00:17:02,873 - INFO - Number of events fetched: 16
+2024-11-26 00:17:02,967 - INFO - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Sam LaPorta
+    fliff: Yes: 250, No: -410
+    espnbet: Yes: N/A
+    pinnacle: Yes: 280, No: -395
+    espnbet: Yes: N/A, No: N/A
+  Player: Caleb Williams
+    fliff: Yes: 385, No: -770
+    espnbet: Yes: 425
+    pinnacle: Yes: 442, No: -735
+    espnbet: Yes: 425, No: N/A
+  Player: Shane Zylstra
+    fliff: Yes: 1485, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Amon-Ra St. Brown
+    fliff: Yes: -120, No: -125
+    espnbet: Yes: -130
+    pinnacle: Yes: -108, No: -113
+    espnbet: Yes: -130, No: N/A
+  Player: Gerald Everett
+    fliff: Yes: 1400, No: -999900
+    espnbet: Yes: 1300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1300, No: N/A
+  Player: DeAndre Carter
+    fliff: Yes: 1380, No: -999900
+    espnbet: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1400, No: N/A
+  Player: Jameson Williams
+    fliff: Yes: 175, No: -265
+    espnbet: Yes: 175
+    pinnacle: Yes: 200, No: -247
+    espnbet: Yes: 175, No: N/A
+  Player: Sione Vaki
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 900
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 900, No: N/A
+  Player: Travis Homer
+    fliff: Yes: 1930, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Jared Goff
+    fliff: Yes: 985, No: -49900
+    espnbet: Yes: 1100
+    pinnacle: Yes: 1261, No: -4378
+    espnbet: Yes: 1100, No: N/A
+  Player: David Montgomery
+    fliff: Yes: -205, No: 135
+    espnbet: Yes: -240
+    pinnacle: Yes: -195, No: 156
+    espnbet: Yes: -240, No: N/A
+  Player: Brock Wright
+    fliff: Yes: 705, No: -2835
+    espnbet: Yes: 800
+    pinnacle: Yes: 842, No: -2051
+    espnbet: Yes: 800, No: N/A
+  Player: Craig Reynolds
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Jahmyr Gibbs
+    fliff: Yes: -200, No: 135
+    espnbet: Yes: -210
+    pinnacle: Yes: -183, No: 154
+    espnbet: Yes: -210, No: N/A
+  Player: Keenan Allen
+    fliff: Yes: 235, No: -385
+    espnbet: Yes: 300
+    pinnacle: Yes: 277, No: -359
+    espnbet: Yes: 300, No: N/A
+  Player: Cole Kmet
+    fliff: Yes: 315, No: -560
+    espnbet: Yes: 360
+    pinnacle: Yes: 355, No: -541
+    espnbet: Yes: 360, No: N/A
+  Player: Roschon Johnson
+    fliff: Yes: 220, No: -360
+    espnbet: Yes: 175
+    pinnacle: Yes: 251, No: -343
+    espnbet: Yes: 175, No: N/A
+  Player: D'Andre Swift
+    fliff: Yes: 160, No: -235
+    espnbet: Yes: 160
+    pinnacle: Yes: 176, No: -224
+    espnbet: Yes: 160, No: N/A
+  Player: Marcedes Lewis
+    fliff: Yes: 1310, No: -999900
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Jack Campbell
+    fliff: Yes: 1795, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Maurice Alexander
+    fliff: Yes: 1810, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tim Patrick
+    fliff: Yes: 415, No: -865
+    espnbet: Yes: 550
+    pinnacle: Yes: 477, No: -822
+    espnbet: Yes: 550, No: N/A
+  Player: DJ Moore
+    fliff: Yes: 195, No: -310
+    espnbet: Yes: 210
+    pinnacle: Yes: 221, No: -294
+    espnbet: Yes: 210, No: N/A
+  Player: Allen Robinson II
+    fliff: Yes: 1490, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Kalif Raymond
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 800, No: N/A
+  Player: Rome Odunze
+    fliff: Yes: 265, No: -450
+    espnbet: Yes: 350
+    pinnacle: Yes: 314, No: -420
+    espnbet: Yes: 350, No: N/A
+2024-11-26 00:17:02,969 - INFO - Completed 1/32 tasks
+2024-11-26 00:17:03,001 - INFO - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Isaiah McDuffie
+    fliff: Yes: 1930, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jordan Love
+    fliff: Yes: 475, No: -1105
+    espnbet: Yes: 500
+    pinnacle: Yes: 550, No: -1020
+    espnbet: Yes: 500, No: N/A
+  Player: T.J. Slaton
+    fliff: Yes: 2045, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Chris Brooks
+    fliff: Yes: 485, No: -1145
+    espnbet: Yes: N/A
+    pinnacle: Yes: 565, No: -1064
+    espnbet: Yes: N/A, No: N/A
+  Player: John FitzPatrick
+    fliff: Yes: 1705, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Wright
+    fliff: Yes: 455, No: -1015
+    espnbet: Yes: 500
+    pinnacle: Yes: 561, No: -898
+    espnbet: Yes: 500, No: N/A
+  Player: Keisean Nixon
+    fliff: Yes: 1445, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Odell Beckham Jr.
+    fliff: Yes: 485, No: -1145
+    espnbet: Yes: 700
+    pinnacle: Yes: 563, No: -1059
+    espnbet: Yes: 700, No: N/A
+  Player: Durham Smythe
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: De'Von Achane
+    fliff: Yes: -110, No: -135
+    espnbet: Yes: -120
+    pinnacle: Yes: 104, No: -122
+    espnbet: Yes: -120, No: N/A
+  Player: Rashan Gary
+    fliff: Yes: 1955, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tua Tagovailoa
+    fliff: Yes: 885, No: -8750
+    espnbet: Yes: 800
+    pinnacle: Yes: 1122, No: -3479
+    espnbet: Yes: 800, No: N/A
+  Player: River Cracraft
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Xavier McKinney
+    fliff: Yes: 1625, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Evan Williams
+    fliff: Yes: 1730, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Waddle
+    fliff: Yes: 195, No: -315
+    espnbet: Yes: 225
+    pinnacle: Yes: 227, No: -302
+    espnbet: Yes: 225, No: N/A
+  Player: Ben Sims
+    fliff: Yes: 1025, No: -999900
+    espnbet: Yes: 1100
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+  Player: Kenny Clark
+    fliff: Yes: 2030, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Emanuel Wilson
+    fliff: Yes: 385, No: -765
+    espnbet: Yes: 500
+    pinnacle: Yes: 447, No: -743
+    espnbet: Yes: 500, No: N/A
+  Player: Jonnu Smith
+    fliff: Yes: 235, No: -395
+    espnbet: Yes: 225
+    pinnacle: Yes: 272, No: -379
+    espnbet: Yes: 225, No: N/A
+  Player: Jayden Reed
+    fliff: Yes: 160, No: -240
+    espnbet: Yes: 145
+    pinnacle: Yes: 176, No: -224
+    espnbet: Yes: 145, No: N/A
+  Player: Tyreek Hill
+    fliff: Yes: 145, No: -225
+    espnbet: Yes: 135
+    pinnacle: Yes: 163, No: -205
+    espnbet: Yes: 135, No: N/A
+  Player: Tucker Kraft
+    fliff: Yes: 225, No: -370
+    espnbet: Yes: 200
+    pinnacle: Yes: 257, No: -353
+    espnbet: Yes: 200, No: N/A
+  Player: Dontayvion Wicks
+    fliff: Yes: 210, No: -335
+    espnbet: Yes: 250
+    pinnacle: Yes: 245, No: -311
+    espnbet: Yes: 250, No: N/A
+  Player: Bo Melton
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 550
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 550, No: N/A
+  Player: Eric Stokes
+    fliff: Yes: 2060, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Carrington Valentine
+    fliff: Yes: 1770, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Quay Walker
+    fliff: Yes: 1675, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Javon Bullard
+    fliff: Yes: 1695, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Josh Jacobs
+    fliff: Yes: -160, No: 105
+    espnbet: Yes: -180
+    pinnacle: Yes: -146, No: 119
+    espnbet: Yes: -180, No: N/A
+  Player: Raheem Mostert
+    fliff: Yes: 375, No: -735
+    espnbet: Yes: 300
+    pinnacle: Yes: 428, No: -704
+    espnbet: Yes: 300, No: N/A
+  Player: Malik Heath
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 750
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 750, No: N/A
+  Player: Malik Washington
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 850
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 850, No: N/A
+  Player: Christian Watson
+    fliff: Yes: 170, No: -265
+    espnbet: Yes: 185
+    pinnacle: Yes: 192, No: -248
+    espnbet: Yes: 185, No: N/A
+  Player: Julian Hill
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: Karl Brooks
+    fliff: Yes: 2055, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Edgerrin Cooper
+    fliff: Yes: 1985, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Romeo Doubs
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 165
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 165, No: N/A
+  Player: Eric Wilson
+    fliff: Yes: 1955, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+2024-11-26 00:17:03,002 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,021 - INFO - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Sam LaPorta
+    fliff: Yes: 1055, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Caleb Williams
+    fliff: Yes: 1150, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Shane Zylstra
+    fliff: Yes: 1995, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Amon-Ra St. Brown
+    fliff: Yes: 635, No: -2060
+    espnbet: Yes: 550
+    pinnacle: Yes: 748, No: -1675
+    espnbet: Yes: 550, No: N/A
+  Player: Gerald Everett
+    fliff: Yes: 1925, No: -999900
+    espnbet: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: DeAndre Carter
+    fliff: Yes: 1905, No: -999900
+    espnbet: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Jameson Williams
+    fliff: Yes: 915, No: -11950
+    espnbet: Yes: 1000
+    pinnacle: Yes: 1154, No: -3672
+    espnbet: Yes: 1000, No: N/A
+  Player: Sione Vaki
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Travis Homer
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 7500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 7500, No: N/A
+  Player: Jared Goff
+    fliff: Yes: 1695, No: -999900
+    espnbet: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: David Montgomery
+    fliff: Yes: 375, No: -735
+    espnbet: Yes: 400
+    pinnacle: Yes: 429, No: -704
+    espnbet: Yes: 400, No: N/A
+  Player: Brock Wright
+    fliff: Yes: 1675, No: -999900
+    espnbet: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Craig Reynolds
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 4000, No: N/A
+  Player: Jahmyr Gibbs
+    fliff: Yes: 395, No: -805
+    espnbet: Yes: 425
+    pinnacle: Yes: 482, No: -732
+    espnbet: Yes: 425, No: N/A
+  Player: Keenan Allen
+    fliff: Yes: 825, No: -5425
+    espnbet: Yes: 1400
+    pinnacle: Yes: 1001, No: -2802
+    espnbet: Yes: 1400, No: N/A
+  Player: Cole Kmet
+    fliff: Yes: 1000, No: -99900
+    espnbet: Yes: 1600
+    pinnacle: Yes: 1275, No: -4476
+    espnbet: Yes: 1600, No: N/A
+  Player: Roschon Johnson
+    fliff: Yes: 910, No: -11135
+    espnbet: Yes: 1000
+    pinnacle: Yes: 1136, No: -3564
+    espnbet: Yes: 1000, No: N/A
+  Player: D'Andre Swift
+    fliff: Yes: 820, No: -5275
+    espnbet: Yes: 900
+    pinnacle: Yes: 1016, No: -2881
+    espnbet: Yes: 900, No: N/A
+  Player: Marcedes Lewis
+    fliff: Yes: 1940, No: -999900
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Maurice Alexander
+    fliff: Yes: 2070, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tim Patrick
+    fliff: Yes: 1415, No: -999900
+    espnbet: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: DJ Moore
+    fliff: Yes: 755, No: -3705
+    espnbet: Yes: 1000
+    pinnacle: Yes: 915, No: -2380
+    espnbet: Yes: 1000, No: N/A
+  Player: Allen Robinson II
+    fliff: Yes: 2025, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Kalif Raymond
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Rome Odunze
+    fliff: Yes: 870, No: -7420
+    espnbet: Yes: 1600
+    pinnacle: Yes: 1210, No: -2907
+    espnbet: Yes: 1600, No: N/A
+2024-11-26 00:17:03,047 - INFO - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Ezekiel Elliott
+    fliff: Yes: 905, No: -10655
+    espnbet: Yes: 900
+    pinnacle: Yes: 1138, No: -3573
+    espnbet: Yes: 900, No: N/A
+  Player: Bryce Ford-Wheaton
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Hunter Luepke
+    fliff: Yes: 1645, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: CeeDee Lamb
+    fliff: Yes: 590, No: -1730
+    espnbet: Yes: 600
+    pinnacle: Yes: 693, No: -1476
+    espnbet: Yes: 600, No: N/A
+  Player: Jalin Hyatt
+    fliff: Yes: 1675, No: -999900
+    espnbet: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Brandin Cooks
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1200, No: N/A
+  Player: Jalen Brooks
+    fliff: Yes: 1595, No: -999900
+    espnbet: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2500, No: N/A
+  Player: Daniel Bellinger
+    fliff: Yes: 1895, No: -999900
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Malik Nabers
+    fliff: Yes: 795, No: -4575
+    espnbet: Yes: 900
+    pinnacle: Yes: 973, No: -2662
+    espnbet: Yes: 900, No: N/A
+  Player: Eric Gray
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Ihmir Smith-Marsette
+    fliff: Yes: 1955, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyrone Tracy Jr.
+    fliff: Yes: 520, No: -1300
+    espnbet: Yes: 600
+    pinnacle: Yes: 602, No: -1176
+    espnbet: Yes: 600, No: N/A
+  Player: Cooper Rush
+    fliff: Yes: 1465, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Ryan Flournoy
+    fliff: Yes: 1825, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Chris Manhertz
+    fliff: Yes: 1915, No: -999900
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Brevyn Spann-Ford
+    fliff: Yes: 1510, No: -999900
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Wan'Dale Robinson
+    fliff: Yes: 1015, No: -999900
+    espnbet: Yes: 1600
+    pinnacle: Yes: 1530, No: -4371
+    espnbet: Yes: 1600, No: N/A
+  Player: Devin Singletary
+    fliff: Yes: 925, No: -13985
+    espnbet: Yes: 1500
+    pinnacle: Yes: 1166, No: -3744
+    espnbet: Yes: 1500, No: N/A
+  Player: Deuce Vaughn
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Jalen Tolbert
+    fliff: Yes: 1100, No: -999900
+    espnbet: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1200, No: N/A
+  Player: Tommy DeVito
+    fliff: Yes: 980, No: -39900
+    espnbet: Yes: 1600
+    pinnacle: Yes: 1258, No: -4351
+    espnbet: Yes: 1600, No: N/A
+  Player: Luke Schoonmaker
+    fliff: Yes: 1110, No: -999900
+    espnbet: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1200, No: N/A
+  Player: Princeton Fant
+    fliff: Yes: 2070, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: KaVontae Turpin
+    fliff: Yes: 1350, No: -999900
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Jonathan Mingo
+    fliff: Yes: 1435, No: -999900
+    espnbet: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: Jake Ferguson
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1100
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+  Player: Theo Johnson
+    fliff: Yes: 1170, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Darius Slayton
+    fliff: Yes: 1180, No: -999900
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Rico Dowdle
+    fliff: Yes: 465, No: -1060
+    espnbet: Yes: 425
+    pinnacle: Yes: 539, No: -989
+    espnbet: Yes: 425, No: N/A
+2024-11-26 00:17:03,048 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - INFO - Completed 2/32 tasks
+2024-11-26 00:17:03,049 - INFO - Completed 3/32 tasks
+2024-11-26 00:17:03,049 - INFO - Completed 4/32 tasks
+2024-11-26 00:17:03,049 - INFO - Completed 5/32 tasks
+2024-11-26 00:17:03,049 - INFO - Completed 6/32 tasks
+2024-11-26 00:17:03,049 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,049 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,050 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_last_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,108 - INFO - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Rakeem Nunez-Roches
+    fliff: Yes: 2030, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Donovan Wilson
+    fliff: Yes: 1825, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ezekiel Elliott
+    fliff: Yes: 305, No: -555
+    espnbet: Yes: 225
+    pinnacle: Yes: 354, No: -539
+    espnbet: Yes: 225, No: N/A
+  Player: Adoree' Jackson
+    fliff: Yes: 2030, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Bryce Ford-Wheaton
+    fliff: Yes: 2045, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Hunter Luepke
+    fliff: Yes: 1045, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyler Nubin
+    fliff: Yes: 1605, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jason Pinnock
+    fliff: Yes: 1705, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Dane Belton
+    fliff: Yes: 2055, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: CeeDee Lamb
+    fliff: Yes: 145, No: -220
+    espnbet: Yes: 140
+    pinnacle: Yes: 160, No: -200
+    espnbet: Yes: 140, No: N/A
+  Player: Marist Liufau
+    fliff: Yes: 2025, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Rico Dowdle
+    fliff: Yes: 105, No: -165
+    espnbet: Yes: -115
+    pinnacle: Yes: 121, No: -148
+    espnbet: Yes: -115, No: N/A
+  Player: Jalin Hyatt
+    fliff: Yes: 1195, No: -999900
+    espnbet: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1600, No: N/A
+  Player: Brandin Cooks
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 325
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 325, No: N/A
+  Player: Jalen Brooks
+    fliff: Yes: 840, No: -6035
+    espnbet: Yes: 900
+    pinnacle: Yes: 1183, No: -2792
+    espnbet: Yes: 900, No: N/A
+  Player: Daniel Bellinger
+    fliff: Yes: 1345, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: DaRon Bland
+    fliff: Yes: 1405, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Azeez Ojulari
+    fliff: Yes: 2015, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Malik Nabers
+    fliff: Yes: 285, No: -495
+    espnbet: Yes: 225
+    pinnacle: Yes: 338, No: -459
+    espnbet: Yes: 225, No: N/A
+  Player: Josh Butler
+    fliff: Yes: 1480, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brian Burns
+    fliff: Yes: 1835, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Eric Gray
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Malik Hooker
+    fliff: Yes: 1690, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Deonte Banks
+    fliff: Yes: 1490, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Armon Watts
+    fliff: Yes: 2070, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ihmir Smith-Marsette
+    fliff: Yes: 1565, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Micah McFadden
+    fliff: Yes: 1775, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Chauncey Golston
+    fliff: Yes: 1970, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Eric Kendricks
+    fliff: Yes: 1730, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyrone Tracy Jr.
+    fliff: Yes: 120, No: -180
+    espnbet: Yes: 135
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 135, No: N/A
+  Player: Mazi Smith
+    fliff: Yes: 2055, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Dexter Lawrence II
+    fliff: Yes: 1945, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Cooper Rush
+    fliff: Yes: 790, No: -4325
+    espnbet: Yes: 600
+    pinnacle: Yes: 960, No: -2593
+    espnbet: Yes: 600, No: N/A
+  Player: Kayvon Thibodeaux
+    fliff: Yes: 1955, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ryan Flournoy
+    fliff: Yes: 1375, No: -999900
+    espnbet: Yes: 700
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 700, No: N/A
+  Player: Chris Manhertz
+    fliff: Yes: 1525, No: -999900
+    espnbet: Yes: 1800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Osa Odighizuwa
+    fliff: Yes: 1985, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brevyn Spann-Ford
+    fliff: Yes: 780, No: -4140
+    espnbet: Yes: 600
+    pinnacle: Yes: 948, No: -2538
+    espnbet: Yes: 600, No: N/A
+  Player: Wan'Dale Robinson
+    fliff: Yes: 415, No: -870
+    espnbet: Yes: 425
+    pinnacle: Yes: 478, No: -825
+    espnbet: Yes: 425, No: N/A
+  Player: Devin Singletary
+    fliff: Yes: 295, No: -525
+    espnbet: Yes: 400
+    pinnacle: Yes: 344, No: -516
+    espnbet: Yes: 400, No: N/A
+  Player: Deuce Vaughn
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1300, No: N/A
+  Player: Cor'Dale Flott
+    fliff: Yes: 1760, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jalen Tolbert
+    fliff: Yes: 405, No: -850
+    espnbet: Yes: 325
+    pinnacle: Yes: 471, No: -809
+    espnbet: Yes: 325, No: N/A
+  Player: Carl Lawson
+    fliff: Yes: 2025, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Bobby Okereke
+    fliff: Yes: 1835, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tommy DeVito
+    fliff: Yes: 350, No: -665
+    espnbet: Yes: 450
+    pinnacle: Yes: 402, No: -642
+    espnbet: Yes: 450, No: N/A
+  Player: Luke Schoonmaker
+    fliff: Yes: 390, No: -790
+    espnbet: Yes: 300
+    pinnacle: Yes: 449, No: -753
+    espnbet: Yes: 300, No: N/A
+  Player: DeMarvion Overshown
+    fliff: Yes: 1750, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: KaVontae Turpin
+    fliff: Yes: 610, No: -1915
+    espnbet: Yes: 600
+    pinnacle: Yes: 725, No: -1588
+    espnbet: Yes: 600, No: N/A
+  Player: Andru Phillips
+    fliff: Yes: 1715, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Micah Parsons
+    fliff: Yes: 1870, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Isaiah Simmons
+    fliff: Yes: 2070, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jonathan Mingo
+    fliff: Yes: 750, No: -3485
+    espnbet: Yes: 750
+    pinnacle: Yes: 903, No: -2323
+    espnbet: Yes: 750, No: N/A
+  Player: Jourdan Lewis
+    fliff: Yes: 1665, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Israel Mukuamu
+    fliff: Yes: 2000, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Princeton Fant
+    fliff: Yes: 1890, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Theo Johnson
+    fliff: Yes: 455, No: -1015
+    espnbet: Yes: 600
+    pinnacle: Yes: 525, No: -951
+    espnbet: Yes: 600, No: N/A
+  Player: Jake Ferguson
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 275
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 275, No: N/A
+  Player: Darius Muasau
+    fliff: Yes: 2070, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Darius Slayton
+    fliff: Yes: 500, No: -1210
+    espnbet: Yes: 500
+    pinnacle: Yes: 579, No: -1106
+    espnbet: Yes: 500, No: N/A
+  Player: Marshawn Kneeland
+    fliff: Yes: 2055, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Juanyeh Thomas
+    fliff: Yes: 2010, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+2024-11-26 00:17:03,109 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,109 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,109 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,109 - WARNING - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_anytime_td
+Both 'fliff' and 'espnbet' must be available. Skipping.
+2024-11-26 00:17:03,125 - INFO - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Jordan Love
+    fliff: Yes: 1275, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Chris Brooks
+    fliff: Yes: 1275, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: John FitzPatrick
+    fliff: Yes: 2020, No: -999900
+    espnbet: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Wright
+    fliff: Yes: 1370, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Odell Beckham Jr.
+    fliff: Yes: 1230, No: -999900
+    espnbet: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Durham Smythe
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: De'Von Achane
+    fliff: Yes: 585, No: -1675
+    espnbet: Yes: 550
+    pinnacle: Yes: 750, No: -1367
+    espnbet: Yes: 550, No: N/A
+  Player: Tua Tagovailoa
+    fliff: Yes: 1680, No: -999900
+    espnbet: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: River Cracraft
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 6000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Jaylen Waddle
+    fliff: Yes: 825, No: -5550
+    espnbet: Yes: 1100
+    pinnacle: Yes: 1016, No: -2881
+    espnbet: Yes: 1100, No: N/A
+  Player: Ben Sims
+    fliff: Yes: 1760, No: -999900
+    espnbet: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Emanuel Wilson
+    fliff: Yes: 1170, No: -999900
+    espnbet: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Jonnu Smith
+    fliff: Yes: 885, No: -8520
+    espnbet: Yes: 1200
+    pinnacle: Yes: 1092, No: -3302
+    espnbet: Yes: 1200, No: N/A
+  Player: Jayden Reed
+    fliff: Yes: 735, No: -3235
+    espnbet: Yes: 850
+    pinnacle: Yes: 891, No: -2268
+    espnbet: Yes: 850, No: N/A
+  Player: Tyreek Hill
+    fliff: Yes: 700, No: -2750
+    espnbet: Yes: 750
+    pinnacle: Yes: 819, No: -1954
+    espnbet: Yes: 750, No: N/A
+  Player: Tucker Kraft
+    fliff: Yes: 950, No: -18420
+    espnbet: Yes: 1100
+    pinnacle: Yes: 1188, No: -3885
+    espnbet: Yes: 1100, No: N/A
+  Player: Dontayvion Wicks
+    fliff: Yes: 835, No: -5750
+    espnbet: Yes: 1300
+    pinnacle: Yes: 1055, No: -3094
+    espnbet: Yes: 1300, No: N/A
+  Player: Bo Melton
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: Josh Jacobs
+    fliff: Yes: 450, No: -1000
+    espnbet: Yes: 450
+    pinnacle: Yes: 523, No: -946
+    espnbet: Yes: 450, No: N/A
+  Player: Raheem Mostert
+    fliff: Yes: 1270, No: -999900
+    espnbet: Yes: 1500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: Malik Heath
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Malik Washington
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Christian Watson
+    fliff: Yes: 785, No: -4250
+    espnbet: Yes: 1100
+    pinnacle: Yes: 934, No: -2470
+    espnbet: Yes: 1100, No: N/A
+  Player: Julian Hill
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Romeo Doubs
+    fliff: Yes: N/A, No: N/A
+    espnbet: Yes: 1000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+2024-11-26 00:17:03,125 - INFO - Completed 7/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 8/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 9/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 10/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 11/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 12/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 13/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 14/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 15/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 16/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 17/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 18/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 19/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 20/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 21/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 22/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 23/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 24/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 25/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 26/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 27/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 28/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 29/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 30/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 31/32 tasks
+2024-11-26 00:17:03,126 - INFO - Completed 32/32 tasks
+2024-11-26 00:17:03,126 - INFO - Requests used: 8352
+2024-11-26 00:17:03,126 - INFO - Requests remaining: 11648.0
+2024-11-26 00:17:03,127 - INFO - Time to fetch events: 0.08 seconds
+2024-11-26 00:17:03,127 - INFO - Time to fetch all odds: 0.25 seconds
+2024-11-26 00:17:03,127 - INFO - Total execution time: 0.33 seconds
+2024-11-26 00:17:13,397 - INFO - Using regions: us,eu,us2
+2024-11-26 00:17:13,470 - INFO - Time to fetch events: 0.07 seconds
+2024-11-26 00:17:13,470 - INFO - Number of events fetched: 16
+2024-11-26 00:17:13,581 - INFO - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Sam LaPorta
+    fliff: Yes: 250, No: -410
+    draftkings: Yes: 170
+    pinnacle: Yes: 280, No: -395
+    espnbet: Yes: N/A, No: N/A
+  Player: Caleb Williams
+    fliff: Yes: 385, No: -770
+    draftkings: Yes: 425
+    pinnacle: Yes: 442, No: -735
+    espnbet: Yes: 425, No: N/A
+  Player: Shane Zylstra
+    fliff: Yes: 1485, No: -999900
+    draftkings: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Amon-Ra St. Brown
+    fliff: Yes: -120, No: -125
+    draftkings: Yes: -125
+    pinnacle: Yes: -108, No: -113
+    espnbet: Yes: -130, No: N/A
+  Player: Gerald Everett
+    fliff: Yes: 1400, No: -999900
+    draftkings: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1300, No: N/A
+  Player: DeAndre Carter
+    fliff: Yes: 1380, No: -999900
+    draftkings: Yes: 1100
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1400, No: N/A
+  Player: Jameson Williams
+    fliff: Yes: 175, No: -265
+    draftkings: Yes: 140
+    pinnacle: Yes: 200, No: -247
+    espnbet: Yes: 175, No: N/A
+  Player: Detroit Lions D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 450
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Sione Vaki
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 900, No: N/A
+  Player: Chicago Bears D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 550
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Travis Homer
+    fliff: Yes: 1930, No: -999900
+    draftkings: Yes: 1900
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Jared Goff
+    fliff: Yes: 985, No: -49900
+    draftkings: Yes: 1000
+    pinnacle: Yes: 1261, No: -4378
+    espnbet: Yes: 1100, No: N/A
+  Player: David Montgomery
+    fliff: Yes: -205, No: 135
+    draftkings: Yes: -210
+    pinnacle: Yes: -195, No: 156
+    espnbet: Yes: -240, No: N/A
+  Player: Brock Wright
+    fliff: Yes: 705, No: -2835
+    draftkings: Yes: 400
+    pinnacle: Yes: 842, No: -2051
+    espnbet: Yes: 800, No: N/A
+  Player: Craig Reynolds
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Jahmyr Gibbs
+    fliff: Yes: -200, No: 135
+    draftkings: Yes: -230
+    pinnacle: Yes: -183, No: 154
+    espnbet: Yes: -210, No: N/A
+  Player: Keenan Allen
+    fliff: Yes: 235, No: -385
+    draftkings: Yes: 260
+    pinnacle: Yes: 277, No: -359
+    espnbet: Yes: 300, No: N/A
+  Player: Cole Kmet
+    fliff: Yes: 315, No: -560
+    draftkings: Yes: 290
+    pinnacle: Yes: 355, No: -541
+    espnbet: Yes: 360, No: N/A
+  Player: Roschon Johnson
+    fliff: Yes: 220, No: -360
+    draftkings: Yes: 185
+    pinnacle: Yes: 251, No: -343
+    espnbet: Yes: 175, No: N/A
+  Player: D'Andre Swift
+    fliff: Yes: 160, No: -235
+    draftkings: Yes: 150
+    pinnacle: Yes: 176, No: -224
+    espnbet: Yes: 160, No: N/A
+  Player: Marcedes Lewis
+    fliff: Yes: 1310, No: -999900
+    draftkings: Yes: 1900
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Jack Campbell
+    fliff: Yes: 1795, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Maurice Alexander
+    fliff: Yes: 1810, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tim Patrick
+    fliff: Yes: 415, No: -865
+    draftkings: Yes: 300
+    pinnacle: Yes: 477, No: -822
+    espnbet: Yes: 550, No: N/A
+  Player: DJ Moore
+    fliff: Yes: 195, No: -310
+    draftkings: Yes: 160
+    pinnacle: Yes: 221, No: -294
+    espnbet: Yes: 210, No: N/A
+  Player: Allen Robinson II
+    fliff: Yes: 1490, No: -999900
+    draftkings: Yes: 600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Kalif Raymond
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 450
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 800, No: N/A
+  Player: Rome Odunze
+    fliff: Yes: 265, No: -450
+    draftkings: Yes: 285
+    pinnacle: Yes: 314, No: -420
+    espnbet: Yes: 350, No: N/A
+2024-11-26 00:17:13,595 - INFO - Completed 1/32 tasks
+2024-11-26 00:17:13,658 - INFO - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Dallas Cowboys D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 380
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Rakeem Nunez-Roches
+    fliff: Yes: 2030, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Donovan Wilson
+    fliff: Yes: 1825, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ezekiel Elliott
+    fliff: Yes: 305, No: -555
+    draftkings: Yes: 340
+    pinnacle: Yes: 354, No: -539
+    espnbet: Yes: 225, No: N/A
+  Player: Adoree' Jackson
+    fliff: Yes: 2030, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Bryce Ford-Wheaton
+    fliff: Yes: 2045, No: -999900
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Hunter Luepke
+    fliff: Yes: 1045, No: -999900
+    draftkings: Yes: 1700
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyler Nubin
+    fliff: Yes: 1605, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jason Pinnock
+    fliff: Yes: 1705, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Dane Belton
+    fliff: Yes: 2055, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: CeeDee Lamb
+    fliff: Yes: 145, No: -220
+    draftkings: Yes: 175
+    pinnacle: Yes: 160, No: -200
+    espnbet: Yes: 140, No: N/A
+  Player: Marist Liufau
+    fliff: Yes: 2025, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Rico Dowdle
+    fliff: Yes: 105, No: -165
+    draftkings: Yes: -105
+    pinnacle: Yes: 121, No: -148
+    espnbet: Yes: -115, No: N/A
+  Player: Jalin Hyatt
+    fliff: Yes: 1195, No: -999900
+    draftkings: Yes: 1100
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1600, No: N/A
+  Player: Brandin Cooks
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 350
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 325, No: N/A
+  Player: Jalen Brooks
+    fliff: Yes: 840, No: -6035
+    draftkings: Yes: 600
+    pinnacle: Yes: 1183, No: -2792
+    espnbet: Yes: 900, No: N/A
+  Player: Daniel Bellinger
+    fliff: Yes: 1345, No: -999900
+    draftkings: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: DaRon Bland
+    fliff: Yes: 1405, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Azeez Ojulari
+    fliff: Yes: 2015, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Malik Nabers
+    fliff: Yes: 285, No: -495
+    draftkings: Yes: 240
+    pinnacle: Yes: 338, No: -459
+    espnbet: Yes: 225, No: N/A
+  Player: Josh Butler
+    fliff: Yes: 1480, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brian Burns
+    fliff: Yes: 1835, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Eric Gray
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Malik Hooker
+    fliff: Yes: 1690, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Deonte Banks
+    fliff: Yes: 1490, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Armon Watts
+    fliff: Yes: 2070, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ihmir Smith-Marsette
+    fliff: Yes: 1565, No: -999900
+    draftkings: Yes: 1700
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Micah McFadden
+    fliff: Yes: 1775, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Chauncey Golston
+    fliff: Yes: 1970, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: New York Giants D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Eric Kendricks
+    fliff: Yes: 1730, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tyrone Tracy Jr.
+    fliff: Yes: 120, No: -180
+    draftkings: Yes: 125
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 135, No: N/A
+  Player: Mazi Smith
+    fliff: Yes: 2055, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Dexter Lawrence II
+    fliff: Yes: 1945, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Cooper Rush
+    fliff: Yes: 790, No: -4325
+    draftkings: Yes: 700
+    pinnacle: Yes: 960, No: -2593
+    espnbet: Yes: 600, No: N/A
+  Player: Kayvon Thibodeaux
+    fliff: Yes: 1955, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Ryan Flournoy
+    fliff: Yes: 1375, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 700, No: N/A
+  Player: Chris Manhertz
+    fliff: Yes: 1525, No: -999900
+    draftkings: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Osa Odighizuwa
+    fliff: Yes: 1985, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Brevyn Spann-Ford
+    fliff: Yes: 780, No: -4140
+    draftkings: Yes: 700
+    pinnacle: Yes: 948, No: -2538
+    espnbet: Yes: 600, No: N/A
+  Player: Wan'Dale Robinson
+    fliff: Yes: 415, No: -870
+    draftkings: Yes: 390
+    pinnacle: Yes: 478, No: -825
+    espnbet: Yes: 425, No: N/A
+  Player: Devin Singletary
+    fliff: Yes: 295, No: -525
+    draftkings: Yes: 450
+    pinnacle: Yes: 344, No: -516
+    espnbet: Yes: 400, No: N/A
+  Player: Deuce Vaughn
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 1300
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1300, No: N/A
+  Player: Cor'Dale Flott
+    fliff: Yes: 1760, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jalen Tolbert
+    fliff: Yes: 405, No: -850
+    draftkings: Yes: 370
+    pinnacle: Yes: 471, No: -809
+    espnbet: Yes: 325, No: N/A
+  Player: Carl Lawson
+    fliff: Yes: 2025, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Bobby Okereke
+    fliff: Yes: 1835, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tommy DeVito
+    fliff: Yes: 350, No: -665
+    draftkings: Yes: 425
+    pinnacle: Yes: 402, No: -642
+    espnbet: Yes: 450, No: N/A
+  Player: Luke Schoonmaker
+    fliff: Yes: 390, No: -790
+    draftkings: Yes: 330
+    pinnacle: Yes: 449, No: -753
+    espnbet: Yes: 300, No: N/A
+  Player: DeMarvion Overshown
+    fliff: Yes: 1750, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: KaVontae Turpin
+    fliff: Yes: 610, No: -1915
+    draftkings: Yes: 700
+    pinnacle: Yes: 725, No: -1588
+    espnbet: Yes: 600, No: N/A
+  Player: Andru Phillips
+    fliff: Yes: 1715, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Micah Parsons
+    fliff: Yes: 1870, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Isaiah Simmons
+    fliff: Yes: 2070, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jonathan Mingo
+    fliff: Yes: 750, No: -3485
+    draftkings: Yes: 1000
+    pinnacle: Yes: 903, No: -2323
+    espnbet: Yes: 750, No: N/A
+  Player: Jourdan Lewis
+    fliff: Yes: 1665, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Israel Mukuamu
+    fliff: Yes: 2000, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Princeton Fant
+    fliff: Yes: 1890, No: -999900
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Theo Johnson
+    fliff: Yes: 455, No: -1015
+    draftkings: Yes: 380
+    pinnacle: Yes: 525, No: -951
+    espnbet: Yes: 600, No: N/A
+  Player: Jake Ferguson
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 275, No: N/A
+  Player: Darius Muasau
+    fliff: Yes: 2070, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Darius Slayton
+    fliff: Yes: 500, No: -1210
+    draftkings: Yes: 600
+    pinnacle: Yes: 579, No: -1106
+    espnbet: Yes: 500, No: N/A
+  Player: Marshawn Kneeland
+    fliff: Yes: 2055, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Juanyeh Thomas
+    fliff: Yes: 2010, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+2024-11-26 00:17:13,658 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,712 - INFO - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Clyde Edwards-Helaire
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 650
+    pinnacle: Yes: N/A, No: N/A
+  Player: Isiah Pacheco
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: -150
+    pinnacle: Yes: N/A, No: N/A
+  Player: Chris Jones
+    fliff: Yes: 1955, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: John Jenkins
+    fliff: Yes: 2055, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: K'Lavon Chaisson
+    fliff: Yes: 2025, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Nick Bolton
+    fliff: Yes: 1695, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Patrick Mahomes
+    fliff: Yes: 435, No: -930
+    draftkings: Yes: 370
+    pinnacle: Yes: 499, No: -880
+  Player: Travis Kelce
+    fliff: Yes: 160, No: -245
+    draftkings: Yes: 115
+    pinnacle: Yes: 186, No: -226
+  Player: Harrison Bryant
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+  Player: Thomas Harper
+    fliff: Yes: 2025, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Jakorian Bennett
+    fliff: Yes: 1765, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Robert Spillane
+    fliff: Yes: 1885, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Kareem Hunt
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: -145
+    pinnacle: Yes: N/A, No: N/A
+  Player: Mike Danna
+    fliff: Yes: 2060, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Nate Hobbs
+    fliff: Yes: 1845, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Malik Herring
+    fliff: Yes: 2060, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Michael Mayer
+    fliff: Yes: 720, No: -3035
+    draftkings: Yes: 1100
+    pinnacle: Yes: 864, No: -2149
+  Player: Tershawn Wharton
+    fliff: Yes: 1995, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Kansas City Chiefs D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 370
+    pinnacle: Yes: N/A, No: N/A
+  Player: DeAndre Hopkins
+    fliff: Yes: 220, No: -355
+    draftkings: Yes: 145
+    pinnacle: Yes: 258, No: -331
+  Player: Carson Steele
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 650
+    pinnacle: Yes: N/A, No: N/A
+  Player: Tre'von Moehrig
+    fliff: Yes: 1650, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Darnay Holmes
+    fliff: Yes: 1915, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: JuJu Smith-Schuster
+    fliff: Yes: 460, No: -1030
+    draftkings: Yes: 290
+    pinnacle: Yes: 566, No: -909
+  Player: Jakobi Meyers
+    fliff: Yes: 250, No: -420
+    draftkings: Yes: 295
+    pinnacle: Yes: 285, No: -404
+  Player: Joshua Williams
+    fliff: Yes: 1985, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Brock Bowers
+    fliff: Yes: 250, No: -415
+    draftkings: Yes: 245
+    pinnacle: Yes: 282, No: -398
+  Player: Nazeeh Johnson
+    fliff: Yes: 1730, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: George Karlaftis
+    fliff: Yes: 1980, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Justin Reid
+    fliff: Yes: 1520, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: DJ Turner
+    fliff: Yes: 525, No: -1330
+    draftkings: Yes: 700
+    pinnacle: Yes: 610, No: -1199
+  Player: Trent McDuffie
+    fliff: Yes: 1340, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Adam Butler
+    fliff: Yes: 1980, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Las Vegas Raiders D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 475
+    pinnacle: Yes: N/A, No: N/A
+  Player: Chamarri Conner
+    fliff: Yes: 1705, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Peyton Hendershot
+    fliff: Yes: 1290, No: -999900
+    draftkings: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+  Player: Samaje Perine
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 650
+    pinnacle: Yes: N/A, No: N/A
+  Player: Sincere McCormick
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 600
+    pinnacle: Yes: N/A, No: N/A
+  Player: Jaden Hicks
+    fliff: Yes: 1980, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Drue Tranquill
+    fliff: Yes: 1615, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Decamerion Richardson
+    fliff: Yes: 1800, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Justin Watson
+    fliff: Yes: 495, No: -1200
+    draftkings: Yes: 600
+    pinnacle: Yes: 619, No: -1033
+  Player: Justin Shorter
+    fliff: Yes: 1655, No: -999900
+    draftkings: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+  Player: Aidan O'Connell
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 950
+    pinnacle: Yes: N/A, No: N/A
+  Player: Christian Roland-Wallace
+    fliff: Yes: 2045, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Dylan Laube
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 550
+    pinnacle: Yes: N/A, No: N/A
+  Player: Tre Tucker
+    fliff: Yes: 370, No: -715
+    draftkings: Yes: 400
+    pinnacle: Yes: 421, No: -685
+  Player: Isaiah Pola-Mao
+    fliff: Yes: 1770, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Noah Gray
+    fliff: Yes: 340, No: -640
+    draftkings: Yes: 270
+    pinnacle: Yes: 390, No: -616
+  Player: Bryan Cook
+    fliff: Yes: 1595, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Leo Chenal
+    fliff: Yes: 1895, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Jack Jones
+    fliff: Yes: 1645, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Xavier Worthy
+    fliff: Yes: 210, No: -330
+    draftkings: Yes: 190
+    pinnacle: Yes: 234, No: -314
+  Player: Ameer Abdullah
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 235
+    pinnacle: Yes: N/A, No: N/A
+  Player: Mecole Hardman
+    fliff: Yes: 775, No: -4015
+    draftkings: Yes: 750
+    pinnacle: Yes: 941, No: -2501
+  Player: Ramel Keyton
+    fliff: Yes: 1315, No: -999900
+    draftkings: Yes: 1600
+    pinnacle: Yes: N/A, No: N/A
+  Player: Maxx Crosby
+    fliff: Yes: 1955, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: James Winchester
+    fliff: Yes: 1945, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+  Player: Divine Deablo
+    fliff: Yes: 1945, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+2024-11-26 00:17:13,713 - WARNING - 
+Event: Kansas City Chiefs vs Las Vegas Raiders
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,713 - WARNING - 
+Event: Dallas Cowboys vs New York Giants
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,713 - WARNING - 
+Event: Detroit Lions vs Chicago Bears
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,745 - INFO - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_anytime_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Isaiah McDuffie
+    fliff: Yes: 1930, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Dee Eskridge
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jordan Love
+    fliff: Yes: 475, No: -1105
+    draftkings: Yes: 380
+    pinnacle: Yes: 550, No: -1020
+    espnbet: Yes: 500, No: N/A
+  Player: T.J. Slaton
+    fliff: Yes: 2045, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Chris Brooks
+    fliff: Yes: 485, No: -1145
+    draftkings: Yes: 500
+    pinnacle: Yes: 565, No: -1064
+    espnbet: Yes: N/A, No: N/A
+  Player: John FitzPatrick
+    fliff: Yes: 1705, No: -999900
+    draftkings: Yes: 950
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Wright
+    fliff: Yes: 455, No: -1015
+    draftkings: Yes: 700
+    pinnacle: Yes: 561, No: -898
+    espnbet: Yes: 500, No: N/A
+  Player: Keisean Nixon
+    fliff: Yes: 1445, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Odell Beckham Jr.
+    fliff: Yes: 485, No: -1145
+    draftkings: Yes: 750
+    pinnacle: Yes: 563, No: -1059
+    espnbet: Yes: 700, No: N/A
+  Player: Miami Dolphins D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 450
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: De'Von Achane
+    fliff: Yes: -110, No: -135
+    draftkings: Yes: -120
+    pinnacle: Yes: 104, No: -122
+    espnbet: Yes: -120, No: N/A
+  Player: Durham Smythe
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Rashan Gary
+    fliff: Yes: 1955, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Tua Tagovailoa
+    fliff: Yes: 885, No: -8750
+    draftkings: Yes: 700
+    pinnacle: Yes: 1122, No: -3479
+    espnbet: Yes: 800, No: N/A
+  Player: River Cracraft
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1800, No: N/A
+  Player: Green Bay Packers D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 450
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Xavier McKinney
+    fliff: Yes: 1625, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Evan Williams
+    fliff: Yes: 1730, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Waddle
+    fliff: Yes: 195, No: -315
+    draftkings: Yes: 185
+    pinnacle: Yes: 227, No: -302
+    espnbet: Yes: 225, No: N/A
+  Player: Ben Sims
+    fliff: Yes: 1025, No: -999900
+    draftkings: Yes: 1400
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1100, No: N/A
+  Player: Kenny Clark
+    fliff: Yes: 2030, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Emanuel Wilson
+    fliff: Yes: 385, No: -765
+    draftkings: Yes: 500
+    pinnacle: Yes: 447, No: -743
+    espnbet: Yes: 500, No: N/A
+  Player: Jack Stoll
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jonnu Smith
+    fliff: Yes: 235, No: -395
+    draftkings: Yes: 195
+    pinnacle: Yes: 272, No: -379
+    espnbet: Yes: 225, No: N/A
+  Player: Jayden Reed
+    fliff: Yes: 160, No: -240
+    draftkings: Yes: 125
+    pinnacle: Yes: 176, No: -224
+    espnbet: Yes: 145, No: N/A
+  Player: Tyreek Hill
+    fliff: Yes: 145, No: -225
+    draftkings: Yes: 145
+    pinnacle: Yes: 163, No: -205
+    espnbet: Yes: 135, No: N/A
+  Player: Tucker Kraft
+    fliff: Yes: 225, No: -370
+    draftkings: Yes: 160
+    pinnacle: Yes: 257, No: -353
+    espnbet: Yes: 200, No: N/A
+  Player: Dontayvion Wicks
+    fliff: Yes: 210, No: -335
+    draftkings: Yes: 275
+    pinnacle: Yes: 245, No: -311
+    espnbet: Yes: 250, No: N/A
+  Player: Bo Melton
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 800
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 550, No: N/A
+  Player: Eric Stokes
+    fliff: Yes: 2060, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Carrington Valentine
+    fliff: Yes: 1770, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Quay Walker
+    fliff: Yes: 1675, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Javon Bullard
+    fliff: Yes: 1695, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Josh Jacobs
+    fliff: Yes: -160, No: 105
+    draftkings: Yes: -185
+    pinnacle: Yes: -146, No: 119
+    espnbet: Yes: -180, No: N/A
+  Player: Raheem Mostert
+    fliff: Yes: 375, No: -735
+    draftkings: Yes: 370
+    pinnacle: Yes: 428, No: -704
+    espnbet: Yes: 300, No: N/A
+  Player: Malik Heath
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 475
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 750, No: N/A
+  Player: Malik Washington
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 750
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 850, No: N/A
+  Player: Christian Watson
+    fliff: Yes: 170, No: -265
+    draftkings: Yes: 195
+    pinnacle: Yes: 192, No: -248
+    espnbet: Yes: 185, No: N/A
+  Player: Julian Hill
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: Jeff Wilson Jr.
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Karl Brooks
+    fliff: Yes: 2055, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Edgerrin Cooper
+    fliff: Yes: 1985, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Romeo Doubs
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 165, No: N/A
+  Player: Alec Ingold
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 1200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Eric Wilson
+    fliff: Yes: 1955, No: -999900
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+2024-11-26 00:17:13,746 - WARNING - 
+Event: Atlanta Falcons vs Los Angeles Chargers
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,746 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,761 - INFO - 
+Event: Green Bay Packers vs Miami Dolphins
+Market: player_last_td
+fliff has both 'yes' and 'no' outcomes.
+Outcomes and calculations for all players:
+  Player: Dee Eskridge
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 9000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jordan Love
+    fliff: Yes: 1275, No: -999900
+    draftkings: Yes: 2200
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Chris Brooks
+    fliff: Yes: 1275, No: -999900
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: John FitzPatrick
+    fliff: Yes: 2020, No: -999900
+    draftkings: Yes: 4500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Wright
+    fliff: Yes: 1370, No: -999900
+    draftkings: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Odell Beckham Jr.
+    fliff: Yes: 1230, No: -999900
+    draftkings: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Miami Dolphins D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 3000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Durham Smythe
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 9000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: De'Von Achane
+    fliff: Yes: 585, No: -1675
+    draftkings: Yes: 550
+    pinnacle: Yes: 750, No: -1367
+    espnbet: Yes: 550, No: N/A
+  Player: Tua Tagovailoa
+    fliff: Yes: 1680, No: -999900
+    draftkings: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: River Cracraft
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 5500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 6000, No: N/A
+  Player: Green Bay Packers D/ST
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: No Touchdown
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 11000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jaylen Waddle
+    fliff: Yes: 825, No: -5550
+    draftkings: Yes: 1000
+    pinnacle: Yes: 1016, No: -2881
+    espnbet: Yes: 1100, No: N/A
+  Player: Ben Sims
+    fliff: Yes: 1760, No: -999900
+    draftkings: Yes: 6500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Emanuel Wilson
+    fliff: Yes: 1170, No: -999900
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2000, No: N/A
+  Player: Jack Stoll
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 9000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Jonnu Smith
+    fliff: Yes: 885, No: -8520
+    draftkings: Yes: 1000
+    pinnacle: Yes: 1092, No: -3302
+    espnbet: Yes: 1200, No: N/A
+  Player: Jayden Reed
+    fliff: Yes: 735, No: -3235
+    draftkings: Yes: 850
+    pinnacle: Yes: 891, No: -2268
+    espnbet: Yes: 850, No: N/A
+  Player: Tyreek Hill
+    fliff: Yes: 700, No: -2750
+    draftkings: Yes: 800
+    pinnacle: Yes: 819, No: -1954
+    espnbet: Yes: 750, No: N/A
+  Player: Tucker Kraft
+    fliff: Yes: 950, No: -18420
+    draftkings: Yes: 1000
+    pinnacle: Yes: 1188, No: -3885
+    espnbet: Yes: 1100, No: N/A
+  Player: Dontayvion Wicks
+    fliff: Yes: 835, No: -5750
+    draftkings: Yes: 1600
+    pinnacle: Yes: 1055, No: -3094
+    espnbet: Yes: 1300, No: N/A
+  Player: Bo Melton
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 4000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 2200, No: N/A
+  Player: Josh Jacobs
+    fliff: Yes: 450, No: -1000
+    draftkings: Yes: 475
+    pinnacle: Yes: 523, No: -946
+    espnbet: Yes: 450, No: N/A
+  Player: Raheem Mostert
+    fliff: Yes: 1270, No: -999900
+    draftkings: Yes: 2000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1500, No: N/A
+  Player: Malik Heath
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 2500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3000, No: N/A
+  Player: Malik Washington
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 3500
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 3500, No: N/A
+  Player: Christian Watson
+    fliff: Yes: 785, No: -4250
+    draftkings: Yes: 1100
+    pinnacle: Yes: 934, No: -2470
+    espnbet: Yes: 1100, No: N/A
+  Player: Julian Hill
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 9000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 5000, No: N/A
+  Player: Jeff Wilson Jr.
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 9000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+  Player: Romeo Doubs
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: N/A
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: 1000, No: N/A
+  Player: Alec Ingold
+    fliff: Yes: N/A, No: N/A
+    draftkings: Yes: 5000
+    pinnacle: Yes: N/A, No: N/A
+    espnbet: Yes: N/A, No: N/A
+2024-11-26 00:17:13,762 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,762 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,762 - WARNING - 
+Event: Jacksonville Jaguars vs Houston Texans
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,762 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,762 - INFO - Completed 2/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 3/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 4/32 tasks
+2024-11-26 00:17:13,763 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,763 - WARNING - 
+Event: Washington Commanders vs Tennessee Titans
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,763 - INFO - Completed 5/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 6/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 7/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 8/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 9/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 10/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 11/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 12/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 13/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 14/32 tasks
+2024-11-26 00:17:13,763 - INFO - Completed 15/32 tasks
+2024-11-26 00:17:13,763 - WARNING - 
+Event: Carolina Panthers vs Tampa Bay Buccaneers
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,763 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: New York Jets vs Seattle Seahawks
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Minnesota Vikings vs Arizona Cardinals
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Buffalo Bills vs San Francisco 49ers
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Baltimore Ravens vs Philadelphia Eagles
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: New England Patriots vs Indianapolis Colts
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Denver Broncos vs Cleveland Browns
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_anytime_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: Cincinnati Bengals vs Pittsburgh Steelers
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - WARNING - 
+Event: New Orleans Saints vs Los Angeles Rams
+Market: player_last_td
+Both 'fliff' and 'draftkings' must be available. Skipping.
+2024-11-26 00:17:13,764 - INFO - Completed 16/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 17/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 18/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 19/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 20/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 21/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 22/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 23/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 24/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 25/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 26/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 27/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 28/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 29/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 30/32 tasks
+2024-11-26 00:17:13,764 - INFO - Completed 31/32 tasks
+2024-11-26 00:17:13,765 - INFO - Completed 32/32 tasks
+2024-11-26 00:17:13,765 - INFO - Requests used: 8376
+2024-11-26 00:17:13,765 - INFO - Requests remaining: 11624.0
+2024-11-26 00:17:13,765 - INFO - Time to fetch events: 0.07 seconds
+2024-11-26 00:17:13,765 - INFO - Time to fetch all odds: 0.30 seconds
+2024-11-26 00:17:13,765 - INFO - Total execution time: 0.37 seconds
+2024-11-26 00:17:14,351 - INFO - Message sent successfully to NFL channel and thread created: <@&1115733310048571444> \U0001f3c8 
+EV: 2.3494
+Dallas Cowbo...
+2024-11-26 00:17:15,089 - INFO - Message sent successfully to NFL channel and thread created: <@&1115733310048571444> \U0001f3c8 
+EV: -1.5921
+Green Bay P...
+2024-11-26 00:17:16,291 - INFO - Message sent successfully to NFL channel and thread created: <@&1115733310048571444> \U0001f3c8 
+EV: -2.6675
+Dallas Cowb...
