@@ -4,7 +4,7 @@ import logging
 from typing import Dict, List, Any
 
 from notifymvp import process_test_notification
-from discord_notifier import notifier
+from archive.discord_notifier import notifier
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

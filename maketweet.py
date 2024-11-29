@@ -1,7 +1,21 @@
 from PIL import Image, ImageDraw, ImageFont
 import io
 
+import tweepy
 
+def post_tweet_with_image(consumer_key, consumer_secret, access_token, access_token_secret, image_path, tweet_text):
+    # Authenticate to Twitter
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+
+    # Create API object
+    api = tweepy.API(auth)
+
+    # Upload image
+    media = api.media_upload(image_path)
+
+    # Post tweet with image
+    tweet = api.update_status(status=tweet_text, media_ids=[media.media_id])
 
 def text_to_image(text, width=800, height=382, font_size=26):
     # Create black background

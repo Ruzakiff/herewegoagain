@@ -1,0 +1,11 @@
+{
+    "role_messages": {
+        "message_id": {
+            "channel_id": 123456789,
+            "emoji_role_pairs": {
+                "emoji_id": "role_id",
+                // ... more pairs
+            }
+        }
+    }
+}
