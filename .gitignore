@@ -3,3 +3,4 @@ venv/
 # Environment variables
 .env
 *.txt
+tweet_images/

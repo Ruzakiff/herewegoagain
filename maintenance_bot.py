@@ -1,15 +1,29 @@
-import discord
-from discord.ext import commands
-from typing import Dict
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Optional
+import asyncio
 import logging
 import os
-from dotenv import load_dotenv
 import aiohttp
-from datetime import datetime
+import discord
+from discord.ext import commands
+from dotenv import load_dotenv
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
+# Configure logging to save to a file
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='maintenance_bot.log', filemode='a')
 logger = logging.getLogger(__name__)
+
+@dataclass
+class TweetJob:
+    """Independent tweet job container"""
+    thread_id: int
+    message_id: int
+    thread_title: str
+    initial_message: str
+    image_path: Optional[str] = None
+    status: str = "pending"
+    error: Optional[str] = None
+    created_at: datetime = datetime.now()
 
 class MaintenanceBot(commands.Bot):
     def __init__(self):
@@ -21,7 +35,7 @@ class MaintenanceBot(commands.Bot):
         
         # Role management config
         self.ROLES_CHANNEL_ID = 1115723672183902270
-        self.emoji_to_role: Dict[str, int] = {
+        self.emoji_to_role = {
             "🔵": 123456789,  # Replace with actual role IDs
             "🔴": 987654321,
         }
@@ -32,68 +46,10 @@ class MaintenanceBot(commands.Bot):
         ]
         self.TWEET_EMOJI = "🐤"  # baby_chick emoji
         self.TWEET_ROLE_ID = 1115730824059428946  # Required role to request tweets
-        self.pending_tweets = {}
         
         # Ensure images directory exists
         self.IMAGES_DIR = "tweet_images"
         os.makedirs(self.IMAGES_DIR, exist_ok=True)
-
-    async def setup_hook(self):
-        """Initialize bot components"""
-        await self.add_cog(MaintenanceCommands(self))
-        logger.info("Bot systems initialized")
-
-    async def on_ready(self):
-        logger.info(f"Bot connected as {self.user}")
-
-    async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
-        """Central reaction handler"""
-        # Handle role assignments
-        if payload.channel_id == self.ROLES_CHANNEL_ID:
-            await self._handle_role_reaction(payload, add_role=True)
-        
-        # Handle tweet processing
-        elif payload.channel_id in self.TWEET_CHANNELS:
-            await self._handle_tweet_reaction(payload)
-
-    async def on_raw_reaction_remove(self, payload: discord.RawReactionActionEvent):
-        """Handle role removal"""
-        if payload.channel_id == self.ROLES_CHANNEL_ID:
-            await self._handle_role_reaction(payload, add_role=False)
-
-    async def _handle_role_reaction(self, payload: discord.RawReactionActionEvent, add_role: bool):
-        """Handle role assignment reactions"""
-        try:
-            # Skip bot reactions
-            if payload.member and payload.member.bot:
-                return
-
-            emoji_str = str(payload.emoji)
-            role_id = self.emoji_to_role.get(emoji_str)
-            if not role_id:
-                return
-
-            guild = self.get_guild(payload.guild_id)
-            member = payload.member or guild.get_member(payload.user_id)
-            if not member or member.bot:
-                return
-
-            role = guild.get_role(role_id)
-            if not role:
-                logger.error(f"Role {role_id} not found!")
-                return
-
-            if add_role:
-                await member.add_roles(role, reason="Reaction role")
-                logger.info(f"Added role {role.name} to {member.name}")
-            else:
-                await member.remove_roles(role, reason="Reaction role")
-                logger.info(f"Removed role {role.name} from {member.name}")
-
-        except discord.Forbidden:
-            logger.error("Missing permissions to manage roles!")
-        except Exception as e:
-            logger.error(f"Error in role management: {e}")
 
     async def _handle_tweet_reaction(self, payload: discord.RawReactionActionEvent):
         """Handle tweet approval reactions"""
@@ -117,59 +73,99 @@ class MaintenanceBot(commands.Bot):
                 await message.remove_reaction(self.TWEET_EMOJI, member)
                 return
 
-            message_id = payload.message_id
-            
-            # Check if we haven't processed this message yet
-            if message_id not in self.pending_tweets:
-                self.pending_tweets[message_id] = True
-                channel = self.get_channel(payload.channel_id)
-                message = await channel.fetch_message(message_id)
-                await self._process_tweet(message)
-                logger.info(f"Tweet requested for message {message_id} by {member.name}")
+            # Start independent tweet processing
+            asyncio.create_task(self._process_tweet_independently(payload.message_id, payload.channel_id))
                     
         except Exception as e:
             logger.error(f"Error processing tweet reaction: {e}")
 
-    async def _process_tweet(self, message: discord.Message):
-        """Process thread for tweeting"""
+    async def _process_tweet_independently(self, message_id: int, channel_id: int):
+        """Independent tweet processing pipeline"""
         try:
-            # Get the thread
+            channel = self.get_channel(channel_id)
+            message = await channel.fetch_message(message_id)
             thread = message.thread
+            
             if not thread:
                 logger.error("Tweet reaction must be on a thread message")
                 await message.add_reaction('❌')
                 return
 
-            # Find the first message with an image in the thread
-            async for msg in thread.history(limit=50):  # Adjust limit as needed
+            # Get all messages in thread to debug
+            thread_messages = [msg async for msg in thread.history(oldest_first=True, limit=5)]
+            
+            logger.info(f"Number of messages in thread: {len(thread_messages)}")
+            for idx, msg in enumerate(thread_messages):
+                logger.info(f"Message {idx + 1}:")
+                logger.info(f"  Content: {msg.content}")
+                logger.info(f"  Author: {msg.author}")
+                logger.info(f"  Created at: {msg.created_at}")
+
+            # Use the first non-empty message content
+            initial_message_content = next(
+                (msg.content for msg in thread_messages if msg.content.strip()),
+                thread.name  # fallback to thread name if no message with content found
+            )
+
+            job = TweetJob(
+                thread_id=thread.id,
+                message_id=message_id,
+                thread_title=thread.name,
+                initial_message=initial_message_content
+            )
+            logger.info(f"Created job with initial message: {initial_message_content}")
+            logger.info(f"Processing tweet: {initial_message_content}")
+            # 1. Find and download image
+            image_path = await self._find_thread_image(thread)
+            if not image_path:
+                await message.add_reaction('❌')
+                return
+            
+            job.image_path = image_path
+            job.status = "image_downloaded"
+
+            # 2. Process tweet (external API call)
+            success = await self._process_tweet_api(job)
+            if not success:
+                await message.add_reaction('❌')
+                return
+
+            # 3. Mark as completed
+            await message.add_reaction('✅')
+            logger.info(f"Tweet processed successfully: {message_id} - {thread.name}")
+
+        except Exception as e:
+            logger.error(f"Error in tweet processing: {e}")
+            await message.add_reaction('❌')
+
+    async def _find_thread_image(self, thread) -> Optional[str]:
+        """Find and download first image in thread"""
+        try:
+            async for msg in thread.history(limit=50):
                 if msg.attachments:
                     for attachment in msg.attachments:
                         if attachment.content_type.startswith('image/'):
-                            # Download the image
+                            # Download image
                             image_data = await self._download_image(attachment)
                             if image_data:
-                                # Generate filename with timestamp
+                                # Save image
                                 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
                                 filename = f"{thread.id}_{timestamp}.png"
                                 filepath = os.path.join(self.IMAGES_DIR, filename)
-                                
-                                # Save the image
+                                 
                                 with open(filepath, 'wb') as f:
                                     f.write(image_data)
-                                
-                                logger.info(f"Saved image for tweet: {filepath}")
-                                await message.add_reaction('✅')
-                                return
-
-            # If we get here, no image was found
-            logger.error("No image found in thread")
-            await message.add_reaction('❌')
+                                 
+                                return filepath
             
-        except Exception as e:
-            logger.error(f"Error processing tweet: {e}")
-            await message.add_reaction('❌')
+            logger.error("No image found in thread")
+            return None
 
-    async def _download_image(self, attachment: discord.Attachment) -> bytes:
+        except Exception as e:
+            logger.error(f"Error finding thread image: {e}")
+            return None
+
+    async def _download_image(self, attachment: discord.Attachment) -> Optional[bytes]:
         """Download image from Discord attachment"""
         try:
             async with aiohttp.ClientSession() as session:
@@ -183,26 +179,51 @@ class MaintenanceBot(commands.Bot):
             logger.error(f"Error downloading image: {e}")
             return None
 
-class MaintenanceCommands(commands.Cog):
-    def __init__(self, bot: MaintenanceBot):
-        self.bot = bot
+    async def _process_tweet_api(self, job: TweetJob) -> bool:
+        """Process tweet through external API"""
+        try:
+            # Your external API integration here
+            # Example:
+            # async with aiohttp.ClientSession() as session:
+            #     async with session.post('your_api_endpoint', data={
+            #         'image_path': job.image_path,
+            #         'thread_id': job.thread_id
+            #     }) as response:
+            #         result = await response.json()
+            #         return result['success']
+            
+            # Placeholder for API integration
+            await asyncio.sleep(1)  # Simulate API call
+            return True
 
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def status(self, ctx):
-        """Check bot status"""
-        status_message = (
-            "🤖 **Bot Status**\n"
-            f"Role Channel: {self.bot.ROLES_CHANNEL_ID}\n"
-            f"Tweet Channels: {len(self.bot.TWEET_CHANNELS)}\n"
-            f"Processed Tweets: {len(self.bot.pending_tweets)}"
-        )
-        await ctx.send(status_message)
+        except Exception as e:
+            logger.error(f"Error in tweet API processing: {e}")
+            job.status = "failed"
+            job.error = str(e)
+            return False
+
+    # Add these event handlers
+    @commands.Cog.listener()
+    async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
+        # Check if the reaction is in a tweet channel
+        if payload.channel_id in self.TWEET_CHANNELS:
+            await self._handle_tweet_reaction(payload)
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        logger.info(f'Bot is ready! Logged in as {self.user.name}')
 
 def run_bot():
+    # Add this line before accessing environment variables
     load_dotenv()
+    
+    # For debugging, you can add this:
+    token = os.getenv('MAINTENANCE_BOT_TOKEN')
+    if token is None:
+        raise ValueError("MAINTENANCE_BOT_TOKEN not found in environment variables")
+        
     bot = MaintenanceBot()
-    bot.run(os.getenv('MAINTENANCE_BOT_TOKEN'))
+    bot.run(token)
 
 if __name__ == "__main__":
     run_bot() 

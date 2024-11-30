@@ -225,7 +225,7 @@ class Commands(commands.Cog):
         await ctx.send("Pong!")
 
     @commands.command()
-    async def start_odds(self, ctx, base_bookmaker: str = 'fanduel'):
+    async def find_nfl(self, ctx, base_bookmaker: str = 'fanduel'):
         sport = 'americanfootball_nfl'  # Fixed sport
         await ctx.send(f"Starting odds processing with {base_bookmaker} as base bookmaker...")
         
