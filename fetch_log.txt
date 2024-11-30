@@ -13090,3 +13090,4 @@ Both 'fliff' and 'espnbet' must be available. Skipping.
 2024-11-30 13:15:05,136 - INFO - Message sent successfully to NFL channel and thread created: <@&1116116559212056598> \U0001f3c8 
 EV: 2.1419
 Denver Bronc...
+2024-11-30 14:53:49,892 - INFO - Shard ID None has successfully RESUMED session c7375632c63cad1844dc4b95e354f834.

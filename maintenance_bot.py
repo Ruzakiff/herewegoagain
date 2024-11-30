@@ -36,13 +36,25 @@ class MaintenanceBot(commands.Bot):
         # Role management config
         self.ROLES_CHANNEL_ID = 1115723672183902270
         self.emoji_to_role = {
-            "🔵": 123456789,  # Replace with actual role IDs
-            "🔴": 987654321,
+            "🟦": 1115732713438195773,  # FanDuel
+            "🟩": 1115733310048571444,  # DraftKings
+            "🟪": 1115904331879825438,  # FreeBets
+            "🎸": 1308479890647023778,  # Hard Rock Bet
+            "🟨": 1116138362970058862,  # Caesars
+            "🟥": 1116130539024437291,  # BetMGM
+            "🟧": 1116130988909678682,  # WynnBet
+            "🟫": 1116138843591168010,  # Tipico (US)
+            "⚪️": 1132497073426681866,  # BetRivers
+            "💚": 1116116559212056598,  # ESPN Bet
+            "🔥": 1115734288114131055,  # Aces: High-stakes or advanced bettors
+            "💵": 1115735250539118703,  # 5%: Users targeting 5% EV plays
+            "🧊": 1115733528378875915,  # Nit: Risk-averse or conservative bettors
         }
         
         # Tweet processing config
         self.TWEET_CHANNELS = [
             1127408339236696114,  # Add your tweet channel IDs
+            self.ROLES_CHANNEL_ID,  # Add roles channel to monitored channels
         ]
         self.TWEET_EMOJI = "🐤"  # baby_chick emoji
         self.TWEET_ROLE_ID = 1115730824059428946  # Required role to request tweets
@@ -205,12 +217,53 @@ class MaintenanceBot(commands.Bot):
             job.error = str(e)
             return False
 
+    async def _handle_role_reaction(self, payload: discord.RawReactionActionEvent, add: bool):
+        """Handle role assignment/removal reactions"""
+        # Check if this emoji maps to a role
+        role_id = self.emoji_to_role.get(str(payload.emoji))
+        if not role_id:
+            return
+
+        try:
+            guild = self.get_guild(payload.guild_id)
+            
+            # For removal events, we need to fetch the member since payload.member is None
+            if add:
+                member = payload.member
+                if member.bot:  # Ignore bot reactions
+                    return
+            else:
+                member = await guild.fetch_member(payload.user_id)
+                if member.bot:  # Ignore bot reactions
+                    return
+            
+            role = guild.get_role(role_id)
+            if role:
+                if add:
+                    await member.add_roles(role)
+                    logger.info(f"Added role {role.name} to {member.name}")
+                else:
+                    await member.remove_roles(role)
+                    logger.info(f"Removed role {role.name} from {member.name}")
+                
+        except Exception as e:
+            logger.error(f"Error handling role reaction: {e}")
+
     # Add these event handlers
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
-        # Check if the reaction is in a tweet channel
         if payload.channel_id in self.TWEET_CHANNELS:
-            await self._handle_tweet_reaction(payload)
+            if payload.channel_id == self.ROLES_CHANNEL_ID:
+                # Handle role reactions
+                await self._handle_role_reaction(payload, add=True)
+            else:
+                # Handle tweet reactions
+                await self._handle_tweet_reaction(payload)
+
+    @commands.Cog.listener()
+    async def on_raw_reaction_remove(self, payload: discord.RawReactionActionEvent):
+        if payload.channel_id == self.ROLES_CHANNEL_ID:
+            await self._handle_role_reaction(payload, add=False)
 
     @commands.Cog.listener()
     async def on_ready(self):

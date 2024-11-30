@@ -1,192 +1,27 @@
-2024-11-29 19:34:27,203 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-29 19:34:27,204 - INFO - logging in using static token
-2024-11-29 19:34:27,659 - INFO - Shard ID None has connected to Gateway (Session ID: 2d4b82135131e1312f7e8e4f541abaa8).
-2024-11-29 19:35:00,847 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "start_odds" is not found
-2024-11-29 23:19:46,098 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 00:51:32,299 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 01:18:30,098 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "start_odds" is not found
-2024-11-30 02:04:51,257 - ERROR - Attempting a reconnect in 0.23s
+2024-11-30 15:17:59,828 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 15:17:59,828 - INFO - logging in using static token
+2024-11-30 15:18:00,267 - INFO - Shard ID None has connected to Gateway (Session ID: ba7fed2aaccfa023380363b7afb29251).
+2024-11-30 15:18:02,318 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 15:21:02,425 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 15:21:02,426 - INFO - logging in using static token
+2024-11-30 15:21:03,181 - INFO - Shard ID None has connected to Gateway (Session ID: fbca83ca12bc7ed427cf408d3030cf37).
+2024-11-30 15:21:05,251 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 15:21:15,358 - ERROR - Ignoring exception in on_raw_reaction_add
 Traceback (most recent call last):
-  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
-    await self.ws.poll_event()
-  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
-    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
-discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
-2024-11-30 02:04:51,695 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 03:04:19,804 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 05:51:29,862 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 06:22:06,525 - INFO - Shard ID None has successfully RESUMED session 2d4b82135131e1312f7e8e4f541abaa8.
-2024-11-30 09:39:48,813 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 09:39:48,814 - INFO - logging in using static token
-2024-11-30 09:41:40,073 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 09:41:40,074 - INFO - logging in using static token
-2024-11-30 09:41:40,592 - INFO - Shard ID None has connected to Gateway (Session ID: 7a10902dad713eb8609442b050da2466).
-2024-11-30 09:43:35,356 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 09:43:35,356 - INFO - logging in using static token
-2024-11-30 09:43:35,977 - INFO - Shard ID None has connected to Gateway (Session ID: 6e06dd0c392eb68499026a9cfce6f153).
-2024-11-30 09:43:38,030 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 09:43:42,097 - INFO - Processing tweet: Notification 1312301788329676811
-2024-11-30 09:43:43,824 - INFO - Tweet processed successfully: 1312301788329676811 - Notification 1312301788329676811
-2024-11-30 09:45:12,267 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 09:45:12,267 - INFO - logging in using static token
-2024-11-30 09:45:12,792 - INFO - Shard ID None has connected to Gateway (Session ID: fe07f4385f2534b7aa42194ef9a25f4a).
-2024-11-30 09:45:14,837 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 09:45:21,702 - INFO - Processing tweet: 
-2024-11-30 09:45:23,620 - INFO - Tweet processed successfully: 1312301791681052692 - Notification 1312301791681052692
-2024-11-30 09:47:44,778 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 09:47:44,779 - INFO - logging in using static token
-2024-11-30 09:47:45,603 - INFO - Shard ID None has connected to Gateway (Session ID: 7b738f0194b8a909969c09ba7521c726).
-2024-11-30 09:47:47,649 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 09:47:49,655 - INFO - Thread title: Notification 1312301783892099092
-2024-11-30 09:47:49,655 - INFO - Initial message content: 
-2024-11-30 09:47:49,655 - INFO - Initial message author: MaybeEV#1638
-2024-11-30 09:47:49,655 - INFO - Initial message created at: 2024-11-30 06:18:46.869000+00:00
-2024-11-30 09:47:49,655 - INFO - Created job with initial message: Notification 1312301783892099092
-2024-11-30 09:47:49,655 - INFO - Processing tweet: 
-2024-11-30 09:47:51,630 - INFO - Tweet processed successfully: 1312301783892099092 - Notification 1312301783892099092
-2024-11-30 10:53:05,643 - INFO - Shard ID None has successfully RESUMED session 7b738f0194b8a909969c09ba7521c726.
-2024-11-30 12:31:34,469 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "start_odds" is not found
-2024-11-30 12:35:22,471 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
-2024-11-30 12:55:01,533 - INFO - Shard ID None has successfully RESUMED session 7b738f0194b8a909969c09ba7521c726.
-2024-11-30 13:14:54,318 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
-2024-11-30 13:15:02,148 - ERROR - Ignoring exception in command None
-discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
-2024-11-30 13:48:30,814 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 13:48:30,815 - INFO - logging in using static token
-2024-11-30 13:48:31,255 - INFO - Shard ID None has connected to Gateway (Session ID: 1f8b3b0fc88cee29b529b87a4570a031).
-2024-11-30 13:48:33,347 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 13:48:42,328 - INFO - Number of messages in thread: 3
-2024-11-30 13:48:42,328 - INFO - Message 1:
-2024-11-30 13:48:42,328 - INFO -   Content: 
-2024-11-30 13:48:42,328 - INFO -   Author: MaybeEV#1638
-2024-11-30 13:48:42,328 - INFO -   Created at: 2024-11-30 18:15:03.405000+00:00
-2024-11-30 13:48:42,328 - INFO - Message 2:
-2024-11-30 13:48:42,329 - INFO -   Content: Detailed Calculation Steps:
-1. Sharp Prices:
-   Yes prices:
-     fliff: 115.0 (2.1500)
-     pinnacle: 136.0 (2.3600)
-   Final Sharp Yes: 126.0 (2.2550)
-   No prices:
-     fliff: -175.0 (1.5714)
-     pinnacle: -170.0 (1.5882)
-   Final Sharp No: -172.0 (1.5798)
-2. Power Devig: Yes: 2.4909, No: 1.6707
-3. Mult Devig: Yes: 2.4274, No: 1.7006
-4. Ground Truth:
-   Yes: 2.4909 (149.0)
-   No: 1.7006 (-143.0)
-5. Base price (espnbet): 165 (2.6500)
-6. Implied probabilities:
-   Ground Truth: 0.4015
-   Base: 0.3774
-7. Edge: 6.00%
-8. EV Difference: 2.5600
-2024-11-30 13:48:42,329 - INFO -   Author: MaybeEV#1638
-2024-11-30 13:48:42,329 - INFO -   Created at: 2024-11-30 18:15:03.577000+00:00
-2024-11-30 13:48:42,329 - INFO - Message 3:
-2024-11-30 13:48:42,329 - INFO -   Content: 
-2024-11-30 13:48:42,329 - INFO -   Author: MaybeEV#1638
-2024-11-30 13:48:42,329 - INFO -   Created at: 2024-11-30 18:15:03.916000+00:00
-2024-11-30 13:48:42,329 - INFO - Created job with initial message: Detailed Calculation Steps:
-1. Sharp Prices:
-   Yes prices:
-     fliff: 115.0 (2.1500)
-     pinnacle: 136.0 (2.3600)
-   Final Sharp Yes: 126.0 (2.2550)
-   No prices:
-     fliff: -175.0 (1.5714)
-     pinnacle: -170.0 (1.5882)
-   Final Sharp No: -172.0 (1.5798)
-2. Power Devig: Yes: 2.4909, No: 1.6707
-3. Mult Devig: Yes: 2.4274, No: 1.7006
-4. Ground Truth:
-   Yes: 2.4909 (149.0)
-   No: 1.7006 (-143.0)
-5. Base price (espnbet): 165 (2.6500)
-6. Implied probabilities:
-   Ground Truth: 0.4015
-   Base: 0.3774
-7. Edge: 6.00%
-8. EV Difference: 2.5600
-2024-11-30 13:48:42,329 - INFO - Processing tweet: Detailed Calculation Steps:
-1. Sharp Prices:
-   Yes prices:
-     fliff: 115.0 (2.1500)
-     pinnacle: 136.0 (2.3600)
-   Final Sharp Yes: 126.0 (2.2550)
-   No prices:
-     fliff: -175.0 (1.5714)
-     pinnacle: -170.0 (1.5882)
-   Final Sharp No: -172.0 (1.5798)
-2. Power Devig: Yes: 2.4909, No: 1.6707
-3. Mult Devig: Yes: 2.4274, No: 1.7006
-4. Ground Truth:
-   Yes: 2.4909 (149.0)
-   No: 1.7006 (-143.0)
-5. Base price (espnbet): 165 (2.6500)
-6. Implied probabilities:
-   Ground Truth: 0.4015
-   Base: 0.3774
-7. Edge: 6.00%
-8. EV Difference: 2.5600
-2024-11-30 13:48:44,017 - INFO - Tweet processed successfully: 1312482040008020068 - Notification 1312482040008020068
-2024-11-30 14:19:13,540 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 14:19:13,541 - INFO - logging in using static token
-2024-11-30 14:19:14,072 - INFO - Shard ID None has connected to Gateway (Session ID: 9fa75c61f67d0c1348704dfec005363d).
-2024-11-30 14:19:16,136 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 14:19:22,220 - ERROR - Error in tweet processing: 404 Not Found (error code: 10008): Unknown Message
-2024-11-30 14:21:19,965 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 14:21:19,966 - INFO - logging in using static token
-2024-11-30 14:21:20,473 - INFO - Shard ID None has connected to Gateway (Session ID: 80945e3daffba8358e8026e3aacfc8ff).
-2024-11-30 14:21:22,560 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 14:21:40,431 - WARNING - Could not fetch starter message, falling back to thread name
-2024-11-30 14:21:40,431 - INFO - Using initial message content: 'Notification 1312482044613361827'
-2024-11-30 14:21:40,431 - INFO - Created job with initial message: 'Notification 1312482044613361827'
-2024-11-30 14:21:40,431 - INFO - Processing tweet: Notification 1312482044613361827
-2024-11-30 14:21:42,199 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
-2024-11-30 14:28:48,023 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 14:28:48,024 - INFO - logging in using static token
-2024-11-30 14:28:48,538 - INFO - Shard ID None has connected to Gateway (Session ID: e52cda3744324e232781f6b3fb08cae3).
-2024-11-30 14:28:50,601 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 14:31:12,311 - INFO - Checking message type: MessageType.thread_starter_message
-2024-11-30 14:31:12,311 - INFO - Found thread starter message: ''
-2024-11-30 14:31:12,312 - INFO - Created job with initial message: ''
-2024-11-30 14:31:12,312 - INFO - Processing tweet: 
-2024-11-30 14:31:14,160 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
-2024-11-30 14:32:33,196 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 14:32:33,197 - INFO - logging in using static token
-2024-11-30 14:32:33,791 - INFO - Shard ID None has connected to Gateway (Session ID: 55a99fd47440466c912ba066f8d0532e).
-2024-11-30 14:32:35,855 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 14:32:43,687 - WARNING - Could not fetch referenced message
-2024-11-30 14:32:43,688 - INFO - Created job with initial message: 'Notification 1312482044613361827'
-2024-11-30 14:32:43,688 - INFO - Processing tweet: Notification 1312482044613361827
-2024-11-30 14:32:45,446 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
-2024-11-30 14:35:39,465 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2024-11-30 14:35:39,466 - INFO - logging in using static token
-2024-11-30 14:35:40,070 - INFO - Shard ID None has connected to Gateway (Session ID: 0f776933bb2cd8c75b799f26b6730d13).
-2024-11-30 14:35:42,141 - INFO - Bot is ready! Logged in as tweeter
-2024-11-30 14:35:54,283 - INFO - Using fetched starter message content: '<@&1116116559212056598> \U0001f3c8 
-EV: 2.1419
-Denver Broncos vs Cleveland Browns
-Base Price: 140 (2.40)
-Market: player_anytime_td
-Player: Javonte Williams'
-2024-11-30 14:35:54,284 - INFO - Created job with initial message: '<@&1116116559212056598> \U0001f3c8 
-EV: 2.1419
-Denver Broncos vs Cleveland Browns
-Base Price: 140 (2.40)
-Market: player_anytime_td
-Player: Javonte Williams'
-2024-11-30 14:35:54,284 - INFO - Processing tweet: <@&1116116559212056598> \U0001f3c8 
-EV: 2.1419
-Denver Broncos vs Cleveland Browns
-Base Price: 140 (2.40)
-Market: player_anytime_td
-Player: Javonte Williams
-2024-11-30 14:35:56,032 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\maintenance_bot.py", line 226, in on_raw_reaction_add
+    await self._handle_role_reaction(payload)
+AttributeError: 'MaintenanceBot' object has no attribute '_handle_role_reaction'
+2024-11-30 15:23:14,926 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 15:23:14,927 - INFO - logging in using static token
+2024-11-30 15:23:15,543 - INFO - Shard ID None has connected to Gateway (Session ID: 2955a38c74248a21a1b2e5931d096100).
+2024-11-30 15:23:17,580 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 15:23:26,283 - INFO - Added role nit to ruzakiff
+2024-11-30 15:23:50,416 - INFO - Added role nit to ruzakiff
+2024-11-30 15:26:06,017 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 15:26:06,018 - INFO - logging in using static token
+2024-11-30 15:26:06,934 - INFO - Shard ID None has connected to Gateway (Session ID: 14c9614936b461a26e7337c19b71bd80).
+2024-11-30 15:26:09,005 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 15:26:10,069 - INFO - Removed role nit from ruzakiff
+2024-11-30 15:26:15,963 - INFO - Added role nit to ruzakiff
