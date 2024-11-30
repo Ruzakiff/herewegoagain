@@ -91,29 +91,32 @@ class MaintenanceBot(commands.Bot):
                 await message.add_reaction('❌')
                 return
 
-            # Get all messages in thread to debug
-            thread_messages = [msg async for msg in thread.history(oldest_first=True, limit=5)]
+            # Get the starter message using the property
+            initial_message_content = thread.name  # fallback
+            starter_message = thread.starter_message
             
-            logger.info(f"Number of messages in thread: {len(thread_messages)}")
-            for idx, msg in enumerate(thread_messages):
-                logger.info(f"Message {idx + 1}:")
-                logger.info(f"  Content: {msg.content}")
-                logger.info(f"  Author: {msg.author}")
-                logger.info(f"  Created at: {msg.created_at}")
-
-            # Use the first non-empty message content
-            initial_message_content = next(
-                (msg.content for msg in thread_messages if msg.content.strip()),
-                thread.name  # fallback to thread name if no message with content found
-            )
-
+            if starter_message:
+                logger.info(f"Found starter message in cache")
+                if starter_message.content.strip():
+                    initial_message_content = starter_message.content.strip()
+                    logger.info(f"Using starter message content: '{initial_message_content}'")
+            else:
+                # If not in cache, try to fetch it
+                try:
+                    starter_message = await thread.parent.fetch_message(thread.id)
+                    if starter_message.content.strip():
+                        initial_message_content = starter_message.content.strip()
+                        logger.info(f"Using fetched starter message content: '{initial_message_content}'")
+                except Exception as e:
+                    logger.warning(f"Could not fetch starter message: {e}")
+            
             job = TweetJob(
                 thread_id=thread.id,
                 message_id=message_id,
                 thread_title=thread.name,
                 initial_message=initial_message_content
             )
-            logger.info(f"Created job with initial message: {initial_message_content}")
+            logger.info(f"Created job with initial message: '{initial_message_content}'")
             logger.info(f"Processing tweet: {initial_message_content}")
             # 1. Find and download image
             image_path = await self._find_thread_image(thread)

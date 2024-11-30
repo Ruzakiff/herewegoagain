@@ -136,3 +136,57 @@ discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
 7. Edge: 6.00%
 8. EV Difference: 2.5600
 2024-11-30 13:48:44,017 - INFO - Tweet processed successfully: 1312482040008020068 - Notification 1312482040008020068
+2024-11-30 14:19:13,540 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 14:19:13,541 - INFO - logging in using static token
+2024-11-30 14:19:14,072 - INFO - Shard ID None has connected to Gateway (Session ID: 9fa75c61f67d0c1348704dfec005363d).
+2024-11-30 14:19:16,136 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 14:19:22,220 - ERROR - Error in tweet processing: 404 Not Found (error code: 10008): Unknown Message
+2024-11-30 14:21:19,965 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 14:21:19,966 - INFO - logging in using static token
+2024-11-30 14:21:20,473 - INFO - Shard ID None has connected to Gateway (Session ID: 80945e3daffba8358e8026e3aacfc8ff).
+2024-11-30 14:21:22,560 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 14:21:40,431 - WARNING - Could not fetch starter message, falling back to thread name
+2024-11-30 14:21:40,431 - INFO - Using initial message content: 'Notification 1312482044613361827'
+2024-11-30 14:21:40,431 - INFO - Created job with initial message: 'Notification 1312482044613361827'
+2024-11-30 14:21:40,431 - INFO - Processing tweet: Notification 1312482044613361827
+2024-11-30 14:21:42,199 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
+2024-11-30 14:28:48,023 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 14:28:48,024 - INFO - logging in using static token
+2024-11-30 14:28:48,538 - INFO - Shard ID None has connected to Gateway (Session ID: e52cda3744324e232781f6b3fb08cae3).
+2024-11-30 14:28:50,601 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 14:31:12,311 - INFO - Checking message type: MessageType.thread_starter_message
+2024-11-30 14:31:12,311 - INFO - Found thread starter message: ''
+2024-11-30 14:31:12,312 - INFO - Created job with initial message: ''
+2024-11-30 14:31:12,312 - INFO - Processing tweet: 
+2024-11-30 14:31:14,160 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
+2024-11-30 14:32:33,196 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 14:32:33,197 - INFO - logging in using static token
+2024-11-30 14:32:33,791 - INFO - Shard ID None has connected to Gateway (Session ID: 55a99fd47440466c912ba066f8d0532e).
+2024-11-30 14:32:35,855 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 14:32:43,687 - WARNING - Could not fetch referenced message
+2024-11-30 14:32:43,688 - INFO - Created job with initial message: 'Notification 1312482044613361827'
+2024-11-30 14:32:43,688 - INFO - Processing tweet: Notification 1312482044613361827
+2024-11-30 14:32:45,446 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
+2024-11-30 14:35:39,465 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-30 14:35:39,466 - INFO - logging in using static token
+2024-11-30 14:35:40,070 - INFO - Shard ID None has connected to Gateway (Session ID: 0f776933bb2cd8c75b799f26b6730d13).
+2024-11-30 14:35:42,141 - INFO - Bot is ready! Logged in as tweeter
+2024-11-30 14:35:54,283 - INFO - Using fetched starter message content: '<@&1116116559212056598> \U0001f3c8 
+EV: 2.1419
+Denver Broncos vs Cleveland Browns
+Base Price: 140 (2.40)
+Market: player_anytime_td
+Player: Javonte Williams'
+2024-11-30 14:35:54,284 - INFO - Created job with initial message: '<@&1116116559212056598> \U0001f3c8 
+EV: 2.1419
+Denver Broncos vs Cleveland Browns
+Base Price: 140 (2.40)
+Market: player_anytime_td
+Player: Javonte Williams'
+2024-11-30 14:35:54,284 - INFO - Processing tweet: <@&1116116559212056598> \U0001f3c8 
+EV: 2.1419
+Denver Broncos vs Cleveland Browns
+Base Price: 140 (2.40)
+Market: player_anytime_td
+Player: Javonte Williams
+2024-11-30 14:35:56,032 - INFO - Tweet processed successfully: 1312482044613361827 - Notification 1312482044613361827
