@@ -25,3 +25,399 @@ AttributeError: 'MaintenanceBot' object has no attribute '_handle_role_reaction'
 2024-11-30 15:26:09,005 - INFO - Bot is ready! Logged in as tweeter
 2024-11-30 15:26:10,069 - INFO - Removed role nit from ruzakiff
 2024-11-30 15:26:15,963 - INFO - Added role nit to ruzakiff
+2024-11-30 17:39:18,859 - INFO - Added role Hard Rock to skimasktheslumpguy
+2024-11-30 17:39:22,216 - INFO - Added role Aces to skimasktheslumpguy
+2024-11-30 17:40:18,463 - INFO - Removed role Aces from skimasktheslumpguy
+2024-11-30 17:40:18,727 - INFO - Added role Aces to skimasktheslumpguy
+2024-11-30 17:40:19,141 - INFO - Added role 5% to skimasktheslumpguy
+2024-11-30 17:40:21,399 - INFO - Removed role 5% from skimasktheslumpguy
+2024-11-30 18:16:15,806 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-11-30 19:14:29,474 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-11-30 21:49:14,443 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-11-30 23:20:48,096 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 00:15:05,220 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-01 00:31:09,346 - ERROR - Attempting a reconnect in 0.31s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-01 00:31:09,798 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 01:23:50,618 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 03:08:16,478 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 05:52:43,955 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 08:19:14,676 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 08:44:07,261 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 09:37:03,122 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 10:49:12,543 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 10:49:37,834 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-01 11:08:53,487 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-01 12:22:54,920 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 12:49:58,792 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-01 12:58:02,974 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "start_odds" is not found
+2024-12-01 12:58:22,334 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-01 13:38:49,674 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 15:48:59,619 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 18:21:04,049 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 19:51:02,116 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-01 21:49:30,628 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 00:54:47,540 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 04:49:40,786 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 06:26:02,935 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 08:34:03,211 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 09:33:23,217 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 11:01:32,399 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 11:29:17,040 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 11:43:32,452 - ERROR - Attempting a reconnect in 0.29s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-02 11:43:32,946 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 13:32:59,457 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 15:44:32,662 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 17:17:48,459 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 18:02:00,719 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:02:13,689 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:02:22,684 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:02:30,654 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:02:37,924 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:02:51,755 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:03:36,798 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 18:24:52,137 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-02 21:14:55,003 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-02 23:41:13,439 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 02:41:07,850 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 05:01:04,921 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 06:51:45,646 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 07:09:25,049 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 07:52:39,928 - ERROR - Attempting a reconnect in 1.43s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-03 07:52:41,496 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 09:09:32,824 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 12:30:38,946 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 14:46:44,025 - ERROR - Attempting a reconnect in 1.10s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-03 14:46:45,300 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 18:24:22,828 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 21:28:46,889 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 22:06:13,827 - ERROR - Attempting a reconnect in 0.78s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-03 22:06:14,772 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-03 22:08:28,797 - ERROR - Attempting a reconnect in 2.69s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-03 22:08:31,642 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 00:48:09,324 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 01:57:55,265 - ERROR - Attempting a reconnect in 1.78s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 657, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-12-04 01:57:57,132 - ERROR - Attempting a reconnect in 1.62s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 657, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-12-04 01:57:58,770 - ERROR - Attempting a reconnect in 5.62s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 657, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-12-04 01:58:04,433 - ERROR - Attempting a reconnect in 9.59s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 657, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-12-04 01:58:14,059 - ERROR - Attempting a reconnect in 21.80s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\nmfis\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\client.py", line 657, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\aiohttp\connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2024-12-04 01:58:36,022 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 05:05:30,294 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 06:34:21,890 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 08:25:13,181 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 08:57:16,756 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 09:01:36,934 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 11:04:32,226 - ERROR - Attempting a reconnect in 0.67s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-04 11:04:33,052 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 11:12:50,587 - ERROR - Attempting a reconnect in 3.09s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-04 11:12:53,827 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 12:12:11,700 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 13:53:48,604 - ERROR - Attempting a reconnect in 1.02s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-04 13:53:49,786 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 14:27:42,001 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 17:47:47,697 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 20:39:08,988 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 21:24:50,955 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-04 22:01:50,375 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 23:02:48,666 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-04 23:24:38,857 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 03:10:23,671 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 04:56:55,241 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 06:43:34,919 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 09:06:33,707 - ERROR - Attempting a reconnect in 0.76s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-05 09:06:34,667 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 10:12:04,320 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-05 10:12:42,641 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-05 10:15:37,839 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 12:10:42,950 - ERROR - Attempting a reconnect in 0.29s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-05 12:10:43,536 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 13:12:40,307 - ERROR - Attempting a reconnect in 1.64s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-05 13:12:42,306 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.

@@ -8,6 +8,9 @@ import aiohttp
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from openai import OpenAI  # Update the import
+import maketweet
+import prompts
 
 # Configure logging to save to a file
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='maintenance_bot.log', filemode='a')
@@ -21,6 +24,7 @@ class TweetJob:
     thread_title: str
     initial_message: str
     image_path: Optional[str] = None
+    generated_tweet: Optional[str] = None
     status: str = "pending"
     error: Optional[str] = None
     created_at: datetime = datetime.now()
@@ -62,6 +66,13 @@ class MaintenanceBot(commands.Bot):
         # Ensure images directory exists
         self.IMAGES_DIR = "tweet_images"
         os.makedirs(self.IMAGES_DIR, exist_ok=True)
+
+        # Initialize OpenAI client
+        self.openai_client = OpenAI(
+            api_key=os.getenv('OPENAI_API_KEY')
+        )
+        if not self.openai_client.api_key:
+            raise ValueError("OPENAI_API_KEY not found in environment variables")
 
     async def _handle_tweet_reaction(self, payload: discord.RawReactionActionEvent):
         """Handle tweet approval reactions"""
@@ -139,15 +150,31 @@ class MaintenanceBot(commands.Bot):
             job.image_path = image_path
             job.status = "image_downloaded"
 
-            # 2. Process tweet (external API call)
+            # 2. Process tweet (OpenAI API call)
             success = await self._process_tweet_api(job)
             if not success:
                 await message.add_reaction('❌')
                 return
 
-            # 3. Mark as completed
+            # 3. Post tweet with image
+            try:
+                maketweet.post_tweet_with_image(
+                    consumer_key=os.getenv('TWITTER_CONSUMER_KEY'),
+                    consumer_secret=os.getenv('TWITTER_CONSUMER_SECRET'),
+                    access_token=os.getenv('TWITTER_ACCESS_TOKEN'),
+                    access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET'),
+                    image_path=job.image_path,
+                    tweet_text=job.generated_tweet
+                )
+                job.status = "tweeted"
+            except Exception as e:
+                logger.error(f"Error posting tweet: {e}")
+                await message.add_reaction('❌')
+                return
+
+            # 4. Mark as completed
             await message.add_reaction('✅')
-            logger.info(f"Tweet processed successfully: {message_id} - {thread.name}")
+            logger.info(f"Tweet posted successfully: {message_id} - {thread.name}")
 
         except Exception as e:
             logger.error(f"Error in tweet processing: {e}")
@@ -195,20 +222,34 @@ class MaintenanceBot(commands.Bot):
             return None
 
     async def _process_tweet_api(self, job: TweetJob) -> bool:
-        """Process tweet through external API"""
+        """Process tweet through OpenAI API"""
         try:
-            # Your external API integration here
-            # Example:
-            # async with aiohttp.ClientSession() as session:
-            #     async with session.post('your_api_endpoint', data={
-            #         'image_path': job.image_path,
-            #         'thread_id': job.thread_id
-            #     }) as response:
-            #         result = await response.json()
-            #         return result['success']
-            
-            # Placeholder for API integration
-            await asyncio.sleep(1)  # Simulate API call
+            # Use the starter message content for the tweet
+            tweet_prompt = (
+                f"Thread Title: {job.thread_title}\n"
+                f"Starter Message: {job.initial_message}\n\n"
+                "Please create a concise, engaging tweet (max 280 characters) "
+                "based on the above content. Include relevant hashtags if appropriate."
+            )
+
+            # Call OpenAI API with new client approach
+            completion = self.openai_client.chat.completions.create(
+                model="gpt-4o-2024-11-20",  # or gpt-3.5-turbo if preferred
+                messages=[
+                    {"role": "system", "content": prompts.tweetprompt},
+                    {"role": "user", "content": job.initial_message}
+                ]
+            )
+
+            # Extract the generated tweet from the API response
+            generated_tweet = completion.choices[0].message.content.strip()
+
+            # Save the generated tweet to the job
+            job.status = "tweet_generated"
+            job.generated_tweet = generated_tweet
+            job.error = None
+
+            logger.info(f"Generated tweet for thread {job.thread_id}: {generated_tweet}")
             return True
 
         except Exception as e:
