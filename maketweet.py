@@ -37,6 +37,18 @@ def text_to_image(text, width=800, height=382, font_size=26):
     # Word wrap the text
     lines = []
     for original_line in text.splitlines():
+        # Add spaces around '@' symbol
+        if '@' in original_line:
+            original_line = original_line.replace('@', ' @ ')
+        
+        # Capitalize TD in market text
+        if 'td' in original_line.lower():
+            original_line = original_line.replace('td', 'TD').replace('Td', 'TD')
+        
+        # Skip lines after FV line
+        if lines and lines[-1].startswith('FV:'):
+            continue
+            
         words = original_line.split()
         if not words:
             lines.append("")
