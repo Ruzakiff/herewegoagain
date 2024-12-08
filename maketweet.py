@@ -45,6 +45,11 @@ def text_to_image(text, width=800, height=382, font_size=26):
         if 'td' in original_line.lower():
             original_line = original_line.replace('td', 'TD').replace('Td', 'TD')
         
+        # Capitalize bookmaker name after "BOOK: "
+        if original_line.startswith('BOOK:'):
+            prefix, bookmaker = original_line.split(':', 1)
+            original_line = f"{prefix}:{bookmaker.strip().upper()}"
+        
         # Skip lines after FV line
         if lines and lines[-1].startswith('FV:'):
             continue

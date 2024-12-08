@@ -537,3 +537,11 @@ discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
 2024-12-08 01:13:08,088 - INFO - Shard ID None has successfully RESUMED session 7499c1f52dfefcc2ea99c9b367d4a577.
 2024-12-08 02:31:32,576 - ERROR - Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 03:05:11,192 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-08 03:05:11,199 - INFO - logging in using static token
+2024-12-08 03:05:11,730 - INFO - Shard ID None has connected to Gateway (Session ID: 18db1c6efbe0a176387254c6e84186a2).
+2024-12-08 03:05:13,793 - INFO - Bot is ready! Logged in as tweeter
+2024-12-08 03:07:45,825 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 03:08:40,686 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
