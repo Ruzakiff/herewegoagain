@@ -421,3 +421,4 @@ Traceback (most recent call last):
     raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
 discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
 2024-12-05 13:12:42,306 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
+2024-12-05 15:54:28,469 - INFO - Shard ID None has successfully RESUMED session 14c9614936b461a26e7337c19b71bd80.
