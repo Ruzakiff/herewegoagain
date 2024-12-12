@@ -545,3 +545,1435 @@ discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
 discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
 2024-12-08 03:08:40,686 - ERROR - Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 03:10:45,771 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 04:53:28,680 - INFO - Shard ID None has successfully RESUMED session 18db1c6efbe0a176387254c6e84186a2.
+2024-12-08 06:09:35,887 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 07:24:28,755 - ERROR - Attempting a reconnect in 1.09s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-08 07:24:30,041 - INFO - Shard ID None has successfully RESUMED session 18db1c6efbe0a176387254c6e84186a2.
+2024-12-08 09:50:09,798 - INFO - Shard ID None has successfully RESUMED session 18db1c6efbe0a176387254c6e84186a2.
+2024-12-08 10:38:39,641 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 10:44:11,698 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:08:24,361 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:12:58,436 - INFO - Found starter message in cache
+2024-12-08 11:12:58,441 - INFO - Using starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:12:58,441 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:12:58,441 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-08 11:12:58,783 - ERROR - Error in tweet API processing: module 'prompts' has no attribute 'tweetprompt'
+2024-12-08 11:17:55,291 - INFO - Found starter message in cache
+2024-12-08 11:17:55,291 - INFO - Using starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:17:55,291 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:17:55,292 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers
+2024-12-08 11:17:55,666 - ERROR - Error in tweet API processing: module 'prompts' has no attribute 'tweetprompt'
+2024-12-08 11:20:02,026 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:20:10,074 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:20:14,829 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-08 11:20:14,837 - INFO - logging in using static token
+2024-12-08 11:20:15,385 - INFO - Shard ID None has connected to Gateway (Session ID: cf16366c38b93fb539590ec6cdf473ba).
+2024-12-08 11:20:17,422 - INFO - Bot is ready! Logged in as tweeter
+2024-12-08 11:21:18,822 - INFO - Using fetched starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:21:18,823 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:21:18,823 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers
+2024-12-08 11:21:20,587 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:21:20,624 - INFO - Generated tweet for thread 1315349423160557589: \U0001f440 Not All Plays Are Created Equal  
+Brock Bowers Anytime TD (+200) for Buccaneers vs. Raiders shows an **EV: -0.02**. Books are sharp here—no edge to be found.  
+
+We're only sharing the true +EV gems. Stay tuned for the real value. \U0001f9e9
+2024-12-08 11:21:21,332 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 11:22:49,665 - INFO - Using fetched starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:22:49,666 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers'
+2024-12-08 11:22:49,666 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: -0.0228
+Tampa Bay Buccaneers vs Las Vegas Raiders
+Base Price: 200 (3.00)
+Market: player_anytime_td
+Player: Brock Bowers
+2024-12-08 11:22:50,952 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:22:50,956 - INFO - Generated tweet for thread 1315349423160557589: \U0001f525 Play Passed On  
+\U0001f3c8 Buccaneers vs. Raiders  
+Brock Bowers Anytime TD (+200 @DraftKings)  
+\u274c EV: -0.02—no edge here.  
+
+We don’t settle for -EV plays. Stay sharp; value opportunities are what we’re here for. \U0001f440
+2024-12-08 11:22:51,660 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 11:22:54,473 - INFO - Using fetched starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:22:54,473 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:22:54,474 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 6.6521
+San Francisco 49ers vs Chicago Bears
+Base Price: 440 (5.40)
+Market: player_anytime_td
+Player: Caleb Williams
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-08 11:22:55,577 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:22:55,581 - INFO - Generated tweet for thread 1315341874269261938: \U0001f6a8 Sharp Edge Found!  
+\U0001f3c8 49ers vs. Bears  
+Caleb Williams Anytime TD (+440 @DraftKings)  
+\U0001f680 EV: +6.65%—serious value here.  
+
+This is the kind of edge you can't ignore. More sharp plays on the way. Stay locked in. \U0001f512
+2024-12-08 11:22:56,205 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 11:23:04,836 - INFO - Using fetched starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 15.4432
+Tennessee Titans vs Jacksonville Jaguars
+Base Price: 600 (7.00)
+Market: player_anytime_td
+Player: Tyler Boyd
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:23:04,837 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 15.4432
+Tennessee Titans vs Jacksonville Jaguars
+Base Price: 600 (7.00)
+Market: player_anytime_td
+Player: Tyler Boyd
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:23:04,837 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 15.4432
+Tennessee Titans vs Jacksonville Jaguars
+Base Price: 600 (7.00)
+Market: player_anytime_td
+Player: Tyler Boyd
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>
+2024-12-08 11:23:06,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:23:06,051 - INFO - Generated tweet for thread 1315341833638903828: \U0001f525 Massive Edge Spotted!  
+\U0001f3c8 Titans vs. Jaguars  
+Tyler Boyd Anytime TD (+600 @______)  
+\U0001f680 EV: +15.44%—huge opportunity here.  
+
+This is what +EV looks like. More sharp finds coming your way. Stay locked in. \U0001f440
+2024-12-08 11:23:06,764 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 11:32:10,675 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:43:42,524 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:46:54,273 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:47:19,701 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 11:53:08,009 - INFO - Found starter message in cache
+2024-12-08 11:53:08,010 - INFO - Using starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 10.7204
+New York Giants vs New Orleans Saints
+Base Price: 280 (3.80)
+Market: player_anytime_td
+Player: Malik Nabers
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:53:08,010 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 10.7204
+New York Giants vs New Orleans Saints
+Base Price: 280 (3.80)
+Market: player_anytime_td
+Player: Malik Nabers
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:53:08,011 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 10.7204
+New York Giants vs New Orleans Saints
+Base Price: 280 (3.80)
+Market: player_anytime_td
+Player: Malik Nabers
+<@&1115734288114131055> <@&1115735250539118703> <@&1115733528378875915>
+2024-12-08 11:53:09,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:53:09,415 - INFO - Generated tweet for thread 1315359509803302972: \U0001f525 Huge Opportunity Spotted!  
+\U0001f3c8 NFL: Giants vs. Saints  
+Malik Nabers Anytime TD (+280 @DraftKings)  
+\U0001f680 EV: +10.72%—books are way off here.  
+
+More sharp edges like this coming soon. Stay sharp. \U0001f440
+2024-12-08 11:53:10,064 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 11:57:59,419 - INFO - Found starter message in cache
+2024-12-08 11:57:59,419 - INFO - Using starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 8.0620
+New York Giants vs New Orleans Saints
+Base Price: 550 (6.50)
+Market: player_anytime_td
+Player: Darius Slayton
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:57:59,420 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 8.0620
+New York Giants vs New Orleans Saints
+Base Price: 550 (6.50)
+Market: player_anytime_td
+Player: Darius Slayton
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-08 11:57:59,420 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 8.0620
+New York Giants vs New Orleans Saints
+Base Price: 550 (6.50)
+Market: player_anytime_td
+Player: Darius Slayton
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-08 11:58:00,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:58:00,665 - INFO - Generated tweet for thread 1315358294973485057: \U0001f6a8 Major Value Found!  
+\U0001f3c8 NFL: Giants vs. Saints  
+Darius Slayton Anytime TD (+550 @DraftKings)  
+\U0001f680 EV: +8.06%—this is a *huge* edge.  
+
+Just the tip of the iceberg. Stay sharp—more to come.
+2024-12-08 11:58:01,293 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 12:01:23,588 - INFO - Found starter message in cache
+2024-12-08 12:01:23,589 - INFO - Using starter message content: '<@&1115732713438195773> \U0001f3c8 
+EV: 0.7491
+Kansas City Chiefs vs Los Angeles Chargers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Isiah Pacheco'
+2024-12-08 12:01:23,589 - INFO - Created job with initial message: '<@&1115732713438195773> \U0001f3c8 
+EV: 0.7491
+Kansas City Chiefs vs Los Angeles Chargers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Isiah Pacheco'
+2024-12-08 12:01:23,589 - INFO - Processing tweet: <@&1115732713438195773> \U0001f3c8 
+EV: 0.7491
+Kansas City Chiefs vs Los Angeles Chargers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Isiah Pacheco
+2024-12-08 12:01:24,916 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:01:24,921 - INFO - Generated tweet for thread 1315358260793970760: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chiefs vs. Chargers  
+Isiah Pacheco Anytime TD (+125 @DraftKings)  
+\U0001f4c8 EV: +0.75—small edge, but an edge nonetheless.  
+
+A glimpse of the fine margins we uncover. Stay tuned for more.
+2024-12-08 12:01:25,551 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2024-12-08 12:04:05,840 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 12:26:37,934 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 12:45:58,928 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 12:56:15,374 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-08 13:51:15,749 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-08 15:33:48,627 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-08 19:11:59,214 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-08 22:21:08,401 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 00:47:09,691 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 00:48:01,079 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 00:48:09,944 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 00:48:19,709 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 00:48:27,639 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 01:37:24,880 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 03:55:21,699 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 04:45:11,086 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 05:55:13,999 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 06:24:06,377 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 07:06:14,784 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 10:22:19,142 - ERROR - Attempting a reconnect in 1.30s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-09 10:22:20,584 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 10:32:32,461 - ERROR - Attempting a reconnect in 2.66s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-09 10:32:35,286 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 12:26:38,330 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 12:33:41,799 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 12:33:48,543 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 14:30:39,944 - ERROR - Attempting a reconnect in 0.70s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-09 14:30:40,830 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 14:52:00,392 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 15:28:46,071 - ERROR - Attempting a reconnect in 0.30s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-09 15:28:46,580 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 15:55:09,618 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 16:16:14,287 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-09 16:56:34,373 - ERROR - Attempting a reconnect in 1.72s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-09 16:56:36,289 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 20:41:12,736 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 22:51:50,861 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-09 23:11:39,833 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 00:56:13,551 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 03:31:43,603 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 05:06:06,534 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 08:03:51,200 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 08:33:19,034 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 08:58:20,837 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 12:21:42,255 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 12:34:14,382 - ERROR - Attempting a reconnect in 0.48s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-10 12:34:15,021 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 15:22:24,233 - ERROR - Attempting a reconnect in 1.17s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-10 15:22:25,578 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 15:41:08,792 - ERROR - Attempting a reconnect in 3.09s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-10 15:41:12,077 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 18:39:15,308 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 20:36:25,743 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 21:12:23,818 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-10 22:51:50,520 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-11 00:01:10,090 - INFO - Shard ID None has successfully RESUMED session cf16366c38b93fb539590ec6cdf473ba.
+2024-12-11 08:07:54,946 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:07:54,954 - INFO - logging in using static token
+2024-12-11 08:07:55,397 - INFO - Shard ID None has connected to Gateway (Session ID: 9d937d175c050757c50af267bcbebd66).
+2024-12-11 08:07:57,438 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:08:19,826 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 08:27:54,727 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:27:54,734 - INFO - logging in using static token
+2024-12-11 08:27:56,596 - INFO - Shard ID None has connected to Gateway (Session ID: a5e7e1d97b653baf58cbaff55b2facfa).
+2024-12-11 08:27:58,643 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:28:09,130 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 08:28:22,057 - INFO - Found starter message in cache
+2024-12-11 08:28:22,057 - INFO - Using starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:28:22,058 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:28:22,058 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:28:23,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:28:23,864 - INFO - Generated tweet for thread 1316396127465246800: \U0001f525 Massive Edge Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 @DraftKings)  
+\U0001f680 EV: +7.92—huge opportunity here.  
+
+This is the sharp edge you’ve been waiting for. More to come. Stay locked. \U0001f440
+2024-12-11 08:28:24,149 - ERROR - Error posting tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:31:28,358 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:31:28,365 - INFO - logging in using static token
+2024-12-11 08:31:30,400 - INFO - Shard ID None has connected to Gateway (Session ID: 68beec4e7e723ffe8445cf0abe309260).
+2024-12-11 08:31:32,459 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:31:34,287 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:31:34,288 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:31:34,288 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:31:35,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:31:35,533 - INFO - Generated tweet for thread 1316396127465246800: \U0001f525 Found the Edge!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92%—this is a huge opportunity.  
+
+Just a glimpse of the value we uncover. More sharp plays incoming. Stay ready. \U0001f4a1
+2024-12-11 08:31:35,747 - ERROR - Error posting tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:35:54,025 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:35:54,033 - INFO - logging in using static token
+2024-12-11 08:35:54,583 - INFO - Shard ID None has connected to Gateway (Session ID: d3367fa3b1f6b946d7e2d8d24b0f36b6).
+2024-12-11 08:35:56,627 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:36:06,289 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:36:06,290 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:36:06,291 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:36:07,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:36:07,520 - INFO - Generated tweet for thread 1316396127465246800: \U0001f6a8 Massive Edge Found!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92—huge value here.  
+
+More sharp opportunities incoming. Keep watching. \U0001f440
+2024-12-11 08:36:07,756 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:40:28,278 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:40:28,286 - INFO - logging in using static token
+2024-12-11 08:40:29,078 - INFO - Shard ID None has connected to Gateway (Session ID: 95b0e9893c0a0f786635ba64f609132b).
+2024-12-11 08:40:31,139 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:40:38,954 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:40:38,954 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:40:38,955 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:40:40,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:40:40,208 - INFO - Generated tweet for thread 1316396127465246800: \U0001f6a8 Massive Edge Uncovered!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125)  
+\U0001f4c8 EV: +7.92%—huge opportunity on DraftKings.  
+
+Just the beginning. More sharp finds ahead. Stay tuned. \U0001f525
+2024-12-11 08:40:40,481 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:43:00,138 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:43:00,146 - INFO - logging in using static token
+2024-12-11 08:43:00,735 - INFO - Shard ID None has connected to Gateway (Session ID: 7f7c6959afe0d5cebb1b862668c770ef).
+2024-12-11 08:43:02,770 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:43:04,196 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:43:04,197 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:43:04,197 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:43:06,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:43:06,293 - INFO - Generated tweet for thread 1316396127465246800: \U0001f525 Huge Opportunity Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125, DraftKings)  
+\U0001f680 EV: +7.92%—this is a sharp edge you don’t ignore.  
+
+More value like this is coming. Stay locked in. #EVBetting
+2024-12-11 08:43:06,431 - ERROR - Error posting tweet: Failed to post tweet: V1.1 API Authentication failed: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 08:46:38,543 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:46:38,550 - INFO - logging in using static token
+2024-12-11 08:46:39,046 - INFO - Shard ID None has connected to Gateway (Session ID: e115f4ddba88a52fb547ae35464831a4).
+2024-12-11 08:46:41,108 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:46:58,949 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 08:47:09,822 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 08:47:46,555 - INFO - Found starter message in cache
+2024-12-11 08:47:46,556 - INFO - Using starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:47:46,556 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:47:46,556 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:47:48,135 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:47:48,145 - INFO - Generated tweet for thread 1316400905796587520: \U0001f4a5 Huge Opportunity Found!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92—sharp edge.  
+
+This is what finding value looks like.  
+More sharp plays on deck—stay ready. \U0001f440
+2024-12-11 08:47:48,145 - ERROR - Error posting tweet: post_tweet_with_image_v2() got an unexpected keyword argument 'bearer_token'
+2024-12-11 08:48:59,854 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:48:59,861 - INFO - logging in using static token
+2024-12-11 08:49:00,458 - INFO - Shard ID None has connected to Gateway (Session ID: 951e8d027810056da92151c5cfca8271).
+2024-12-11 08:49:02,518 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:49:08,205 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:49:08,206 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:49:08,206 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:49:09,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:49:09,905 - INFO - Generated tweet for thread 1316400905796587520: \U0001f6a8 Massive Value Alert!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92%—this is a sharp edge you can't ignore.  
+
+Just the beginning. Stay sharp—more plays ahead.
+2024-12-11 08:49:10,138 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:51:12,232 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:51:12,239 - INFO - logging in using static token
+2024-12-11 08:51:12,775 - INFO - Shard ID None has connected to Gateway (Session ID: 47c060499ca630eaecba6bd96c24f383).
+2024-12-11 08:51:14,818 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:51:18,472 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:51:18,472 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:51:18,472 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:51:19,708 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:51:19,711 - INFO - Generated tweet for thread 1316400905796587520: \U0001f525 Huge Opportunity Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92%—this edge can't be ignored.  
+
+\U0001f44f A taste of what’s possible. Stay ready—there’s more coming.
+2024-12-11 08:51:19,983 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you
+2024-12-11 08:55:42,476 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 08:55:42,483 - INFO - logging in using static token
+2024-12-11 08:55:42,966 - INFO - Shard ID None has connected to Gateway (Session ID: aca72706b9f11f066a96bcb3e8194c30).
+2024-12-11 08:55:45,036 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 08:55:47,522 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:55:47,523 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 08:55:47,523 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 08:55:49,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 08:55:49,246 - INFO - Generated tweet for thread 1316400905796587520: \U0001f525 Massive Edge Alert!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92—huge opportunity right here.  
+
+Just a taste of the sharp plays we uncover. Stay tuned. \U0001f440
+2024-12-11 08:55:49,246 - INFO - Setting up v1.1 authentication for media upload...
+2024-12-11 08:55:49,247 - INFO - Testing v1.1 authentication...
+2024-12-11 08:55:49,406 - ERROR - V1.1 authentication failed: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 08:55:49,406 - ERROR - Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 08:55:49,407 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:17,773 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 09:03:17,781 - INFO - logging in using static token
+2024-12-11 09:03:18,432 - INFO - Shard ID None has connected to Gateway (Session ID: 3e67a5ac70d490878e61d58bc2e20d49).
+2024-12-11 09:03:20,492 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 09:03:22,388 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 09:03:22,389 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 09:03:22,389 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 09:03:22,683 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 09:03:22,683 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>'
+2024-12-11 09:03:22,683 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 7.9243
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115735250539118703> <@&1115733528378875915>
+2024-12-11 09:03:23,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 09:03:23,771 - INFO - Generated tweet for thread 1316400905796587520: \U0001f525 Huge Opportunity Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +7.92%—sharp value you can't ignore.  
+
+This is the edge you’ve been waiting for. More coming soon. Stay dialed. \U0001f6a8
+2024-12-11 09:03:23,771 - INFO - Setting up v1.1 authentication for media upload...
+2024-12-11 09:03:23,771 - INFO - Testing v1.1 authentication...
+2024-12-11 09:03:23,910 - ERROR - V1.1 authentication failed: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:23,910 - ERROR - Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:23,910 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:25,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 09:03:25,100 - INFO - Generated tweet for thread 1316400905796587520: \U0001f6a8 Massive Edge Uncovered!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125) @ DraftKings  
+\U0001f4c8 EV: +7.92%—this is where sharp bettors play.  
+
+The system is heating up. More value plays coming soon. \U0001f525
+2024-12-11 09:03:25,101 - INFO - Setting up v1.1 authentication for media upload...
+2024-12-11 09:03:25,101 - INFO - Testing v1.1 authentication...
+2024-12-11 09:03:25,278 - ERROR - V1.1 authentication failed: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:25,278 - ERROR - Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:03:25,278 - ERROR - Error posting tweet: Failed to post tweet: 401 Unauthorized
+32 - Could not authenticate you.
+2024-12-11 09:48:47,966 - ERROR - Attempting a reconnect in 0.13s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-11 09:48:48,240 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 11:48:09,160 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 13:01:11,332 - ERROR - Attempting a reconnect in 1.37s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-11 13:01:12,838 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 13:45:25,238 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 15:40:20,468 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 18:23:35,795 - ERROR - Attempting a reconnect in 0.37s
+Traceback (most recent call last):
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\nmfis\Desktop\donttouch\herewegoagain\venv\lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-12-11 18:23:36,417 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 19:18:58,240 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 20:16:20,047 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 20:43:00,981 - INFO - Shard ID None has successfully RESUMED session 3e67a5ac70d490878e61d58bc2e20d49.
+2024-12-11 23:00:02,613 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:00:02,620 - INFO - logging in using static token
+2024-12-11 23:00:03,392 - INFO - Shard ID None has connected to Gateway (Session ID: f4778735bff3d7de6681315974915296).
+2024-12-11 23:00:05,450 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:00:13,329 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 23:01:33,556 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "find_nfl" is not found
+2024-12-11 23:02:28,187 - INFO - Found starter message in cache
+2024-12-11 23:02:28,188 - INFO - Using starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:02:28,188 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:02:28,188 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:02:29,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:02:30,021 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—solid edge in this market.  
+
+This is just a taste. Keep your eyes here for more sharp spots. \U0001f440
+2024-12-11 23:02:30,022 - ERROR - Error posting tweet: name 'logger' is not defined
+2024-12-11 23:05:41,173 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:05:41,181 - INFO - logging in using static token
+2024-12-11 23:05:41,757 - INFO - Shard ID None has connected to Gateway (Session ID: 47a9bcb58ed2c46960660f129650cc93).
+2024-12-11 23:05:43,795 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:05:51,645 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:05:51,646 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:05:51,646 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:05:56,643 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:05:56,656 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125, 2.25) on DraftKings  
+\U0001f4c8 EV: +4.24—books left the door open.  
+
+A taste of the edge our system finds. More to come. \U0001f525
+2024-12-11 23:05:56,929 - ERROR - Error posting tweet: Failed to post tweet: Media upload failed: {"errors":[{"message":"Could not authenticate you","code":32}]}
+
+2024-12-11 23:11:17,685 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:11:17,692 - INFO - logging in using static token
+2024-12-11 23:11:18,259 - INFO - Shard ID None has connected to Gateway (Session ID: 4bde369763c796eebf511e95c18e6ac9).
+2024-12-11 23:11:20,328 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:11:26,411 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:11:26,411 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:11:26,411 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:11:28,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:11:28,443 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—clean edge here.  
+
+A glimpse of what’s possible. Stay tuned. \U0001f440
+2024-12-11 23:11:32,061 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:13:32,715 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:13:32,722 - INFO - logging in using static token
+2024-12-11 23:13:33,165 - INFO - Shard ID None has connected to Gateway (Session ID: 21807169211f8adf2f16bf658788f03c).
+2024-12-11 23:13:35,312 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:13:43,587 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:13:43,587 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:13:43,588 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:13:46,089 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:13:46,109 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125) at DraftKings  
+\U0001f4c8 EV: +4.24—capitalize on this edge.  
+
+Just a glimpse of the value we deliver. More sharp plays soon. Stay ready. \U0001f525
+2024-12-11 23:13:49,660 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:16:59,383 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:16:59,391 - INFO - logging in using static token
+2024-12-11 23:17:00,089 - INFO - Shard ID None has connected to Gateway (Session ID: bcedf4f5c146b48ccfe27c87f1abaf05).
+2024-12-11 23:17:02,132 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:17:07,694 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:17:07,695 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:17:07,695 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:17:12,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:17:12,606 - INFO - Generated tweet for thread 1316615934416519179: \U0001f525 Found the Edge!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—prime value on the board.  
+
+This is just the start. Stay locked in for more sharp plays. \U0001f440
+2024-12-11 23:17:12,612 - ERROR - Error posting tweet: generate_oauth_headers() got an unexpected keyword argument 'include_files'
+2024-12-11 23:18:35,068 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:18:35,076 - INFO - logging in using static token
+2024-12-11 23:18:35,715 - INFO - Shard ID None has connected to Gateway (Session ID: 76b514f7e4b7ecf4ae0ab32c20a19a0e).
+2024-12-11 23:18:37,750 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:18:42,181 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:18:42,182 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:18:42,182 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:18:45,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:18:45,893 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—strong edge here.  
+
+This is just the start. Keep watching. \U0001f525
+2024-12-11 23:18:46,101 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:21:48,280 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:21:48,287 - INFO - logging in using static token
+2024-12-11 23:21:48,763 - INFO - Shard ID None has connected to Gateway (Session ID: 4689de729940ab69edb04b448a832e4e).
+2024-12-11 23:21:50,818 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:21:55,166 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:21:55,166 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:21:55,166 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:21:57,717 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:21:57,723 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125) on DraftKings  
+\U0001f4c8 EV: +4.24—capitalize on this edge.  
+
+Just a taste of what’s possible. More sharp plays dropping soon. Stay tuned.
+2024-12-11 23:21:57,947 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:24:26,015 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:24:26,022 - INFO - logging in using static token
+2024-12-11 23:24:26,436 - INFO - Shard ID None has connected to Gateway (Session ID: ea583fd270db71ca0e9d09e87730db63).
+2024-12-11 23:24:28,566 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:24:32,672 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:24:32,673 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:24:32,674 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:24:35,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:24:35,905 - INFO - Generated tweet for thread 1316615934416519179: \U0001f525 Found the Edge!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—sharp value spotted here.  
+
+Just a taste of what’s brewing. More insights coming soon. \U0001f440
+2024-12-11 23:24:36,158 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:27:46,632 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:27:46,639 - INFO - logging in using static token
+2024-12-11 23:27:47,116 - INFO - Shard ID None has connected to Gateway (Session ID: f8326d35192c9bc193be645f760fb866).
+2024-12-11 23:27:49,183 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:27:57,011 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:27:57,012 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:27:57,012 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:28:01,783 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:28:01,802 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125) on DraftKings  
+\U0001f4c8 EV: +4.24—clean edge, strong value.  
+
+This is just scratching the surface. Stay tuned for more sharp finds. \U0001f440
+2024-12-11 23:28:02,046 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:30:06,003 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:30:06,010 - INFO - logging in using static token
+2024-12-11 23:30:06,731 - INFO - Shard ID None has connected to Gateway (Session ID: 8b6d464531a55a16d040f40e400c18fe).
+2024-12-11 23:30:08,767 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:30:15,070 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:30:15,071 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:30:15,071 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:30:17,566 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:30:17,573 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—grab the edge before it’s gone.  
+
+A glimpse of the value we uncover daily. More incoming. Stay sharp. \U0001f440
+2024-12-11 23:30:17,768 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:33:27,443 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:33:27,450 - INFO - logging in using static token
+2024-12-11 23:33:27,937 - INFO - Shard ID None has connected to Gateway (Session ID: dbdd8c050220b3285e8dc71aac9aa4bc).
+2024-12-11 23:33:29,978 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:33:40,020 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:33:40,020 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:33:40,021 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:33:42,456 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:33:42,466 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Value Unlocked!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—solid edge for sharp bettors.  
+
+Just a glimpse of the sharp insights we deliver. Stay tuned. \U0001f440
+2024-12-11 23:33:42,682 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:35:25,643 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:35:25,650 - INFO - logging in using static token
+2024-12-11 23:35:26,239 - INFO - Shard ID None has connected to Gateway (Session ID: 6f36e29346930df1a704f617082c603a).
+2024-12-11 23:35:28,279 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:35:28,408 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:35:28,408 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:35:28,408 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:35:31,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:35:31,092 - INFO - Generated tweet for thread 1316615934416519179: \u26a1 Sharp Edge Spotted!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4ca EV: +4.24—prime value on the board.  
+More sharp plays on the way. Stay ready. \U0001f680
+2024-12-11 23:35:31,297 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:39:36,288 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:39:36,296 - INFO - logging in using static token
+2024-12-11 23:39:36,800 - INFO - Shard ID None has connected to Gateway (Session ID: 40d68a04c7bb01f01298ae57d1cedd04).
+2024-12-11 23:39:38,855 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:39:46,178 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:39:46,179 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:39:46,179 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:39:48,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:39:48,578 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—strong edge here.  
+
+Stay locked in—more value unfolding soon. \U0001f440
+2024-12-11 23:39:48,822 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:41:31,862 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:41:31,869 - INFO - logging in using static token
+2024-12-11 23:41:32,324 - INFO - Shard ID None has connected to Gateway (Session ID: 74cfc85e1fb01a6ef4930b0492a59205).
+2024-12-11 23:41:34,366 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:41:40,648 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:41:40,649 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:41:40,649 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:41:42,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:41:42,037 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Play Spotted!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—exploit the edge.  
+
+Stay sharp. More value finds on the way. \U0001f440
+2024-12-11 23:41:42,271 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:44:57,557 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:44:57,563 - INFO - logging in using static token
+2024-12-11 23:44:58,202 - INFO - Shard ID None has connected to Gateway (Session ID: dca33d117b6b428968bd2255948d6495).
+2024-12-11 23:45:00,229 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:45:03,735 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:45:03,735 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:45:03,736 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:45:05,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:45:05,524 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Sharp Edge Uncovered!  
+\U0001f3c8 Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—take advantage before it’s gone.  
+
+More value plays are brewing. Stay locked in. \U0001f512
+2024-12-11 23:45:05,743 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:48:59,221 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:48:59,228 - INFO - logging in using static token
+2024-12-11 23:48:59,721 - INFO - Shard ID None has connected to Gateway (Session ID: 21cc0d036cd129ce1098336956884301).
+2024-12-11 23:49:01,768 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:49:03,959 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:49:03,959 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:49:03,959 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:49:06,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:49:06,311 - INFO - Generated tweet for thread 1316615934416519179: \U0001f525 Found the Edge!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f680 EV: +4.24—sharp value spotted.  
+
+This is just the start. Stay locked in. \U0001f4c8
+2024-12-11 23:49:06,545 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:52:17,689 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:52:17,696 - INFO - logging in using static token
+2024-12-11 23:52:18,265 - INFO - Shard ID None has connected to Gateway (Session ID: c29972bd736982239be37547697d7383).
+2024-12-11 23:52:20,320 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:52:22,356 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:52:22,356 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:52:22,356 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:52:24,558 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:52:24,561 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 Found the Edge!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125)  
+\U0001f4c8 EV: +4.24—sharp, actionable value on DraftKings.  
+
+This is just the beginning. Stay locked in. \u26a1 #NoVig #BetSmart
+2024-12-11 23:52:24,781 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:55:56,287 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:55:56,294 - INFO - logging in using static token
+2024-12-11 23:55:56,895 - INFO - Shard ID None has connected to Gateway (Session ID: 54f4768a8530ba8ef80fc082f1075cb5).
+2024-12-11 23:55:58,979 - INFO - Bot is ready! Logged in as tweeter
+2024-12-11 23:56:00,063 - INFO - Using fetched starter message content: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:56:00,063 - INFO - Created job with initial message: '<@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>'
+2024-12-11 23:56:00,063 - INFO - Processing tweet: <@&1115733310048571444> \U0001f3c8 
+EV: 4.2370
+Los Angeles Chargers vs Tampa Bay Buccaneers
+Base Price: 125 (2.25)
+Market: player_anytime_td
+Player: Rachaad White
+<@&1115733528378875915>
+2024-12-11 23:56:02,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 23:56:02,869 - INFO - Generated tweet for thread 1316615934416519179: \U0001f6a8 No-Vig Edge Locked In!  
+\U0001f3c8 NFL: Chargers vs. Buccaneers  
+Rachaad White Anytime TD (+125 DraftKings)  
+\U0001f4c8 EV: +4.24—sharp value delivered.  
+
+This is just the beginning. Stay with us. \U0001f512
+2024-12-11 23:56:03,096 - ERROR - Error posting tweet: Failed to upload media
+2024-12-11 23:57:14,101 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-12-11 23:57:14,108 - INFO - logging in using static token
+2024-12-11 23:57:14,732 - INFO - Shard ID None has connected to Gateway (Session ID: 433c94b51e8a8c69b72f5a2a86ed0161).
+2024-12-11 23:57:16,807 - INFO - Bot is ready! Logged in as tweeter

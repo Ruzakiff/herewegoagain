@@ -158,13 +158,9 @@ class MaintenanceBot(commands.Bot):
 
             # 3. Post tweet with image
             try:
-                maketweet.post_tweet_with_image(
-                    consumer_key=os.getenv('TWITTER_CONSUMER_KEY'),
-                    consumer_secret=os.getenv('TWITTER_CONSUMER_SECRET'),
-                    access_token=os.getenv('TWITTER_ACCESS_TOKEN'),
-                    access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET'),
-                    image_path=job.image_path,
-                    tweet_text=job.generated_tweet
+                maketweet.send_tweet(
+                    media_path=job.image_path.replace("\\", "/"),
+                    message=job.generated_tweet
                 )
                 job.status = "tweeted"
             except Exception as e:
@@ -190,10 +186,11 @@ class MaintenanceBot(commands.Bot):
                             # Download image
                             image_data = await self._download_image(attachment)
                             if image_data:
-                                # Save image
+                                # Save image with absolute path
                                 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
                                 filename = f"{thread.id}_{timestamp}.png"
-                                filepath = os.path.join(self.IMAGES_DIR, filename)
+                                # Get absolute path using os.path.abspath
+                                filepath = os.path.abspath(os.path.join(self.IMAGES_DIR, filename))
                                  
                                 with open(filepath, 'wb') as f:
                                     f.write(image_data)

@@ -1,21 +1,204 @@
 from PIL import Image, ImageDraw, ImageFont
 import io
+import logging
+import requests
+import json
+import os
+import time
+import random
+import string
+import hmac
+import hashlib
+import base64
+import urllib.parse
+from dotenv import load_dotenv
+import sys
+import config
 
-import tweepy
+def generate_oauth_headers(url, method="POST"):
+    """Generate OAuth headers"""
+    # Debug: Print tokens (partially)
+    api_key = config.TWITTER_API_KEY
+    api_secret = config.TWITTER_API_SECRET
+    access_token = config.TWITTER_ACCESS_TOKEN
+    access_secret = config.TWITTER_ACCESS_TOKEN_SECRET
+    
+    print("\nDebug OAuth tokens:")
+    print(f"API Key: {api_key[:8]}..." if api_key else "API Key: Missing")
+    print(f"API Secret: {api_secret[:8]}..." if api_secret else "API Secret: Missing")
+    print(f"Access Token: {access_token[:8]}..." if access_token else "Access Token: Missing")
+    print(f"Access Secret: {access_secret[:8]}..." if access_secret else "Access Secret: Missing")
+    
+    if not all([api_key, api_secret, access_token, access_secret]):
+        raise ValueError("Missing required OAuth tokens!")
+    
+    oauth_timestamp = str(int(time.time()))
+    oauth_nonce = ''.join(random.choices(string.ascii_letters + string.digits, k=32))
+    
+    oauth_params = {
+        'oauth_consumer_key': api_key,
+        'oauth_token': access_token,
+        'oauth_signature_method': 'HMAC-SHA1',
+        'oauth_timestamp': oauth_timestamp,
+        'oauth_nonce': oauth_nonce,
+        'oauth_version': '1.0'
+    }
+    
+    # Debug: Print OAuth parameters
+    print("\nOAuth Parameters:")
+    for k, v in oauth_params.items():
+        print(f"{k}: {v}")
+    
+    base_string = f"{method}&{urllib.parse.quote(url, safe='')}&{urllib.parse.quote('&'.join(f'{k}={v}' for k, v in sorted(oauth_params.items())), safe='')}"
+    signing_key = f"{api_secret}&{access_secret}"
+    
+    signature = base64.b64encode(
+        hmac.new(
+            signing_key.encode('utf-8'),
+            base_string.encode('utf-8'),
+            hashlib.sha1
+        ).digest()
+    ).decode()
+    
+    oauth_params['oauth_signature'] = signature
+    
+    auth_header = 'OAuth ' + ','.join(f'{k}="{urllib.parse.quote(str(v), safe="")}"' for k, v in oauth_params.items())
+    print(f"\nFinal Auth Header (truncated):\n{auth_header[:100]}...")
+    
+    return auth_header
 
-def post_tweet_with_image(consumer_key, consumer_secret, access_token, access_token_secret, image_path, tweet_text):
-    # Authenticate to Twitter
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
+def upload_media(media_path):
+    """Upload media to Twitter and return the media ID."""
+    url = "https://upload.twitter.com/1.1/media/upload.json"
+    
+    # Normalize file path for Windows
+    media_path = os.path.normpath(media_path).replace('\\', '/')
+    
+    try:
+        # Get file size and type for debugging
+        file_size = os.path.getsize(media_path)
+        print(f"\nFile details:")
+        print(f"Path: {media_path}")
+        print(f"Size: {file_size} bytes")
+        
+        with open(media_path, 'rb') as file:
+            files = {
+                'media': file
+            }
+            
+            headers = {
+                'Authorization': generate_oauth_headers(url, method="POST")
+            }
+            
+            print("\nSending request to Twitter...")
+            response = requests.post(url, headers=headers, files=files)
+            
+            print(f"\nResponse details:")
+            print(f"Status code: {response.status_code}")
+            print(f"Headers: {dict(response.headers)}")
+            print(f"Body: {response.text}")
+            
+            if response.status_code != 200:
+                error_data = response.json() if response.text else {}
+                if 'errors' in error_data:
+                    for error in error_data['errors']:
+                        print(f"\nTwitter Error:")
+                        print(f"Code: {error.get('code')}")
+                        print(f"Message: {error.get('message')}")
+                
+                # Special handling for code 32
+                if any(error.get('code') == 32 for error in error_data.get('errors', [])):
+                    print("\nAuthentication Error Details:")
+                    print("Code 32 typically means invalid credentials")
+                    print("Please verify your .env file on Windows:")
+                    print("1. No quotes around values")
+                    print("2. No spaces around = sign")
+                    print("3. No hidden characters (try recreating the file)")
+                    print("4. File is saved with UTF-8 encoding")
+                    
+            if response.status_code == 200:
+                return response.json()['media_id_string']
+                
+            return None
+            
+    except Exception as e:
+        print(f"\nError during upload:")
+        print(f"Type: {type(e).__name__}")
+        print(f"Message: {str(e)}")
+        if hasattr(e, '__traceback__'):
+            import traceback
+            print(f"Traceback: {traceback.format_exc()}")
+        return None
 
-    # Create API object
-    api = tweepy.API(auth)
+def send_tweet(message, media_path=None):
+    """Send a tweet with optional media attachment."""
+    url = "https://api.twitter.com/2/tweets"
+    
+    # First upload media if provided
+    media_id = None
+    if media_path:
+        media_id = upload_media(media_path)
+        if not media_id:
+            raise ValueError("Failed to upload media")
+    
+    payload = {
+        "text": message
+    }
+    
+    # Add media to payload if we have it
+    if media_id:
+        payload["media"] = {
+            "media_ids": [media_id]
+        }
+    
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': generate_oauth_headers(url)
+    }
 
-    # Upload image
-    media = api.media_upload(image_path)
+    response = requests.post(
+        url, 
+        headers=headers, 
+        data=json.dumps(payload)
+    )
+    
+    if response.status_code != 201:
+        print(f"Error: {response.status_code}")
+        print(f"Response: {response.text}")
+    
+    return response.json()
 
-    # Post tweet with image
-    tweet = api.update_status(status=tweet_text, media_ids=[media.media_id])
+def verify_environment():
+    """Verify environment setup and token format."""
+    print("\nEnvironment Verification:")
+    
+    required_vars = {
+        'TWITTER_API_KEY': config.TWITTER_API_KEY,
+        'TWITTER_API_SECRET': config.TWITTER_API_SECRET,
+        'TWITTER_ACCESS_TOKEN': config.TWITTER_ACCESS_TOKEN,
+        'TWITTER_ACCESS_TOKEN_SECRET': config.TWITTER_ACCESS_TOKEN_SECRET
+    }
+    
+    all_good = True
+    for var_name, value in required_vars.items():
+        if not value:
+            print(f"❌ {var_name} is missing")
+            all_good = False
+        else:
+            # Check for common issues
+            if value.startswith('"') or value.endswith('"'):
+                print(f"❌ {var_name} contains quotes")
+                all_good = False
+            elif value.startswith("'") or value.endswith("'"):
+                print(f"❌ {var_name} contains single quotes")
+                all_good = False
+            elif value.startswith(" ") or value.endswith(" "):
+                print(f"❌ {var_name} contains leading/trailing spaces")
+                all_good = False
+            else:
+                print(f"✓ {var_name} looks good")
+    
+    return all_good
 
 def text_to_image(text, width=800, height=382, font_size=26):
     # Create black background
@@ -152,27 +335,8 @@ def watermark_image(image_data, watermark_text, output_path=None):
     return watermarked_image
 
 if __name__ == "__main__":
-    # Test text_to_image function
-    test_text = """Wednesday October 11, 07:07PM EST
-Houston Astros @ Minnesota Twins
-
-BOOK: Betrivers
-BET: Jorge Polanco Over 0.5 Batter Runs Scored
-ODDS: +108
-EV: 4.00%
-
-FV: -100.00
-DEVIG: Additive Devig
-DEVIG LINES: -115/-115"""
-    
-    # Create and save the test image
-    image = text_to_image(test_text)
-    image.save("test_bet.png")
-    
-    # Test watermark with file
-    with open("test_bet.png", 'rb') as img_file:
-        img_bytes = io.BytesIO(img_file.read())
-        watermarked = watermark_image(img_bytes, "WATERMARK TEST")
-        watermarked.save("test_watermarked.png")
-    
-    print("Test images have been created: 'test_bet.png' and 'test_watermarked.png'")
+    response = send_tweet(
+        message="Hello Twitter!",
+        media_path="path/to/image.png"
+    )
+    print(response)
